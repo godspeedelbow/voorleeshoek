@@ -23,6 +23,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Add release details to the footer
+        run: |
+          python3 - <<'PY'
+          import os
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          sha = os.environ["GITHUB_SHA"]
+          commit_url = f'{os.environ["GITHUB_SERVER_URL"]}/{os.environ["GITHUB_REPOSITORY"]}/commit/{sha}'
+          published = datetime.now(ZoneInfo("Europe/Amsterdam"))
+          footer = (
+              f'<footer>Commit <a href="{commit_url}"><code>{sha[:7]}</code></a> · '
+              f'Publicatie <time datetime="{published.isoformat(timespec="seconds")}">'
+              f'{published:%d-%m-%Y %H:%M:%S %Z}</time></footer>'
+          )
+          path = Path("dist/index.html")
+          html = path.read_text(encoding="utf-8")
+          marker = "<!-- release-metadata -->"
+          if html.count(marker) != 1:
+              raise SystemExit("Expected exactly one release metadata marker")
+          path.write_text(html.replace(marker, footer), encoding="utf-8")
+          PY
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

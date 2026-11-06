@@ -1,197 +1,226 @@
 'use strict';
 
 const stories = [
-  ["oMi3nIvjUf4", "Gummi Tarzan (ljudbok med bilder)"],
-  ["8OBk3INZA2o", "Sagan om det röda äpplet (ljudbok)"],
-  ["aILfIcinfho", "Håkan Bråkan och kramsjukan"],
-  ["rpSxPEv3nQM", "Håkan Bråkan och fismysteriet"],
-  ["XcSXMztHoBg", "På jakt efter älg"],
-  ["PMjIi4v1c-o", "Håkan Bråkan och läskiga huset"],
-  ["KWQc4lSAYR0", "Bajskorv!"],
-  ["UMY8JzoyTG4", "Pelle Svanslös och skidtävlingen"],
-  ["GN_AzZNOSgM", "Välkommen Pelle Svanslös"],
-  ["cyn5vQq3rxA", "Örnis bilar"],
-  ["ZsYkECVoVl4", "Laban och Labolinas jul"],
-  ["pVRBOzaHpuU", "Sov gott pappa, sa lilla spöket Laban"],
-  ["SkDONjUj92Q", "Lillklas och Storklas (av H C Andersen)"],
-  ["_fsMgcSUx3k", "Vem är ensam?"],
-  ["t5oawhaxMDY", "Alla vi barn i Bullerbyn"],
-  ["B1wL9X_z5lM", "Lätta fakta om arkeologi"],
-  ["QCT9BGnaU1A", "Pelle hjälper en riddare"],
-  ["eNOhbcH1U9g", "Kvällen när pappa lekte"],
-  ["2ESYjsI3uFg", "Leni är ett sockerhjärta"],
-  ["LDXZ-78AZUE", "Leni blir en bebis"],
-  ["tr_lQsbboFw", "Vem vågar?"],
-  ["ahSOdy9HrVs", "Vem stör?"],
-  ["FK1Ibc1eMmA", "Pappa läser: Pelle på planetfärd"],
-  ["V25uEadUkKI", "Hattstugan av Elsa Beskow"],
-  ["K6dqj6t9l8c", "Titta, Madicken det snöar!"],
-  ["IY8H69ClVsI", "Vem städar inte?"],
-  ["kPddfCMnhH8", "Vem blöder?"],
-  ["EqnE95Mwrls", "Vem finns?"],
-  ["n57s6lE1d3o", "Lenis Olle"],
-  ["solzgg7iqjA", "Kan man...?"],
-  ["VEU-bl0PwEs", "Vem bestämmer?"],
-  ["gnd0bk4bO5c", "Tjuren Ferdinand"],
-  ["NMEEwEtxU2I", "SKROT-NISSE av Jan Lööf"],
-  ["w3P4vOYsAmc", "När Felix blev stor av Jan Lööf"],
-  ["Ietr10U8mwg", "Pelle träffar en lokförare"],
-  ["TnKs-ngG5Vg", "Pappa läser #52 Pelle i djungeln"],
-  ["uj4bhJkNeq8", "Hundmannen av Dav Pilkey"],
-  ["mxYtbVfvk3U", "Nämen Benny!"],
-  ["3Akq9rYXF5o", "Max bil"],
-  ["h1zLPqHBnMQ", "Emma och lillebror"],
-  ["iSBWPXXH9JQ", "Tisdagen som till slut kom"],
-  ["avERQqr8sVU", "Pappa, jag och havet #ljudbok"],
-  ["z3hBN_tSzfU", "Sneeuwberen"],
-  ["C8SVWVuHHWo", "Eend En Zijn Vrienden"],
-  ["74H4gzFUP3E", "Rolle Bolle Beest"],
-  ["zYYcWfyZ9mo", "Het Verlegen Poesje"],
-  ["7ZU9VFOpy3g", "Zeven Kleine Vrienden"],
-  ["Jahc2tQyqkw", "Wonen Er Beren In Afrika"],
-  ["-AsgDVMrN_o", "Kleine Muis En Haar Speciale Vrienden"],
-  ["4-jYxtf1BG4", "Spuit Elf Gaat Naar School"],
-  ["HEJnRZONhvg", "Ik Wil Iets Heel Moois Geven"],
-  ["-AOU6yqNYeg", "Ik Wil Ergens Anders Wonen"],
-  ["8f3jgoCQvKA", "Ik Wil De Maan"],
-  ["SGDywGX_pI8", "Ik Heb Een Geheim"],
-  ["CDGHWih41rc", "De 5 Brandweermannetjes"],
-  ["VmzbkQkCvX4", "Sneeuwwitje en de 7 Dwergen"],
-  ["W0OO7QM8cQo", "Roodkapje"],
-  ["m8Wa_bi0K-0", "Pinokkio"],
-  ["q2cbf2za49M", "Jungleboek"],
-  ["QRXpQr3NuG4", "Goudlokje en de Beren"],
-  ["g5qpsB7o8rI", "De Gelaarsde Kat"],
-  ["B6RocrLI8bU", "De Drie Biggetjes"],
-  ["qhO_JY_oXyo", "De Bremer Stadsmuzikanten"],
-  ["U4kTFFLikPE", "Assepoester"],
-  ["7N3up2EbwCo", "Alice in Wonderland"],
-  ["dPC2pkI5GTE", "Het Kleinste Rendier"],
-  ["tx0vMbn_LNE", "Het Feestvarken"],
-  ["NNZN6nwtLQU", "Groot En Klein"],
-  ["rmv3K2PHxJg", "Ik Vind Je Lief Opa"],
-  ["yGNvjcVN8bY", "Ik Vind Je Lief Oma"],
-  ["UDbJ18aBqyI", "Eend Is De Baas"],
-  ["qPn2FI498UU", "Lichtjes In Het Bos"],
-  ["G_FrSIruAtE", "Rupsje Nooitgenoeg"],
-  ["xFY472XVsNA", "De grote Gruffalo"],
-  ["nl-V7cQR2JQ", "Hoe komt een olifant aan al die kilo’s grijs?"],
-  ["K9TfvejMv_Q", "De jongen en de walvis"],
-  ["0fFLx1mulXA", "Neushoorns eten geen pannenkoeken"],
-  ["7Ca-mc48vcY", "Anna op de grote wc"],
-  ["HMHQe7QnhL4", "Kikker en de vreemdeling"],
-  ["-1E_F06jz9o", "Spuit Elf wordt brandweerolifant"],
-  ["1r8BL1ojJx8", "Boer Boris gaat naar de markt"],
-  ["Zdn76dqAk8w", "Kleine pinguïn is zijn knuffel kwijt"],
-  ["foaF3rTbQr0", "De spin die het te druk had"],
-  ["9ChyhvSmzX0", "Anansi de spin – Een koekje van eigen deeg"],
-  ["9uZ3b4way68", "Papa, pak je de maan voor mij"],
-  ["qpXA4KmPOts", "Niet zo veel"],
-  ["kQU4lSXRCxg", "Kies maar iets"],
-  ["qT8otNs9jek", "Flor en Roos"],
-  ["G792fBn_PHw", "Niels is nat"],
-  ["A2rVkqJwRiw", "Luna"],
-  ["37DsRSYY50w", "Raf vangt een boef"],
-  ["krrPXHz8BSw", "de schatkaart"],
-  ["Cun9seYyb7Y", "de sik van bok"],
-  ["3VrPjb4OY3E", "Vuur in het bos"],
-  ["UcOAvF71EDQ", "Er was eens"],
-  ["IjdqFeU61gQ", "Sint is ziek"],
-  ["1pq09QycBdw", "Sint is in de war"],
-  ["mEj7f6D2d2U", "Sint is te dik"],
-  ["EDbedLLLMag", "Wie is bang in het donker?"],
-  ["9WF-0iSp6mo", "de fiets van Sien"],
-  ["3NUtc5EG6GE", "De kerstman is moe"],
-  ["wtszFTlq0a8", "De kleren van de kerstman"],
-  ["ndTQlPGq91Q", "Geen pakjes voor kerst"],
-  ["0LNyP06xySU", "Kerst met big en pop"],
-  ["EUk__uzmFL8", "Muis feest in de tuin"],
-  ["0qvx4XR4j_0", "Beer is bang"],
-  ["EmaYpyf4Ti0", "Pam en vis"],
-  ["uVgfJ3FaeZk", "Mus op ski's"],
-  ["-QsAZVn5WT8", "Wat moet ik met een sok?"],
-  ["8c1VcWrx24o", "Een feest voor Jan"],
-  ["u9eiNThdXtA", "De sneeuwman van Matti"],
-  ["1MalE9HzM8M", "De heks zonder toverboek"],
-  ["BI_MnkWhvww", "Kaat geeft een feest"],
-  ["rYDSTcAsZEA", "Wat hoor ik?"],
-  ["tG95P0Ldne8", "Bang voor de reus"],
-  ["16p-OmbpPf4", "Pas op Pam!"],
-  ["EsmvtYLktJs", "De jurk van Kaat"],
-  ["6h-BAxq4YQM", "Wat een kip!"],
-  ["pGr-zs99cO4", "Guus koopt niet aan de deur"],
-  ["epC2ql9ChcU", "Pam en Raaf"],
-  ["DRMc90V1sow", "Daar gaat Noor weer"],
-  ["CZm0JmLXu4Y", "De kist van moe"],
-  ["T9aTozKcn84", "Een leuke dag voor Sep"],
-  ["DR1nKzBvrzQ", "Hardwerkende mannetjes"],
-  ["_Sr223j8Phw", "Fien zegt nee"],
-  ["BsyskWu32wE", "Parels en perziken"],
-  ["en3PRMklnI0", "Hups op reis"],
-  ["M2Rb2rFqHG8", "Net in zee"],
-  ["WagwpNbbDP8", "Beer op de bank"],
-  ["E7efKQGOIiQ", "Welk pakje voor papa?"],
-  ["5nuJsN1j46Q", "Een tent in huis"],
-  ["_Pc9ETLkFV0", "Het lijkt wel een eiland"],
-  ["l9UGNeKgNjk", "1 april"],
-  ["rgW8A8LJRis", "De pop van Haas"],
-  ["5gNDrao031o", "Wie helpt Haas?"],
-  ["G-Si8a-wcmI", "Sta op Troet!"],
-  ["BCjeXsCwIIw", "Een vreemde vriendin"],
-  ["-lAqMvfYH8k", "Kip, kip, kijk naar mij!"],
-  ["nT5_JyY8K3Q", "Mie en Lars"],
-  ["8zUqT-Cdcaw", "Help, een woeste tijger!"],
-  ["t73SuLctCoY", "Het heksenfeest"],
-  ["gE4pzWs4-uY", "Het ei van Mies"],
-  ["VbXeGL_pTn4", "Kas, Saar en Mien"],
-  ["emzJa-jdTUU", "Een vuur voor beer"],
-  ["LDPWx1D3ogs", "Stoetel wil vakantie"],
-  ["_xq_h2KZIS8", "Jet en Kas"],
-  ["A3ngsNO8XMo", "Wie zit er in de bus?"],
-  ["nHEu9jsmaFs", "De grote reis van Sam"],
-  ["XIV0n1CFHcI", "Groot feest!"],
-  ["8DNcdIGOPSg", "Wat een neus!"],
-  ["EObKclwOlpc", "Hans de zanger"],
-  ["Tw3P2GDxzAM", "Muis en Beer"],
-  ["Ot3QIadsKEc", "Noor en het vrolijke visje"],
-  ["kR3TkLZtsow", "Pato de drukke buur"],
-  ["0tH1WYABWpc", "De wereld is mooi!"],
-  ["4iUtBN0y9i8", "Het giet!"],
-  ["TeB-vOyncG4", "Vos en muis bakken een koek"],
-  ["63BAe3CM7F0", "Meester Bart maakt graag mopjes"],
-  ["OxQczHTvT64", "Hoog in de boom"],
-  ["0UrcrdlQTOA", "Prullewup"],
-  ["Y-XGIWGGslU", "In het grote bos"],
-  ["Lh9FDTxYUmQ", "Sol is dol op sla"],
-  ["N2Mpv2a913Y", "Tuk wil vrij zijn"],
-  ["7OnGujhkXH0", "Weg met wit!"],
-  ["ZHCEQOncgzs", "Mus hijst het zeil"],
-  ["iIIAcCs9ZVU", "Het geheim van Lies"],
-  ["InL394MLkYQ", "Mus op het net"],
-  ["PZHTdnJqYEk", "Een gat in de sok"],
-  ["Q9pISTUCC-k", "Mol op het touw"],
-  ["02XJ3m2pcjE", "De boom op de speelplaats"],
-  ["FypKVIZoLhY", "De fiets van Fenne"],
-  ["zF23BaSTAdw", "Spit, spet, spat!"],
-  ["dDIJTc3Rc9w", "Drommel wil in zijn mand"],
-  ["HmkJMkZK_EM", "Juf kan niet lezen"],
-  ["oOSDLRAueHI", "Blijf wakker, Mot!"],
-  ["FgCqLmGRhWI", "Mysterie in het museum"],
-  ["-WjmSulMyzs", "De kip van Pam"],
-  ["aRAKv9vgypw", "Te groot of te klein"],
-  ["UnPB414kQhI", "Boe, zegt Koe"],
-  ["dMA_i280xGI", "Op reis"],
-  ["TuMPplPev6E", "Wat een wind!"],
-  ["8KfyHvAIzLk", "Ros in het bos"],
-  ["IwKi3Bpx-Qg", "Aap wil van zijn krulstaart af"],
-  ["8Ktg-7zHdLw", "Ik wil op reis!"],
-  ["JW0z3nPyiv8", "Nummer 100: Noor zet door"],
+  ["oMi3nIvjUf4", "Gummi Tarzan (ljudbok med bilder)", "sv"],
+  ["8OBk3INZA2o", "Sagan om det röda äpplet (ljudbok)", "sv"],
+  ["aILfIcinfho", "Håkan Bråkan och kramsjukan", "sv"],
+  ["rpSxPEv3nQM", "Håkan Bråkan och fismysteriet", "sv"],
+  ["XcSXMztHoBg", "På jakt efter älg", "sv"],
+  ["PMjIi4v1c-o", "Håkan Bråkan och läskiga huset", "sv"],
+  ["KWQc4lSAYR0", "Bajskorv!", "sv"],
+  ["UMY8JzoyTG4", "Pelle Svanslös och skidtävlingen", "sv"],
+  ["GN_AzZNOSgM", "Välkommen Pelle Svanslös", "sv"],
+  ["cyn5vQq3rxA", "Örnis bilar", "sv"],
+  ["ZsYkECVoVl4", "Laban och Labolinas jul", "sv"],
+  ["pVRBOzaHpuU", "Sov gott pappa, sa lilla spöket Laban", "sv"],
+  ["SkDONjUj92Q", "Lillklas och Storklas (av H C Andersen)", "sv"],
+  ["_fsMgcSUx3k", "Vem är ensam?", "sv"],
+  ["t5oawhaxMDY", "Alla vi barn i Bullerbyn", "sv"],
+  ["B1wL9X_z5lM", "Lätta fakta om arkeologi", "sv"],
+  ["QCT9BGnaU1A", "Pelle hjälper en riddare", "sv"],
+  ["eNOhbcH1U9g", "Kvällen när pappa lekte", "sv"],
+  ["2ESYjsI3uFg", "Leni är ett sockerhjärta", "sv"],
+  ["LDXZ-78AZUE", "Leni blir en bebis", "sv"],
+  ["tr_lQsbboFw", "Vem vågar?", "sv"],
+  ["ahSOdy9HrVs", "Vem stör?", "sv"],
+  ["FK1Ibc1eMmA", "Pappa läser: Pelle på planetfärd", "sv"],
+  ["V25uEadUkKI", "Hattstugan av Elsa Beskow", "sv"],
+  ["K6dqj6t9l8c", "Titta, Madicken det snöar!", "sv"],
+  ["IY8H69ClVsI", "Vem städar inte?", "sv"],
+  ["kPddfCMnhH8", "Vem blöder?", "sv"],
+  ["EqnE95Mwrls", "Vem finns?", "sv"],
+  ["n57s6lE1d3o", "Lenis Olle", "sv"],
+  ["solzgg7iqjA", "Kan man...?", "sv"],
+  ["VEU-bl0PwEs", "Vem bestämmer?", "sv"],
+  ["gnd0bk4bO5c", "Tjuren Ferdinand", "sv"],
+  ["NMEEwEtxU2I", "SKROT-NISSE av Jan Lööf", "sv"],
+  ["w3P4vOYsAmc", "När Felix blev stor av Jan Lööf", "sv"],
+  ["Ietr10U8mwg", "Pelle träffar en lokförare", "sv"],
+  ["TnKs-ngG5Vg", "Pappa läser #52 Pelle i djungeln", "sv"],
+  ["uj4bhJkNeq8", "Hundmannen av Dav Pilkey", "sv"],
+  ["mxYtbVfvk3U", "Nämen Benny!", "sv"],
+  ["3Akq9rYXF5o", "Max bil", "sv"],
+  ["h1zLPqHBnMQ", "Emma och lillebror", "sv"],
+  ["iSBWPXXH9JQ", "Tisdagen som till slut kom", "sv"],
+  ["avERQqr8sVU", "Pappa, jag och havet #ljudbok", "sv"],
+  ["z3hBN_tSzfU", "Sneeuwberen", "nl"],
+  ["C8SVWVuHHWo", "Eend En Zijn Vrienden", "nl"],
+  ["74H4gzFUP3E", "Rolle Bolle Beest", "nl"],
+  ["zYYcWfyZ9mo", "Het Verlegen Poesje", "nl"],
+  ["7ZU9VFOpy3g", "Zeven Kleine Vrienden", "nl"],
+  ["Jahc2tQyqkw", "Wonen Er Beren In Afrika", "nl"],
+  ["-AsgDVMrN_o", "Kleine Muis En Haar Speciale Vrienden", "nl"],
+  ["4-jYxtf1BG4", "Spuit Elf Gaat Naar School", "nl"],
+  ["HEJnRZONhvg", "Ik Wil Iets Heel Moois Geven", "nl"],
+  ["-AOU6yqNYeg", "Ik Wil Ergens Anders Wonen", "nl"],
+  ["8f3jgoCQvKA", "Ik Wil De Maan", "nl"],
+  ["SGDywGX_pI8", "Ik Heb Een Geheim", "nl"],
+  ["CDGHWih41rc", "De 5 Brandweermannetjes", "nl"],
+  ["VmzbkQkCvX4", "Sneeuwwitje en de 7 Dwergen", "nl"],
+  ["W0OO7QM8cQo", "Roodkapje", "nl"],
+  ["m8Wa_bi0K-0", "Pinokkio", "nl"],
+  ["q2cbf2za49M", "Jungleboek", "nl"],
+  ["QRXpQr3NuG4", "Goudlokje en de Beren", "nl"],
+  ["g5qpsB7o8rI", "De Gelaarsde Kat", "nl"],
+  ["B6RocrLI8bU", "De Drie Biggetjes", "nl"],
+  ["qhO_JY_oXyo", "De Bremer Stadsmuzikanten", "nl"],
+  ["U4kTFFLikPE", "Assepoester", "nl"],
+  ["7N3up2EbwCo", "Alice in Wonderland", "nl"],
+  ["dPC2pkI5GTE", "Het Kleinste Rendier", "nl"],
+  ["tx0vMbn_LNE", "Het Feestvarken", "nl"],
+  ["NNZN6nwtLQU", "Groot En Klein", "nl"],
+  ["rmv3K2PHxJg", "Ik Vind Je Lief Opa", "nl"],
+  ["yGNvjcVN8bY", "Ik Vind Je Lief Oma", "nl"],
+  ["UDbJ18aBqyI", "Eend Is De Baas", "nl"],
+  ["qPn2FI498UU", "Lichtjes In Het Bos", "nl"],
+  ["G_FrSIruAtE", "Rupsje Nooitgenoeg", "nl"],
+  ["xFY472XVsNA", "De grote Gruffalo", "nl"],
+  ["nl-V7cQR2JQ", "Hoe komt een olifant aan al die kilo’s grijs?", "nl"],
+  ["K9TfvejMv_Q", "De jongen en de walvis", "nl"],
+  ["0fFLx1mulXA", "Neushoorns eten geen pannenkoeken", "nl"],
+  ["7Ca-mc48vcY", "Anna op de grote wc", "nl"],
+  ["HMHQe7QnhL4", "Kikker en de vreemdeling", "nl"],
+  ["-1E_F06jz9o", "Spuit Elf wordt brandweerolifant", "nl"],
+  ["1r8BL1ojJx8", "Boer Boris gaat naar de markt", "nl"],
+  ["Zdn76dqAk8w", "Kleine pinguïn is zijn knuffel kwijt", "nl"],
+  ["foaF3rTbQr0", "De spin die het te druk had", "nl"],
+  ["9ChyhvSmzX0", "Anansi de spin – Een koekje van eigen deeg", "nl"],
+  ["9uZ3b4way68", "Papa, pak je de maan voor mij", "nl"],
+  ["qpXA4KmPOts", "Niet zo veel", "nl"],
+  ["kQU4lSXRCxg", "Kies maar iets", "nl"],
+  ["qT8otNs9jek", "Flor en Roos", "nl"],
+  ["G792fBn_PHw", "Niels is nat", "nl"],
+  ["A2rVkqJwRiw", "Luna", "nl"],
+  ["37DsRSYY50w", "Raf vangt een boef", "nl"],
+  ["krrPXHz8BSw", "de schatkaart", "nl"],
+  ["Cun9seYyb7Y", "de sik van bok", "nl"],
+  ["3VrPjb4OY3E", "Vuur in het bos", "nl"],
+  ["UcOAvF71EDQ", "Er was eens", "nl"],
+  ["IjdqFeU61gQ", "Sint is ziek", "nl"],
+  ["1pq09QycBdw", "Sint is in de war", "nl"],
+  ["mEj7f6D2d2U", "Sint is te dik", "nl"],
+  ["EDbedLLLMag", "Wie is bang in het donker?", "nl"],
+  ["9WF-0iSp6mo", "de fiets van Sien", "nl"],
+  ["3NUtc5EG6GE", "De kerstman is moe", "nl"],
+  ["wtszFTlq0a8", "De kleren van de kerstman", "nl"],
+  ["ndTQlPGq91Q", "Geen pakjes voor kerst", "nl"],
+  ["0LNyP06xySU", "Kerst met big en pop", "nl"],
+  ["EUk__uzmFL8", "Muis feest in de tuin", "nl"],
+  ["0qvx4XR4j_0", "Beer is bang", "nl"],
+  ["EmaYpyf4Ti0", "Pam en vis", "nl"],
+  ["uVgfJ3FaeZk", "Mus op ski's", "nl"],
+  ["-QsAZVn5WT8", "Wat moet ik met een sok?", "nl"],
+  ["8c1VcWrx24o", "Een feest voor Jan", "nl"],
+  ["u9eiNThdXtA", "De sneeuwman van Matti", "nl"],
+  ["1MalE9HzM8M", "De heks zonder toverboek", "nl"],
+  ["BI_MnkWhvww", "Kaat geeft een feest", "nl"],
+  ["rYDSTcAsZEA", "Wat hoor ik?", "nl"],
+  ["tG95P0Ldne8", "Bang voor de reus", "nl"],
+  ["16p-OmbpPf4", "Pas op Pam!", "nl"],
+  ["EsmvtYLktJs", "De jurk van Kaat", "nl"],
+  ["6h-BAxq4YQM", "Wat een kip!", "nl"],
+  ["pGr-zs99cO4", "Guus koopt niet aan de deur", "nl"],
+  ["epC2ql9ChcU", "Pam en Raaf", "nl"],
+  ["DRMc90V1sow", "Daar gaat Noor weer", "nl"],
+  ["CZm0JmLXu4Y", "De kist van moe", "nl"],
+  ["T9aTozKcn84", "Een leuke dag voor Sep", "nl"],
+  ["DR1nKzBvrzQ", "Hardwerkende mannetjes", "nl"],
+  ["_Sr223j8Phw", "Fien zegt nee", "nl"],
+  ["BsyskWu32wE", "Parels en perziken", "nl"],
+  ["en3PRMklnI0", "Hups op reis", "nl"],
+  ["M2Rb2rFqHG8", "Net in zee", "nl"],
+  ["WagwpNbbDP8", "Beer op de bank", "nl"],
+  ["E7efKQGOIiQ", "Welk pakje voor papa?", "nl"],
+  ["5nuJsN1j46Q", "Een tent in huis", "nl"],
+  ["_Pc9ETLkFV0", "Het lijkt wel een eiland", "nl"],
+  ["l9UGNeKgNjk", "1 april", "nl"],
+  ["rgW8A8LJRis", "De pop van Haas", "nl"],
+  ["5gNDrao031o", "Wie helpt Haas?", "nl"],
+  ["G-Si8a-wcmI", "Sta op Troet!", "nl"],
+  ["BCjeXsCwIIw", "Een vreemde vriendin", "nl"],
+  ["-lAqMvfYH8k", "Kip, kip, kijk naar mij!", "nl"],
+  ["nT5_JyY8K3Q", "Mie en Lars", "nl"],
+  ["8zUqT-Cdcaw", "Help, een woeste tijger!", "nl"],
+  ["t73SuLctCoY", "Het heksenfeest", "nl"],
+  ["gE4pzWs4-uY", "Het ei van Mies", "nl"],
+  ["VbXeGL_pTn4", "Kas, Saar en Mien", "nl"],
+  ["emzJa-jdTUU", "Een vuur voor beer", "nl"],
+  ["LDPWx1D3ogs", "Stoetel wil vakantie", "nl"],
+  ["_xq_h2KZIS8", "Jet en Kas", "nl"],
+  ["A3ngsNO8XMo", "Wie zit er in de bus?", "nl"],
+  ["nHEu9jsmaFs", "De grote reis van Sam", "nl"],
+  ["XIV0n1CFHcI", "Groot feest!", "nl"],
+  ["8DNcdIGOPSg", "Wat een neus!", "nl"],
+  ["EObKclwOlpc", "Hans de zanger", "nl"],
+  ["Tw3P2GDxzAM", "Muis en Beer", "nl"],
+  ["Ot3QIadsKEc", "Noor en het vrolijke visje", "nl"],
+  ["kR3TkLZtsow", "Pato de drukke buur", "nl"],
+  ["0tH1WYABWpc", "De wereld is mooi!", "nl"],
+  ["4iUtBN0y9i8", "Het giet!", "nl"],
+  ["TeB-vOyncG4", "Vos en muis bakken een koek", "nl"],
+  ["63BAe3CM7F0", "Meester Bart maakt graag mopjes", "nl"],
+  ["OxQczHTvT64", "Hoog in de boom", "nl"],
+  ["0UrcrdlQTOA", "Prullewup", "nl"],
+  ["Y-XGIWGGslU", "In het grote bos", "nl"],
+  ["Lh9FDTxYUmQ", "Sol is dol op sla", "nl"],
+  ["N2Mpv2a913Y", "Tuk wil vrij zijn", "nl"],
+  ["7OnGujhkXH0", "Weg met wit!", "nl"],
+  ["ZHCEQOncgzs", "Mus hijst het zeil", "nl"],
+  ["iIIAcCs9ZVU", "Het geheim van Lies", "nl"],
+  ["InL394MLkYQ", "Mus op het net", "nl"],
+  ["PZHTdnJqYEk", "Een gat in de sok", "nl"],
+  ["Q9pISTUCC-k", "Mol op het touw", "nl"],
+  ["02XJ3m2pcjE", "De boom op de speelplaats", "nl"],
+  ["FypKVIZoLhY", "De fiets van Fenne", "nl"],
+  ["zF23BaSTAdw", "Spit, spet, spat!", "nl"],
+  ["dDIJTc3Rc9w", "Drommel wil in zijn mand", "nl"],
+  ["HmkJMkZK_EM", "Juf kan niet lezen", "nl"],
+  ["oOSDLRAueHI", "Blijf wakker, Mot!", "nl"],
+  ["FgCqLmGRhWI", "Mysterie in het museum", "nl"],
+  ["-WjmSulMyzs", "De kip van Pam", "nl"],
+  ["aRAKv9vgypw", "Te groot of te klein", "nl"],
+  ["UnPB414kQhI", "Boe, zegt Koe", "nl"],
+  ["dMA_i280xGI", "Op reis", "nl"],
+  ["TuMPplPev6E", "Wat een wind!", "nl"],
+  ["8KfyHvAIzLk", "Ros in het bos", "nl"],
+  ["IwKi3Bpx-Qg", "Aap wil van zijn krulstaart af", "nl"],
+  ["8Ktg-7zHdLw", "Ik wil op reis!", "nl"],
+  ["JW0z3nPyiv8", "Nummer 100: Noor zet door", "nl"],
 ];
 
 const get = (id) => document.getElementById(id);
 const storageKey = 'voorleeshoek-round-v2';
 const limit = get('limit');
 const parentDialog = get('parent-dialog');
+const languageInputs = [...get('languages').querySelectorAll('input')];
+const languageKey = 'voorleeshoek-languages';
+try {
+  const saved = JSON.parse(localStorage.getItem(languageKey));
+  if (Array.isArray(saved) && languageInputs.some((input) => saved.includes(input.value))) {
+    for (const input of languageInputs) input.checked = saved.includes(input.value);
+  }
+} catch {
+  // Both languages are enabled by default.
+}
+
+function selectedLanguages() {
+  return languageInputs.filter((input) => input.checked).map((input) => input.value);
+}
+
+function updateLanguageInputs() {
+  const languages = selectedLanguages();
+  for (const input of languageInputs) input.disabled = input.checked && languages.length === 1;
+}
+
+get('languages').onchange = () => {
+  updateLanguageInputs();
+  try {
+    localStorage.setItem(languageKey, JSON.stringify(selectedLanguages()));
+  } catch {
+    // The selection remains available on this page.
+  }
+};
+updateLanguageInputs();
 let round;
 let player;
 let playerReady = false;
@@ -225,8 +254,9 @@ function restoreRound() {
   }
 }
 
-function shuffledStories(previous) {
-  const order = stories.map((_, index) => index);
+function shuffledStories(languages, previous) {
+  const order = stories.map((_, index) => index)
+    .filter((index) => languages.includes(stories[index][2]));
   for (let i = order.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [order[i], order[j]] = [order[j], order[i]];
@@ -239,7 +269,7 @@ function moveToNextStory() {
   const previous = round.order[round.cursor];
   round.cursor += 1;
   if (round.cursor === round.order.length) {
-    round.order = shuffledStories(previous);
+    round.order = shuffledStories(round.languages ?? ['nl', 'sv'], previous);
     round.cursor = 0;
   }
   round.position = 0;
@@ -269,7 +299,6 @@ function render() {
   const done = round.completed === round.total;
   get('setup').hidden = true;
   get('session').hidden = false;
-  get('parents').hidden = false;
   get('controls').hidden = done;
   get('progress').textContent = done ? 'SAGOSTUND · KLAAR' : 'VERHAAL ' + (round.completed + 1) + ' VAN ' + round.total;
   get('story').textContent = done ? 'Dat waren de verhalen!' :
@@ -449,11 +478,13 @@ get('plus').onclick = () => {
 limit.oninput = updateStepper;
 get('settings').onsubmit = (event) => {
   event.preventDefault();
+  const languages = selectedLanguages();
   round = {
+    languages,
     total: Number(limit.value),
     completed: 0,
     skips: 3,
-    order: shuffledStories(),
+    order: shuffledStories(languages),
     cursor: 0,
     waitUntil: 0,
     position: 0,
@@ -485,7 +516,12 @@ get('resume').onclick = () => {
   mount(true);
   get('story').focus();
 };
-get('parents').onclick = () => parentDialog.showModal();
+get('parents').onclick = () => {
+  get('stop').hidden = !round;
+  get('parent-note').hidden = !round;
+  get('close-parents').textContent = round ? 'Verder kijken' : 'Gereed';
+  parentDialog.showModal();
+};
 get('stop').onclick = () => {
   destroyPlayer();
   limit.value = round.total;
@@ -493,7 +529,6 @@ get('stop').onclick = () => {
   storeRound();
   updateStepper();
   get('session').hidden = true;
-  get('parents').hidden = true;
   get('setup').hidden = false;
   requestAnimationFrame(() => limit.focus());
 };

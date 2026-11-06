@@ -74,3 +74,7 @@ dialog{width:min(460px,calc(100% - 32px));background:var(--soft);color:var(--ink
 dialog::backdrop{background:#301a4bb0}
 dialog form{display:flex;flex-wrap:wrap;gap:10px}
 @media(max-width:650px){.masthead,main,footer{width:calc(100% - 32px)}.masthead{min-height:64px}main{padding-block:24px}.welcome{display:flex;flex-direction:column;align-items:stretch;gap:24px}.picture{order:2}.picture img{max-height:34vh;object-fit:cover;object-position:center 54%}.subtitle{margin:12px 0 18px}.intro h1 br{display:none}.quiet{font-size:.85rem;padding-inline:12px}}
+#languages{margin:12px 0 16px;padding:8px 12px;border:1px solid var(--line);border-radius:14px}
+#languages legend{font-weight:750}
+#languages label{display:flex;align-items:center;gap:10px;min-height:44px;cursor:pointer}
+#languages input{width:20px;height:20px;accent-color:#aa3d61}

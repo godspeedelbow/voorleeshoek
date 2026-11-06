@@ -13,7 +13,7 @@
 <body>
 <header class="masthead">
   <div class="brand"><span aria-hidden="true">✦</span> Voorleeshoek</div>
-  <button id="parents" class="quiet" type="button" hidden>Voor ouders</button>
+  <button id="parents" class="quiet" type="button">Voor ouders</button>
 </header>
 <main>
   <section id="setup" class="welcome" aria-labelledby="welcome-title">
@@ -59,9 +59,14 @@
 <footer>Een klein hoekje voor grote verhalen <span aria-hidden="true">✦</span></footer>
 <dialog id="parent-dialog" aria-labelledby="parent-title">
   <h2 id="parent-title">Voor ouders</h2>
-  <p>Wil je terug naar de instellingen? De huidige kijkronde wordt dan afgesloten.</p>
+  <fieldset id="languages">
+    <legend>Talen voor de volgende kijkronde</legend>
+    <label><input type="checkbox" value="nl" checked> Nederlands</label>
+    <label><input type="checkbox" value="sv" checked> Zweeds</label>
+  </fieldset>
+  <p id="parent-note">Ga terug naar het startscherm om meteen een nieuwe kijkronde te beginnen.</p>
   <form method="dialog">
-    <button class="secondary" value="continue" autofocus>Verder kijken</button>
+    <button id="close-parents" class="secondary" value="continue" autofocus>Verder kijken</button>
     <button class="primary" id="stop" value="stop">Terug naar instellingen</button>
   </form>
 </dialog>

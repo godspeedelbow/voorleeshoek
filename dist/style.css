@@ -1,3 +1,9 @@
+@font-face{
+  font-family:"Baloo 2";
+  src:url("./baloo-2-bold.ttf") format("truetype");
+  font-weight:700;
+  font-display:swap;
+}
 :root{color-scheme:light;--paper:#fff5e6;--ink:#38245c;--muted:#604c72;--line:#dfcdec;--accent:#ffdc68;--soft:#fffaf8;font-family:system-ui,sans-serif;color:var(--ink);background:var(--paper)}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -15,7 +21,7 @@ button:disabled{opacity:.55;cursor:default}
 :focus-visible{outline:3px solid #783ab0;outline-offset:4px}
 .masthead,main,footer{width:min(1120px,calc(100% - 64px));margin-inline:auto}
 .masthead{min-height:84px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);gap:12px}
-.brand{font-weight:800;letter-spacing:-.025em;font-size:1.15rem;display:flex;align-items:center;gap:10px}
+.brand{font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
 .brand span{display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--accent);color:var(--ink)}
 main{flex:1;display:grid;align-items:center;padding-block:42px}
 .welcome{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,6vw,85px);align-items:center}
@@ -23,8 +29,9 @@ main{flex:1;display:grid;align-items:center;padding-block:42px}
 .picture img{display:block;width:100%;height:auto;box-shadow:0 16px 38px #61368c30;border-radius:5%}
 .intro{grid-column:1;grid-row:1}
 .eyebrow{font-size:.75rem;letter-spacing:.15em;font-weight:850;color:var(--muted);margin:0 0 12px}
-h1,h2{font-family:Georgia,serif;letter-spacing:-.045em;margin:0}
-.intro h1{font-size:clamp(3rem,7.2vw,6.2rem);line-height:.97}
+.brand,h1,h2{font-family:"Baloo 2",system-ui,sans-serif}
+h1,h2{font-weight:700;line-height:1.06;margin:0}
+.intro h1{font-size:clamp(2.35rem,6vw,5rem)}
 .subtitle{color:var(--muted);font-size:1.1rem;line-height:1.55;max-width:32ch;margin:20px 0 26px}
 #settings{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 #settings label{font-weight:750}

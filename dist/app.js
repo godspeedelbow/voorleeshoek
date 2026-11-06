@@ -186,6 +186,104 @@ const stories = [
   ["IwKi3Bpx-Qg", "Aap wil van zijn krulstaart af", "nl"],
   ["8Ktg-7zHdLw", "Ik wil op reis!", "nl"],
   ["JW0z3nPyiv8", "Nummer 100: Noor zet door", "nl"],
+
+  // Digitaal voorlezen · SBS De Regenboog & ’t Zavelken
+  ["_s4R2t9BNR4", "Hennie de heks en de toverwedstrijd", "nl"],
+  ["2-vPdlU6UOg", "Ik ben een tijger", "nl"],
+  ["p3Z4tqvulug", "De gevaarlijkste wolf van de stad", "nl"],
+  ["UGtMg64DewQ", "Robothond", "nl"],
+  ["csPUkYlIXXo", "Monster nummer 10", "nl"],
+  ["fhBfF6_r83U", "Nina, de kleine, verlegen dinosaurus", "nl"],
+  ["YqNERKhF4AY", "Tomte en de vos", "nl"],
+  ["lmZd15JZxno", "Flappie houdt van lezen", "nl"],
+  ["_JTO8RDr-HI", "Warme truien", "nl"],
+  ["RX3ziFLy79M", "Het huis met de gele deur", "nl"],
+  ["qLNPwricJkw", "Daar zijn echte vrienden voor", "nl"],
+  ["1yT9WUjmn5Q", "Coco kan het", "nl"],
+  ["6g78sC5x7Z0", "Dappere dinovriendjes", "nl"],
+  ["3YnJYc9jYrU", "Koning Ezelsoren", "nl"],
+  ["g_h-rR0J-BE", "Stella en de zeemeeuw", "nl"],
+  ["kBpQBXNBe_c", "Kijk uit, een draak!", "nl"],
+  ["R5B8J3TCZcY", "Zo zijn ouders", "nl"],
+  ["W7qJ6-kbXL0", "Help! Dit boek is dol", "nl"],
+  ["0c4jRhBdY40", "Kikker is verliefd", "nl"],
+  ["kUPfQn5La90", "Nieuwsgierige Lotje", "nl"],
+  ["xwFTrHUW_Fg", "Het circusschip", "nl"],
+  ["8InDXJzYuAs", "Eefje donkerblauw", "nl"],
+  ["Rt5qVS-BhWI", "Het Kringloopwinkeltje", "nl"],
+  ["P5tyPopsfqQ", "Kleine Rex", "nl"],
+  ["VkX2Jj9-9lk", "Van mij!", "nl"],
+  ["aYAg9A-5RuU", "En ik was de baas", "nl"],
+  ["64i3hgb9ErA", "Het monsterbonsterbulderboek", "nl"],
+  ["b-ftJG3off0", "Fred het hert", "nl"],
+  ["1f2KMt3rHSE", "Muis in de leeuw", "nl"],
+
+  // Biblioteken Svedala
+  ["b55KWP_5_ag", "Strandstaden", "sv"],
+  ["smoOdYRCgLs", "Sagan om flodhästen", "sv"],
+  ["IuNU5uOAc3w", "Zogg och de flygande doktorerna", "sv"],
+  ["5qD_TZWms2k", "Tre", "sv"],
+  ["MpnbgUtzsLo", "En till dig, två till mig", "sv"],
+  ["qSSYDtSRs9U", "Hamstern är borta", "sv"],
+  ["SrpvIigtP5s", "Var är mamma?", "sv"],
+  ["EuMyHQLjMBA", "Gustav och den snåla glasstanten", "sv"],
+  ["KHHkJTHny1w", "Den lilla boksnapparen", "sv"],
+  ["yo5uA3wSjrk", "De fula fem", "sv"],
+
+  // Sagostunder · Biblioteken Sigtuna
+  ["7LOvRFeZte4", "De tre små grisarna", "sv"],
+  ["QLB4ibGU4mM", "Bockarna Bruse", "sv"],
+  ["BHntjo0FRmg", "Lilla kotten får besök", "sv"],
+  ["5oGVpBDojGU", "Sagan om Rödluvan och vargen", "sv"],
+  ["FUGWlNwL8z8", "Gruffalon", "sv"],
+  ["fYnq3v8K6hk", "Petter och hans 4 getter", "sv"],
+  ["uQmCuQGw3Do", "Guldlock", "sv"],
+
+  // Pappa Läser
+  ["fXaATwXZpOI", "När Mamma Mu mötte Kråkan första gången", "sv"],
+  ["FTxhYT4E76c", "Pettsson tältar", "sv"],
+  ["h-WrkrD982A", "Kan du ingenting Pettsson?", "sv"],
+  ["mCq7A5n31U0", "Mamma Mu simmar", "sv"],
+  ["sSSpDweoZN8", "Mamma Mu åker bobb", "sv"],
+
+  // Brightly Storytime · lecturas en español
+  ["BFSxo0dE3FU", "Con mucho amor", "es"],
+  ["jdNV2gUtu90", "Mi papi tiene una moto", "es"],
+  ["C-BA9skxo3s", "Mis dos pueblos fronterizos", "es"],
+  ["OcYvPJjixZ0", "La oruga muy hambrienta", "es"],
+  ["ZsByOPVCSBk", "Rescatando palabras", "es"],
+
+  // Biblioteca Pública Municipal de Baza
+  ["bwiNxcb8PQk", "Una feliz catástrofe", "es"],
+  ["WaHkE1ZGwiQ", "Arturo y Clementina", "es"],
+  ["5iAux1oEGLc", "¿Las princesas usan botas de montaña?", "es"],
+  ["3pi7xpSlzqk", "Te quiero (casi siempre)", "es"],
+  ["ISpWTaJlpZw", "Monstruo rosa", "es"],
+  ["1gxa1MD-CT0", "Orejas de mariposa", "es"],
+  ["2rGQBLd6eOQ", "¿Hay algo más aburrido que ser una princesa rosa?", "es"],
+  ["aELDiMUUTj0", "Lo que papá me ha dicho", "es"],
+  ["d0wazd9VaRk", "Una caja", "es"],
+
+  // Cuentos para niños 4–6 años · Cuéntame un cuento Mami
+  ["d4C_Hp9G9DA", "El increíble niño comelibros", "es"],
+  ["d3Dv2Mvppsw", "Atrapados", "es"],
+  ["0IRB-sRdtXI", "Topito terremoto", "es"],
+  ["SHR98zprgW8", "Cocorico", "es"],
+  ["Ltb0WSjotIo", "Por cuatro esquinitas de nada", "es"],
+  ["TGWKMoWNgqo", "En familia", "es"],
+  ["RA4Zbpe_0uE", "¡No quiero ir a la escuela!", "es"],
+  ["Ve8rJ8qO_oM", "La vaca que puso un huevo", "es"],
+  ["DNQ-W65a3i0", "La ovejita que vino a cenar", "es"],
+  ["8My8cNfQKRo", "Leotolda", "es"],
+  ["Sd1vVZ06OEM", "El lobo que quería cambiar de color", "es"],
+  ["7lWHN9zLf7M", "El día que los crayones renunciaron", "es"],
+  ["WFQYpwChij8", "¿De qué color es un beso?", "es"],
+  ["XLJ7clqkLs8", "¡Qué asco de sándwich!", "es"],
+  ["we2hkC7kr4M", "El túnel arcoíris de Finn", "es"],
+
+  // Biblioteca escolar · EducaMadrid
+  ["aMd-jvnuYcI", "El pequeño conejo blanco", "es"],
+  ["ip6R9rpq45s", "Pequeño Azul y Pequeño Amarillo", "es"],
 ];
 
 const get = (id) => document.getElementById(id);
@@ -200,7 +298,7 @@ try {
     for (const input of languageInputs) input.checked = saved.includes(input.value);
   }
 } catch {
-  // Both languages are enabled by default.
+  // All languages are enabled by default.
 }
 
 function selectedLanguages() {
@@ -254,14 +352,30 @@ function restoreRound() {
   }
 }
 
-function shuffledStories(languages, previous) {
-  const order = stories.map((_, index) => index)
-    .filter((index) => languages.includes(stories[index][2]));
-  for (let i = order.length - 1; i > 0; i--) {
+function shuffle(items) {
+  for (let i = items.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [order[i], order[j]] = [order[j], order[i]];
+    [items[i], items[j]] = [items[j], items[i]];
   }
-  if (order[0] === previous) [order[0], order[1]] = [order[1], order[0]];
+  return items;
+}
+
+function shuffledStories(languages, previous) {
+  const queues = new Map(languages.map((language) => [language, []]));
+  stories.forEach((story, index) => queues.get(story[2])?.push(index));
+  const groups = shuffle([...queues.values()].filter((group) => group.length));
+  groups.forEach(shuffle);
+
+  // Give each chosen language a turn even when their libraries differ in size.
+  const order = [];
+  while (groups.some((group) => group.length)) {
+    for (const group of groups) {
+      if (group.length) order.push(group.pop());
+    }
+  }
+  if (order.length > 1 && order[0] === previous) {
+    [order[0], order[1]] = [order[1], order[0]];
+  }
   return order;
 }
 

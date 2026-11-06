@@ -1,0 +1,17 @@
+name: Zoek nieuwe voorleesboeken
+
+on:
+  schedule:
+    - cron: '23 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zet nieuwe kandidaten in het overzicht
+        run: python3 scripts/check-readaloud-sources.py >> "$GITHUB_STEP_SUMMARY"

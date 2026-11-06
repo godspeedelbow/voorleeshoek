@@ -10,6 +10,8 @@ from xml.etree import ElementTree
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = (
     ("nl", "Digitaal voorlezen — SBS De Regenboog", "PLNT4QyNEDn1u00lhH1col4_IPtA9-J9AV"),
+    ("nl", "Prentenboeken voor peuters en kleuters", "PLQ6VhB46EjlozFt9NooG9WOd8an6qDJAm"),
+    ("sv", "Alfons Åberg — Pappa Läser", "PLud49CMnVS-uezwgdUX-6TsIiUo19Cxkb"),
     ("sv", "Sagostunder — Biblioteken Sigtuna", "PL18UmUUiYDLxO7nQdgmYsZYyUCxdUegiJ"),
     ("sv", "Mamma Mu + Pettsson och Findus — Pappa Läser", "PLud49CMnVS-vvEhOTTMQybYP0_jcu98y1"),
     ("sv", "Svedala Bibliotek", "https://bibliotek.svedala.se/-/ga-pa-sagostund-pa-biblioteket-hemifran-"),

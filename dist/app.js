@@ -284,6 +284,96 @@ const stories = [
   // Biblioteca escolar · EducaMadrid
   ["aMd-jvnuYcI", "El pequeño conejo blanco", "es"],
   ["ip6R9rpq45s", "Pequeño Azul y Pequeño Amarillo", "es"],
+
+  // Gottmers verhaaltje voor het slapengaan
+  ["Zo2fYhjk2MM", "Held op sokken", "nl"],
+  ["UG6osNiuXMY", "Jantje en het helikoptertje", "nl"],
+  ["KEHJnnzIH0g", "Drie dappere paardjes", "nl"],
+  ["uwFXPWd2iCs", "Ik wil een walvis!", "nl"],
+  ["xx3nnUIOJBQ", "Joep!", "nl"],
+  ["I7XbaGmkRfU", "Is dat alles?", "nl"],
+  ["hBPv5APxAYI", "Zwaan wil een fiets!", "nl"],
+  ["4uLS3B9LlFA", "Poten omhoog!", "nl"],
+  ["ZHJb-oCwT6U", "Aadje Piraatje", "nl"],
+
+  // Prentenboeken voor peuters en kleuters
+  ["Q31lbbJgvdQ", "Dokter Vos", "nl"],
+  ["hSb7-1tpFGc", "Voordat jij er was", "nl"],
+  ["-9ax7g44sY0", "Kikker is Kikker", "nl"],
+  ["2ohx7a2DrtU", "Kleine muis zoekt een huis", "nl"],
+  ["KJSQvprpI38", "Ze lopen gewoon met me mee…", "nl"],
+  ["3dgA_wxnueg", "Klop, klop, wie is daar?", "nl"],
+  ["-Uom0mjyUG4", "Tim en opa", "nl"],
+  ["iranrI1Dlv0", "Waar is mijn kever?", "nl"],
+  ["Uh8ohWu09Lk", "Wij gaan op berenjacht", "nl"],
+  ["6ZXruzAxTjU", "Een huis vol spoken", "nl"],
+  ["2J6JRpjWFvQ", "Ik zou wel een kindje lusten", "nl"],
+  ["-0dKRMgzUfE", "Raad eens hoeveel ik van je hou", "nl"],
+  ["YVZacbMh1nM", "Kikker en de warme dag", "nl"],
+  ["S6RqhaueWik", "Ssst! We hebben een plan", "nl"],
+  ["GBEkwHsVCAI", "Kikker en het vogeltje", "nl"],
+  ["ZvQMjNuhCJ8", "Hoe groot is de wereld?", "nl"],
+  ["bKgXYF29AYc", "Garage Gust", "nl"],
+  ["rG5Cf_SbK50", "De prinses met de lange haren", "nl"],
+
+  // Juf Eline en andere voorlezers
+  ["k5GDujS_Glo", "Op hoge poten", "nl"],
+  ["ThHlKPZVOuY", "Kleine Ezel en de durfal", "nl"],
+  ["PPVi6-zIaQI", "Dotties eieren", "nl"],
+  ["H25OLGO6-PA", "Eén muisje kan toch geen optocht zijn?", "nl"],
+  ["bT3-nsY9294", "Tim op de tegels", "nl"],
+
+  // Pappa Läser · Alfons Åberg
+  ["rCqT42jrFfI", "Aja baja, Alfons Åberg!", "sv"],
+  ["XKB23pLhQ40", "Där går tjuv-Alfons!", "sv"],
+  ["jHkLziz8xdA", "Alfons med styrkesäcken", "sv"],
+  ["ou3Pyq3Oy_w", "Alfons och hemlige Mållgan", "sv"],
+  ["JzJ_Dso-1TA", "Alfons och Milla", "sv"],
+  ["cA6xrutvAqc", "Alfons Åberg och odjuret", "sv"],
+  ["WY5tthoHxzs", "God natt, Alfons Åberg", "sv"],
+  ["ChZRyva5tP4", "Bara knyt, Alfons Åberg!", "sv"],
+  ["Eqy3pPR38ss", "Hurra för pappa Åberg!", "sv"],
+  ["zjFnB5_i4Bs", "Kalas, Alfons Åberg!", "sv"],
+  ["djCtljVLso4", "Listigt, Alfons Åberg", "sv"],
+  ["YTQlcTCCtGg", "Näpp! sa Alfons Åberg", "sv"],
+  ["5gRnNKOOAwU", "Hej, Alfons Åberg!", "sv"],
+  ["tuCGG6hlJX8", "Raska på, Alfons Åberg", "sv"],
+  ["U35swNv7PYc", "Lycklige Alfons Åberg", "sv"],
+  ["082BO5Ngj-4", "Pirater, Alfons Åberg", "sv"],
+  ["j4LYOtyf0EY", "Mera monster, Alfons Åberg!", "sv"],
+  ["LgivbMxJPdA", "Är du feg, Alfons Åberg?", "sv"],
+  ["i_OL7tPce6w", "Vem spökar Alfons Åberg?", "sv"],
+
+  // Högläsning
+  ["H851Y_LbLG0", "Knacka på!", "sv"],
+  ["OPRz0UPWzLo", "Mamma Mu städar", "sv"],
+  ["JoP3nj7zwf4", "SpökABC", "sv"],
+  ["3zN31XNyyVM", "Sagan om den lilla lilla gumman", "sv"],
+
+  // Más cuentos para niños de 4 a 6 años
+  ["5-3LMeANDho", "Sopa verde", "es"],
+  ["7V0JtA_OUgQ", "Pipí caca", "es"],
+  ["EDXbrT1hlPg", "Guapa", "es"],
+  ["MIi4u7ZJlgg", "¡Feroz, feroz!", "es"],
+  ["MScHsBhQCbs", "Un charco azul", "es"],
+  ["QuxqHuhBNvk", "Por favor, abre este libro", "es"],
+  ["XO1cGYdB-U4", "Quiero espaguetis", "es"],
+  ["ZhPglvJ0sv4", "El abejoso", "es"],
+  ["cd9z9I9IKPI", "Edu, el pequeño lobo", "es"],
+  ["coWhNU2N0y0", "Un libro enfadado", "es"],
+  ["fbcloAXdLK8", "El monstruo de colores va al cole", "es"],
+  ["gGiLCDt0JA0", "La mosca", "es"],
+  ["gGonLxdNUfg", "Un papá a la medida", "es"],
+  ["oPPX2uJtsm4", "Hola, doctor", "es"],
+  ["p5mNmBe2V-w", "Caballo de cuento", "es"],
+  ["qZ53AvlqN7g", "Marcelina en la cocina", "es"],
+
+  // Otros álbumes ilustrados
+  ["IeKxNMsfno4", "Ñac-ñac, el monstruo comelibros", "es"],
+  ["XH76VbJQexs", "Cierra los ojos, pequeño tigre", "es"],
+  ["EM4X31MV-gU", "Mi día de suerte", "es"],
+  ["XbBajKe_ueE", "¿A qué sabe la luna?", "es"],
+  ["ArUsgvymW98", "La tortuga que quería dormir", "es"],
 ];
 
 const get = (id) => document.getElementById(id);

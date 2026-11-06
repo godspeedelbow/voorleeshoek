@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fff5e6">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="Een kijkplek voor Zweedse en Nederlandse voorleesverhalen.">
+<title>Voorleeshoek</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="brand"><span aria-hidden="true">✦</span> Voorleeshoek</div>
+  <button id="parents" class="quiet" type="button" hidden>Voor ouders</button>
+</header>
+<main>
+  <section id="setup" class="welcome" aria-labelledby="welcome-title">
+    <div class="picture">
+      <img src="./book.svg" alt="" width="560" height="420">
+    </div>
+    <div class="intro">
+      <p class="eyebrow">SAGOSTUND · ZWEEDS EN NEDERLANDS</p>
+      <h1 id="welcome-title">Voorleestijd!</h1>
+      <p class="subtitle">Kruip lekker op de bank. Er wacht een verhaal op je.</p>
+      <form id="settings">
+        <label for="limit">Hoeveel verhaaltjes?</label>
+        <div class="stepper">
+          <button id="minus" type="button" aria-label="Eén verhaaltje minder">−</button>
+          <input id="limit" type="number" min="1" max="6" value="3" required inputmode="numeric">
+          <button id="plus" type="button" aria-label="Eén verhaaltje meer">+</button>
+        </div>
+        <button class="primary" type="submit"><span aria-hidden="true">▶</span> Begin met kijken</button>
+      </form>
+    </div>
+  </section>
+  <section id="session" class="watch" aria-labelledby="story" hidden>
+    <div class="watch-head">
+      <div><p id="progress" class="eyebrow"></p><h1 id="story" tabindex="-1"></h1></div>
+      <div id="dots" class="dots" aria-hidden="true"></div>
+    </div>
+    <div class="screen" id="screen">
+      <div id="video"></div>
+      <div id="message" class="screen-message" hidden>
+        <strong id="countdown" aria-hidden="true"></strong>
+        <p id="status" role="status"></p>
+        <button id="resume" class="primary" type="button" hidden><span aria-hidden="true">▶</span> Verder kijken</button>
+        <button id="retry" class="primary" type="button" hidden>Probeer opnieuw</button>
+      </div>
+    </div>
+    <div id="controls" class="controls">
+      <button id="play" class="primary" type="button" disabled>▶ Afspelen</button>
+      <button id="skip" class="secondary" type="button">Ander verhaal <span aria-hidden="true">↠</span></button>
+      <small id="skips"></small>
+    </div>
+  </section>
+</main>
+<footer>Een klein hoekje voor grote verhalen <span aria-hidden="true">✦</span></footer>
+<dialog id="parent-dialog" aria-labelledby="parent-title">
+  <h2 id="parent-title">Voor ouders</h2>
+  <p>Wil je terug naar de instellingen? De huidige kijkronde wordt dan afgesloten.</p>
+  <form method="dialog">
+    <button class="secondary" value="continue" autofocus>Verder kijken</button>
+    <button class="primary" id="stop" value="stop">Terug naar instellingen</button>
+  </form>
+</dialog>
+</body>
+</html>

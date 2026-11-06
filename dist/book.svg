@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#fff0b9" opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="560" height="420" rx="28" fill="#663ba3"/>
+  <rect width="560" height="420" rx="28" fill="url(#dots)"/>
+  <circle cx="285" cy="179" r="118" fill="#8658c1"/>
+  <path d="M315 57a52 52 0 1 0 52 78 56 56 0 0 1-52-78Z" fill="#ffe179"/>
+  <g fill="#ffdb75">
+    <path d="M183 85l5 13 13 5-13 5-5 13-5-13-13-5 13-5zM406 169l4 10 10 4-10 4-4 10-4-10-10-4 10-4zM109 173l4 9 9 4-9 4-4 9-4-9-9-4 9-4zM412 79l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+    <circle cx="234" cy="131" r="3"/><circle cx="136" cy="130" r="2.5"/><circle cx="465" cy="143" r="3"/><circle cx="359" cy="178" r="2.5"/>
+  </g>
+  <ellipse cx="280" cy="352" rx="195" ry="24" fill="#46266e"/>
+  <path d="M280 218q-63-58-157-29l-38 123q102-17 195 40 93-57 195-40l-38-123q-94-29-157 29Z" fill="#f58da5" stroke="#46266e" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M280 212q-64-57-152-30l-34 119q99-15 186 37 87-52 186-37l-34-119q-88-27-152 30Z" fill="#fae7b5"/>
+  <path d="M280 212v126q-87-52-186-37l34-119q88-27 152 30Z" fill="#fff2d0"/>
+  <path d="M280 214v122M143 211q57-10 105 21m-110 0q57-9 107 20m-113 2q62-8 109 20m176-63q-57-10-105 21m110 0q-57-9-107 20m113 2q-62-8-109 20" fill="none" stroke="#c79e68" stroke-width="3" stroke-linecap="round"/>
+  <path d="M332 207l4 81 13-12 13 5-7-84" fill="#f58da5"/>
+  <path d="M73 293q-29-40-30-82 32 33 30 82Zm-2 10q-38-5-53-31 32 1 53 31Zm415-10q29-40 30-82-32 33-30 82Zm2 10q38-5 53-31-32 1-53 31Z" fill="#92dfdb"/>
+</svg>

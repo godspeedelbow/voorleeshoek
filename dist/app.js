@@ -433,6 +433,7 @@ function destroyPlayer() {
   clearTimeout(timer);
   if (playerReady) player.destroy();
   get('video').replaceChildren();
+  get('autoplay-hint').hidden = true;
   player = null;
   playerReady = false;
   playing = false;
@@ -492,6 +493,7 @@ async function mount(autoplay) {
     }
     const frame = document.createElement('iframe');
     const params = new URLSearchParams({
+      autoplay: autoplay ? '1' : '0',
       enablejsapi: '1',
       origin: location.origin,
       rel: '0',
@@ -512,12 +514,14 @@ async function mount(autoplay) {
 
     player = new YT.Player(frame, {
       events: {
-        onReady(event) {
+        onReady() {
           if (ticket !== generation) return;
           clearTimeout(timer);
           playerReady = true;
           updateControls();
-          if (autoplay) event.target.playVideo();
+        },
+        onAutoplayBlocked() {
+          if (ticket === generation && !playing) get('autoplay-hint').hidden = false;
         },
         onError() {
           failPlayback(ticket);
@@ -534,6 +538,7 @@ async function mount(autoplay) {
           }
           playing = event.data === YT.PlayerState.PLAYING ||
             (playing && event.data === YT.PlayerState.BUFFERING);
+          if (playing) get('autoplay-hint').hidden = true;
           updateControls();
         },
       },

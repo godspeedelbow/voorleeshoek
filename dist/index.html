@@ -7,8 +7,8 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="description" content="Een kijkplek voor Nederlandse, Spaanse en Zweedse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=3">
-<script src="./app.js?v=6" defer></script>
+<link rel="stylesheet" href="./style.css?v=4">
+<script src="./app.js?v=7" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -59,6 +59,11 @@
         <button id="resume" class="primary" type="button" hidden><span aria-hidden="true">▶</span> Verder kijken</button>
         <button id="retry" class="primary" type="button" hidden>Probeer opnieuw</button>
       </div>
+    </div>
+    <div id="timeline" class="timeline" hidden>
+      <span id="elapsed">0:00</span>
+      <progress id="video-progress" value="0" aria-label="Voortgang van het verhaal"></progress>
+      <span id="duration">–:––</span>
     </div>
     <p id="autoplay-hint" role="status" hidden>Tik op ▶ in de video om het verhaal te starten.</p>
     <div id="controls" class="controls">

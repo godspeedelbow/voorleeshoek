@@ -436,6 +436,10 @@ function render() {
   get('parents').hidden = false;
   get('session').hidden = false;
   get('controls').hidden = done;
+  get('timeline').hidden = done || !!round.waitUntil;
+  get('elapsed').textContent = formatTime(round.position || 0);
+  get('duration').textContent = '–:––';
+  get('video-progress').value = 0;
   get('progress').textContent = done ? 'SAGOSTUND · KLAAR' : 'VERHAAL ' + (round.completed + 1) + ' VAN ' + round.total;
   get('story').textContent = done ? 'Dat waren de verhalen!' :
     round.waitUntil ? 'Even wachten…' : stories[round.order[round.cursor]][1];
@@ -538,6 +542,7 @@ async function mount(autoplay) {
           if (ticket !== generation) return;
           clearTimeout(timer);
           playerReady = true;
+          updateTimeline();
           updateControls();
         },
         onAutoplayBlocked() {
@@ -608,7 +613,28 @@ function savePosition() {
   }
 }
 
+function formatTime(seconds) {
+  const wholeSeconds = Math.floor(seconds);
+  const minutes = Math.floor(wholeSeconds / 60);
+  return minutes + ':' + String(wholeSeconds % 60).padStart(2, '0');
+}
+
+function updateTimeline() {
+  if (!playerReady) return;
+  const duration = player.getDuration();
+  const elapsed = player.getCurrentTime();
+  if (!Number.isFinite(duration) || duration <= 0 || !Number.isFinite(elapsed)) return;
+
+  const position = Math.min(Math.max(elapsed, 0), duration);
+  const progress = get('video-progress');
+  progress.max = duration;
+  progress.value = position;
+  get('elapsed').textContent = formatTime(position);
+  get('duration').textContent = formatTime(duration);
+}
+
 function pauseStory() {
+  updateTimeline();
   savePosition();
   destroyPlayer();
   paused = true;
@@ -697,6 +723,7 @@ window.addEventListener('popstate', () => {
 });
 window.addEventListener('pagehide', savePosition);
 setInterval(savePosition, 1500);
+setInterval(updateTimeline, 500);
 window.addEventListener('keydown', (event) => {
   if (!round || parentDialog.open) return;
   if (event.key === 'F5' || ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'r')) {

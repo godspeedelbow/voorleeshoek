@@ -78,6 +78,16 @@ footer span{color:#a44165;margin-left:5px}
 .screen-message :focus-visible{outline-color:white}
 #countdown:empty{display:none}
 #countdown{font-size:clamp(3rem,10vw,6rem);font-variant-numeric:tabular-nums;line-height:1;color:var(--accent)}
+.timeline{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-top:12px;
+  color:var(--muted);
+  font-size:.875rem;
+  font-variant-numeric:tabular-nums;
+}
+.timeline progress{flex:1;min-width:0;height:12px;accent-color:#aa3d61}
 .controls{margin-top:16px}
 #skips{color:var(--muted)}
 dialog{width:min(460px,calc(100% - 32px));background:var(--soft);color:var(--ink);border:1px solid var(--line);border-radius:20px;padding:24px}

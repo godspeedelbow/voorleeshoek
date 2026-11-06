@@ -35,9 +35,9 @@ jobs:
           commit_url = f'{os.environ["GITHUB_SERVER_URL"]}/{os.environ["GITHUB_REPOSITORY"]}/commit/{sha}'
           published = datetime.now(ZoneInfo("Europe/Amsterdam"))
           footer = (
-              f'<footer>Commit <a href="{commit_url}"><code>{sha[:7]}</code></a> · '
-              f'Publicatie <time datetime="{published.isoformat(timespec="seconds")}">'
-              f'{published:%d-%m-%Y %H:%M:%S %Z}</time></footer>'
+              f'<footer>Versie <a href="{commit_url}">{sha[:7]}</a> · '
+              f'Bijgewerkt op <time id="published-at" datetime="{published.isoformat(timespec="seconds")}">'
+              f'{published:%d-%m-%Y om %H:%M}</time></footer>'
           )
           path = Path("dist/index.html")
           html = path.read_text(encoding="utf-8")

@@ -830,6 +830,14 @@ document.addEventListener('visibilitychange', () => {
   if (document.hidden) savePosition();
 });
 
+const publishedAt = get('published-at');
+if (publishedAt) {
+  publishedAt.textContent = new Intl.DateTimeFormat('nl-NL', {
+    dateStyle: 'long',
+    timeStyle: 'short',
+  }).format(new Date(publishedAt.dateTime));
+}
+
 round = restoreRound();
 landscapeTouchScreen.addEventListener('change', updateOrientation);
 updateOrientation();

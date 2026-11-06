@@ -293,6 +293,7 @@ const parentDialog = get('parent-dialog');
 const landscapeTouchScreen = matchMedia('(orientation: landscape) and (pointer: coarse) and (hover: none)');
 const languageInputs = [...get('languages').querySelectorAll('input')];
 const languageKey = 'voorleeshoek-languages';
+const limitKey = 'voorleeshoek-limit';
 try {
   const saved = JSON.parse(localStorage.getItem(languageKey));
   if (Array.isArray(saved) && languageInputs.some((input) => saved.includes(input.value))) {
@@ -300,6 +301,15 @@ try {
   }
 } catch {
   // All languages are enabled by default.
+}
+
+try {
+  const savedLimit = Number(localStorage.getItem(limitKey));
+  if (Number.isInteger(savedLimit) && savedLimit >= Number(limit.min) && savedLimit <= Number(limit.max)) {
+    limit.value = savedLimit;
+  }
+} catch {
+  // Keep the default number of stories when storage is unavailable.
 }
 
 function selectedLanguages() {
@@ -393,6 +403,16 @@ function moveToNextStory() {
 function updateStepper() {
   get('minus').disabled = Number(limit.value) <= 1;
   get('plus').disabled = Number(limit.value) >= Number(limit.max);
+}
+
+function saveLimit() {
+  updateStepper();
+  if (!limit.validity.valid) return;
+  try {
+    localStorage.setItem(limitKey, limit.value);
+  } catch {
+    // The selected number remains available on this page.
+  }
 }
 
 function showMessage(message, number = '', retry = false) {
@@ -611,15 +631,16 @@ function updateOrientation() {
 
 get('minus').onclick = () => {
   limit.stepDown();
-  updateStepper();
+  saveLimit();
 };
 get('plus').onclick = () => {
   limit.stepUp();
-  updateStepper();
+  saveLimit();
 };
-limit.oninput = updateStepper;
+limit.oninput = saveLimit;
 get('settings').onsubmit = (event) => {
   event.preventDefault();
+  saveLimit();
   const languages = selectedLanguages();
   round = {
     languages,

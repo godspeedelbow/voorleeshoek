@@ -628,12 +628,13 @@ async function mount(autoplay) {
 
     player = new YT.Player(frame, {
       events: {
-        onReady() {
+        onReady(event) {
           if (ticket !== generation) return;
           clearTimeout(timer);
           playerReady = true;
           updateTimeline();
           updateControls();
+          if (autoplay && !playing) event.target.playVideo();
         },
         onAutoplayBlocked() {
           if (ticket === generation && !playing) get('autoplay-hint').hidden = false;

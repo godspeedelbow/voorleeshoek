@@ -7,13 +7,13 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="description" content="Een kijkplek voor Zweedse en Nederlandse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css">
-<script src="./app.js" defer></script>
+<link rel="stylesheet" href="./style.css?v=2">
+<script src="./app.js?v=2" defer></script>
 </head>
 <body>
 <header class="masthead">
   <div class="brand"><span aria-hidden="true">✦</span> Voorleeshoek</div>
-  <button id="parents" class="quiet" type="button">Voor ouders</button>
+  <button id="parents" class="quiet" type="button" hidden>Voor ouders</button>
 </header>
 <main>
   <section id="setup" class="welcome" aria-labelledby="welcome-title">
@@ -31,6 +31,13 @@
           <input id="limit" type="number" min="1" max="6" value="3" required inputmode="numeric">
           <button id="plus" type="button" aria-label="Eén verhaaltje meer">+</button>
         </div>
+        <fieldset id="languages">
+          <legend>Welke talen?</legend>
+          <div class="language-options">
+            <label><input type="checkbox" value="nl" checked><span><span aria-hidden="true">🇳🇱</span> Nederlands</span></label>
+            <label><input type="checkbox" value="sv" checked><span><span aria-hidden="true">🇸🇪</span> Zweeds</span></label>
+          </div>
+        </fieldset>
         <button class="primary" type="submit"><span aria-hidden="true">▶</span> Begin met kijken</button>
       </form>
     </div>
@@ -58,14 +65,9 @@
 </main>
 <dialog id="parent-dialog" aria-labelledby="parent-title">
   <h2 id="parent-title">Voor ouders</h2>
-  <fieldset id="languages">
-    <legend>Talen voor de volgende kijkronde</legend>
-    <label><input type="checkbox" value="nl" checked> Nederlands</label>
-    <label><input type="checkbox" value="sv" checked> Zweeds</label>
-  </fieldset>
-  <p id="parent-note">Ga terug naar het startscherm om meteen een nieuwe kijkronde te beginnen.</p>
+  <p>Wil je deze kijkronde afsluiten?</p>
   <form method="dialog">
-    <button id="close-parents" class="secondary" value="continue" autofocus>Verder kijken</button>
+    <button class="secondary" value="continue" autofocus>Verder kijken</button>
     <button class="primary" id="stop" value="stop">Terug naar instellingen</button>
   </form>
 </dialog>

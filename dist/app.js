@@ -298,6 +298,7 @@ function updateControls() {
 function render() {
   const done = round.completed === round.total;
   get('setup').hidden = true;
+  get('parents').hidden = false;
   get('session').hidden = false;
   get('controls').hidden = done;
   get('progress').textContent = done ? 'SAGOSTUND · KLAAR' : 'VERHAAL ' + (round.completed + 1) + ' VAN ' + round.total;
@@ -516,12 +517,7 @@ get('resume').onclick = () => {
   mount(true);
   get('story').focus();
 };
-get('parents').onclick = () => {
-  get('stop').hidden = !round;
-  get('parent-note').hidden = !round;
-  get('close-parents').textContent = round ? 'Verder kijken' : 'Gereed';
-  parentDialog.showModal();
-};
+get('parents').onclick = () => parentDialog.showModal();
 get('stop').onclick = () => {
   destroyPlayer();
   limit.value = round.total;
@@ -530,6 +526,7 @@ get('stop').onclick = () => {
   updateStepper();
   get('session').hidden = true;
   get('setup').hidden = false;
+  get('parents').hidden = true;
   requestAnimationFrame(() => limit.focus());
 };
 

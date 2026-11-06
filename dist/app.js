@@ -674,7 +674,12 @@ function completeStory() {
     showMessage('Goed gekeken! Tot de volgende keer. ✦');
     get('story').focus();
   } else {
-    mount(true);
+    // Keep the same player so the browser can carry playback permission forward.
+    playing = false;
+    render();
+    const [id, title] = stories[round.order[round.cursor]];
+    player.getIframe().title = title;
+    player.loadVideoById(id);
   }
 }
 

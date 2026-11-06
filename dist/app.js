@@ -377,6 +377,7 @@ const stories = [
 ];
 
 const get = (id) => document.getElementById(id);
+const pageTitle = document.title;
 const storageKey = 'voorleeshoek-round-v2';
 const limit = get('limit');
 const parentDialog = get('parent-dialog');
@@ -428,6 +429,8 @@ let paused = false;
 let timer;
 let generation = 0;
 let api;
+let historyEntry = history.state?.voorleesEntry ?? 0;
+let roundURL;
 
 function storeRound() {
   try {
@@ -588,6 +591,7 @@ function failPlayback(ticket) {
 }
 
 async function mount(autoplay) {
+  showStoryInURL();
   destroyPlayer();
   render();
   if (needsPortrait()) {
@@ -666,15 +670,17 @@ async function mount(autoplay) {
 
 function completeStory() {
   round.completed += 1;
-  moveToNextStory();
-  storeRound();
   if (round.completed === round.total) {
+    storeRound();
     destroyPlayer();
     render();
     showMessage('Goed gekeken! Tot de volgende keer. ✦');
     get('story').focus();
   } else {
     // Keep the same player so the browser can carry playback permission forward.
+    moveToNextStory();
+    storeRound();
+    showStoryInURL();
     playing = false;
     render();
     const [id, title] = stories[round.order[round.cursor]];
@@ -695,9 +701,52 @@ function tick() {
   timer = setTimeout(tick, Math.max(1, round.waitUntil - Date.now() - (seconds - 1) * 1000));
 }
 
-function protectHistory() {
-  if (history.state?.watchGuard) return;
-  history.pushState({ watchGuard: true }, '');
+function setPageVideo(id) {
+  const url = new URL(location.href);
+  if (url.searchParams.get('v') === id) return url.href;
+  if (id) url.searchParams.set('v', id);
+  else url.searchParams.delete('v');
+  if (url.href !== location.href) {
+    history.pushState({ voorleesEntry: historyEntry + 1 }, '', url);
+    historyEntry += 1;
+  }
+  return url.href;
+}
+
+function showStoryInURL() {
+  const [id, title] = stories[round.order[round.cursor]];
+  roundURL = setPageVideo(id);
+  round.historyEntry = historyEntry;
+  storeRound();
+  document.title = title + ' · ' + pageTitle;
+}
+
+function showSetup() {
+  destroyPlayer();
+  round = null;
+  storeRound();
+  document.title = pageTitle;
+  updateStepper();
+  get('session').hidden = true;
+  get('setup').hidden = false;
+  get('parents').hidden = true;
+}
+
+function roundForURL() {
+  const id = new URL(location.href).searchParams.get('v');
+  const index = stories.findIndex((story) => story[0] === id);
+  if (index === -1) return;
+  return {
+    linked: true,
+    languages: [stories[index][2]],
+    total: 1,
+    completed: 0,
+    skips: 0,
+    order: [index],
+    cursor: 0,
+    waitUntil: 0,
+    position: 0,
+  };
 }
 
 function savePosition() {
@@ -775,7 +824,6 @@ get('settings').onsubmit = (event) => {
     position: 0,
   };
   storeRound();
-  protectHistory();
   mount(true);
   get('story').focus();
 };
@@ -803,19 +851,28 @@ get('resume').onclick = () => {
 };
 get('parents').onclick = () => parentDialog.showModal();
 get('stop').onclick = () => {
-  destroyPlayer();
   limit.value = round.total;
-  round = null;
-  storeRound();
-  updateStepper();
-  get('session').hidden = true;
-  get('setup').hidden = false;
-  get('parents').hidden = true;
+  setPageVideo(null);
+  showSetup();
   requestAnimationFrame(() => limit.focus());
 };
 
-window.addEventListener('popstate', () => {
-  if (round) protectHistory();
+window.addEventListener('popstate', (event) => {
+  const entry = event.state?.voorleesEntry;
+  if (round && location.href === roundURL) return;
+  if (round && !round.linked && round.completed < round.total) {
+    // Return to the current story without discarding earlier history entries.
+    if (Number.isInteger(entry) && entry !== historyEntry) history.go(Math.sign(historyEntry - entry));
+    else history.pushState({ voorleesEntry: historyEntry }, '', roundURL);
+    return;
+  }
+  if (round) showSetup();
+  historyEntry = entry ?? 0;
+  round = roundForURL();
+  if (round) {
+    storeRound();
+    mount(false);
+  }
 });
 window.addEventListener('pagehide', savePosition);
 setInterval(savePosition, 1500);
@@ -838,13 +895,25 @@ if (publishedAt) {
   }).format(new Date(publishedAt.dateTime));
 }
 
+const knownEntry = Number.isInteger(history.state?.voorleesEntry);
+history.replaceState({ voorleesEntry: historyEntry }, '');
+roundURL = location.href;
+const linkedRound = roundForURL();
 round = restoreRound();
+if ((linkedRound && (!round || !knownEntry)) ||
+    (round?.historyEntry !== undefined && round.historyEntry !== historyEntry)) {
+  round = linkedRound;
+  storeRound();
+}
 landscapeTouchScreen.addEventListener('change', updateOrientation);
 updateOrientation();
 updateStepper();
 if (round) {
   render();
-  if (round.completed === round.total) showMessage('Goed gekeken! Tot de volgende keer. ✦');
+  if (round.completed === round.total) {
+    if (linkedRound) document.title = stories[linkedRound.order[0]][1] + ' · ' + pageTitle;
+    showMessage('Goed gekeken! Tot de volgende keer. ✦');
+  }
   else if (round.waitUntil) tick();
   else mount(false);
 }

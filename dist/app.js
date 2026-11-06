@@ -290,6 +290,7 @@ const get = (id) => document.getElementById(id);
 const storageKey = 'voorleeshoek-round-v2';
 const limit = get('limit');
 const parentDialog = get('parent-dialog');
+const landscapeTouchScreen = matchMedia('(orientation: landscape) and (pointer: coarse) and (hover: none)');
 const languageInputs = [...get('languages').querySelectorAll('input')];
 const languageKey = 'voorleeshoek-languages';
 try {
@@ -474,6 +475,10 @@ function failPlayback(ticket) {
 async function mount(autoplay) {
   destroyPlayer();
   render();
+  if (needsPortrait()) {
+    pauseStory();
+    return;
+  }
   showMessage('Het verhaal wordt klaargezet…');
   const ticket = generation;
   const [id, title] = stories[round.order[round.cursor]];
@@ -481,6 +486,10 @@ async function mount(autoplay) {
   try {
     await loadAPI();
     if (ticket !== generation) return;
+    if (needsPortrait()) {
+      pauseStory();
+      return;
+    }
     const frame = document.createElement('iframe');
     const params = new URLSearchParams({
       enablejsapi: '1',
@@ -582,6 +591,19 @@ function pauseStory() {
   showMessage('Het verhaal staat op pauze.');
 }
 
+function needsPortrait() {
+  return landscapeTouchScreen.matches && Math.min(screen.width, screen.height) <= 600;
+}
+
+function updateOrientation() {
+  const showNotice = needsPortrait();
+  if (showNotice) {
+    if (parentDialog.open) parentDialog.close();
+    if (player) pauseStory();
+  }
+  document.body.classList.toggle('needs-portrait', showNotice);
+}
+
 get('minus').onclick = () => {
   limit.stepDown();
   updateStepper();
@@ -660,6 +682,8 @@ document.addEventListener('visibilitychange', () => {
 });
 
 round = restoreRound();
+landscapeTouchScreen.addEventListener('change', updateOrientation);
+updateOrientation();
 updateStepper();
 if (round) {
   render();

@@ -24,6 +24,16 @@ button:disabled{opacity:.55;cursor:default}
 .brand{font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
 .brand span{display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--accent);color:var(--ink)}
 main{flex:1;display:grid;align-items:center;padding-block:42px}
+.rotate-notice{display:none}
+.needs-portrait > .masthead,.needs-portrait > main{display:none}
+.needs-portrait > .rotate-notice{
+  flex:1;
+  display:grid;
+  place-items:center;
+  padding:24px max(24px,env(safe-area-inset-right)) 24px max(24px,env(safe-area-inset-left));
+  text-align:center;
+}
+.rotate-notice h1{font-size:clamp(1.75rem,6vw,3rem)}
 .welcome{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,6vw,85px);align-items:center}
 .picture{grid-column:2;grid-row:1}
 .picture img{display:block;width:100%;height:auto;box-shadow:0 16px 38px #61368c30;border-radius:5%}

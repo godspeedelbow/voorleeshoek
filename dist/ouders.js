@@ -21,9 +21,19 @@ const groups = Array.from(languageField.options).slice(1).map((option) => {
   return { language, label: option.textContent, videos };
 });
 
-const channels = [...new Set(stories.map(([, , , channel]) => channel).filter(Boolean))];
-channels.sort(new Intl.Collator('nl', { sensitivity: 'base' }).compare);
-for (const channel of channels) channelField.add(new Option(channel, channel));
+const channelCollator = new Intl.Collator('nl', { sensitivity: 'base' });
+
+function updateLanguageFilter() {
+  const selectedLanguage = languageField.value;
+  const selectedChannel = channelField.value;
+  const channels = [...new Set(groups
+    .filter(({ language }) => !selectedLanguage || language === selectedLanguage)
+    .flatMap(({ videos }) => videos.map(({ channel }) => channel))
+    .filter(Boolean))].sort(channelCollator.compare);
+  channelField.replaceChildren(channelField.options[0], ...channels.map((channel) => new Option(channel, channel)));
+  channelField.value = channels.includes(selectedChannel) ? selectedChannel : '';
+  renderCatalog();
+}
 
 function formatCatalogDuration(seconds) {
   const hours = Math.floor(seconds / 3600);
@@ -103,10 +113,10 @@ function renderCatalog() {
 }
 
 searchField.addEventListener('input', renderCatalog);
-languageField.addEventListener('change', renderCatalog);
+languageField.addEventListener('change', updateLanguageFilter);
 channelField.addEventListener('change', renderCatalog);
 sortField.addEventListener('change', renderCatalog);
 window.addEventListener('pageshow', (event) => {
-  if (event.persisted) renderCatalog();
+  if (event.persisted) updateLanguageFilter();
 });
-renderCatalog();
+updateLanguageFilter();

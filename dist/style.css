@@ -15,15 +15,17 @@ body{
   background:radial-gradient(ellipse at top right,#e8dcff 0%,transparent 55%),
     radial-gradient(ellipse at bottom left,#ffe0d9 0%,transparent 52%),var(--paper);
 }
-button,input{font:inherit;color:inherit}
+button,input,select{font:inherit;color:inherit}
 button{cursor:pointer;touch-action:manipulation;font-weight:750}
 button:disabled{opacity:.55;cursor:default}
 :focus-visible{outline:3px solid #783ab0;outline-offset:4px}
 .masthead,main,footer{width:min(1120px,calc(100% - 64px));margin-inline:auto}
-.masthead{min-height:84px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);gap:12px}
+.masthead{min-height:84px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:8px;border-bottom:1px solid var(--line);gap:12px}
 .brand{font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
-.brand span{display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--accent);color:var(--ink)}
-main{flex:1;display:grid;align-items:center;padding-block:42px}
+.brand-mark{flex:none;display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--accent);color:var(--ink)}
+.header-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+#language{cursor:pointer;font-weight:750}
+main{flex:1;display:grid;grid-template-columns:minmax(0,1fr);align-items:center;padding-block:42px}
 .rotate-notice{display:none}
 .needs-portrait > .masthead,.needs-portrait > main{display:none}
 .needs-portrait > .rotate-notice{
@@ -57,19 +59,18 @@ h1,h2{font-weight:700;line-height:1.06;margin:0}
 .secondary{background:#d9f2ff;border-color:#b7dbea}
 .quiet{background:var(--soft);border-color:var(--line)}
 .secondary:hover:not(:disabled),.quiet:hover{background:#f1e5fc}
-.primary span,.secondary span{margin-inline:3px}
+.primary [aria-hidden],.secondary [aria-hidden]{margin-inline:3px}
 #settings .primary{margin-top:6px}
 footer{padding:20px 0;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted);text-align:center}
-footer span{color:#a44165;margin-left:5px}
 .watch{width:min(820px,100%);margin-inline:auto}
 .watch-head,.controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .watch-head{justify-content:space-between;margin-bottom:18px}
-.watch h1{font-size:clamp(1.85rem,5vw,3.2rem)}
+.watch h1{overflow-wrap:anywhere;font-size:clamp(1.85rem,5vw,3.2rem)}
 .dots{display:flex;gap:6px}
 .dots span{width:12px;height:12px;border:1px solid #8f69a7;border-radius:50%}
 .dots .filled{background:var(--ink)}
 .dots .current{background:var(--accent)}
-.screen{position:relative;aspect-ratio:16/9;min-height:200px;background:#26193e;border-radius:18px;overflow:hidden;color:#fff5da}
+.screen{position:relative;width:100%;aspect-ratio:16/9;min-height:200px;background:#26193e;border-radius:18px;overflow:hidden;color:#fff5da}
 #video,#video iframe,.screen-message{position:absolute;inset:0;width:100%;height:100%;border:0}
 .screen-message{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;text-align:center;padding:16px;background:linear-gradient(135deg,#59328c,#7540a4)}
 .screen-message p{font-weight:750;margin:0}
@@ -94,14 +95,3 @@ dialog{width:min(460px,calc(100% - 32px));background:var(--soft);color:var(--ink
 dialog::backdrop{background:#301a4bb0}
 dialog form{display:flex;flex-wrap:wrap;gap:10px}
 @media(max-width:650px){.masthead,main,footer{width:calc(100% - 32px)}.masthead{min-height:64px}main{padding-block:24px}.welcome{display:flex;flex-direction:column;align-items:stretch;gap:24px}.picture{order:2}.picture img{max-height:34vh;object-fit:cover;object-position:center 54%}.subtitle{margin:12px 0 18px}.intro h1 br{display:none}.quiet{font-size:.85rem;padding-inline:12px}}
-#languages{min-width:0;margin:4px 0 0;padding:0;border:0}
-#languages legend{padding:0;margin-bottom:8px;font-weight:750}
-.language-options{display:flex;flex-wrap:wrap;gap:8px}
-.language-options label{position:relative;cursor:pointer}
-.language-options input{position:absolute;opacity:0;margin:0}
-.language-options label > span{
-  display:flex;align-items:center;gap:7px;min-height:44px;padding:8px 13px;
-  border:2px solid var(--line);border-radius:14px;background:var(--soft);font-weight:750;
-}
-.language-options input:checked + span{border-color:#783ab0;background:#eee0ff}
-.language-options input:focus-visible + span{outline:3px solid #783ab0;outline-offset:3px}

@@ -376,22 +376,161 @@ const stories = [
   ["ArUsgvymW98", "La tortuga que quería dormir", "es"],
 ];
 
+const translations = {
+  nl: {
+    siteName: 'Voorleeshoek',
+    description: 'Een kijkplek voor Nederlandse voorleesverhalen.',
+    language: 'Taal',
+    rotate: 'Draai je scherm rechtop',
+    eyebrow: 'VOORLEZEN · NEDERLANDS',
+    welcome: 'Voorleestijd!',
+    subtitle: 'Kruip lekker op de bank. Er wacht een verhaal op je.',
+    storyCount: 'Hoeveel verhaaltjes?',
+    less: 'Eén verhaaltje minder',
+    more: 'Eén verhaaltje meer',
+    start: 'Begin met kijken',
+    play: 'Afspelen',
+    pause: 'Pauzeren',
+    resume: 'Verder kijken',
+    skip: 'Ander verhaal',
+    skips: (count) => `Nog ${count} keer wisselen`,
+    progress: (current, total) => `VERHAAL ${current} VAN ${total}`,
+    timeline: 'Voortgang van het verhaal',
+    loading: 'Het verhaal wordt klaargezet…',
+    paused: 'Het verhaal staat op pauze.',
+    waiting: 'Even wachten…',
+    next: 'Straks komt er een ander verhaal',
+    autoplayHint: 'Tik op ▶ in de video om het verhaal te starten.',
+    playbackError: 'Dit verhaal kan nu niet worden afgespeeld.',
+    retry: 'Probeer opnieuw',
+    done: 'VOORLEESTIJD · KLAAR',
+    doneTitle: 'Dat waren de verhalen!',
+    farewell: 'Goed gekeken! Tot de volgende keer. ✦',
+    restart: 'Opnieuw beginnen',
+    confirmRestart: 'Wil je deze kijkronde afsluiten?',
+    version: 'Versie',
+    updated: 'Bijgewerkt op',
+  },
+  sv: {
+    siteName: 'Sagohörnan',
+    description: 'Här kan du titta på högläsning av sagor på svenska.',
+    language: 'Språk',
+    rotate: 'Vänd skärmen till stående läge',
+    eyebrow: 'HÖGLÄSNING · SVENSKA',
+    welcome: 'Dags för en saga!',
+    subtitle: 'Mys ner dig i soffan. En saga väntar på dig.',
+    storyCount: 'Hur många sagor?',
+    less: 'En saga mindre',
+    more: 'En saga till',
+    start: 'Börja titta',
+    play: 'Spela upp',
+    pause: 'Pausa',
+    resume: 'Fortsätt titta',
+    skip: 'Byt saga',
+    skips: (count) => `Du kan byta ${count} ${count === 1 ? 'gång' : 'gånger'} till`,
+    progress: (current, total) => `SAGA ${current} AV ${total}`,
+    timeline: 'Hur långt sagan har kommit',
+    loading: 'Sagan laddas…',
+    paused: 'Sagan är pausad.',
+    waiting: 'Vänta lite…',
+    next: 'Snart kommer en annan saga',
+    autoplayHint: 'Tryck på ▶ i videon för att starta sagan.',
+    playbackError: 'Sagan går inte att spela upp just nu.',
+    retry: 'Försök igen',
+    done: 'SAGOSTUND · SLUT',
+    doneTitle: 'Det var alla sagor!',
+    farewell: 'Tack för att du tittade! Vi ses nästa gång. ✦',
+    restart: 'Börja om',
+    confirmRestart: 'Vill du avsluta sagostunden?',
+    version: 'Version',
+    updated: 'Uppdaterad',
+  },
+  es: {
+    siteName: 'Rincón de cuentos',
+    description: 'Un lugar para ver cuentos leídos en voz alta en español.',
+    language: 'Idioma',
+    rotate: 'Pon la pantalla en vertical',
+    eyebrow: 'LECTURA EN VOZ ALTA · ESPAÑOL',
+    welcome: '¡Hora del cuento!',
+    subtitle: 'Ponte a gusto en el sofá. Te espera un cuento.',
+    storyCount: '¿Cuántos cuentos?',
+    less: 'Un cuento menos',
+    more: 'Un cuento más',
+    start: 'Empezar a ver',
+    play: 'Reproducir',
+    pause: 'Pausar',
+    resume: 'Seguir viendo',
+    skip: 'Cambiar de cuento',
+    skips: (count) => count === 1 ? 'Queda 1 cambio' : `Quedan ${count} cambios`,
+    progress: (current, total) => `CUENTO ${current} DE ${total}`,
+    timeline: 'Progreso del cuento',
+    loading: 'Cargando el cuento…',
+    paused: 'El cuento está en pausa.',
+    waiting: 'Un momento…',
+    next: 'Enseguida empieza otro cuento',
+    autoplayHint: 'Toca ▶ en el vídeo para empezar el cuento.',
+    playbackError: 'Este cuento no se puede reproducir ahora.',
+    retry: 'Inténtalo de nuevo',
+    done: 'HORA DEL CUENTO · FIN',
+    doneTitle: '¡Ya vimos todos los cuentos!',
+    farewell: '¡Gracias por mirar! Hasta la próxima. ✦',
+    restart: 'Empezar de nuevo',
+    confirmRestart: '¿Quieres terminar esta sesión de cuentos?',
+    version: 'Versión',
+    updated: 'Actualizado el',
+  },
+};
+
 const get = (id) => document.getElementById(id);
-const pageTitle = document.title;
 const storageKey = 'voorleeshoek-round-v2';
 const limit = get('limit');
 const parentDialog = get('parent-dialog');
 const landscapeTouchScreen = matchMedia('(orientation: landscape) and (pointer: coarse) and (hover: none)');
-const languageInputs = [...get('languages').querySelectorAll('input')];
-const languageKey = 'voorleeshoek-languages';
+const languageSelect = get('language');
+const languageKey = 'voorleeshoek-language';
 const limitKey = 'voorleeshoek-limit';
+let preferredLanguage = 'nl';
+
 try {
-  const saved = JSON.parse(localStorage.getItem(languageKey));
-  if (Array.isArray(saved) && languageInputs.some((input) => saved.includes(input.value))) {
-    for (const input of languageInputs) input.checked = saved.includes(input.value);
+  const saved = localStorage.getItem(languageKey);
+  if (Object.hasOwn(translations, saved)) {
+    preferredLanguage = saved;
+  } else {
+    const previous = JSON.parse(localStorage.getItem('voorleeshoek-languages'));
+    if (Array.isArray(previous) && previous.length === 1 && Object.hasOwn(translations, previous[0])) {
+      preferredLanguage = previous[0];
+    }
   }
 } catch {
-  // All languages are enabled by default.
+  // Keep Dutch as the default when the saved language is unavailable.
+}
+
+let language;
+let copy;
+
+function applyLanguage(nextLanguage) {
+  language = nextLanguage;
+  copy = translations[language];
+  document.documentElement.lang = language;
+  languageSelect.value = language;
+  document.title = copy.siteName;
+  document.querySelectorAll('[data-text]').forEach((element) => {
+    element.textContent = copy[element.dataset.text];
+  });
+  document.querySelectorAll('[data-label]').forEach((element) => {
+    element.setAttribute('aria-label', copy[element.dataset.label]);
+  });
+  document.querySelector('meta[name="description"]').content = copy.description;
+  document.querySelector('meta[property="og:description"]').content = copy.description;
+  document.querySelector('meta[property="og:title"]').content = copy.siteName;
+
+  const publishedAt = get('published-at');
+  if (publishedAt) {
+    publishedAt.textContent = new Intl.DateTimeFormat(language, {
+      dateStyle: 'long',
+      timeStyle: 'short',
+    }).format(new Date(publishedAt.dateTime));
+  }
 }
 
 try {
@@ -403,24 +542,6 @@ try {
   // Keep the default number of stories when storage is unavailable.
 }
 
-function selectedLanguages() {
-  return languageInputs.filter((input) => input.checked).map((input) => input.value);
-}
-
-function updateLanguageInputs() {
-  const languages = selectedLanguages();
-  for (const input of languageInputs) input.disabled = input.checked && languages.length === 1;
-}
-
-get('languages').onchange = () => {
-  updateLanguageInputs();
-  try {
-    localStorage.setItem(languageKey, JSON.stringify(selectedLanguages()));
-  } catch {
-    // The selection remains available on this page.
-  }
-};
-updateLanguageInputs();
 let round;
 let player;
 let playerReady = false;
@@ -445,10 +566,16 @@ function restoreRound() {
   try {
     const saved = JSON.parse(sessionStorage.getItem(storageKey));
     if (saved && saved.total >= 1 && saved.total <= Number(limit.max) &&
-        saved.order.every((index) => stories[index]) &&
+        Array.isArray(saved.order) && saved.order.every((index) => stories[index]) &&
         saved.completed >= 0 && saved.completed <= saved.total &&
         saved.skips >= 0 && saved.skips <= 3 &&
-        (saved.completed === saved.total || stories[saved.order[saved.cursor]])) {
+        stories[saved.order[saved.cursor]]) {
+      const current = saved.order[saved.cursor];
+      const currentLanguage = stories[current][2];
+      // Keep the current story and playback position in older multilingual rounds.
+      const order = saved.order.filter((index) => stories[index][2] === currentLanguage);
+      saved.cursor = order.indexOf(current);
+      saved.order = order;
       return saved;
     }
   } catch {
@@ -464,19 +591,12 @@ function shuffle(items) {
   return items;
 }
 
-function shuffledStories(languages, previous) {
-  const queues = new Map(languages.map((language) => [language, []]));
-  stories.forEach((story, index) => queues.get(story[2])?.push(index));
-  const groups = shuffle([...queues.values()].filter((group) => group.length));
-  groups.forEach(shuffle);
-
-  // Give each chosen language a turn even when their libraries differ in size.
+function shuffledStories(previous) {
   const order = [];
-  while (groups.some((group) => group.length)) {
-    for (const group of groups) {
-      if (group.length) order.push(group.pop());
-    }
-  }
+  stories.forEach((story, index) => {
+    if (story[2] === language) order.push(index);
+  });
+  shuffle(order);
   if (order.length > 1 && order[0] === previous) {
     [order[0], order[1]] = [order[1], order[0]];
   }
@@ -487,7 +607,7 @@ function moveToNextStory() {
   const previous = round.order[round.cursor];
   round.cursor += 1;
   if (round.cursor === round.order.length) {
-    round.order = shuffledStories(round.languages ?? ['nl', 'sv'], previous);
+    round.order = shuffledStories(previous);
     round.cursor = 0;
   }
   round.position = 0;
@@ -518,9 +638,9 @@ function showMessage(message, number = '', retry = false) {
 function updateControls() {
   get('resume').hidden = !paused;
   get('play').disabled = !playerReady && !paused;
-  get('play').textContent = paused ? '▶ Verder kijken' : playing ? 'Ⅱ Pauzeren' : '▶ Afspelen';
+  get('play').textContent = paused ? '▶ ' + copy.resume : playing ? 'Ⅱ ' + copy.pause : '▶ ' + copy.play;
   get('skip').disabled = !round.skips || !!round.waitUntil;
-  get('skips').textContent = round.skips === 1 ? 'Nog 1 keer wisselen' : 'Nog ' + round.skips + ' keer wisselen';
+  get('skips').textContent = copy.skips(round.skips);
 }
 
 function render() {
@@ -533,9 +653,9 @@ function render() {
   get('elapsed').textContent = formatTime(round.position || 0);
   get('duration').textContent = '–:––';
   get('video-progress').value = 0;
-  get('progress').textContent = done ? 'SAGOSTUND · KLAAR' : 'VERHAAL ' + (round.completed + 1) + ' VAN ' + round.total;
-  get('story').textContent = done ? 'Dat waren de verhalen!' :
-    round.waitUntil ? 'Even wachten…' : stories[round.order[round.cursor]][1];
+  get('progress').textContent = done ? copy.done : copy.progress(round.completed + 1, round.total);
+  get('story').textContent = done ? copy.doneTitle :
+    round.waitUntil ? copy.waiting : stories[round.order[round.cursor]][1];
   get('dots').replaceChildren(...Array.from({ length: round.total }, (_, index) => {
     const dot = document.createElement('span');
     if (index < round.completed) dot.className = 'filled';
@@ -566,7 +686,7 @@ function loadAPI() {
     const fail = () => {
       clearTimeout(timeout);
       script.remove();
-      reject(new Error('YouTube-speler niet bereikbaar'));
+      reject(new Error('YouTube iframe API failed to load'));
     };
     const timeout = setTimeout(fail, 12000);
     window.onYouTubeIframeAPIReady = () => {
@@ -587,7 +707,7 @@ function failPlayback(ticket) {
   if (ticket !== generation) return;
   destroyPlayer();
   updateControls();
-  showMessage('Dit verhaal kan nu niet worden afgespeeld.', '', true);
+  showMessage(copy.playbackError, '', true);
 }
 
 async function mount(autoplay) {
@@ -598,7 +718,7 @@ async function mount(autoplay) {
     pauseStory();
     return;
   }
-  showMessage('Het verhaal wordt klaargezet…');
+  showMessage(copy.loading);
   const ticket = generation;
   const [id, title] = stories[round.order[round.cursor]];
 
@@ -613,6 +733,7 @@ async function mount(autoplay) {
     const params = new URLSearchParams({
       autoplay: autoplay ? '1' : '0',
       enablejsapi: '1',
+      hl: language,
       origin: location.origin,
       rel: '0',
       playsinline: '1',
@@ -674,7 +795,7 @@ function completeStory() {
     storeRound();
     destroyPlayer();
     render();
-    showMessage('Goed gekeken! Tot de volgende keer. ✦');
+    showMessage(copy.farewell);
     get('story').focus();
   } else {
     // Keep the same player so the browser can carry playback permission forward.
@@ -697,7 +818,7 @@ function tick() {
     mount(true);
     return;
   }
-  showMessage('Straks komt er een ander verhaal', seconds);
+  showMessage(copy.next, seconds);
   timer = setTimeout(tick, Math.max(1, round.waitUntil - Date.now() - (seconds - 1) * 1000));
 }
 
@@ -718,14 +839,14 @@ function showStoryInURL() {
   roundURL = setPageVideo(id);
   round.historyEntry = historyEntry;
   storeRound();
-  document.title = title + ' · ' + pageTitle;
+  document.title = title + ' · ' + copy.siteName;
 }
 
 function showSetup() {
   destroyPlayer();
   round = null;
   storeRound();
-  document.title = pageTitle;
+  document.title = copy.siteName;
   updateStepper();
   get('session').hidden = true;
   get('setup').hidden = false;
@@ -738,7 +859,6 @@ function roundForURL() {
   if (index === -1) return;
   return {
     linked: true,
-    languages: [stories[index][2]],
     total: 1,
     completed: 0,
     skips: 0,
@@ -784,7 +904,7 @@ function pauseStory() {
   destroyPlayer();
   paused = true;
   updateControls();
-  showMessage('Het verhaal staat op pauze.');
+  showMessage(copy.paused);
 }
 
 function needsPortrait() {
@@ -812,13 +932,11 @@ limit.oninput = saveLimit;
 get('settings').onsubmit = (event) => {
   event.preventDefault();
   saveLimit();
-  const languages = selectedLanguages();
   round = {
-    languages,
     total: Number(limit.value),
     completed: 0,
     skips: 3,
-    order: shuffledStories(languages),
+    order: shuffledStories(),
     cursor: 0,
     waitUntil: 0,
     position: 0,
@@ -826,6 +944,34 @@ get('settings').onsubmit = (event) => {
   storeRound();
   mount(true);
   get('story').focus();
+};
+
+languageSelect.onchange = () => {
+  preferredLanguage = languageSelect.value;
+  try {
+    localStorage.setItem(languageKey, preferredLanguage);
+  } catch {
+    // The selection remains available on this page.
+  }
+  applyLanguage(preferredLanguage);
+
+  if (!round) return;
+  if (round.completed === round.total) {
+    setPageVideo(null);
+    showSetup();
+    return;
+  }
+  round.order = shuffledStories();
+  round.cursor = 0;
+  round.position = 0;
+  if (round.waitUntil) {
+    destroyPlayer();
+    showStoryInURL();
+    render();
+    tick();
+  } else {
+    mount(false);
+  }
 };
 
 get('play').onclick = () => {
@@ -869,6 +1015,7 @@ window.addEventListener('popstate', (event) => {
   if (round) showSetup();
   historyEntry = entry ?? 0;
   round = roundForURL();
+  applyLanguage(round ? stories[round.order[0]][2] : preferredLanguage);
   if (round) {
     storeRound();
     mount(false);
@@ -887,14 +1034,6 @@ document.addEventListener('visibilitychange', () => {
   if (document.hidden) savePosition();
 });
 
-const publishedAt = get('published-at');
-if (publishedAt) {
-  publishedAt.textContent = new Intl.DateTimeFormat('nl-NL', {
-    dateStyle: 'long',
-    timeStyle: 'short',
-  }).format(new Date(publishedAt.dateTime));
-}
-
 const knownEntry = Number.isInteger(history.state?.voorleesEntry);
 history.replaceState({ voorleesEntry: historyEntry }, '');
 roundURL = location.href;
@@ -905,14 +1044,15 @@ if ((linkedRound && (!round || !knownEntry)) ||
   round = linkedRound;
   storeRound();
 }
+applyLanguage(round ? stories[round.order[round.cursor]][2] : preferredLanguage);
 landscapeTouchScreen.addEventListener('change', updateOrientation);
 updateOrientation();
 updateStepper();
 if (round) {
   render();
   if (round.completed === round.total) {
-    if (linkedRound) document.title = stories[linkedRound.order[0]][1] + ' · ' + pageTitle;
-    showMessage('Goed gekeken! Tot de volgende keer. ✦');
+    if (linkedRound) document.title = stories[linkedRound.order[0]][1] + ' · ' + copy.siteName;
+    showMessage(copy.farewell);
   }
   else if (round.waitUntil) tick();
   else mount(false);

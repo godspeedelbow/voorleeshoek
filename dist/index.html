@@ -9,16 +9,23 @@
 <meta property="og:title" content="Voorleeshoek">
 <meta property="og:description" content="Een kijkplek voor Nederlandse, Spaanse en Zweedse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=4">
-<script src="./app.js?v=12" defer></script>
+<link rel="stylesheet" href="./style.css?v=5">
+<script src="./app.js?v=13" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
-  <h1>Draai je scherm rechtop</h1>
+  <h1 data-text="rotate">Draai je scherm rechtop</h1>
 </section>
 <header class="masthead">
-  <div class="brand"><span aria-hidden="true">✦</span> Voorleeshoek</div>
-  <button id="parents" class="quiet" type="button" hidden>Opnieuw beginnen</button>
+  <div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span data-text="siteName">Voorleeshoek</span></div>
+  <div class="header-controls">
+    <select id="language" class="quiet" aria-label="Taal" data-label="language">
+      <option value="nl" lang="nl">Nederlands</option>
+      <option value="sv" lang="sv">Svenska</option>
+      <option value="es" lang="es">Español</option>
+    </select>
+    <button id="parents" class="quiet" type="button" data-text="restart" hidden>Opnieuw beginnen</button>
+  </div>
 </header>
 <main>
   <section id="setup" class="welcome" aria-labelledby="welcome-title">
@@ -26,25 +33,17 @@
       <img src="./book.svg" alt="" width="560" height="420">
     </div>
     <div class="intro">
-      <p class="eyebrow">VOORLEZEN · NEDERLANDS, SPAANS EN ZWEEDS</p>
-      <h1 id="welcome-title">Voorleestijd!</h1>
-      <p class="subtitle">Kruip lekker op de bank. Er wacht een verhaal op je.</p>
+      <p class="eyebrow" data-text="eyebrow">VOORLEZEN · NEDERLANDS</p>
+      <h1 id="welcome-title" data-text="welcome">Voorleestijd!</h1>
+      <p class="subtitle" data-text="subtitle">Kruip lekker op de bank. Er wacht een verhaal op je.</p>
       <form id="settings">
-        <label for="limit">Hoeveel verhaaltjes?</label>
+        <label for="limit" data-text="storyCount">Hoeveel verhaaltjes?</label>
         <div class="stepper">
-          <button id="minus" type="button" aria-label="Eén verhaaltje minder">−</button>
+          <button id="minus" type="button" aria-label="Eén verhaaltje minder" data-label="less">−</button>
           <input id="limit" type="number" min="1" max="6" value="3" required inputmode="numeric">
-          <button id="plus" type="button" aria-label="Eén verhaaltje meer">+</button>
+          <button id="plus" type="button" aria-label="Eén verhaaltje meer" data-label="more">+</button>
         </div>
-        <fieldset id="languages">
-          <legend>Welke talen?</legend>
-          <div class="language-options">
-            <label><input type="checkbox" value="nl" checked><span><span aria-hidden="true">🇳🇱</span> Nederlands</span></label>
-            <label><input type="checkbox" value="sv" checked><span><span aria-hidden="true">🇸🇪</span> Zweeds</span></label>
-            <label><input type="checkbox" value="es" checked><span><span aria-hidden="true">🇪🇸</span> Spaans</span></label>
-          </div>
-        </fieldset>
-        <button class="primary" type="submit"><span aria-hidden="true">▶</span> Begin met kijken</button>
+        <button class="primary" type="submit"><span aria-hidden="true">▶</span> <span data-text="start">Begin met kijken</span></button>
       </form>
     </div>
   </section>
@@ -58,30 +57,30 @@
       <div id="message" class="screen-message" hidden>
         <strong id="countdown" aria-hidden="true"></strong>
         <p id="status" role="status"></p>
-        <button id="resume" class="primary" type="button" hidden><span aria-hidden="true">▶</span> Verder kijken</button>
-        <button id="retry" class="primary" type="button" hidden>Probeer opnieuw</button>
+        <button id="resume" class="primary" type="button" hidden><span aria-hidden="true">▶</span> <span data-text="resume">Verder kijken</span></button>
+        <button id="retry" data-text="retry" class="primary" type="button" hidden>Probeer opnieuw</button>
       </div>
     </div>
     <div id="timeline" class="timeline" hidden>
       <span id="elapsed">0:00</span>
-      <progress id="video-progress" value="0" aria-label="Voortgang van het verhaal"></progress>
+      <progress id="video-progress" value="0" aria-label="Voortgang van het verhaal" data-label="timeline"></progress>
       <span id="duration">–:––</span>
     </div>
-    <p id="autoplay-hint" role="status" hidden>Tik op ▶ in de video om het verhaal te starten.</p>
+    <p id="autoplay-hint" data-text="autoplayHint" role="status" hidden>Tik op ▶ in de video om het verhaal te starten.</p>
     <div id="controls" class="controls">
       <button id="play" class="primary" type="button" disabled>▶ Afspelen</button>
-      <button id="skip" class="secondary" type="button">Ander verhaal <span aria-hidden="true">↠</span></button>
+      <button id="skip" class="secondary" type="button"><span data-text="skip">Ander verhaal</span> <span aria-hidden="true">↠</span></button>
       <small id="skips"></small>
     </div>
   </section>
 </main>
 <!-- release-metadata -->
 <dialog id="parent-dialog" aria-labelledby="parent-title">
-  <h2 id="parent-title">Opnieuw beginnen</h2>
-  <p>Wil je deze kijkronde afsluiten?</p>
+  <h2 id="parent-title" data-text="restart">Opnieuw beginnen</h2>
+  <p data-text="confirmRestart">Wil je deze kijkronde afsluiten?</p>
   <form method="dialog">
-    <button class="secondary" value="continue" autofocus>Verder kijken</button>
-    <button class="primary" id="stop" value="stop">Opnieuw beginnen</button>
+    <button class="secondary" value="continue" data-text="resume" autofocus>Verder kijken</button>
+    <button class="primary" id="stop" value="stop" data-text="restart">Opnieuw beginnen</button>
   </form>
 </dialog>
 </body>

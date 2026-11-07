@@ -9,8 +9,8 @@
 <meta property="og:title" content="Voorleeshoek">
 <meta property="og:description" content="Een kijkplek voor Nederlandse, Spaanse en Zweedse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=5">
-<script src="./app.js?v=13" defer></script>
+<link rel="stylesheet" href="./style.css?v=6">
+<script src="./app.js?v=14" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -63,8 +63,12 @@
     </div>
     <div id="timeline" class="timeline" hidden>
       <span id="elapsed">0:00</span>
-      <progress id="video-progress" value="0" aria-label="Voortgang van het verhaal" data-label="timeline"></progress>
+      <div class="timeline-track">
+        <progress id="video-progress" value="0" aria-label="Voortgang van het verhaal" data-label="timeline"></progress>
+        <span id="skip-marker" aria-hidden="true" hidden></span>
+      </div>
       <span id="duration">–:––</span>
+      <small id="skip-window" role="status"></small>
     </div>
     <p id="autoplay-hint" data-text="autoplayHint" role="status" hidden>Tik op ▶ in de video om het verhaal te starten.</p>
     <div id="controls" class="controls">

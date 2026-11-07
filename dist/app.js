@@ -396,6 +396,8 @@ const translations = {
     skips: (count) => `Nog ${count} keer wisselen`,
     progress: (current, total) => `VERHAAL ${current} VAN ${total}`,
     timeline: 'Voortgang van het verhaal',
+    skipUntil: (time) => `Wisselen kan tot ${time}`,
+    skipClosed: 'Je kunt niet meer wisselen',
     loading: 'Het verhaal wordt klaargezet…',
     paused: 'Het verhaal staat op pauze.',
     waiting: 'Even wachten…',
@@ -430,6 +432,8 @@ const translations = {
     skips: (count) => `Du kan byta ${count} ${count === 1 ? 'gång' : 'gånger'} till`,
     progress: (current, total) => `SAGA ${current} AV ${total}`,
     timeline: 'Hur långt sagan har kommit',
+    skipUntil: (time) => `Du kan byta saga fram till ${time}`,
+    skipClosed: 'Du kan inte byta saga längre',
     loading: 'Sagan laddas…',
     paused: 'Sagan är pausad.',
     waiting: 'Vänta lite…',
@@ -464,6 +468,8 @@ const translations = {
     skips: (count) => count === 1 ? 'Queda 1 cambio' : `Quedan ${count} cambios`,
     progress: (current, total) => `CUENTO ${current} DE ${total}`,
     timeline: 'Progreso del cuento',
+    skipUntil: (time) => `Puedes cambiar de cuento hasta ${time}`,
+    skipClosed: 'Ya no puedes cambiar de cuento',
     loading: 'Cargando el cuento…',
     paused: 'El cuento está en pausa.',
     waiting: 'Un momento…',
@@ -483,6 +489,7 @@ const translations = {
 
 const get = (id) => document.getElementById(id);
 const storageKey = 'voorleeshoek-round-v2';
+const skipDeadline = 60;
 const limit = get('limit');
 const parentDialog = get('parent-dialog');
 const landscapeTouchScreen = matchMedia('(orientation: landscape) and (pointer: coarse) and (hover: none)');
@@ -576,6 +583,7 @@ function restoreRound() {
       const order = saved.order.filter((index) => stories[index][2] === currentLanguage);
       saved.cursor = order.indexOf(current);
       saved.order = order;
+      saved.skipLocked ||= saved.position >= skipDeadline;
       return saved;
     }
   } catch {
@@ -611,6 +619,7 @@ function moveToNextStory() {
     round.cursor = 0;
   }
   round.position = 0;
+  round.skipLocked = false;
 }
 
 function updateStepper() {
@@ -639,8 +648,16 @@ function updateControls() {
   get('resume').hidden = !paused;
   get('play').disabled = !playerReady && !paused;
   get('play').textContent = paused ? '▶ ' + copy.resume : playing ? 'Ⅱ ' + copy.pause : '▶ ' + copy.play;
-  get('skip').disabled = !round.skips || !!round.waitUntil;
+  updateSkipControls();
+}
+
+function updateSkipControls() {
+  get('skip').disabled = !round.skips || !!round.waitUntil || !!round.skipLocked;
+  get('skips').hidden = !!round.skipLocked;
   get('skips').textContent = copy.skips(round.skips);
+  const status = round.skipLocked ? copy.skipClosed :
+    round.skips ? copy.skipUntil(formatTime(skipDeadline)) : '';
+  if (get('skip-window').textContent !== status) get('skip-window').textContent = status;
 }
 
 function render() {
@@ -653,6 +670,7 @@ function render() {
   get('elapsed').textContent = formatTime(round.position || 0);
   get('duration').textContent = '–:––';
   get('video-progress').value = 0;
+  get('skip-marker').hidden = true;
   get('progress').textContent = done ? copy.done : copy.progress(round.completed + 1, round.total);
   get('story').textContent = done ? copy.doneTitle :
     round.waitUntil ? copy.waiting : stories[round.order[round.cursor]][1];
@@ -874,6 +892,7 @@ function savePosition() {
   const position = player.getCurrentTime();
   if (Number.isFinite(position)) {
     round.position = Math.floor(position);
+    lockSkipAtDeadline(position);
     storeRound();
   }
 }
@@ -884,11 +903,25 @@ function formatTime(seconds) {
   return minutes + ':' + String(wholeSeconds % 60).padStart(2, '0');
 }
 
+function lockSkipAtDeadline(position) {
+  if (round.skipLocked || !round.skips || position < skipDeadline) return;
+  round.skipLocked = true;
+  round.position = Math.floor(position);
+  updateSkipControls();
+  storeRound();
+}
+
 function updateTimeline() {
   if (!playerReady) return;
   const duration = player.getDuration();
   const elapsed = player.getCurrentTime();
-  if (!Number.isFinite(duration) || duration <= 0 || !Number.isFinite(elapsed)) return;
+  if (!Number.isFinite(elapsed)) return;
+  lockSkipAtDeadline(elapsed);
+  if (!Number.isFinite(duration) || duration <= 0) return;
+
+  const marker = get('skip-marker');
+  marker.hidden = !round.skips || duration <= skipDeadline;
+  if (!marker.hidden) marker.style.left = (100 * skipDeadline / duration) + '%';
 
   const position = Math.min(Math.max(elapsed, 0), duration);
   const progress = get('video-progress');
@@ -964,6 +997,7 @@ languageSelect.onchange = () => {
   round.order = shuffledStories();
   round.cursor = 0;
   round.position = 0;
+  round.skipLocked = false;
   if (round.waitUntil) {
     destroyPlayer();
     showStoryInURL();
@@ -980,7 +1014,12 @@ get('play').onclick = () => {
   else if (playerReady) player.playVideo();
 };
 get('skip').onclick = () => {
-  if (!round.skips || round.waitUntil || round.completed === round.total) return;
+  if (!round.skips || round.waitUntil || round.completed === round.total || round.skipLocked) return;
+  if (playerReady) {
+    const position = player.getCurrentTime();
+    if (Number.isFinite(position)) lockSkipAtDeadline(position);
+    if (round.skipLocked) return;
+  }
   destroyPlayer();
   round.skips -= 1;
   round.waitUntil = Date.now() + 10000;

@@ -9,9 +9,9 @@
 <meta property="og:title" content="Voorleeshoek">
 <meta property="og:description" content="Een kijkplek voor Nederlandse, Spaanse en Zweedse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=13">
+<link rel="stylesheet" href="./style.css?v=14">
 <script src="./stories.js?v=2" defer></script>
-<script src="./app.js?v=20" defer></script>
+<script src="./app.js?v=21" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -46,15 +46,14 @@
     </div>
     <div class="intro">
       <div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span data-text="siteName">Voorleeshoek</span></div>
-      <p class="eyebrow" data-text="eyebrow">VOORLEZEN · NEDERLANDS</p>
       <h1 id="welcome-title" data-text="welcome">Voorleestijd!</h1>
       <p class="subtitle" data-text="subtitle">Kruip lekker op de bank. Er wacht een verhaal op je.</p>
       <form id="settings">
-        <label for="limit" data-text="storyCount">Hoeveel verhaaltjes?</label>
+        <label for="limit" data-text="storyCount">Hoeveel verhalen?</label>
         <div class="stepper">
-          <button id="minus" type="button" aria-label="Eén verhaaltje minder" data-label="less">−</button>
+          <button id="minus" type="button" aria-label="Eén verhaal minder" data-label="less">−</button>
           <input id="limit" type="number" min="1" max="6" value="3" required inputmode="numeric">
-          <button id="plus" type="button" aria-label="Eén verhaaltje meer" data-label="more">+</button>
+          <button id="plus" type="button" aria-label="Eén verhaal meer" data-label="more">+</button>
         </div>
         <button class="primary" type="submit"><span aria-hidden="true">▶</span> <span data-text="start">Begin met kijken</span></button>
       </form>

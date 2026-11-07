@@ -299,6 +299,7 @@ function updateSkipControls() {
 
 function render() {
   const done = round.completed === round.total;
+  const [, title, , channel] = stories[round.order[round.cursor]];
   get('setup').hidden = true;
   languageOptions.hidden = true;
   get('parents').hidden = false;
@@ -312,7 +313,10 @@ function render() {
   get('skip-marker').hidden = true;
   get('progress').textContent = done ? copy.done : copy.progress(round.completed + 1, round.total);
   get('story').textContent = done ? copy.doneTitle :
-    round.waitUntil ? copy.waiting : stories[round.order[round.cursor]][1];
+    round.waitUntil ? copy.waiting : title;
+  const storyChannel = get('story-channel');
+  storyChannel.textContent = channel || '';
+  storyChannel.hidden = done || !!round.waitUntil || !channel;
   get('dots').replaceChildren(...Array.from({ length: round.total }, (_, index) => {
     const dot = document.createElement('span');
     if (index < round.completed) dot.className = 'filled';

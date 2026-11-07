@@ -9,9 +9,9 @@
 <meta property="og:title" content="Voorleeshoek">
 <meta property="og:description" content="Een kijkplek voor Nederlandse, Spaanse en Zweedse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=14">
-<script src="./stories.js?v=5" defer></script>
-<script src="./app.js?v=23" defer></script>
+<link rel="stylesheet" href="./style.css?v=16">
+<script src="./stories.js?v=6" defer></script>
+<script src="./app.js?v=24" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -61,7 +61,11 @@
   </section>
   <section id="session" class="watch" aria-labelledby="story" hidden>
     <div class="watch-head">
-      <div><p id="progress" class="eyebrow"></p><h1 id="story" tabindex="-1"></h1></div>
+      <div>
+        <p id="progress" class="eyebrow"></p>
+        <h1 id="story" tabindex="-1"></h1>
+        <p id="story-channel" hidden></p>
+      </div>
       <div id="dots" class="dots" aria-hidden="true"></div>
     </div>
     <div class="screen" id="screen">

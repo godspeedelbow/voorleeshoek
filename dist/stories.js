@@ -315,11 +315,11 @@ const stories = [
   ["rG5Cf_SbK50", "De prinses met de lange haren", "nl", "Opa Dirk leest voor", 554],
 
   // Juf Eline en andere voorlezers
-  ["k5GDujS_Glo", "Op hoge poten", "nl", "Juffrouw Eline", 631],
-  ["ThHlKPZVOuY", "Kleine Ezel en de durfal", "nl", "Juffrouw Eline", 610],
+  , // Verwijderd: k5GDujS_Glo
+  , // Verwijderd: ThHlKPZVOuY
   ["PPVi6-zIaQI", "Dotties eieren", "nl", "Juf Esther", 439],
   ["H25OLGO6-PA", "Eén muisje kan toch geen optocht zijn?", "nl", "Bavinck Kleuters", 306],
-  ["bT3-nsY9294", "Tim op de tegels", "nl", "Juffrouw Eline", 482],
+  , // Verwijderd: bT3-nsY9294
 
   // Pappa Läser · Alfons Åberg
   ["rCqT42jrFfI", "Aja baja, Alfons Åberg!", "sv", "Pappa Läser", 365],

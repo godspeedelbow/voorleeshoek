@@ -187,8 +187,12 @@ let roundURL;
 
 function storeRound() {
   try {
-    if (round) sessionStorage.setItem(storageKey, JSON.stringify(round));
-    else sessionStorage.removeItem(storageKey);
+    if (round) {
+      const order = round.order.map((index) => stories[index][0]);
+      sessionStorage.setItem(storageKey, JSON.stringify({ ...round, order }));
+    } else {
+      sessionStorage.removeItem(storageKey);
+    }
   } catch {
     // Keep the current round usable when browser storage is unavailable.
   }
@@ -198,14 +202,22 @@ function restoreRound() {
   try {
     const saved = JSON.parse(sessionStorage.getItem(storageKey));
     if (saved && saved.total >= 1 && saved.total <= Number(limit.max) &&
-        Array.isArray(saved.order) && saved.order.every((index) => stories[index]) &&
+        Array.isArray(saved.order) &&
         saved.completed >= 0 && saved.completed <= saved.total &&
-        saved.skips >= 0 && saved.skips <= 3 &&
-        stories[saved.order[saved.cursor]]) {
-      const current = saved.order[saved.cursor];
+        saved.skips >= 0 && saved.skips <= 3) {
+      const indices = saved.order.map((entry) => {
+        if (typeof entry === 'string') return stories.findIndex(([id]) => id === entry);
+
+        // Rounds saved before video IDs used catalog positions. One entry was removed at index 201.
+        const removedIndex = 201;
+        if (!Number.isInteger(entry) || entry === removedIndex) return -1;
+        return entry > removedIndex ? entry - 1 : entry;
+      });
+      const current = indices[saved.cursor];
+      if (!stories[current]) return;
       const currentLanguage = stories[current][2];
       // Keep the current story and playback position in older multilingual rounds.
-      const order = saved.order.filter((index) => stories[index][2] === currentLanguage);
+      const order = indices.filter((index) => stories[index]?.[2] === currentLanguage);
       saved.cursor = order.indexOf(current);
       saved.order = order;
       saved.skipLocked ||= saved.position >= skipDeadline;

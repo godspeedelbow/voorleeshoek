@@ -204,7 +204,6 @@ const stories = [
   ["3YnJYc9jYrU", "Koning Ezelsoren", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 342],
   ["g_h-rR0J-BE", "Stella en de zeemeeuw", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 533],
   ["kBpQBXNBe_c", "Kijk uit, een draak!", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 258],
-  ["R5B8J3TCZcY", "Zo zijn ouders", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 174],
   ["W7qJ6-kbXL0", "Help! Dit boek is dol", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 260],
   ["0c4jRhBdY40", "Kikker is verliefd", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 427],
   ["kUPfQn5La90", "Nieuwsgierige Lotje", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 341],

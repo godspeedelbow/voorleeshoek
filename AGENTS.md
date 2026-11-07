@@ -16,7 +16,7 @@ Gebruik bij een verwijderverzoek de `?v=`-link uit de browsercontext of het
 video-ID van de geselecteerde video. Voer vanuit deze repo uit:
 
 ```sh
-python3 scripts/remove-story.py '<Voorleeshoek-link of video-ID>'
+python3 scripts/remove-story.py -- '<Voorleeshoek-link of video-ID>'
 ```
 
 Het script houdt de posities voor oude kijkrondes intact en vernieuwt de

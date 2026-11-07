@@ -295,7 +295,7 @@ const stories = [
   ["ZHJb-oCwT6U", "Aadje Piraatje", "nl", "Gottmer Uitgevers Groep", 263],
 
   // Prentenboeken voor peuters en kleuters
-  ["Q31lbbJgvdQ", "Dokter Vos", "nl", "leoowtje", 619],
+  , // Verwijderd: Q31lbbJgvdQ
   ["hSb7-1tpFGc", "Voordat jij er was", "nl", "Saskia Broerse", 355],
   ["-9ax7g44sY0", "Kikker is Kikker", "nl", "Maatschap De Denkschool", 575],
   ["2ohx7a2DrtU", "Kleine muis zoekt een huis", "nl", "Gottmer Uitgevers Groep", 323],
@@ -304,14 +304,14 @@ const stories = [
   ["-Uom0mjyUG4", "Tim en opa", "nl", "Hanneke leest voor", 357],
   ["iranrI1Dlv0", "Waar is mijn kever?", "nl", "Hanneke leest voor", 482],
   ["Uh8ohWu09Lk", "Wij gaan op berenjacht", "nl", "Gottmer Uitgevers Groep", 349],
-  ["6ZXruzAxTjU", "Een huis vol spoken", "nl", "juf An", 309],
-  ["2J6JRpjWFvQ", "Ik zou wel een kindje lusten", "nl", "juf An", 351],
-  ["-0dKRMgzUfE", "Raad eens hoeveel ik van je hou", "nl", "juf An", 421],
-  ["YVZacbMh1nM", "Kikker en de warme dag", "nl", "juf An", null],
-  ["S6RqhaueWik", "Ssst! We hebben een plan", "nl", "juf An", 374],
-  ["GBEkwHsVCAI", "Kikker en het vogeltje", "nl", "juf An", null],
-  ["ZvQMjNuhCJ8", "Hoe groot is de wereld?", "nl", "juf An", 543],
-  ["bKgXYF29AYc", "Garage Gust", "nl", "juf An", 290],
+  , // Verwijderd: 6ZXruzAxTjU
+  , // Verwijderd: 2J6JRpjWFvQ
+  , // Verwijderd: -0dKRMgzUfE
+  , // Verwijderd: YVZacbMh1nM
+  , // Verwijderd: S6RqhaueWik
+  , // Verwijderd: GBEkwHsVCAI
+  , // Verwijderd: ZvQMjNuhCJ8
+  , // Verwijderd: bKgXYF29AYc
   ["rG5Cf_SbK50", "De prinses met de lange haren", "nl", "Opa Dirk leest voor", 554],
 
   // Juf Eline en andere voorlezers

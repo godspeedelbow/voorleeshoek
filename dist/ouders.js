@@ -6,6 +6,7 @@ const channelField = document.getElementById('catalog-channel');
 const sortField = document.getElementById('catalog-sort');
 const status = document.getElementById('catalog-status');
 const results = document.getElementById('catalog-results');
+const storageKey = 'voorleeshoek-catalog-view';
 
 function searchableTitle(title) {
   return title.toLocaleLowerCase('nl').normalize('NFD').replace(/\p{M}/gu, '');
@@ -23,9 +24,8 @@ const groups = Array.from(languageField.options).slice(1).map((option) => {
 
 const channelCollator = new Intl.Collator('nl', { sensitivity: 'base' });
 
-function updateLanguageFilter() {
+function updateLanguageFilter(selectedChannel = channelField.value) {
   const selectedLanguage = languageField.value;
-  const selectedChannel = channelField.value;
   const channels = [...new Set(groups
     .filter(({ language }) => !selectedLanguage || language === selectedLanguage)
     .flatMap(({ videos }) => videos.map(({ channel }) => channel))
@@ -77,16 +77,25 @@ function renderCatalog() {
       preview.referrerPolicy = 'no-referrer';
       preview.addEventListener('error', () => { preview.src = './book.svg'; }, { once: true });
       preview.src = 'https://i.ytimg.com/vi/' + encodeURIComponent(id) + '/mqdefault.jpg';
-      const caption = document.createElement('div');
-      caption.className = 'catalog-caption';
       const name = document.createElement('span');
       name.className = 'catalog-title';
       name.lang = language;
       name.textContent = title;
       const details = document.createElement('div');
       details.className = 'catalog-details';
-      const channelName = document.createElement('span');
+      const channelName = document.createElement(channel ? 'button' : 'span');
       channelName.textContent = channel || 'Kanaal onbekend';
+      if (channel) {
+        channelName.type = 'button';
+        channelName.className = 'catalog-channel-button';
+        channelName.addEventListener('click', () => {
+          searchField.value = '';
+          channelField.value = channel;
+          renderCatalog();
+          channelField.focus({ preventScroll: true });
+          window.scrollTo(0, 0);
+        });
+      }
       details.append(channelName);
       if (duration) {
         const time = document.createElement('time');
@@ -98,9 +107,8 @@ function renderCatalog() {
         unknown.textContent = 'Duur onbekend';
         details.append(unknown);
       }
-      caption.append(name, details);
-      link.append(preview, caption);
-      item.append(link);
+      link.append(preview, name);
+      item.append(link, details);
       list.append(item);
     }
     section.append(heading, list);
@@ -112,11 +120,42 @@ function renderCatalog() {
   status.textContent = count === 0 ? 'Geen filmpjes gevonden.' : count === 1 ? '1 filmpje' : count + ' filmpjes';
 }
 
+let savedView;
+try {
+  savedView = JSON.parse(sessionStorage.getItem(storageKey));
+} catch {
+  // The catalog also works without browser storage.
+}
+
+if (savedView) {
+  searchField.value = savedView.search ?? '';
+  languageField.value = savedView.language ?? '';
+  sortField.value = savedView.sort === 'desc' ? 'desc' : 'asc';
+}
+
 searchField.addEventListener('input', renderCatalog);
-languageField.addEventListener('change', updateLanguageFilter);
+languageField.addEventListener('change', () => updateLanguageFilter());
 channelField.addEventListener('change', renderCatalog);
 sortField.addEventListener('change', renderCatalog);
-window.addEventListener('pageshow', (event) => {
-  if (event.persisted) updateLanguageFilter();
+updateLanguageFilter(savedView?.channel);
+
+history.scrollRestoration = 'manual';
+window.addEventListener('pagehide', () => {
+  savedView = {
+    search: searchField.value,
+    language: languageField.value,
+    channel: channelField.value,
+    sort: sortField.value,
+    scrollY: window.scrollY,
+  };
+  try {
+    sessionStorage.setItem(storageKey, JSON.stringify(savedView));
+  } catch {
+    // The current document can still restore its position from the back-forward cache.
+  }
 });
-updateLanguageFilter();
+window.addEventListener('pageshow', () => {
+  if (Number.isFinite(savedView?.scrollY)) {
+    requestAnimationFrame(() => window.scrollTo(0, savedView.scrollY));
+  }
+});

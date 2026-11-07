@@ -25,7 +25,7 @@ const translations = {
     paused: 'Het verhaal staat op pauze.',
     waiting: 'Even wachten…',
     next: 'Straks komt er een ander verhaal',
-    autoplayHint: 'Tik op ▶ in de video om het verhaal te starten.',
+    autoplayHint: 'Tik op Afspelen om het verhaal te starten.',
     playbackError: 'Dit verhaal kan nu niet worden afgespeeld.',
     retry: 'Probeer opnieuw',
     done: 'VOORLEESTIJD · KLAAR',
@@ -61,7 +61,7 @@ const translations = {
     paused: 'Sagan är pausad.',
     waiting: 'Vänta lite…',
     next: 'Snart kommer en annan saga',
-    autoplayHint: 'Tryck på ▶ i videon för att starta sagan.',
+    autoplayHint: 'Tryck på Spela upp för att starta sagan.',
     playbackError: 'Sagan går inte att spela upp just nu.',
     retry: 'Försök igen',
     done: 'SAGOSTUND · SLUT',
@@ -97,7 +97,7 @@ const translations = {
     paused: 'El cuento está en pausa.',
     waiting: 'Un momento…',
     next: 'Enseguida empieza otro cuento',
-    autoplayHint: 'Toca ▶ en el vídeo para empezar el cuento.',
+    autoplayHint: 'Toca Reproducir para empezar el cuento.',
     playbackError: 'Este cuento no se puede reproducir ahora.',
     retry: 'Inténtalo de nuevo',
     done: 'HORA DEL CUENTO · FIN',
@@ -760,5 +760,5 @@ if (round) {
     showMessage(copy.farewell);
   }
   else if (round.waitUntil) tick();
-  else mount(false);
+  else mount(round === linkedRound);
 }

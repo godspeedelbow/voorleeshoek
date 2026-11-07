@@ -120,6 +120,17 @@ function renderCatalog() {
   status.textContent = count === 0 ? 'Geen filmpjes gevonden.' : count === 1 ? '1 filmpje' : count + ' filmpjes';
 }
 
+const interfaceLanguage = new URLSearchParams(location.search).get('lang');
+let defaultLanguage = interfaceLanguage;
+if (!defaultLanguage) {
+  try {
+    defaultLanguage = localStorage.getItem('voorleeshoek-language');
+  } catch {
+    // Dutch is the default if the stored language is unavailable.
+  }
+}
+if (!groups.some(({ language }) => language === defaultLanguage)) defaultLanguage = 'nl';
+
 let savedView;
 try {
   savedView = JSON.parse(sessionStorage.getItem(storageKey));
@@ -127,14 +138,22 @@ try {
   // The catalog also works without browser storage.
 }
 
+let languageOverride = savedView?.languageOverride ?? (savedView?.language || null);
+if (languageOverride !== '' && !groups.some(({ language }) => language === languageOverride)) {
+  languageOverride = null;
+}
+languageField.value = languageOverride ?? defaultLanguage;
+
 if (savedView) {
   searchField.value = savedView.search ?? '';
-  languageField.value = savedView.language ?? '';
   sortField.value = savedView.sort === 'desc' ? 'desc' : 'asc';
 }
 
 searchField.addEventListener('input', renderCatalog);
-languageField.addEventListener('change', () => updateLanguageFilter());
+languageField.addEventListener('change', () => {
+  languageOverride = languageField.value;
+  updateLanguageFilter();
+});
 channelField.addEventListener('change', renderCatalog);
 sortField.addEventListener('change', renderCatalog);
 updateLanguageFilter(savedView?.channel);
@@ -143,7 +162,7 @@ history.scrollRestoration = 'manual';
 window.addEventListener('pagehide', () => {
   savedView = {
     search: searchField.value,
-    language: languageField.value,
+    languageOverride,
     channel: channelField.value,
     sort: sortField.value,
     scrollY: window.scrollY,

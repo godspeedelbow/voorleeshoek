@@ -144,6 +144,7 @@ function applyLanguage(nextLanguage) {
   language = nextLanguage;
   copy = translations[language];
   document.documentElement.lang = language;
+  get('parent-catalog-link').href = './ouders.html?lang=' + language;
   for (const input of languageInputs) input.checked = input.value === language;
   document.title = copy.siteName;
   document.querySelectorAll('[data-text]').forEach((element) => {

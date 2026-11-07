@@ -280,11 +280,10 @@ function updateControls() {
 }
 
 function updateSkipControls() {
-  get('skip').hidden = !!round.linked;
-  get('skip').disabled = !round.skips || !!round.waitUntil || !!round.skipLocked;
+  get('skip').disabled = !round.linked && (!round.skips || !!round.waitUntil || !!round.skipLocked);
   get('skips').hidden = !!round.linked || !!round.skipLocked;
   get('skips').textContent = copy.skips(round.skips);
-  const status = round.skipLocked ? copy.skipClosed :
+  const status = round.linked ? '' : round.skipLocked ? copy.skipClosed :
     round.skips ? copy.skipUntil(formatTime(skipDeadline)) : '';
   if (get('skip-window').textContent !== status) get('skip-window').textContent = status;
 }
@@ -292,9 +291,11 @@ function updateSkipControls() {
 function render() {
   const done = round.completed === round.total;
   get('setup').hidden = true;
+  languageOptions.hidden = true;
   get('parents').hidden = false;
   get('session').hidden = false;
-  get('controls').hidden = done;
+  get('controls').hidden = done && !round.linked;
+  get('play').hidden = done;
   get('timeline').hidden = done || !!round.waitUntil;
   get('elapsed').textContent = formatTime(round.position || 0);
   get('duration').textContent = '–:––';
@@ -497,6 +498,7 @@ function showSetup() {
   updateStepper();
   get('session').hidden = true;
   get('setup').hidden = false;
+  languageOptions.hidden = false;
   get('parents').hidden = true;
 }
 
@@ -643,6 +645,14 @@ get('play').onclick = () => {
   else if (playerReady) player.playVideo();
 };
 get('skip').onclick = () => {
+  if (round.linked) {
+    round.completed = 0;
+    moveToNextStory();
+    mount(true);
+    get('story').focus();
+    return;
+  }
+
   if (!round.skips || round.waitUntil || round.completed === round.total || round.skipLocked) return;
   if (playerReady) {
     const position = player.getCurrentTime();

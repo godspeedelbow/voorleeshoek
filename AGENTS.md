@@ -9,3 +9,16 @@ Gebruik voor dit project gerust `curl`, bijvoorbeeld om de live site te
 controleren. De gebruiker heeft hier doorlopend toestemming voor gegeven.
 Gebruik waar mogelijk de toegestane curl-opdracht en vraag de gebruiker niet
 opnieuw om toestemming.
+
+# Video verwijderen
+
+Gebruik bij een verwijderverzoek de `?v=`-link uit de browsercontext of het
+video-ID van de geselecteerde video. Voer vanuit deze repo uit:
+
+```sh
+python3 scripts/remove-story.py '<Voorleeshoek-link of video-ID>'
+```
+
+Het script houdt de posities voor oude kijkrondes intact en vernieuwt de
+catalogusversie op beide pagina’s. Controleer de diff en publiceer volgens
+de afspraken hierboven.

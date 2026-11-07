@@ -206,7 +206,7 @@ function restoreRound() {
         saved.completed >= 0 && saved.completed <= saved.total &&
         saved.skips >= 0 && saved.skips <= 3) {
       const indices = saved.order.map((entry) => {
-        if (typeof entry === 'string') return stories.findIndex(([id]) => id === entry);
+        if (typeof entry === 'string') return stories.findIndex((story) => story?.[0] === entry);
 
         // Rounds saved before video IDs used catalog positions. One entry was removed at index 201.
         const removedIndex = 201;
@@ -526,7 +526,7 @@ function showSetup() {
 
 function roundForURL() {
   const id = new URL(location.href).searchParams.get('v');
-  const index = stories.findIndex((story) => story[0] === id);
+  const index = stories.findIndex((story) => story?.[0] === id);
   if (index === -1) return;
   return {
     linked: true,

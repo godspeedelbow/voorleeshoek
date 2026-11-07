@@ -40,7 +40,7 @@ def candidates(source):
 
 
 def main():
-    catalog = (ROOT / "dist/app.js").read_text(encoding="utf-8")
+    catalog = (ROOT / "dist/stories.js").read_text(encoding="utf-8")
     seen = set(re.findall(rf'^\s*\["({VIDEO_ID})",', catalog, re.MULTILINE))
     print("# Voorleesboeken om te bekijken")
     print("\nControleer leeftijd, gesproken taal, voorleesvorm en afspeelbaarheid "

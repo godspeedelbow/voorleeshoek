@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fff5e6">
+<title>Voor ouders · Voorleeshoek</title>
+<link rel="stylesheet" href="./style.css?v=9">
+<script src="./stories.js?v=2" defer></script>
+<script src="./ouders.js?v=3" defer></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span>Voorleeshoek</span></div>
+  <a class="quiet catalog-link" href="./">Terug naar de Voorleeshoek</a>
+</header>
+<main class="catalog">
+  <header>
+    <p class="eyebrow">VOOR OUDERS</p>
+    <h1>Alle voorleesfilmpjes</h1>
+    <p>Zoek op titel, filter op taal of kanaal. Een filmpje opent in een nieuw tabblad.</p>
+  </header>
+  <div class="catalog-filters" role="group" aria-label="Filmpjes zoeken en sorteren">
+    <div>
+      <label for="catalog-search">Zoek op titel</label>
+      <input type="search" id="catalog-search" placeholder="Bijv. Pelle">
+    </div>
+    <div>
+      <label for="catalog-language">Taal</label>
+      <select id="catalog-language">
+        <option value="">Alle talen</option>
+        <option value="nl">Nederlands</option>
+        <option value="sv">Zweeds</option>
+        <option value="es">Spaans</option>
+      </select>
+    </div>
+    <div>
+      <label for="catalog-channel">YouTube-kanaal</label>
+      <select id="catalog-channel">
+        <option value="">Alle kanalen</option>
+      </select>
+    </div>
+    <div>
+      <label for="catalog-sort">Sorteren</label>
+      <select id="catalog-sort">
+        <option value="asc">Titel A–Z</option>
+        <option value="desc">Titel Z–A</option>
+      </select>
+    </div>
+  </div>
+  <p id="catalog-status" role="status"></p>
+  <div id="catalog-results"></div>
+  <noscript><p>Zet JavaScript aan om de filmpjes te bekijken.</p></noscript>
+</main>
+</body>
+</html>

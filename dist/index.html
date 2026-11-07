@@ -9,8 +9,9 @@
 <meta property="og:title" content="Voorleeshoek">
 <meta property="og:description" content="Een kijkplek voor Nederlandse, Spaanse en Zweedse voorleesverhalen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=6">
-<script src="./app.js?v=14" defer></script>
+<link rel="stylesheet" href="./style.css?v=10">
+<script src="./stories.js?v=2" defer></script>
+<script src="./app.js?v=17" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -18,12 +19,22 @@
 </section>
 <header class="masthead">
   <div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span data-text="siteName">Voorleeshoek</span></div>
+  <fieldset id="language" class="language-options" aria-label="Taal" data-label="language">
+    <label>
+      <input type="radio" name="language" value="nl" checked>
+      <span lang="nl"><span class="language-flag" aria-hidden="true">🇳🇱</span>Nederlands</span>
+    </label>
+    <label>
+      <input type="radio" name="language" value="sv">
+      <span lang="sv"><span class="language-flag" aria-hidden="true">🇸🇪</span>Svenska</span>
+    </label>
+    <label>
+      <input type="radio" name="language" value="es">
+      <span lang="es"><span class="language-flag" aria-hidden="true">🇪🇸</span>Español</span>
+    </label>
+  </fieldset>
   <div class="header-controls">
-    <select id="language" class="quiet" aria-label="Taal" data-label="language">
-      <option value="nl" lang="nl">Nederlands</option>
-      <option value="sv" lang="sv">Svenska</option>
-      <option value="es" lang="es">Español</option>
-    </select>
+    <a href="./ouders.html" class="quiet catalog-link" data-text="parentCatalog">Voor ouders</a>
     <button id="parents" class="quiet" type="button" data-text="restart" hidden>Opnieuw beginnen</button>
   </div>
 </header>

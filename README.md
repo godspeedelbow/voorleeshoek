@@ -4,10 +4,18 @@ Een eenvoudige kijkronde met voorgelezen kinderboeken in het Nederlands, Spaans 
 
 ## Nieuwe voorleesboeken
 
-De selectie in `dist/app.js` bevat losse video's uit afspeellijsten en bibliotheekcollecties. De GitHub-actie **Zoek nieuwe voorleesboeken** controleert die bronnen wekelijks en zet video's die nog buiten de catalogus staan in het overzicht van de run. Je kunt dezelfde controle lokaal draaien:
+De selectie in `dist/stories.js` bevat losse video's uit afspeellijsten en bibliotheekcollecties. De GitHub-actie **Zoek nieuwe voorleesboeken** controleert die bronnen wekelijks en zet video's die nog buiten de catalogus staan in het overzicht van de run. Je kunt dezelfde controle lokaal draaien:
 
 ```sh
 python3 scripts/check-readaloud-sources.py
 ```
 
-Bekijk een kandidaat vóór opname: past het verhaal bij ongeveer vijf jaar, wordt er een boek voorgelezen in de gekozen taal en kan de video worden ingesloten? Sommige lijsten bevatten ook rijmpjes, tekenfilms, andere talen of losse boekdelen. Voeg goedgekeurde video's onderaan de betreffende selectie toe als `["YouTube-ID", "Boektitel", "nl"]` (of `"es"` / `"sv"`). Houd de volgorde van bestaande regels aan, zodat lopende kijkrondes na herladen hetzelfde boek terugvinden.
+Bekijk een kandidaat vóór opname: past het verhaal bij ongeveer vijf jaar, wordt er een boek voorgelezen in de gekozen taal en kan de video worden ingesloten? Sommige lijsten bevatten ook rijmpjes, tekenfilms, andere talen of losse boekdelen.
+
+Haal voor goedgekeurde filmpjes de titel, zichtbare kanaalnaam en speelduur op met:
+
+```sh
+python3 scripts/prepare-story.py sv 'https://www.youtube.com/watch?v=oMi3nIvjUf4'
+```
+
+Vervang `sv` door `nl` of `es` voor Nederlands of Spaans. Je kunt meerdere links of video-ID's opgeven. Het script geeft regels terug voor `dist/stories.js`. Controleer de titels en voeg nieuwe regels onderaan toe. Houd de volgorde van bestaande regels aan, zodat lopende kijkrondes na herladen hetzelfde boek terugvinden. De ouderpagina laadt het voorbeeldplaatje van YouTube op basis van het video-ID.

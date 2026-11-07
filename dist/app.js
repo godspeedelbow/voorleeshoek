@@ -358,6 +358,13 @@ function failPlayback(ticket) {
   showMessage(copy.playbackError, '', true);
 }
 
+function turnOffCaptions(player) {
+  // YouTube can restore a caption track from viewer preferences or on a new video.
+  if (!player.getOptions?.()?.includes('captions')) return;
+  player.setOption('captions', 'track', {});
+  player.unloadModule?.('captions');
+}
+
 async function mount(autoplay) {
   showStoryInURL();
   destroyPlayer();
@@ -385,6 +392,7 @@ async function mount(autoplay) {
       origin: location.origin,
       rel: '0',
       playsinline: '1',
+      cc_load_policy: '0',
       controls: '0',
       disablekb: '1',
       fs: '0',
@@ -405,9 +413,13 @@ async function mount(autoplay) {
           if (ticket !== generation) return;
           clearTimeout(timer);
           playerReady = true;
+          turnOffCaptions(event.target);
           updateTimeline();
           updateControls();
           if (autoplay && !playing) event.target.playVideo();
+        },
+        onApiChange(event) {
+          if (ticket === generation) turnOffCaptions(event.target);
         },
         onAutoplayBlocked() {
           if (ticket === generation && !playing) get('autoplay-hint').hidden = false;
@@ -417,6 +429,7 @@ async function mount(autoplay) {
         },
         onStateChange(event) {
           if (ticket !== generation) return;
+          if (event.data === YT.PlayerState.PLAYING) turnOffCaptions(event.target);
           if (event.data === YT.PlayerState.ENDED) {
             completeStory();
             return;

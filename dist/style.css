@@ -24,23 +24,21 @@ button:disabled{opacity:.55;cursor:default}
 .brand{font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
 .brand-mark{flex:none;display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--accent);color:var(--ink)}
 .header-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.language-controls{display:flex;align-items:center;gap:8px}
 .language-options{
-  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;
-  min-width:0;margin:0;padding:0;border:0;
+  display:grid;grid-template-columns:repeat(3,48px);gap:6px;
+  margin:0;padding:0;border:0;
 }
 .language-options label{position:relative;cursor:pointer;touch-action:manipulation}
 .language-options input{position:absolute;opacity:0;margin:0}
 .language-options label > span{
-  display:grid;justify-items:center;align-content:center;gap:3px;
-  min-height:64px;padding:4px 8px;
-  border:2px solid var(--line);border-radius:16px;background:var(--soft);
-  font-size:.875rem;font-weight:750;
+  display:grid;place-items:center;height:48px;
+  border:2px solid var(--line);border-radius:14px;background:var(--soft);
+  font-size:1.5rem;line-height:1;
 }
-.language-flag{font-size:1.75rem;line-height:1}
 .language-options label:hover > span{border-color:#9b75b3}
 .language-options input:checked + span{border-color:#783ab0;background:var(--accent)}
 .language-options input:focus-visible + span{outline:3px solid #783ab0;outline-offset:2px}
-@media(max-width:650px){.language-options{order:1;flex-basis:100%}}
 main{flex:1;display:grid;grid-template-columns:minmax(0,1fr);align-items:center;padding-block:42px}
 .rotate-notice{display:none}
 .needs-portrait > .masthead,.needs-portrait > main{display:none}

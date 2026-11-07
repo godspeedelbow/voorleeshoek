@@ -27,17 +27,29 @@ def video_id(value):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('video', type=video_id)
+    parser.add_argument('video', nargs='+', type=video_id)
     args = parser.parse_args()
     catalog = DIST / 'stories.js'
     source = catalog.read_text(encoding='utf-8')
-    row = re.compile(rf'^( +)\["{re.escape(args.video)}",.*\],$', re.MULTILINE)
-    matches = list(row.finditer(source))
-    if not matches:
-        print(f'{args.video} staat al buiten de catalogus.')
+    removed = []
+    for video in dict.fromkeys(args.video):
+        row = re.compile(rf'^( +)\["{re.escape(video)}",.*\],$', re.MULTILINE)
+        matches = list(row.finditer(source))
+        if not matches:
+            print(f'{video} staat al buiten de catalogus.')
+            continue
+        if len(matches) != 1:
+            parser.error(f'{video} komt meerdere keren voor in de catalogus.')
+
+        match = matches[0]
+        _, title, *_ = json.JSONDecoder().raw_decode(match[0].lstrip())[0]
+        # Keep this array slot empty so older rounds still refer to the right videos.
+        tombstone = f'{match[1]}, // Verwijderd: {video}'
+        source = source[:match.start()] + tombstone + source[match.end():]
+        removed.append((video, title))
+
+    if not removed:
         return
-    if len(matches) != 1:
-        parser.error(f'{args.video} komt meerdere keren voor in de catalogus.')
 
     pages = {DIST / name: (DIST / name).read_text(encoding='utf-8')
              for name in ('index.html', 'ouders.html')}
@@ -49,14 +61,12 @@ def main():
         versions.append(int(refs[0][1]))
     version = max(versions) + 1
 
-    match = matches[0]
-    _, title, *_ = json.JSONDecoder().raw_decode(match[0].lstrip())[0]
-    # Keep this array slot empty so older rounds still refer to the right videos.
-    tombstone = f'{match[1]}, // Verwijderd: {args.video}'
-    catalog.write_text(source[:match.start()] + tombstone + source[match.end():], encoding='utf-8')
+    catalog.write_text(source, encoding='utf-8')
     for path, html in pages.items():
         path.write_text(STORIES_VERSION.sub(lambda ref: f'{ref[1]}{version}{ref[3]}', html), encoding='utf-8')
-    print(f'Verwijderd: {title} ({args.video}). Catalogusversie: {version}.')
+    for video, title in removed:
+        print(f'Verwijderd: {title} ({video}).')
+    print(f'Catalogusversie: {version}.')
 
 
 if __name__ == '__main__':

@@ -187,35 +187,34 @@ const stories = [
   ["8Ktg-7zHdLw", "Ik wil op reis!", "nl", "Welkom bij meester Bart", 330],
   ["JW0z3nPyiv8", "Nummer 100: Noor zet door", "nl", "Welkom bij meester Bart", 268],
 
-  // Digitaal voorlezen · SBS De Regenboog & ’t Zavelken
-  ["_s4R2t9BNR4", "Hennie de heks en de toverwedstrijd", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 401],
-  ["2-vPdlU6UOg", "Ik ben een tijger", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 250],
-  ["p3Z4tqvulug", "De gevaarlijkste wolf van de stad", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 414],
-  ["UGtMg64DewQ", "Robothond", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 310],
-  ["csPUkYlIXXo", "Monster nummer 10", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 807],
-  ["fhBfF6_r83U", "Nina, de kleine, verlegen dinosaurus", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 434],
-  ["YqNERKhF4AY", "Tomte en de vos", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 332],
-  ["lmZd15JZxno", "Flappie houdt van lezen", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 213],
-  ["_JTO8RDr-HI", "Warme truien", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 276],
-  ["RX3ziFLy79M", "Het huis met de gele deur", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 504],
-  ["qLNPwricJkw", "Daar zijn echte vrienden voor", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 526],
-  ["1yT9WUjmn5Q", "Coco kan het", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 232],
-  ["6g78sC5x7Z0", "Dappere dinovriendjes", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 578],
-  ["3YnJYc9jYrU", "Koning Ezelsoren", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 342],
-  ["g_h-rR0J-BE", "Stella en de zeemeeuw", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 533],
-  ["kBpQBXNBe_c", "Kijk uit, een draak!", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 258],
-  ["W7qJ6-kbXL0", "Help! Dit boek is dol", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 260],
-  ["0c4jRhBdY40", "Kikker is verliefd", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 427],
-  ["kUPfQn5La90", "Nieuwsgierige Lotje", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 341],
-  ["xwFTrHUW_Fg", "Het circusschip", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 550],
-  ["8InDXJzYuAs", "Eefje donkerblauw", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 451],
-  ["Rt5qVS-BhWI", "Het Kringloopwinkeltje", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 881],
-  ["P5tyPopsfqQ", "Kleine Rex", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 293],
-  ["VkX2Jj9-9lk", "Van mij!", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 298],
-  ["aYAg9A-5RuU", "En ik was de baas", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 668],
-  ["64i3hgb9ErA", "Het monsterbonsterbulderboek", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 330],
-  ["b-ftJG3off0", "Fred het hert", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 348],
-  ["1f2KMt3rHSE", "Muis in de leeuw", "nl", "Ouderraad SBS De Regenboog & 't Zavelken", 349],
+  , // Verwijderd: _s4R2t9BNR4
+  , // Verwijderd: 2-vPdlU6UOg
+  , // Verwijderd: p3Z4tqvulug
+  , // Verwijderd: UGtMg64DewQ
+  , // Verwijderd: csPUkYlIXXo
+  , // Verwijderd: fhBfF6_r83U
+  , // Verwijderd: YqNERKhF4AY
+  , // Verwijderd: lmZd15JZxno
+  , // Verwijderd: _JTO8RDr-HI
+  , // Verwijderd: RX3ziFLy79M
+  , // Verwijderd: qLNPwricJkw
+  , // Verwijderd: 1yT9WUjmn5Q
+  , // Verwijderd: 6g78sC5x7Z0
+  , // Verwijderd: 3YnJYc9jYrU
+  , // Verwijderd: g_h-rR0J-BE
+  , // Verwijderd: kBpQBXNBe_c
+  , // Verwijderd: W7qJ6-kbXL0
+  , // Verwijderd: 0c4jRhBdY40
+  , // Verwijderd: kUPfQn5La90
+  , // Verwijderd: xwFTrHUW_Fg
+  , // Verwijderd: 8InDXJzYuAs
+  , // Verwijderd: Rt5qVS-BhWI
+  , // Verwijderd: P5tyPopsfqQ
+  , // Verwijderd: VkX2Jj9-9lk
+  , // Verwijderd: aYAg9A-5RuU
+  , // Verwijderd: 64i3hgb9ErA
+  , // Verwijderd: b-ftJG3off0
+  , // Verwijderd: 1f2KMt3rHSE
 
   // Biblioteken Svedala
   ["b55KWP_5_ag", "Strandstaden", "sv", "Biblioteken Svedala", 355],

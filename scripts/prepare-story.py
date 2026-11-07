@@ -5,6 +5,8 @@ import re
 from urllib.parse import parse_qs, urlencode, urlsplit
 from urllib.request import urlopen
 
+from catalog_policy import excluded_channel
+
 YOUTUBE = 'https://www.youtube.com'
 VIDEO_ID = re.compile(r'[A-Za-z0-9_-]{11}')
 DURATION = re.compile(r'<meta itemprop="duration" content="PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?"')
@@ -81,6 +83,8 @@ def catalog_row(video, language):
     metadata = json.loads(fetch(f'{YOUTUBE}/oembed?{query}'))
     title = metadata['title'].strip()
     channel = metadata['author_name'].strip()
+    if excluded_channel(channel):
+        raise ValueError('Video’s van Ouderraad-kanalen horen niet in de catalogus.')
     if not title or not channel or channel.startswith('@'):
         raise ValueError('YouTube geeft geen titel of zichtbare kanaalnaam.')
     duration = duration_seconds(video, watch_url, title)

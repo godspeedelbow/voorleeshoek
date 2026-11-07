@@ -22,3 +22,10 @@ python3 scripts/remove-story.py '<Voorleeshoek-link of video-ID>'
 Het script houdt de posities voor oude kijkrondes intact en vernieuwt de
 catalogusversie op beide pagina’s. Controleer de diff en publiceer volgens
 de afspraken hierboven.
+
+# Nieuwe video’s
+
+Laat video’s van Ouderraad-kanalen buiten zoekresultaten, voorstellen en de
+catalogus. Dit geldt ook voor `Ouderraad SBS De Regenboog & 't Zavelken` en
+video’s uit de afspeellijst Digitaal voorlezen van dat kanaal. Controleer de
+kanaalnaam met `scripts/prepare-story.py` vóór je een video toevoegt.

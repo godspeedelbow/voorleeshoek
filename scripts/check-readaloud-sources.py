@@ -7,9 +7,10 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
+from catalog_policy import excluded_channel
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = (
-    ("nl", "Digitaal voorlezen — SBS De Regenboog", "PLNT4QyNEDn1u00lhH1col4_IPtA9-J9AV"),
     ("nl", "Prentenboeken voor peuters en kleuters", "PLQ6VhB46EjlozFt9NooG9WOd8an6qDJAm"),
     ("sv", "Alfons Åberg — Pappa Läser", "PLud49CMnVS-uezwgdUX-6TsIiUo19Cxkb"),
     ("sv", "Sagostunder — Biblioteken Sigtuna", "PL18UmUUiYDLxO7nQdgmYsZYyUCxdUegiJ"),
@@ -36,7 +37,8 @@ def candidates(source):
     feed = ElementTree.fromstring(data)
     return [(entry.findtext("yt:videoId", namespaces=NS),
              entry.findtext("atom:title", "", NS))
-            for entry in feed.findall("atom:entry", NS)]
+            for entry in feed.findall("atom:entry", NS)
+            if not excluded_channel(entry.findtext("atom:author/atom:name", "", NS))]
 
 
 def main():

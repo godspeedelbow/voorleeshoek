@@ -551,7 +551,7 @@ function updateTimeline() {
   if (!Number.isFinite(duration) || duration <= 0) return;
 
   const marker = get('skip-marker');
-  marker.hidden = !round.skips || duration <= skipDeadline;
+  marker.hidden = (!round.linked && !round.skips) || duration <= skipDeadline;
   if (!marker.hidden) marker.style.left = (100 * skipDeadline / duration) + '%';
 
   const position = Math.min(Math.max(elapsed, 0), duration);

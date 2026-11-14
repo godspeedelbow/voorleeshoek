@@ -680,11 +680,9 @@ get('settings').onsubmit = (event) => {
 
 languageOptions.onchange = (event) => {
   preferredLanguage = event.target.value;
-  if (languageFromURL()) {
-    const url = new URL(location.href);
-    url.searchParams.set('lang', preferredLanguage);
-    history.replaceState(history.state, '', url);
-  }
+  const url = new URL(location.href);
+  url.searchParams.set('lang', preferredLanguage);
+  history.replaceState(history.state, '', url);
   try {
     localStorage.setItem(languageKey, preferredLanguage);
   } catch {

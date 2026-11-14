@@ -27,10 +27,10 @@ button:disabled{opacity:.55;cursor:default}
 .language-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
 .language-controls:has(#language:not([hidden])){flex:1;justify-content:space-between}
 .language-options{
-  display:grid;grid-auto-flow:column;grid-auto-columns:48px;gap:6px;
+  display:flex;flex-wrap:wrap;gap:6px;min-inline-size:0;
   margin:0;padding:0;border:0;
 }
-.language-options label{position:relative;cursor:pointer;touch-action:manipulation}
+.language-options label{flex:0 0 48px;position:relative;cursor:pointer;touch-action:manipulation}
 .language-options input{position:absolute;opacity:0;margin:0}
 .language-options label > span{
   display:grid;place-items:center;height:48px;

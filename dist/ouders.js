@@ -80,6 +80,7 @@ function renderCatalog() {
       const name = document.createElement('span');
       name.className = 'catalog-title';
       name.lang = language;
+      name.dir = 'auto';
       name.textContent = title;
       const details = document.createElement('div');
       details.className = 'catalog-details';

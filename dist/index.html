@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#fff5e6">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="description" content="Een kijkplek voor Nederlandse, Spaanse, Zweedse en Italiaanse voorleesverhalen.">
+<meta name="description" content="Een kijkplek voor voorleesverhalen in verschillende talen.">
 <meta property="og:title" content="Voorleeshoek">
-<meta property="og:description" content="Een kijkplek voor Nederlandse, Spaanse, Zweedse en Italiaanse voorleesverhalen.">
+<meta property="og:description" content="Een kijkplek voor voorleesverhalen in verschillende talen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=17">
-<script src="./stories.js?v=8" defer></script>
-<script src="./app.js?v=29" defer></script>
+<link rel="stylesheet" href="./style.css?v=18">
+<script src="./stories.js?v=9" defer></script>
+<script src="./app.js?v=30" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -36,6 +36,30 @@
         <label>
           <input type="radio" name="language" value="it" lang="it" aria-label="Italiano">
           <span aria-hidden="true">🇮🇹</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="en-GB" lang="en-GB" aria-label="English (UK)">
+          <span aria-hidden="true">🇬🇧</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="ary" lang="ary" aria-label="الدارجة المغربية">
+          <span aria-hidden="true">🇲🇦</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="tr" lang="tr" aria-label="Türkçe">
+          <span aria-hidden="true">🇹🇷</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="pl" lang="pl" aria-label="Polski">
+          <span aria-hidden="true">🇵🇱</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="fr" lang="fr" aria-label="Français">
+          <span aria-hidden="true">🇫🇷</span>
+        </label>
+        <label>
+          <input type="radio" name="language" value="da" lang="da" aria-label="Dansk">
+          <span aria-hidden="true">🇩🇰</span>
         </label>
       </fieldset>
       <a id="parent-catalog-link" href="./ouders.html" class="quiet catalog-link" data-text="parentCatalog">Voor ouders</a>
@@ -83,7 +107,7 @@
     </div>
     <div id="timeline" class="timeline" hidden>
       <span id="elapsed">0:00</span>
-      <div class="timeline-track">
+      <div class="timeline-track" dir="ltr">
         <progress id="video-progress" value="0" aria-label="Voortgang van het verhaal" data-label="timeline"></progress>
         <span id="skip-marker" aria-hidden="true" hidden></span>
       </div>

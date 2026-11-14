@@ -24,10 +24,10 @@ button:disabled{opacity:.55;cursor:default}
 .brand{margin-bottom:16px;font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
 .brand-mark{flex:none;display:grid;place-items:center;width:35px;height:35px;border-radius:50%;background:var(--accent);color:var(--ink)}
 .header-controls{display:flex;width:100%;align-items:center;flex-wrap:wrap;gap:8px}
-.language-controls{display:flex;align-items:center;gap:8px}
+.language-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
 .language-controls:has(#language:not([hidden])){flex:1;justify-content:space-between}
 .language-options{
-  display:grid;grid-template-columns:repeat(3,48px);gap:6px;
+  display:grid;grid-auto-flow:column;grid-auto-columns:48px;gap:6px;
   margin:0;padding:0;border:0;
 }
 .language-options label{position:relative;cursor:pointer;touch-action:manipulation}

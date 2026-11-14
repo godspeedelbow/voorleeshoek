@@ -19,6 +19,9 @@ SOURCES = (
     ("es", "Brightly Storytime", "PLDcpsppkgAlprCkvGAaocwwaATXz6TXad"),
     ("es", "Cuentos para niños 4-6 años — Cuéntame un cuento Mami", "PL7I-SHBtRCFy4cSccICOQhVXCHWruat4R"),
     ("es", "Biblioteca Pública Municipal de Baza", "https://www.bibliotecaspublicas.es/baza/Infantil/Cuentos-Infantiles.html"),
+    ("it", "Albi illustrati famosi — La biblioteca di Maya e Nora", "PLrK0tF-tYPsMv5ia8Sp2E_zbizxVZ4jbc"),
+    ("it", "Libri per bambini ad alta voce — La biblioteca di Maya e Nora", "PLrK0tF-tYPsOfsIb5KDacOxyLmc2OcUjQ"),
+    ("it", "Libri per bambini dai 4 anni — 3 x te KIDS", "PLTgLTyjoiXtRISqMO82FuCNddkaz2-y8Z"),
 )
 VIDEO_ID = r"[A-Za-z0-9_-]{11}"
 NS = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}

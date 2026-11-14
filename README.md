@@ -1,6 +1,6 @@
 # Voorleeshoek
 
-Een eenvoudige kijkronde met voorgelezen kinderboeken in het Nederlands, Spaans en Zweeds. Open `dist/index.html` via een lokale webserver om de app te bekijken. GitHub Pages publiceert de inhoud van `dist/` bij een wijziging op `main`.
+Een eenvoudige kijkronde met voorgelezen kinderboeken in het Nederlands, Spaans, Zweeds en Italiaans. Open `dist/index.html` via een lokale webserver om de app te bekijken. GitHub Pages publiceert de inhoud van `dist/` bij een wijziging op `main`.
 
 ## Nieuwe voorleesboeken
 
@@ -18,4 +18,4 @@ Haal voor goedgekeurde filmpjes de titel, zichtbare kanaalnaam en speelduur op m
 python3 scripts/prepare-story.py sv 'https://www.youtube.com/watch?v=oMi3nIvjUf4'
 ```
 
-Vervang `sv` door `nl` of `es` voor Nederlands of Spaans. Je kunt meerdere links of video-ID's opgeven. Het script geeft regels terug voor `dist/stories.js`. Controleer de titels en voeg nieuwe regels onderaan toe. Houd de volgorde van bestaande regels aan, zodat lopende kijkrondes na herladen hetzelfde boek terugvinden. De ouderpagina laadt het voorbeeldplaatje van YouTube op basis van het video-ID.
+Gebruik `nl`, `sv`, `es` of `it` voor Nederlands, Zweeds, Spaans of Italiaans. Je kunt meerdere links of video-ID's opgeven. Het script geeft regels terug voor `dist/stories.js`. Controleer de titels en voeg nieuwe regels onderaan toe. Houd de volgorde van bestaande regels aan, zodat lopende kijkrondes na herladen hetzelfde boek terugvinden. De ouderpagina laadt het voorbeeldplaatje van YouTube op basis van het video-ID.

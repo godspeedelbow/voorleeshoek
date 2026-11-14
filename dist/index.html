@@ -9,9 +9,10 @@
 <meta property="og:title" content="Voorleeshoek">
 <meta property="og:description" content="Een kijkplek voor voorleesverhalen in verschillende talen.">
 <title>Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=18">
-<script src="./stories.js?v=11" defer></script>
-<script src="./app.js?v=30" defer></script>
+<link rel="stylesheet" href="./style.css?v=20">
+<script src="./stories.js?v=12" defer></script>
+<script src="./countries.js?v=1" defer></script>
+<script src="./app.js?v=31" defer></script>
 </head>
 <body>
 <section class="rotate-notice">
@@ -19,49 +20,17 @@
 </section>
 <header class="masthead">
   <div class="header-controls">
-    <div class="language-controls">
-      <fieldset id="language" class="language-options" aria-label="Taal" data-label="language">
-        <label>
-          <input type="radio" name="language" value="nl" lang="nl" aria-label="Nederlands" checked>
-          <span aria-hidden="true">🇳🇱</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="sv" lang="sv" aria-label="Svenska">
-          <span aria-hidden="true">🇸🇪</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="es" lang="es" aria-label="Español">
-          <span aria-hidden="true">🇪🇸</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="it" lang="it" aria-label="Italiano">
-          <span aria-hidden="true">🇮🇹</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="en-GB" lang="en-GB" aria-label="English (UK)">
-          <span aria-hidden="true">🇬🇧</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="ary" lang="ary" aria-label="الدارجة المغربية">
-          <span aria-hidden="true">🇲🇦</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="tr" lang="tr" aria-label="Türkçe">
-          <span aria-hidden="true">🇹🇷</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="pl" lang="pl" aria-label="Polski">
-          <span aria-hidden="true">🇵🇱</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="fr" lang="fr" aria-label="Français">
-          <span aria-hidden="true">🇫🇷</span>
-        </label>
-        <label>
-          <input type="radio" name="language" value="da" lang="da" aria-label="Dansk">
-          <span aria-hidden="true">🇩🇰</span>
-        </label>
-      </fieldset>
+    <div class="country-controls">
+      <details id="country-picker">
+        <summary class="quiet country-trigger">
+          <span id="country-flag" class="country-flag" aria-hidden="true">🇳🇱</span>
+          <bdi id="country-name" lang="nl">Nederland</bdi>
+          <span id="country-count" class="country-count" aria-hidden="true"></span>
+          <span class="country-chevron" aria-hidden="true"></span>
+          <span class="sr-only" data-text="chooseCountry">Kies een land</span>
+        </summary>
+        <ul id="country-options" class="country-options"></ul>
+      </details>
       <a id="parent-catalog-link" href="./ouders.html" class="quiet catalog-link" data-text="parentCatalog">Voor ouders</a>
     </div>
     <button id="parents" class="quiet" type="button" data-text="restart" hidden>Opnieuw beginnen</button>

@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#fff5e6">
 <title>Voor ouders · Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=19">
-<script src="./stories.js?v=11" defer></script>
-<script src="./ouders.js?v=8" defer></script>
+<link rel="stylesheet" href="./style.css?v=20">
+<script src="./stories.js?v=12" defer></script>
+<script src="./countries.js?v=1" defer></script>
+<script src="./ouders.js?v=9" defer></script>
 </head>
 <body>
 <header class="masthead">
@@ -17,7 +18,7 @@
   <header>
     <p class="eyebrow" data-text="parents">VOOR OUDERS</p>
     <h1 data-text="heading">Alle voorleesfilmpjes</h1>
-    <p data-text="intro">Zoek op titel, filter op taal of kanaal. Een filmpje opent in een nieuw tabblad.</p>
+    <p data-text="intro">Zoek op titel, filter op land of kanaal. Een filmpje opent in een nieuw tabblad.</p>
   </header>
   <div class="catalog-filters" role="group" data-label="filters" aria-label="Filmpjes zoeken en sorteren">
     <div>
@@ -25,19 +26,9 @@
       <input type="search" id="catalog-search" placeholder="Bijv. Pelle">
     </div>
     <div>
-      <label for="catalog-language" data-text="language">Taal</label>
-      <select id="catalog-language">
-        <option value="" data-text="allLanguages">Alle talen</option>
-        <option value="nl">Nederlands</option>
-        <option value="sv">Zweeds</option>
-        <option value="es">Spaans</option>
-        <option value="it">Italiaans</option>
-        <option value="en-GB">Brits Engels</option>
-        <option value="ary">Darija (Marokko)</option>
-        <option value="tr">Turks</option>
-        <option value="pl">Pools</option>
-        <option value="fr">Frans</option>
-        <option value="da">Deens</option>
+      <label for="catalog-country" data-text="country">Land / taal</label>
+      <select id="catalog-country">
+        <option value="" data-text="allCountries">Alle landen</option>
       </select>
     </div>
     <div>

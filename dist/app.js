@@ -4,7 +4,7 @@ const translations = {
   nl: {
     siteName: 'Voorleeshoek',
     description: 'Een kijkplek voor Nederlandse voorleesverhalen.',
-    language: 'Taal',
+    chooseCountry: 'Kies een land',
     rotate: 'Draai je scherm rechtop',
     welcome: 'Voorleestijd!',
     subtitle: 'Kruip lekker op de bank. Er wacht een verhaal op je.',
@@ -40,7 +40,7 @@ const translations = {
   sv: {
     siteName: 'Sagohörnan',
     description: 'Här kan du titta på högläsning av sagor på svenska.',
-    language: 'Språk',
+    chooseCountry: 'Välj land',
     rotate: 'Vänd skärmen till stående läge',
     welcome: 'Dags för en saga!',
     subtitle: 'Mys ner dig i soffan. En saga väntar på dig.',
@@ -76,7 +76,7 @@ const translations = {
   es: {
     siteName: 'Rincón de cuentos',
     description: 'Un lugar para ver cuentos leídos en voz alta en español.',
-    language: 'Idioma',
+    chooseCountry: 'Elige un país',
     rotate: 'Pon la pantalla en vertical',
     welcome: '¡Hora del cuento!',
     subtitle: 'Ponte a gusto en el sofá. Te espera un cuento.',
@@ -112,7 +112,7 @@ const translations = {
   it: {
     siteName: 'Angolo delle storie',
     description: 'Un posto dove guardare storie lette ad alta voce in italiano.',
-    language: 'Lingua',
+    chooseCountry: 'Scegli un paese',
     rotate: 'Metti lo schermo in verticale',
     welcome: 'È ora di una storia!',
     subtitle: 'Mettiti comodo sul divano. C’è una storia che ti aspetta.',
@@ -148,7 +148,7 @@ const translations = {
   "en-GB": {
     siteName: "Story Corner",
     description: "A place to watch stories read aloud in British English.",
-    language: "Language",
+    chooseCountry: 'Choose a country',
     rotate: "Turn your screen upright",
     welcome: "Story time!",
     subtitle: "Get cosy on the sofa. A story is waiting for you.",
@@ -184,7 +184,7 @@ const translations = {
   "ary": {
     siteName: "ركن الحكايات",
     description: "هنا تقدر تتفرج فحكايات مقروية بالدارجة المغربية.",
-    language: "اللغة",
+    chooseCountry: 'ختار البلاد',
     rotate: "رد الشاشة واقفة",
     welcome: "وقت الحكاية!",
     subtitle: "گلس مرتاح فالصالون. كاينة حكاية كتسناك.",
@@ -220,7 +220,7 @@ const translations = {
   "tr": {
     siteName: "Masal Köşesi",
     description: "Türkçe sesli okunan hikâyeleri izleyebileceğin bir yer.",
-    language: "Dil",
+    chooseCountry: 'Ülke seç',
     rotate: "Ekranını dik çevir",
     welcome: "Masal zamanı!",
     subtitle: "Kanepeye rahatça kurul. Bir hikâye seni bekliyor.",
@@ -256,7 +256,7 @@ const translations = {
   "pl": {
     siteName: "Kącik bajek",
     description: "Tu obejrzysz bajki czytane po polsku.",
-    language: "Język",
+    chooseCountry: 'Wybierz kraj',
     rotate: "Ustaw ekran pionowo",
     welcome: "Czas na bajkę!",
     subtitle: "Usiądź wygodnie na kanapie. Czeka na ciebie bajka.",
@@ -292,7 +292,7 @@ const translations = {
   "fr": {
     siteName: "Le coin des histoires",
     description: "Un endroit pour regarder des histoires lues à voix haute en français.",
-    language: "Langue",
+    chooseCountry: 'Choisir un pays',
     rotate: "Tourne ton écran à la verticale",
     welcome: "C’est l’heure de l’histoire !",
     subtitle: "Installe-toi sur le canapé. Une histoire t’attend.",
@@ -328,7 +328,7 @@ const translations = {
   "da": {
     siteName: "Historiehjørnet",
     description: "Her kan du se historier blive læst højt på dansk.",
-    language: "Sprog",
+    chooseCountry: 'Vælg land',
     rotate: "Drej skærmen til stående format",
     welcome: "Tid til en historie!",
     subtitle: "Sæt dig godt til rette i sofaen. En historie venter på dig.",
@@ -369,41 +369,52 @@ const skipDeadline = 60;
 const limit = get('limit');
 const parentDialog = get('parent-dialog');
 const landscapeTouchScreen = matchMedia('(orientation: landscape) and (pointer: coarse) and (hover: none)');
-const languageOptions = get('language');
-const languageInputs = languageOptions.querySelectorAll('input');
+const countryPicker = get('country-picker');
+const countryTrigger = countryPicker.querySelector('summary');
+const countryOptions = get('country-options');
 const languageKey = 'voorleeshoek-language';
 const limitKey = 'voorleeshoek-limit';
-let preferredLanguage = 'nl';
+let preferredCountry = 'nl';
 
 try {
   const saved = localStorage.getItem(languageKey);
-  if (Object.hasOwn(translations, saved)) {
-    preferredLanguage = saved;
+  if (countryById.has(saved)) {
+    preferredCountry = saved;
   } else {
     const previous = JSON.parse(localStorage.getItem('voorleeshoek-languages'));
-    if (Array.isArray(previous) && previous.length === 1 && Object.hasOwn(translations, previous[0])) {
-      preferredLanguage = previous[0];
+    if (Array.isArray(previous) && previous.length === 1 && countryById.has(previous[0])) {
+      preferredCountry = previous[0];
     }
   }
 } catch {
   // Keep Dutch as the default when the saved language is unavailable.
 }
 
+let selectedCountry;
 let language;
 let copy;
 
-function languageFromURL() {
+function countryFromURL() {
   const requested = new URLSearchParams(location.search).get('lang');
-  return Object.hasOwn(translations, requested) ? requested : null;
+  return countryById.has(requested) ? requested : null;
 }
 
-function applyLanguage(nextLanguage) {
-  language = nextLanguage;
+function applyCountry(id) {
+  selectedCountry = countryById.get(id);
+  language = selectedCountry.language;
   copy = translations[language];
   document.documentElement.lang = language;
   document.documentElement.dir = language === 'ary' ? 'rtl' : 'ltr';
-  get('parent-catalog-link').href = './ouders.html?lang=' + language;
-  for (const input of languageInputs) input.checked = input.value === language;
+  get('parent-catalog-link').href = './ouders.html?lang=' + id;
+  get('country-flag').textContent = selectedCountry.flag;
+  const countryName = get('country-name');
+  countryName.textContent = selectedCountry.label;
+  countryName.lang = language;
+  for (const button of countryOptions.querySelectorAll('button')) {
+    button.setAttribute('aria-pressed', String(button.value === id));
+  }
+  const count = new Intl.NumberFormat(language).format(countries.length - 1);
+  get('country-count').textContent = '+' + count;
   document.title = copy.siteName;
   document.querySelectorAll('[data-text]').forEach((element) => {
     element.textContent = copy[element.dataset.text];
@@ -474,9 +485,9 @@ function restoreRound() {
       });
       const current = indices[saved.cursor];
       if (!stories[current]) return;
-      const currentLanguage = stories[current][2];
+      const currentCountry = storyCountry(stories[current]);
       // Keep the current story and playback position in older multilingual rounds.
-      const order = indices.filter((index) => stories[index]?.[2] === currentLanguage);
+      const order = indices.filter((index) => storyCountry(stories[index]) === currentCountry);
       saved.cursor = order.indexOf(current);
       saved.order = order;
       saved.skipLocked ||= saved.position >= skipDeadline;
@@ -498,7 +509,7 @@ function shuffle(items) {
 function shuffledStories(previous) {
   const order = [];
   stories.forEach((story, index) => {
-    if (story[2] === language) order.push(index);
+    if (storyCountry(story) === selectedCountry.id) order.push(index);
   });
   shuffle(order);
   if (order.length > 1 && order[0] === previous) {
@@ -560,7 +571,7 @@ function render() {
   const done = round.completed === round.total;
   const [, title, , channel] = stories[round.order[round.cursor]];
   get('setup').hidden = true;
-  languageOptions.hidden = true;
+  countryPicker.hidden = true;
   get('parents').hidden = false;
   get('session').hidden = false;
   get('controls').hidden = done && !round.linked;
@@ -783,7 +794,7 @@ function showSetup() {
   updateStepper();
   get('session').hidden = true;
   get('setup').hidden = false;
-  languageOptions.hidden = false;
+  countryPicker.hidden = false;
   get('parents').hidden = true;
 }
 
@@ -895,17 +906,48 @@ get('settings').onsubmit = (event) => {
   get('story').focus();
 };
 
-languageOptions.onchange = (event) => {
-  preferredLanguage = event.target.value;
+for (const { id, language, flag, label } of countries) {
+  const item = document.createElement('li');
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.value = id;
+  const icon = document.createElement('span');
+  icon.className = 'country-flag';
+  icon.setAttribute('aria-hidden', 'true');
+  icon.textContent = flag;
+  const name = document.createElement('bdi');
+  name.lang = language;
+  name.textContent = label;
+  button.append(icon, name);
+  button.addEventListener('click', () => {
+    countryPicker.open = false;
+    if (id !== selectedCountry.id) chooseCountry(id);
+    countryTrigger.focus();
+  });
+  item.append(button);
+  countryOptions.append(item);
+}
+
+document.addEventListener('click', (event) => {
+  if (!countryPicker.contains(event.target)) countryPicker.open = false;
+});
+countryPicker.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape' || !countryPicker.open) return;
+  countryPicker.open = false;
+  countryTrigger.focus();
+});
+
+function chooseCountry(id) {
+  preferredCountry = id;
   const url = new URL(location.href);
-  url.searchParams.set('lang', preferredLanguage);
+  url.searchParams.set('lang', preferredCountry);
   history.replaceState(history.state, '', url);
   try {
-    localStorage.setItem(languageKey, preferredLanguage);
+    localStorage.setItem(languageKey, preferredCountry);
   } catch {
     // The selection remains available on this page.
   }
-  applyLanguage(preferredLanguage);
+  applyCountry(preferredCountry);
 
   if (!round) return;
   if (round.completed === round.total) {
@@ -925,7 +967,7 @@ languageOptions.onchange = (event) => {
   } else {
     mount(false);
   }
-};
+}
 
 get('play').onclick = () => {
   if (paused) mount(true);
@@ -981,7 +1023,7 @@ window.addEventListener('popstate', (event) => {
   if (round) showSetup();
   historyEntry = entry ?? 0;
   round = roundForURL();
-  applyLanguage(round ? stories[round.order[0]][2] : languageFromURL() ?? preferredLanguage);
+  applyCountry(round ? storyCountry(stories[round.order[0]]) : countryFromURL() ?? preferredCountry);
   if (round) {
     storeRound();
     mount(false);
@@ -1005,12 +1047,12 @@ history.replaceState({ voorleesEntry: historyEntry }, '');
 roundURL = location.href;
 const linkedRound = roundForURL();
 round = restoreRound();
-if ((!linkedRound && languageFromURL()) || (linkedRound && (!round || !knownEntry)) ||
+if ((!linkedRound && countryFromURL()) || (linkedRound && (!round || !knownEntry)) ||
     (round?.historyEntry !== undefined && round.historyEntry !== historyEntry)) {
   round = linkedRound;
   storeRound();
 }
-applyLanguage(round ? stories[round.order[round.cursor]][2] : languageFromURL() ?? preferredLanguage);
+applyCountry(round ? storyCountry(stories[round.order[round.cursor]]) : countryFromURL() ?? preferredCountry);
 landscapeTouchScreen.addEventListener('change', updateOrientation);
 updateOrientation();
 updateStepper();

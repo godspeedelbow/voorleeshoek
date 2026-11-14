@@ -2,6 +2,8 @@
 
 Een eenvoudige kijkronde met voorgelezen kinderboeken in het Nederlands, Spaans, Zweeds en Italiaans. Open `dist/index.html` via een lokale webserver om de app te bekijken. GitHub Pages publiceert de inhoud van `dist/` bij een wijziging op `main`.
 
+Open de startpagina met `?lang=nl`, `?lang=sv`, `?lang=es` of `?lang=it` om een taal vooraf te kiezen.
+
 ## Nieuwe voorleesboeken
 
 De selectie in `dist/stories.js` bevat losse video's uit afspeellijsten en bibliotheekcollecties. De GitHub-actie **Zoek nieuwe voorleesboeken** controleert die bronnen wekelijks en zet video's die nog buiten de catalogus staan in het overzicht van de run. Je kunt dezelfde controle lokaal draaien:

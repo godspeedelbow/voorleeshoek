@@ -176,6 +176,11 @@ try {
 let language;
 let copy;
 
+function languageFromURL() {
+  const requested = new URLSearchParams(location.search).get('lang');
+  return Object.hasOwn(translations, requested) ? requested : null;
+}
+
 function applyLanguage(nextLanguage) {
   language = nextLanguage;
   copy = translations[language];
@@ -675,6 +680,11 @@ get('settings').onsubmit = (event) => {
 
 languageOptions.onchange = (event) => {
   preferredLanguage = event.target.value;
+  if (languageFromURL()) {
+    const url = new URL(location.href);
+    url.searchParams.set('lang', preferredLanguage);
+    history.replaceState(history.state, '', url);
+  }
   try {
     localStorage.setItem(languageKey, preferredLanguage);
   } catch {
@@ -756,7 +766,7 @@ window.addEventListener('popstate', (event) => {
   if (round) showSetup();
   historyEntry = entry ?? 0;
   round = roundForURL();
-  applyLanguage(round ? stories[round.order[0]][2] : preferredLanguage);
+  applyLanguage(round ? stories[round.order[0]][2] : languageFromURL() ?? preferredLanguage);
   if (round) {
     storeRound();
     mount(false);
@@ -780,12 +790,12 @@ history.replaceState({ voorleesEntry: historyEntry }, '');
 roundURL = location.href;
 const linkedRound = roundForURL();
 round = restoreRound();
-if ((linkedRound && (!round || !knownEntry)) ||
+if ((!linkedRound && languageFromURL()) || (linkedRound && (!round || !knownEntry)) ||
     (round?.historyEntry !== undefined && round.historyEntry !== historyEntry)) {
   round = linkedRound;
   storeRound();
 }
-applyLanguage(round ? stories[round.order[round.cursor]][2] : preferredLanguage);
+applyLanguage(round ? stories[round.order[round.cursor]][2] : languageFromURL() ?? preferredLanguage);
 landscapeTouchScreen.addEventListener('change', updateOrientation);
 updateOrientation();
 updateStepper();

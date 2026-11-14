@@ -133,6 +133,7 @@ dialog form{display:flex;flex-wrap:wrap;gap:10px}
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m3 6 5 5 5-5' fill='none' stroke='%2338245c' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat:no-repeat;background-position:right 14px center;background-size:14px;
 }
+[dir="rtl"] .catalog-filters select{background-position:left 14px center}
 @media(forced-colors:active){.catalog-filters select{appearance:auto;background-image:none}}
 #catalog-results{display:grid;gap:28px}
 .catalog-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:12px 0 0}

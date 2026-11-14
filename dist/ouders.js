@@ -6,23 +6,273 @@ const channelField = document.getElementById('catalog-channel');
 const sortField = document.getElementById('catalog-sort');
 const status = document.getElementById('catalog-status');
 const results = document.getElementById('catalog-results');
-const storageKey = 'voorleeshoek-catalog-view';
+const translations = {
+  "nl": {
+    "pageTitle": "Voor ouders · Voorleeshoek",
+    "back": "Terug naar de Voorleeshoek",
+    "parents": "Voor ouders",
+    "heading": "Alle voorleesfilmpjes",
+    "intro": "Zoek op titel, filter op taal of kanaal. Een filmpje opent in een nieuw tabblad.",
+    "filters": "Filmpjes zoeken en sorteren",
+    "search": "Zoek op titel",
+    "example": "Bijv. Pelle",
+    "language": "Taal",
+    "allLanguages": "Alle talen",
+    "channel": "YouTube-kanaal",
+    "allChannels": "Alle kanalen",
+    "sort": "Sorteren",
+    "title": "Titel",
+    "unknownChannel": "Kanaal onbekend",
+    "unknownDuration": "Duur onbekend",
+    "empty": "Geen filmpjes gevonden.",
+    "one": "filmpje",
+    "other": "filmpjes"
+  },
+  "sv": {
+    "pageTitle": "För föräldrar · Sagohörnan",
+    "back": "Tillbaka till Sagohörnan",
+    "parents": "För föräldrar",
+    "heading": "Alla högläsningsfilmer",
+    "intro": "Sök på titel eller filtrera efter språk eller kanal. Filmen öppnas i en ny flik.",
+    "filters": "Sök och sortera filmer",
+    "search": "Sök på titel",
+    "example": "T.ex. Pelle",
+    "language": "Språk",
+    "allLanguages": "Alla språk",
+    "channel": "YouTube-kanal",
+    "allChannels": "Alla kanaler",
+    "sort": "Sortera",
+    "title": "Titel",
+    "unknownChannel": "Okänd kanal",
+    "unknownDuration": "Okänd längd",
+    "empty": "Inga filmer hittades.",
+    "one": "film",
+    "other": "filmer"
+  },
+  "es": {
+    "pageTitle": "Para padres · Rincón de cuentos",
+    "back": "Volver al Rincón de cuentos",
+    "parents": "Para padres",
+    "heading": "Todos los cuentos en vídeo",
+    "intro": "Busca por título o filtra por idioma o canal. Cada vídeo se abre en una pestaña nueva.",
+    "filters": "Buscar y ordenar vídeos",
+    "search": "Buscar por título",
+    "example": "P. ej., Arturo",
+    "language": "Idioma",
+    "allLanguages": "Todos los idiomas",
+    "channel": "Canal de YouTube",
+    "allChannels": "Todos los canales",
+    "sort": "Ordenar",
+    "title": "Título",
+    "unknownChannel": "Canal desconocido",
+    "unknownDuration": "Duración desconocida",
+    "empty": "No se encontraron vídeos.",
+    "one": "vídeo",
+    "other": "vídeos"
+  },
+  "it": {
+    "pageTitle": "Per i genitori · Angolo delle storie",
+    "back": "Torna all’Angolo delle storie",
+    "parents": "Per i genitori",
+    "heading": "Tutte le storie in video",
+    "intro": "Cerca per titolo o filtra per lingua o canale. Ogni video si apre in una nuova scheda.",
+    "filters": "Cerca e ordina i video",
+    "search": "Cerca per titolo",
+    "example": "Es. Piccola Nuvola",
+    "language": "Lingua",
+    "allLanguages": "Tutte le lingue",
+    "channel": "Canale YouTube",
+    "allChannels": "Tutti i canali",
+    "sort": "Ordina",
+    "title": "Titolo",
+    "unknownChannel": "Canale sconosciuto",
+    "unknownDuration": "Durata sconosciuta",
+    "empty": "Nessun video trovato.",
+    "one": "video",
+    "other": "video"
+  },
+  "en-GB": {
+    "pageTitle": "For parents · Story Corner",
+    "back": "Back to Story Corner",
+    "parents": "For parents",
+    "heading": "All read-aloud videos",
+    "intro": "Search by title or filter by language or channel. Each video opens in a new tab.",
+    "filters": "Search and sort videos",
+    "search": "Search by title",
+    "example": "E.g. Elmer",
+    "language": "Language",
+    "allLanguages": "All languages",
+    "channel": "YouTube channel",
+    "allChannels": "All channels",
+    "sort": "Sort by",
+    "title": "Title",
+    "unknownChannel": "Unknown channel",
+    "unknownDuration": "Unknown duration",
+    "empty": "No videos found.",
+    "one": "video",
+    "other": "videos"
+  },
+  "ary": {
+    "pageTitle": "للآباء والأمهات · ركن الحكايات",
+    "back": "رجع لركن الحكايات",
+    "parents": "للآباء والأمهات",
+    "heading": "گاع فيديوهات الحكايات",
+    "intro": "قلّب بالعنوان ولا صَفّي باللغة ولا بالقناة. كل فيديو كيتحلّ فتبويب جديد.",
+    "filters": "قلّب ورتّب الفيديوهات",
+    "search": "قلّب بالعنوان",
+    "example": "مثلاً: بينوكيو",
+    "language": "اللغة",
+    "allLanguages": "گاع اللغات",
+    "channel": "قناة يوتيوب",
+    "allChannels": "گاع القنوات",
+    "sort": "الترتيب",
+    "title": "العنوان",
+    "unknownChannel": "القناة ما معروفةش",
+    "unknownDuration": "المدة ما معروفةش",
+    "empty": "ما لقينا حتى فيديو.",
+    "one": "فيديو",
+    "other": "فيديوهات"
+  },
+  "tr": {
+    "pageTitle": "Ebeveynler için · Masal Köşesi",
+    "back": "Masal Köşesi’ne dön",
+    "parents": "Ebeveynler için",
+    "heading": "Tüm sesli hikâye videoları",
+    "intro": "Başlığa göre ara veya dile ya da kanala göre filtrele. Her video yeni bir sekmede açılır.",
+    "filters": "Videoları ara ve sırala",
+    "search": "Başlığa göre ara",
+    "example": "Örn. Elmer",
+    "language": "Dil",
+    "allLanguages": "Tüm diller",
+    "channel": "YouTube kanalı",
+    "allChannels": "Tüm kanallar",
+    "sort": "Sırala",
+    "title": "Başlık",
+    "unknownChannel": "Kanal bilinmiyor",
+    "unknownDuration": "Süre bilinmiyor",
+    "empty": "Video bulunamadı.",
+    "one": "video",
+    "other": "video"
+  },
+  "pl": {
+    "pageTitle": "Dla rodziców · Kącik bajek",
+    "back": "Wróć do Kącika bajek",
+    "parents": "Dla rodziców",
+    "heading": "Wszystkie nagrania z czytaniem bajek",
+    "intro": "Szukaj według tytułu lub filtruj według języka albo kanału. Każde nagranie otwiera się w nowej karcie.",
+    "filters": "Wyszukuj i sortuj nagrania",
+    "search": "Szukaj według tytułu",
+    "example": "Np. Basia",
+    "language": "Język",
+    "allLanguages": "Wszystkie języki",
+    "channel": "Kanał YouTube",
+    "allChannels": "Wszystkie kanały",
+    "sort": "Sortuj",
+    "title": "Tytuł",
+    "unknownChannel": "Nieznany kanał",
+    "unknownDuration": "Nieznany czas trwania",
+    "empty": "Nie znaleziono nagrań.",
+    "one": "nagranie",
+    "other": "nagrań",
+    "few": "nagrania"
+  },
+  "fr": {
+    "pageTitle": "Pour les parents · Le coin des histoires",
+    "back": "Retour au coin des histoires",
+    "parents": "Pour les parents",
+    "heading": "Toutes les histoires lues en vidéo",
+    "intro": "Recherchez par titre ou filtrez par langue ou par chaîne. Chaque vidéo s’ouvre dans un nouvel onglet.",
+    "filters": "Rechercher et trier les vidéos",
+    "search": "Rechercher par titre",
+    "example": "P. ex. Billy",
+    "language": "Langue",
+    "allLanguages": "Toutes les langues",
+    "channel": "Chaîne YouTube",
+    "allChannels": "Toutes les chaînes",
+    "sort": "Trier",
+    "title": "Titre",
+    "unknownChannel": "Chaîne inconnue",
+    "unknownDuration": "Durée inconnue",
+    "empty": "Aucune vidéo trouvée.",
+    "one": "vidéo",
+    "other": "vidéos"
+  },
+  "da": {
+    "pageTitle": "Til forældre · Historiehjørnet",
+    "back": "Tilbage til Historiehjørnet",
+    "parents": "Til forældre",
+    "heading": "Alle højtlæsningsvideoer",
+    "intro": "Søg efter titel, eller filtrér efter sprog eller kanal. Hver video åbner i en ny fane.",
+    "filters": "Søg og sortér videoer",
+    "search": "Søg efter titel",
+    "example": "F.eks. Lotte",
+    "language": "Sprog",
+    "allLanguages": "Alle sprog",
+    "channel": "YouTube-kanal",
+    "allChannels": "Alle kanaler",
+    "sort": "Sortér",
+    "title": "Titel",
+    "unknownChannel": "Ukendt kanal",
+    "unknownDuration": "Ukendt varighed",
+    "empty": "Ingen videoer fundet.",
+    "one": "video",
+    "other": "videoer"
+  }
+};
 
-function searchableTitle(title) {
-  return title.toLocaleLowerCase('nl').normalize('NFD').replace(/\p{M}/gu, '');
+const requestedLanguage = new URLSearchParams(location.search).get('lang');
+let savedLanguage;
+try {
+  savedLanguage = localStorage.getItem('voorleeshoek-language');
+} catch {
+  // The catalog works without browser storage.
+}
+const interfaceLanguage = [requestedLanguage, savedLanguage].find((code) => Object.hasOwn(translations, code)) ?? 'nl';
+const locale = interfaceLanguage === 'ary' ? 'ar-MA' : interfaceLanguage;
+const copy = translations[interfaceLanguage];
+const languageNames = new Intl.DisplayNames([locale], { type: 'language', languageDisplay: 'standard' });
+const darijaNames = {
+  es: 'Árabe marroquí (darija)',
+  ary: 'الدارجة المغربية',
+  da: 'Marokkansk arabisk (darija)',
+};
+const numberFormat = new Intl.NumberFormat(locale);
+const plurals = new Intl.PluralRules(locale);
+document.documentElement.lang = interfaceLanguage;
+document.documentElement.dir = interfaceLanguage === 'ary' ? 'rtl' : 'ltr';
+document.title = copy.pageTitle;
+document.getElementById('catalog-back').href = './?lang=' + interfaceLanguage;
+document.querySelectorAll('[data-text]').forEach((element) => {
+  element.textContent = copy[element.dataset.text];
+});
+document.querySelectorAll('[data-label]').forEach((element) => {
+  element.setAttribute('aria-label', copy[element.dataset.label]);
+});
+searchField.placeholder = copy.example;
+const ascending = locale.startsWith('ar') ? 'أ–ي' : 'A–Z';
+const descending = locale.startsWith('ar') ? 'ي–أ' : 'Z–A';
+sortField.options[0].textContent = copy.title + ' ' + ascending;
+sortField.options[1].textContent = copy.title + ' ' + descending;
+
+function searchableTitle(title, language) {
+  return title.toLocaleLowerCase(language).normalize('NFD').replace(/\p{M}/gu, '');
 }
 
 const groups = Array.from(languageField.options).slice(1).map((option) => {
   const language = option.value;
+  if (interfaceLanguage !== 'nl') {
+    option.textContent = language === 'ary' && Object.hasOwn(darijaNames, interfaceLanguage)
+      ? darijaNames[interfaceLanguage] : languageNames.of(language);
+  }
   const collator = new Intl.Collator(language, { ignorePunctuation: true, numeric: true });
   const videos = stories
     .filter(([, , code]) => code === language)
-    .map(([id, title, , channel, duration]) => ({ id, title, channel, duration, searchTitle: searchableTitle(title) }))
+    .map(([id, title, , channel, duration]) => ({ id, title, channel, duration, searchTitle: searchableTitle(title, language) }))
     .sort((first, second) => collator.compare(first.title, second.title));
   return { language, label: option.textContent, videos };
 });
 
-const channelCollator = new Intl.Collator('nl', { sensitivity: 'base' });
+const channelCollator = new Intl.Collator(locale, { sensitivity: 'base' });
 
 function updateLanguageFilter(selectedChannel = channelField.value) {
   const selectedLanguage = languageField.value;
@@ -43,7 +293,7 @@ function formatCatalogDuration(seconds) {
 }
 
 function renderCatalog() {
-  const query = searchableTitle(searchField.value.trim());
+  const query = searchField.value.trim();
   const selectedLanguage = languageField.value;
   const selectedChannel = channelField.value;
   const descending = sortField.value === 'desc';
@@ -52,14 +302,15 @@ function renderCatalog() {
 
   for (const { language, label, videos } of groups) {
     if (selectedLanguage && selectedLanguage !== language) continue;
+    const searchQuery = searchableTitle(query, language);
     const matches = videos.filter((video) =>
-      (!selectedChannel || video.channel === selectedChannel) && video.searchTitle.includes(query));
+      (!selectedChannel || video.channel === selectedChannel) && video.searchTitle.includes(searchQuery));
     if (matches.length === 0) continue;
     if (descending) matches.reverse();
 
     const section = document.createElement('section');
     const heading = document.createElement('h2');
-    heading.textContent = label + ' · ' + matches.length;
+    heading.textContent = label + ' · ' + numberFormat.format(matches.length);
     const list = document.createElement('ul');
     list.className = 'catalog-list';
     for (const { id, title, channel, duration } of matches) {
@@ -85,7 +336,8 @@ function renderCatalog() {
       const details = document.createElement('div');
       details.className = 'catalog-details';
       const channelName = document.createElement(channel ? 'button' : 'span');
-      channelName.textContent = channel || 'Kanaal onbekend';
+      channelName.dir = 'auto';
+      channelName.textContent = channel || copy.unknownChannel;
       if (channel) {
         channelName.type = 'button';
         channelName.className = 'catalog-channel-button';
@@ -100,12 +352,13 @@ function renderCatalog() {
       details.append(channelName);
       if (duration) {
         const time = document.createElement('time');
+        time.dir = 'ltr';
         time.dateTime = 'PT' + duration + 'S';
         time.textContent = formatCatalogDuration(duration);
         details.append(time);
       } else {
         const unknown = document.createElement('span');
-        unknown.textContent = 'Duur onbekend';
+        unknown.textContent = copy.unknownDuration;
         details.append(unknown);
       }
       link.append(preview, name);
@@ -118,61 +371,34 @@ function renderCatalog() {
   }
 
   results.replaceChildren(...sections);
-  status.textContent = count === 0 ? 'Geen filmpjes gevonden.' : count === 1 ? '1 filmpje' : count + ' filmpjes';
+  status.textContent = count === 0 ? copy.empty :
+    numberFormat.format(count) + ' ' + (copy[plurals.select(count)] ?? copy.other);
 }
 
-const interfaceLanguage = new URLSearchParams(location.search).get('lang');
-let defaultLanguage = interfaceLanguage;
-if (!defaultLanguage) {
-  try {
-    defaultLanguage = localStorage.getItem('voorleeshoek-language');
-  } catch {
-    // Dutch is the default if the stored language is unavailable.
-  }
-}
-if (!groups.some(({ language }) => language === defaultLanguage)) defaultLanguage = 'nl';
-
-let savedView;
-try {
-  savedView = JSON.parse(sessionStorage.getItem(storageKey));
-} catch {
-  // The catalog also works without browser storage.
-}
-
-let languageOverride = savedView?.languageOverride ?? (savedView?.language || null);
-if (languageOverride !== '' && !groups.some(({ language }) => language === languageOverride)) {
-  languageOverride = null;
-}
-languageField.value = languageOverride ?? defaultLanguage;
+const savedView = history.state?.catalogView;
+languageField.value = savedView && Array.from(languageField.options).some((option) => option.value === savedView.language)
+  ? savedView.language : interfaceLanguage;
 
 if (savedView) {
-  searchField.value = savedView.search ?? '';
+  searchField.value = savedView.search;
   sortField.value = savedView.sort === 'desc' ? 'desc' : 'asc';
 }
 
 searchField.addEventListener('input', renderCatalog);
-languageField.addEventListener('change', () => {
-  languageOverride = languageField.value;
-  updateLanguageFilter();
-});
+languageField.addEventListener('change', () => updateLanguageFilter());
 channelField.addEventListener('change', renderCatalog);
 sortField.addEventListener('change', renderCatalog);
 updateLanguageFilter(savedView?.channel);
 
 history.scrollRestoration = 'manual';
 window.addEventListener('pagehide', () => {
-  savedView = {
+  history.replaceState({ catalogView: {
     search: searchField.value,
-    languageOverride,
+    language: languageField.value,
     channel: channelField.value,
     sort: sortField.value,
     scrollY: window.scrollY,
-  };
-  try {
-    sessionStorage.setItem(storageKey, JSON.stringify(savedView));
-  } catch {
-    // The current document can still restore its position from the back-forward cache.
-  }
+  } }, '');
 });
 window.addEventListener('pageshow', () => {
   if (Number.isFinite(savedView?.scrollY)) {

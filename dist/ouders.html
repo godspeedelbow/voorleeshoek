@@ -5,29 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#fff5e6">
 <title>Voor ouders · Voorleeshoek</title>
-<link rel="stylesheet" href="./style.css?v=15">
+<link rel="stylesheet" href="./style.css?v=19">
 <script src="./stories.js?v=10" defer></script>
-<script src="./ouders.js?v=7" defer></script>
+<script src="./ouders.js?v=8" defer></script>
 </head>
 <body>
 <header class="masthead">
-  <a class="quiet catalog-link" href="./">Terug naar de Voorleeshoek</a>
+  <a id="catalog-back" class="quiet catalog-link" href="./" data-text="back">Terug naar de Voorleeshoek</a>
 </header>
 <main class="catalog">
   <header>
-    <p class="eyebrow">VOOR OUDERS</p>
-    <h1>Alle voorleesfilmpjes</h1>
-    <p>Zoek op titel, filter op taal of kanaal. Een filmpje opent in een nieuw tabblad.</p>
+    <p class="eyebrow" data-text="parents">VOOR OUDERS</p>
+    <h1 data-text="heading">Alle voorleesfilmpjes</h1>
+    <p data-text="intro">Zoek op titel, filter op taal of kanaal. Een filmpje opent in een nieuw tabblad.</p>
   </header>
-  <div class="catalog-filters" role="group" aria-label="Filmpjes zoeken en sorteren">
+  <div class="catalog-filters" role="group" data-label="filters" aria-label="Filmpjes zoeken en sorteren">
     <div>
-      <label for="catalog-search">Zoek op titel</label>
+      <label for="catalog-search" data-text="search">Zoek op titel</label>
       <input type="search" id="catalog-search" placeholder="Bijv. Pelle">
     </div>
     <div>
-      <label for="catalog-language">Taal</label>
+      <label for="catalog-language" data-text="language">Taal</label>
       <select id="catalog-language">
-        <option value="">Alle talen</option>
+        <option value="" data-text="allLanguages">Alle talen</option>
         <option value="nl">Nederlands</option>
         <option value="sv">Zweeds</option>
         <option value="es">Spaans</option>
@@ -41,13 +41,13 @@
       </select>
     </div>
     <div>
-      <label for="catalog-channel">YouTube-kanaal</label>
+      <label for="catalog-channel" data-text="channel">YouTube-kanaal</label>
       <select id="catalog-channel">
-        <option value="">Alle kanalen</option>
+        <option value="" data-text="allChannels">Alle kanalen</option>
       </select>
     </div>
     <div>
-      <label for="catalog-sort">Sorteren</label>
+      <label for="catalog-sort" data-text="sort">Sorteren</label>
       <select id="catalog-sort">
         <option value="asc">Titel A–Z</option>
         <option value="desc">Titel Z–A</option>

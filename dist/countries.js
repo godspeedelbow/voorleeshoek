@@ -14,6 +14,7 @@ const countries = [
   { id: 'fr', language: 'fr', flag: '🇫🇷', label: 'France' },
   { id: 'fr-MC', language: 'fr', flag: '🇲🇨', label: 'Monaco' },
   { id: 'de-CH', language: 'de', flag: '🇨🇭', label: 'Schweiz' },
+  { id: 'is', language: 'is', flag: '🇮🇸', label: 'Ísland' },
   { id: 'da', language: 'da', flag: '🇩🇰', label: 'Danmark' },
 ];
 

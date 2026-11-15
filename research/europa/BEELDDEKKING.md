@@ -22,7 +22,7 @@ Stand na de beeldcontrole op 15 november 2026. ‘In dossier of app’ toont de 
 | [Griekenland](zuid/el-GR.md) | 48 | 2 | 3 |
 | [Hongarije](oost/hu.md) | 63 | 0 | 5 |
 | [Ierland](noord/IE.md) | 116 | 0 | 5 |
-| [IJsland](noord/IS.md) | 31 | 9 | 0 |
+| [IJsland](noord/IS.md) | 31 | 20 | 0 |
 | [Italië](zuid/it-IT.md) | 78 | 7 | 0 |
 | [Kazachstan](oost/kz.md) | 11 | 0 | 5 |
 | [Kosovo](zuid/sq-XK.md) | 1 | 9 | 0 |

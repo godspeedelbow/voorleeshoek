@@ -49,6 +49,27 @@ const translations = {
     "one": "Video",
     "other": "Videos"
   },
+  "is": {
+    "pageTitle": "Fyrir foreldra · Söguhornið",
+    "back": "Til baka í Söguhornið",
+    "parents": "Fyrir foreldra",
+    "heading": "Öll upplestrarmyndbönd",
+    "intro": "Leitaðu eftir titli eða síaðu eftir landi eða rás. Hvert myndband opnast í nýjum flipa.",
+    "filters": "Leita og raða myndböndum",
+    "search": "Leita eftir titli",
+    "example": "T.d. Hannes",
+    "country": "Land / tungumál",
+    "allCountries": "Öll lönd",
+    "channel": "YouTube-rás",
+    "allChannels": "Allar rásir",
+    "sort": "Raða",
+    "title": "Titill",
+    "unknownChannel": "Óþekkt rás",
+    "unknownDuration": "Óþekkt lengd",
+    "empty": "Engin myndbönd fundust.",
+    "one": "myndband",
+    "other": "myndbönd"
+  },
   "sv": {
     "pageTitle": "För föräldrar · Sagohörnan",
     "back": "Tillbaka till Sagohörnan",

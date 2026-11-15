@@ -13,9 +13,9 @@ Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 
 | Oost-Europa en Kaukasus | 14 | 541 | [Voortgang en taaldossiers](oost/README.md) |
 | Zuid-Europa | 18 | 580 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
 
-Gepubliceerde landkeuzes in deze ronde: [Monaco met 15 Franse voorleesvideo’s](west/MC.md) en [Zwitserland met 13 Duitse voorleesvideo’s](west/CH.md).
+Gepubliceerde landkeuzes in deze ronde: [Monaco met 15 Franse voorleesvideo’s](west/MC.md), [Zwitserland met 13 Duitse voorleesvideo’s](west/CH.md) en [IJsland met 14 IJslandse voorleesvideo’s](noord/IS.md#gepubliceerd-in-de-app).
 
-Publiceer een nieuwe land- of taalkeuze zodra minstens vijf verschillende kinderboeken in de gekozen taal zijn gecontroleerd op boekbeeld en insluitbaarheid op YouTube.
+In deze Europese publicatieronde gaat elk land live zodra minstens 11 verschillende geïllustreerde kinderboeken in de gekozen taal zijn gecontroleerd en in de YouTube-speler starten.
 
 ## Startvoorraad in de app
 

@@ -241,7 +241,7 @@ const translations = {
   }
 };
 
-const requestedCountry = new URLSearchParams(location.search).get('lang');
+const requestedCountry = new URLSearchParams(location.search).get('country');
 let savedCountry;
 try {
   savedCountry = localStorage.getItem('voorleeshoek-language');
@@ -257,7 +257,7 @@ const plurals = new Intl.PluralRules(locale);
 document.documentElement.lang = interfaceLanguage;
 document.documentElement.dir = interfaceLanguage === 'ary' ? 'rtl' : 'ltr';
 document.title = copy.pageTitle;
-document.getElementById('catalog-back').href = './?lang=' + selectedCountry.id;
+document.getElementById('catalog-back').href = './?country=' + selectedCountry.id;
 document.querySelectorAll('[data-text]').forEach((element) => {
   element.textContent = copy[element.dataset.text];
 });

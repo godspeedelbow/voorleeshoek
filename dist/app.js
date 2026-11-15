@@ -437,7 +437,7 @@ let language;
 let copy;
 
 function countryFromURL() {
-  const requested = new URLSearchParams(location.search).get('lang');
+  const requested = new URLSearchParams(location.search).get('country');
   return countryById.has(requested) ? requested : null;
 }
 
@@ -507,7 +507,7 @@ function applyCountry(id) {
   copy = translations[language];
   document.documentElement.lang = language;
   document.documentElement.dir = language === 'ary' ? 'rtl' : 'ltr';
-  get('parent-catalog-link').href = './ouders.html?lang=' + id;
+  get('parent-catalog-link').href = './ouders.html?country=' + id;
   get('country-flag').textContent = selectedCountry.flag;
   const countryName = get('country-name');
   countryName.textContent = selectedCountry.label;
@@ -1043,7 +1043,7 @@ countryPicker.addEventListener('keydown', (event) => {
 function chooseCountry(id) {
   preferredCountry = id;
   const url = new URL(location.href);
-  url.searchParams.set('lang', preferredCountry);
+  url.searchParams.set('country', preferredCountry);
   history.replaceState(history.state, '', url);
   try {
     localStorage.setItem(languageKey, preferredCountry);

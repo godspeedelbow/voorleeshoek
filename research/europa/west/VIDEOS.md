@@ -261,3 +261,30 @@ Controleer de gesproken taal per titel en of dit een compleet verhaal is. Aanvul
 | »Die Geschichte von Jean-Claude & Schleck« (ab 4 Joer) von Martin Klein (Carlsen Verlag) | [Video](https://cnl.public.lu/fr/multimedia/Lecture_pour_enfants/Jean-Claude_&_Schleck.html) | Centre national de littérature |
 | »Drei Frosch&Fant-Geschichten« (ab 6 Jahren) von Bernd Marcel Gonner, es liest Matthias Ransberger | [Video](https://cnl.public.lu/fr/multimedia/Lecture_pour_enfants/Drei_Frosch.html) | Centre national de littérature |
 | »De Kleesche kënnt elo Ouschterdag« (ab 6 Jahren) vum Roger Seimetz | [Video](https://cnl.public.lu/fr/multimedia/Lecture_pour_enfants/De_Kleesche.html) | Centre national de littérature |
+
+## FR · Bretons
+
+De eerste link komt van een regionale taalvereniging die een voorleessessie met albums beschrijft. De andere twee noemen specifieke prentenboeken. Controleer per titel of de hele tekst wordt voorgelezen.
+
+| Titel | Video | Kanaal of bron |
+| --- | --- | --- |
+| Abadenn lenn e brezhoneg evit ar vugale | [Video](https://www.youtube.com/watch?v=FzomiI6M2eI) | TI AR VRO - EMGLEV BRO GWENED |
+| Arzhig Du o c'hoari en e gibell | [Video](https://www.youtube.com/watch?v=NNQyB9rofNk) | Bretonne |
+| Arzhig Du o c'hoari er mor | [Video](https://www.youtube.com/watch?v=unBSy6ZO5zc) | Bretonne |
+
+## FR · Occitaans
+
+De videobeschrijving noemt de schrijver en voorlezer. Controleer de beelden en leeftijd.
+
+| Titel | Video | Kanaal of bron |
+| --- | --- | --- |
+| Blanca-Nèu e los sèt nanets | [Video](https://www.youtube.com/watch?v=rkeXmF2oJpM) | Terric Lausa |
+
+## NL · Jiddisch
+
+Internationale bronnen voor mogelijk hergebruik in Europese landen waar Jiddisch als minderheidstaal is beschermd. Controleer het Jiddische aandeel, eventuele bundeling en de doelgroep.
+
+| Titel | Video | Kanaal of bron |
+| --- | --- | --- |
+| Khaplop! Children's Stories in Yiddish (and English) | [Video](https://www.youtube.com/watch?v=Dnw_kImmIsE) | YI Love Jewish – Yiddishkayt Initiative |
+| Jewish children don't fight! (Yiddish reader story #2) | [Video](https://www.youtube.com/watch?v=F9xzvdkMXMI) | Frieda Vizel |

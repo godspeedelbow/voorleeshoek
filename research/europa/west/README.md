@@ -87,3 +87,15 @@ YouTube-oEmbed gaf voor 127 van 133 links openbare metadata terug. De publiceren
 
 - Fries. [Taalplan Frysk 2030](https://taalplan.frl/nl/nieuw-voorleesfilmpjes-in-het-fries-voor-kinderen-van-2-tot-10-jaar/) meldt 24 titels voor 2–10 jaar en een tijdelijk gratis kijkvenster. [Afûk](https://afuk.frl/nl/nu-ook-friese-voorleesfilmpjes-in-de-collectie-van-de-voorleeshoek/) noemt 25. Titels nog per video bij De Voorleeshoek bevestigen.
 - VGT. [VGT.be](https://www.vgt.be/verhalen/) en [pagina 2](https://www.vgt.be/verhalen/page/2/) tonen elk tien boektitels met verwijzingen naar Bibliotheek.be. Een eerste detailpagina toonde een toegangscontrole. Volg de sectie ‘Bekijk online’ in een browser en hervat daarna bij [pagina 3](https://www.vgt.be/verhalen/page/3/).
+- Bretons, Occitaans, Corsicaans, Reto-Romaans, Nedersaksisch, Jiddisch en ÖGS. Tweede ronde per zoekterm hieronder. De zes opgenomen links leverden openbare YouTube-oEmbed-metadata. Voor Reto-Romaans bleek de gevonden [Grimm-collectie van RTR](https://www.rtr.ch/audio/paraulas-dals-frars-grimm) audio en de [RTR-videopagina](https://www.rtr.ch/play/tv/telesguard/video/grimm-maerchen-auf-raetoromanisch?urn=urn%3Artr%3Avideo%3A302d5261-72f8-4f26-aabd-e90bb475a0bb) een reportage. De [Sorbische familiecollectie](https://info.sorben.com/sptws/) bevat onder meer liedjes, jeugdtelevisie en activiteiten. Volgende bron is WITAJ, voor Opper- en Nedersorbisch afzonderlijk.
+
+| Vervolgzoekterm | Titels gescreend |
+| --- | ---: |
+| `Brezhoweb kontadennoù bugale levr lenn` | 11 |
+| `contes en breton lire album breton lecture bilingue bugale` | 16 |
+| `occitan conte enfants album lecture conte occitan lenga d oc` | 19 |
+| `corsa lingua fole zitelli leghje` | 16 |
+| `romontsch raquint affons RTR cudisch` | 16 |
+| `Nedersaksisch streektaal kinderboek voorgelezen verhaal voor kleuters` | 15 |
+| `Jiddisch kinderbuch vorlesen yiddish kids story read aloud` | 17 |
+| `Österreich Gebärdensprache Kinderbuch vorlesen ÖGS Märchen Österreich Liste` | 16 |

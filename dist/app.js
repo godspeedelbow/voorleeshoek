@@ -376,7 +376,7 @@ const languageKey = 'voorleeshoek-language';
 const limitKey = 'voorleeshoek-limit';
 const countryByRegion = new Map([
   ['NL', 'nl'], ['SE', 'sv'], ['ES', 'es'], ['IT', 'it'], ['GB', 'en-GB'],
-  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'], ['ML', 'bm'],
+  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'],
 ]);
 let preferredCountry;
 let detectedCountry;
@@ -467,7 +467,7 @@ async function detectCountry() {
 
 function applyCountry(id) {
   selectedCountry = countryById.get(id);
-  language = selectedCountry.interfaceLanguage ?? selectedCountry.language;
+  language = selectedCountry.language;
   copy = translations[language];
   document.documentElement.lang = language;
   document.documentElement.dir = language === 'ary' ? 'rtl' : 'ltr';
@@ -475,11 +475,7 @@ function applyCountry(id) {
   get('country-flag').textContent = selectedCountry.flag;
   const countryName = get('country-name');
   countryName.textContent = selectedCountry.label;
-  countryName.lang = selectedCountry.language;
-  const hasStories = stories.some((story) => storyCountry(story) === id);
-  document.querySelector('[data-text="subtitle"]').hidden = !hasStories;
-  get('settings').hidden = !hasStories;
-  get('mali-library').hidden = id !== 'bm' || hasStories;
+  countryName.lang = language;
   for (const button of countryOptions.querySelectorAll('button')) {
     button.setAttribute('aria-pressed', String(button.value === id));
   }
@@ -961,15 +957,13 @@ get('plus').onclick = () => {
 limit.oninput = saveLimit;
 get('settings').onsubmit = (event) => {
   event.preventDefault();
-  const order = shuffledStories();
-  if (order.length === 0) return;
   saveLimit();
   startedRound = true;
   round = {
     total: Number(limit.value),
     completed: 0,
     skips: 3,
-    order,
+    order: shuffledStories(),
     cursor: 0,
     waitUntil: 0,
     position: 0,

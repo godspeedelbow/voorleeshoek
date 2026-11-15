@@ -23,6 +23,15 @@ Het script houdt de posities voor oude kijkrondes intact en vernieuwt de
 catalogusversie op beide pagina’s. Controleer de diff en publiceer volgens
 de afspraken hierboven.
 
+# Nieuwe landen en talen
+
+Voeg een nieuwe land- of taalkeuze pas aan de app toe als die keuze minstens
+20 verschillende voorgelezen kinderboeken in de gekozen taal bevat. Elk boek
+heeft een gecontroleerde, insluitbare YouTube-video die voldoet aan de
+beeldcontrole hieronder. Publiceer de keuze en de 20 of meer gecontroleerde
+video’s tegelijk. Houd onderzoek en voorselecties buiten de app totdat de
+volledige selectie klaar is.
+
 # Nieuwe video’s
 
 Laat video’s van Ouderraad-kanalen buiten zoekresultaten, voorstellen en de

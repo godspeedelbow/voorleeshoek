@@ -228,7 +228,7 @@ try {
   // The catalog works without browser storage.
 }
 const selectedCountry = countryById.get(requestedCountry) ?? countryById.get(savedCountry) ?? countryById.get('nl');
-const interfaceLanguage = selectedCountry.interfaceLanguage ?? selectedCountry.language;
+const interfaceLanguage = selectedCountry.language;
 const locale = interfaceLanguage === 'ary' ? 'ar-MA' : interfaceLanguage;
 const copy = translations[interfaceLanguage];
 const numberFormat = new Intl.NumberFormat(locale);

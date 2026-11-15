@@ -63,3 +63,27 @@ Dit zijn de aantallen titels gelezen uit de eerste resultaatpagina of collectiep
 | `Nijntje Drents Gronings Twents veurlezen kinderboek` | 18 |
 | `Monegaskisch munegascu conte enfants histoire Monaco` | 20 |
 | `français contes lus albums bibliothèque Wallonie vidéo Lirtuel` | 17 |
+
+## Technische controle en dubbelen
+
+YouTube-oEmbed gaf voor 127 van 133 links openbare metadata terug. De publicerende kanalen zijn daarmee gecontroleerd op de Ouderraad-uitsluiting. Zes van deze 127 stonden al in de app. De lijst hieronder bewaart de twaalf uitgesloten IDs als controlepunt. CNL- en Vimeo-video’s afkomstig van primaire bronnen staan als kandidaten in het dossier. Werkelijke afspeelbaarheid en inhoud blijven open.
+
+| Land en taal | YouTube-ID | Reden buiten de nieuwe selectie |
+| --- | --- | --- |
+| DE · Duits | `Ex6MRk2XhLc` | YouTube-oEmbed HTTP 404 |
+| DE · Duitse Gebarentaal | `T7VGZwbB0eA` | YouTube-oEmbed HTTP 401 |
+| FR · Frans | `w4ksRR0e5bI` | YouTube-oEmbed HTTP 404 |
+| FR · Frans | `-AdmhKqUgg8` | YouTube-oEmbed HTTP 404 |
+| FR · Frans | `us6nzWrEHW8` | YouTube-oEmbed HTTP 404 |
+| FR · Frans | `4M9u0ybo2Q4` | YouTube-oEmbed HTTP 404 |
+| FR · Frans | `OcyTm8Dl_nw` | staat in appcatalogus |
+| FR · Frans | `tsyLHEcGf_8` | staat in appcatalogus |
+| FR · Frans | `Fih12otOuQ4` | staat in appcatalogus |
+| FR · Frans | `E3VMnbyImmc` | staat in appcatalogus |
+| FR · Frans | `07SoYl9S7JE` | staat in appcatalogus |
+| FR · Frans | `VC74mpJIGCc` | staat in appcatalogus |
+
+### Aanvullende bronnen
+
+- Fries. [Taalplan Frysk 2030](https://taalplan.frl/nl/nieuw-voorleesfilmpjes-in-het-fries-voor-kinderen-van-2-tot-10-jaar/) meldt 24 titels voor 2–10 jaar en een tijdelijk gratis kijkvenster. [Afûk](https://afuk.frl/nl/nu-ook-friese-voorleesfilmpjes-in-de-collectie-van-de-voorleeshoek/) noemt 25. Titels nog per video bij De Voorleeshoek bevestigen.
+- VGT. [VGT.be](https://www.vgt.be/verhalen/) en [pagina 2](https://www.vgt.be/verhalen/page/2/) tonen elk tien boektitels met verwijzingen naar Bibliotheek.be. Een eerste detailpagina toonde een toegangscontrole. Volg de sectie ‘Bekijk online’ in een browser en hervat daarna bij [pagina 3](https://www.vgt.be/verhalen/page/3/).

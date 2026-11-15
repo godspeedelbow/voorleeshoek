@@ -21,3 +21,7 @@ python3 scripts/prepare-story.py sv 'https://www.youtube.com/watch?v=oMi3nIvjUf4
 ```
 
 De codes voor landkeuzes in links en het catalogusscript zijn `nl` (Nederlands), `nl-BE` (België / Vlaams), `sv` (Zweeds), `es` (Spaans), `it` (Italiaans), `en-GB` (Brits Engels), `ary` (Darija), `tr` (Turks), `pl` (Pools), `fr` (Frankrijk), `fr-BE` (Belgique / Français) en `da` (Deens). Je kunt meerdere links of video-ID's opgeven. Het script geeft regels terug voor `dist/stories.js`. Controleer de titels en voeg nieuwe regels onderaan toe. Houd de volgorde van bestaande regels aan, zodat lopende kijkrondes na herladen hetzelfde boek terugvinden. De ouderpagina laadt het voorbeeldplaatje van YouTube op basis van het video-ID.
+
+## Onderzoek per land en taal
+
+Bekijk het [Europese onderzoeksplan](research/europa/README.md) en het [landenregister met voortgang](research/europa/VOORTGANG.md).

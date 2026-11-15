@@ -8,19 +8,18 @@ Bronnen: [Schneverdingen](https://www.svd-inklusiv.de/medien/bilderbuchkino) en 
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
-| Bremer Stadtmusikanten | [Video](https://www.youtube.com/watch?v=Ex6MRk2XhLc) | Kommune Inklusiv Schneverdingen |
-| Kröti und die Zauberblume | [Video](https://www.youtube.com/watch?v=SWT9bhfmUwo) | Kommune Inklusiv Schneverdingen |
-| Finsterstern und Funkelstein | [Video](https://www.youtube.com/watch?v=RbBh52UUX6g) | Kommune Inklusiv Schneverdingen |
-| Die Geschichte von Prinz Seltsam | [Video](https://www.youtube.com/watch?v=S_cTb_x19ew) | Kommune Inklusiv Schneverdingen |
-| Was ist los mit Marie | [Video](https://www.youtube.com/watch?v=Io3EJMPmTGw) | Kommune Inklusiv Schneverdingen |
-| Bilderbuchkino: Die Flucht - Wie die Tiere ein neues Zuhause finden | [Video](https://www.youtube.com/watch?v=fAcKPvgmSjE) | Kommune Inklusiv Schneverdingen |
-| Bilderbuchkino: Mia - meine ganz besondere Freundin | [Video](https://www.youtube.com/watch?v=-BEMxsRUIek) | Kommune Inklusiv Schneverdingen |
-| Tafiti - Heute bin ich du! | [Video](https://www.youtube.com/watch?v=Ktr1t20gpDE) | Kommune Inklusiv Schneverdingen |
-| Lernen macht Spass | [Video](https://www.youtube.com/watch?v=8bLF38xYAhc) | Kommune Inklusiv Schneverdingen |
-| Bilderbuchkino: Ein Ball für Alle | [Video](https://www.youtube.com/watch?v=Y1NDxPZxc2s) | Kommune Inklusiv Schneverdingen |
-| Bilderbuchkino: Einer für Alle - Alle für einen | [Video](https://www.youtube.com/watch?v=gzaZAlBkumI) | Kommune Inklusiv Schneverdingen |
-| Bilderbuchkino: Die kleine Schnucke Naseweis | [Video](https://www.youtube.com/watch?v=yrIWUUJXSDA) | Kommune Inklusiv Schneverdingen |
-| Bilderbuchkino: Die Bunte Bande - Das gestohlene Fahrrad | [Video](https://www.youtube.com/watch?v=uUrxuwyXfEQ) | Kommune Inklusiv Schneverdingen |
+| Kröti und die Zauberblume | [Video](https://www.youtube.com/watch?v=SWT9bhfmUwo) | Schneverdingen Inklusiv |
+| Finsterstern und Funkelstein | [Video](https://www.youtube.com/watch?v=RbBh52UUX6g) | Schneverdingen Inklusiv |
+| Die Geschichte von Prinz Seltsam | [Video](https://www.youtube.com/watch?v=S_cTb_x19ew) | Schneverdingen Inklusiv |
+| Was ist los mit Marie | [Video](https://www.youtube.com/watch?v=Io3EJMPmTGw) | Schneverdingen Inklusiv |
+| Bilderbuchkino: Die Flucht - Wie die Tiere ein neues Zuhause finden | [Video](https://www.youtube.com/watch?v=fAcKPvgmSjE) | Schneverdingen Inklusiv |
+| Bilderbuchkino: Mia - meine ganz besondere Freundin | [Video](https://www.youtube.com/watch?v=-BEMxsRUIek) | Schneverdingen Inklusiv |
+| Tafiti - Heute bin ich du! | [Video](https://www.youtube.com/watch?v=Ktr1t20gpDE) | Schneverdingen Inklusiv |
+| Lernen macht Spass | [Video](https://www.youtube.com/watch?v=8bLF38xYAhc) | Schneverdingen Inklusiv |
+| Bilderbuchkino: Ein Ball für Alle | [Video](https://www.youtube.com/watch?v=Y1NDxPZxc2s) | Schneverdingen Inklusiv |
+| Bilderbuchkino: Einer für Alle - Alle für einen | [Video](https://www.youtube.com/watch?v=gzaZAlBkumI) | Schneverdingen Inklusiv |
+| Bilderbuchkino: Die kleine Schnucke Naseweis | [Video](https://www.youtube.com/watch?v=yrIWUUJXSDA) | Schneverdingen Inklusiv |
+| Bilderbuchkino: Die Bunte Bande - Das gestohlene Fahrrad | [Video](https://www.youtube.com/watch?v=uUrxuwyXfEQ) | Schneverdingen Inklusiv |
 | Kippers Ballon - Wuselstunde mit Daniela Dietz | [Video](https://www.youtube.com/watch?v=59hzzGhkzP0) | Wuselstunde |
 | Eine Katze auf dem Baum - Wuselstunde mit Daniela Dietz | [Video](https://www.youtube.com/watch?v=skb8INYdOZQ) | Wuselstunde |
 | Floppys Bad - Wuselstunde mit Daniela Dietz | [Video](https://www.youtube.com/watch?v=PfrWk5zBiGI) | Wuselstunde |
@@ -80,7 +79,6 @@ Controleer de gebarentaal bij publicaties zonder expliciete DGS-vermelding.
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
-| Goldlöckchen und die drei Bären \| Kinderbuch in DGS | [Video](https://www.youtube.com/watch?v=T7VGZwbB0eA) | Berlin Deaf Studies Talks |
 | Kinderbücher in Gebärdensprache - Urwald | [Video](https://www.youtube.com/watch?v=qJUaUwOYqUg) | Gehörlosenverband München und Umland e.V. |
 | LeseZeichen digital \|  "Hase und Igel" in Gebärdensprache | [Video](https://www.youtube.com/watch?v=bYQTR-sT5aw) | Kinder- und Jugendbibliothek ZLB |
 | Der Lebkuchenmann \| Kinderbuch in DGS | [Video](https://www.youtube.com/watch?v=uKQ4U2g82hI) | Berlin Deaf Studies Talks |
@@ -104,11 +102,11 @@ Titel of zoekcontext wijst op een kinderboek of voorleesvideo in Zwitserse omgan
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
-| De Chli Rot Traktor - E Gheimhütte (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=lde9hogpUxI) | Kanaal controleren |
-| Chliine Iisbär - Das Buch (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=7QiJeL9bcLk) | Kanaal controleren |
-| Felix reist i d'Schwiiz | [Video](https://www.youtube.com/watch?v=HFC4_c93CmY) | Kanaal controleren |
-| Gute Nacht, Locke! Gutenachtgeschichte für Kleinkinder in Schweizerdeutsch | [Video](https://www.youtube.com/watch?v=gCedVIMyGmA) | Kanaal controleren |
-| 🤔💫 Wo man einen Stern findet \| Animiertes Kinderbuch \|  @gschichtliland | [Video](https://www.youtube.com/watch?v=bmujIAqwJdY) | Kanaal controleren |
+| De Chli Rot Traktor - E Gheimhütte (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=lde9hogpUxI) | Dr Strangelove |
+| Chliine Iisbär - Das Buch (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=7QiJeL9bcLk) | Dr Strangelove |
+| Felix reist i d'Schwiiz | [Video](https://www.youtube.com/watch?v=HFC4_c93CmY) | Kinder Schweizerdeutsch - Topic |
+| Gute Nacht, Locke! Gutenachtgeschichte für Kleinkinder in Schweizerdeutsch | [Video](https://www.youtube.com/watch?v=gCedVIMyGmA) | ELA |
+| 🤔💫 Wo man einen Stern findet \| Animiertes Kinderbuch \|  @gschichtliland | [Video](https://www.youtube.com/watch?v=bmujIAqwJdY) | Gschichtli Land |
 
 ## FR · Frans
 
@@ -116,18 +114,8 @@ Bronnen: [albums van uitgever](https://media.ecoledesloisirs.fr/lecture-voixhaut
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
-| Pas trop de bruit | [Video](https://www.youtube.com/watch?v=w4ksRR0e5bI) | L’école des loisirs |
-| Le grand voyage des petites souris | [Video](https://www.youtube.com/watch?v=-AdmhKqUgg8) | L’école des loisirs |
-| Le livre qui dort | [Video](https://www.youtube.com/watch?v=us6nzWrEHW8) | L’école des loisirs |
-| Chhht ! | [Video](https://www.youtube.com/watch?v=KhmkBNcDVg0) | L’école des loisirs |
-| Haut les pattes ! | [Video](https://www.youtube.com/watch?v=4M9u0ybo2Q4) | L’école des loisirs |
-| 🎃 Cornebidouille - album filmé 📺 | [Video](https://www.youtube.com/watch?v=OcyTm8Dl_nw) | l'école des loisirs pour les enfants |
-| 🐰Caca boudin - album filmé 📺 | [Video](https://www.youtube.com/watch?v=tsyLHEcGf_8) | l'école des loisirs pour les enfants |
+| Chhht ! | [Video](https://www.youtube.com/watch?v=KhmkBNcDVg0) | L'école des loisirs |
 | L'heure des albums : Lecture de l'album "Le poussin le chat" de Praline Gay-Para | [Video](https://www.youtube.com/watch?v=7imRcfDmvYc) | Médiathèque de Vence |
-| 🐹🪱 Billy cherche un trésor - album filmé 📺 | [Video](https://www.youtube.com/watch?v=Fih12otOuQ4) | l'école des loisirs pour les enfants |
-| 👑 La princesse coquette - album filmé | [Video](https://www.youtube.com/watch?v=E3VMnbyImmc) | l'école des loisirs pour les enfants |
-| 🐺 C'est moi le plus fort - album filmé 📺 | [Video](https://www.youtube.com/watch?v=07SoYl9S7JE) | l'école des loisirs pour les enfants |
-| L'ours de la bibliothèque | [Video](https://www.youtube.com/watch?v=VC74mpJIGCc) | La chaîne des petits lus de la médiathèque d'Hendaye |
 | Les petits lus de mai 2021 - Calamity chat | [Video](https://www.youtube.com/watch?v=5FtOBVsTgsc) | La chaîne des petits lus de la médiathèque d'Hendaye |
 | Les Petits Lus de mars 2021 - Blanche-Neige et les 77 nains | [Video](https://www.youtube.com/watch?v=6JVbwZgW2zM) | La chaîne des petits lus de la médiathèque d'Hendaye |
 | Pendant que le loup n'y est pas | [Video](https://www.youtube.com/watch?v=yyTwL2YJHnE) | La chaîne des petits lus de la médiathèque d'Hendaye |

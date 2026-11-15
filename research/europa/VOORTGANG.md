@@ -2,6 +2,8 @@
 
 Laatste onderzoeksronde 15 november 2026. Doel 50 per land-taalpaar. De regionale dossiers bevatten de directe links, gevonden bronnen en hervatpunten. De talen in deze tabel vormen een eerste inventaris. Gebruik voor uitwerking ook de beschermde talen per land uit de [Raad van Europa](https://rm.coe.int/november-2022-revised-table-languages-covered-english-/1680a8fef4).
 
+## Landen en talen
+
 | Code | Land | Eerste taalvragen | Dossier |
 | --- | --- | --- | --- |
 | AT | Oostenrijk | Duits, Burgenland-Kroatisch, Hongaars, Sloveens, Tsjechisch, Slowaaks, Romani, ÖGS | [west](west/) |

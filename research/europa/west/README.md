@@ -2,6 +2,35 @@
 
 Onderzoeksronde 15 november 2026. De [videolijst](VIDEOS.md) bevat directe links per land en taal. De kandidaten vragen nog een afspeelcheck en inhoudelijke beoordeling.
 
+## Stand per land en taal
+
+| Land en taal | Bestaand | Nieuw · kandidaat | Tot 50 in de voorselectie |
+| --- | ---: | ---: | ---: |
+| [AT · Duits](VIDEOS.md#at--duits) | 0 | 5 | 45 |
+| [BE · Frans](VIDEOS.md#be--frans) | 1 | 1 | 48 |
+| [BE · Vlaams](VIDEOS.md#be--vlaams) | 101 | 4 | 0 |
+| [BE · Vlaamse Gebarentaal](VIDEOS.md#be--vlaamse-gebarentaal) | 0 | 11 | 39 |
+| [CH · Zwitsers-Duits](VIDEOS.md#ch--zwitsers-duits) | 0 | 5 | 45 |
+| [DE · Duits](VIDEOS.md#de--duits) | 0 | 56 | 0 |
+| [DE · Duitse Gebarentaal](VIDEOS.md#de--duitse-gebarentaal) | 0 | 4 | 46 |
+| [DE · Nederduits](VIDEOS.md#de--nederduits) | 0 | 1 | 49 |
+| [FR · Bretons](VIDEOS.md#fr--bretons) | 0 | 3 | 47 |
+| [FR · Frans](VIDEOS.md#fr--frans) | 47 | 13 | 0 |
+| [FR · Franse Gebarentaal](VIDEOS.md#fr--franse-gebarentaal) | 0 | 7 | 43 |
+| [FR · Occitaans](VIDEOS.md#fr--occitaans) | 0 | 1 | 49 |
+| [LU · Duits](VIDEOS.md#lu--duits) | 0 | 3 | 47 |
+| [LU · Frans](VIDEOS.md#lu--frans) | 0 | 2 | 48 |
+| [LU · Luxemburgs](VIDEOS.md#lu--luxemburgs) | 0 | 23 | 27 |
+| [NL · Fries](VIDEOS.md#nl--fries) | 0 | 10 | 40 |
+| [NL · Jiddisch](VIDEOS.md#nl--jiddisch) | 0 | 2 | 48 |
+| NL · Nederlands | 62 | 0 | 0 |
+| [NL · Nederlandse Gebarentaal](VIDEOS.md#nl--nederlandse-gebarentaal) | 0 | 1 | 49 |
+| [NL · Nedersaksisch](VIDEOS.md#nl--nedersaksisch) | 0 | 2 | 48 |
+
+Combinaties zonder eigen kandidaten staan in het zoeklog. Daar staan ook mogelijkheden om materiaal uit een ander land te hergebruiken.
+
+## Zoeklog per land
+
 | Land | Taal | Gescreende bron of resultaten | Uitkomst en hervatpunt |
 | --- | --- | --- | --- |
 | Duitsland | Duits | Posities 1–100 van [Wuselstunde Best-of](https://www.youtube.com/playlist?list=PLTS_xtHSFvwRkvqBz14gRK4Q5mQvjTCFx) gescand op titels, 13 ingesloten afleveringen op [Schneverdingen](https://www.svd-inklusiv.de/medien/bilderbuchkino) bekeken als bronmetadata | Het doel is haalbaar uit deze selectie. Begin met de individuele videobeoordeling. Bij uitval is de eigen 4–7-lijst van het Wuselstunde-kanaal de volgende bron. |

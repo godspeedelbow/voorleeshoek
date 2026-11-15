@@ -3,7 +3,7 @@
 Onderzocht op 15 november 2026.
 
 - Doel: 50 per land en taal. 0 bestaande catalogusrijen en 0 extra videokandidaten, waarvan 0 met openbare embedmetadata.
-- Gedeelde taalbron: [sq-AL](sq-AL.md).
+- Gedeeld Albanees: de 28 afzonderlijke kandidaatlinks in [Albanië](sq-AL.md#kandidaten).
 
 ## Hervatten
 

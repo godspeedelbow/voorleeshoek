@@ -2,7 +2,7 @@
 
 Onderzocht op 15 november 2026. Per dossier staan directe videolinks, de bron van de voorselectie en het volgende zoekpunt. Het bewijsniveau kandidaat betekent selectie op titel, beschrijving of reeks. De gesproken taal, het volledige verhaal, de geschiktheid voor een kind van ongeveer vijf en afspelen in de app vragen nog om beoordeling. Een geslaagde YouTube-oEmbed bevestigt alleen dat YouTube openbare embedmetadata teruggaf.
 
-De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst gelezen rijen staan in [de appcatalogus](../../../dist/stories.js). Gedeelde taalbronnen, zoals Italiaans voor San Marino en Vaticaanstad, hebben een verwijzing en krijgen geen lokale telling.
+De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst gelezen rijen staan in [de appcatalogus](../../../dist/stories.js). Gedeelde taalbronnen hebben een verwijzing. De plaatselijke en gedeelde resultaten van ronde 2 staan apart onder de index.
 
 | Land en taal | Catalogus | Extra kandidaten in dossier | Dossier |
 |---|---:|---:|---|
@@ -15,7 +15,7 @@ De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst geleze
 | Aranees — Spanje | 0 | 1 (1 oEmbed) | [oc-ES](oc-ES.md) |
 | Asturisch — Spanje | 0 | 2 (2 oEmbed) | [ast-ES](ast-ES.md) |
 | Aragonees — Spanje | 0 | 17 (17 oEmbed) | [an-ES](an-ES.md) |
-| Catalaans — Andorra | 0 | 1 (1 oEmbed) | [ca-AD](ca-AD.md) |
+| Catalaans — Andorra | 0 | 3 (3 oEmbed) | [ca-AD](ca-AD.md) |
 | Italiaans — Italië | 45 | 15 (15 oEmbed); ≥50 catalogus + kandidaten | [it-IT](it-IT.md) |
 | Sardisch — Italië | 0 | 4 (4 oEmbed) | [sc-IT](sc-IT.md) |
 | Friulisch — Italië | 0 | 14 (14 oEmbed) | [fur-IT](fur-IT.md) |
@@ -41,11 +41,11 @@ De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst geleze
 | Hongaars — Servië | 0 | 0 (0 oEmbed) | [hu-RS](hu-RS.md) |
 | Montenegrijns — Montenegro | 0 | 0 (0 oEmbed) | [cnr-ME](cnr-ME.md) |
 | Albanees — Montenegro | 0 | 0 (0 oEmbed) | [sq-ME](sq-ME.md) |
-| Albanees — Kosovo | 0 | 0 (0 oEmbed) | [sq-XK](sq-XK.md) |
+| Albanees — Kosovo | 0 | 1 (1 oEmbed) | [sq-XK](sq-XK.md) |
 | Servisch — Kosovo | 0 | 0 (0 oEmbed) | [sr-XK](sr-XK.md) |
 | Macedonisch — Noord-Macedonië | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [mk-MK](mk-MK.md) |
 | Albanees — Noord-Macedonië | 0 | 0 (0 oEmbed) | [sq-MK](sq-MK.md) |
-| Albanees — Albanië | 0 | 11 (11 oEmbed) | [sq-AL](sq-AL.md) |
+| Albanees — Albanië | 0 | 28 (28 oEmbed) | [sq-AL](sq-AL.md) |
 
 [Nog te openen taaldossiers](OPEN-TALEN.md) bevat de resterende streek- en minderheidstalen met bronverwijzingen en zoekingangen.
 
@@ -55,7 +55,7 @@ De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst geleze
 2. Werk de kleinere dossiers bij vanuit het vermelde hervatpunt. Gebruik voor gedeelde talen een verwijzing naar dezelfde verzameling en noteer afzonderlijk welke opnamen een lokale variant gebruiken.
 3. Vul per playlist alleen ontbrekende titels aan. Oliveira do Bairro en Škofja Loka zijn al doorzocht tot de eerste 100 openbare items. Bij de overige bronnen is de getoonde set in het dossier genoteerd.
 
-Alle 629 opgenomen video-ID’s gaven openbare YouTube-oEmbed-metadata. Een aanvullende steekproef bekeek het veld `playableInEmbed` op de videopagina. Het stond op `true` voor `YfAItG3ZZC0`, `wFQQxWpkBy4`, `AzUv4itGSmY`, `-alUvrndDps`, `x43YR0Jom_U`, `uJZw1r-uvuI`, `DM4rkxo7BOM`, `6QbjhJT-yHc`, `MZW_XG0GBz0`, `TuI0Q8o8BCQ`, `vPkplBTt_w0`, `nEgxoWtKcho` en `gx9BfkGW6uo`. Afspelen vanuit de Voorleeshoek is voor deze steekproef nog open.
+Alle 649 opgenomen video-ID’s gaven openbare YouTube-oEmbed-metadata. Een aanvullende steekproef bekeek het veld `playableInEmbed` op de videopagina. Het stond op `true` voor `YfAItG3ZZC0`, `wFQQxWpkBy4`, `AzUv4itGSmY`, `-alUvrndDps`, `x43YR0Jom_U`, `uJZw1r-uvuI`, `DM4rkxo7BOM`, `6QbjhJT-yHc`, `MZW_XG0GBz0`, `TuI0Q8o8BCQ`, `vPkplBTt_w0`, `nEgxoWtKcho` en `gx9BfkGW6uo`. Afspelen vanuit de Voorleeshoek is voor deze steekproef nog open.
 
 ### Uitgesloten na broncontrole
 
@@ -63,3 +63,19 @@ Alle 629 opgenomen video-ID’s gaven openbare YouTube-oEmbed-metadata. Een aanv
 - Kroatië, playlist Čituljkova virtualna čitaonica. `IOt0OShfYig` is een muzieknummer. Genummerde losse verhaalfragmenten en knutselinstructies zijn uit de shortlist gehouden.
 - Servië, acteurscollectie uit het nationale leesprogramma. `F9joHCGKZtw` en `eJsxpT_msB4` zijn de eerste delen van opgedeelde verhalen. De voorlezingen van complete boeken uit de aparte lijst Knjige za decu staan in het dossier.
 - Bosnië en Montenegro. De eerste resultaten van onder meer StoryTime at Awnie’s House en Reading Rocket toonden lokaal vertaalde titels. De oorspronkelijke kanalen zijn Engelstalig.
+
+
+## Zoekronde 2 · 15 november 2026
+
+De ondergrens van twintig kandidaatvideo’s per land kan in deze ronde ook worden ingevuld met een vastgelegde gedeelde taallijst of de bestaande appcatalogus. Bestaand materiaal en kandidaten zijn beide zichtbaar in de tabel. Gedeelde en bestaande video’s blijven buiten de telling van nieuwe unieke links voor deze regio.
+
+| Land | Eerdere afzonderlijke kandidaten | Na deze ronde in eigen dossier | Gedeeld of bestaand | Beschikbaar voor land |
+|---|---:|---:|---|---:|
+| [Albanië](sq-AL.md) | 11 | 28 | De taal is Albanees. De herkomst van de afzonderlijke uploads is nog open. | 28 |
+| [Kosovo](sq-XK.md) | 0 | 1 | 28 [Albaneestalige kandidaten](sq-AL.md#kandidaten) en 48 [Servischtalige kandidaten](sr-RS.md#kandidaten) | 77 |
+| [Montenegro](cnr-ME.md) | 0 | 0 in het Montenegrijns | 176 kandidaten in vier andere talen in officieel gebruik. De lijst per taal staat in het dossier. | 176 |
+| [Andorra](ca-AD.md) | 1 | 3 | 50 [Catalaanstalige kandidaten](ca-ES.md#kandidaten) | 53 |
+| [San Marino](it-SM.md) | 1 | 1 | 15 [Italiaanse kandidaten](it-IT.md#kandidaten) plus 45 Italiaanse rijen in [de app](../../../dist/stories.js) | 61 |
+| [Vaticaanstad](it-VA.md) | 0 | 0 | 15 [Italiaanse kandidaten](it-IT.md#kandidaten) plus 45 Italiaanse rijen in [de app](../../../dist/stories.js) | 60 |
+
+De regionale set groeide van 629 naar 649 nieuwe unieke kandidaatlinks. In Andorra viel één lied af en kwamen drie boekverhalen terug. In San Marino is een evenementverslag vervangen door een specifiekere afzonderlijke voorlezing.

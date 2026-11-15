@@ -3,7 +3,7 @@
 Onderzocht op 15 november 2026.
 
 - Doel: 50 per land en taal. 0 bestaande catalogusrijen en 0 extra videokandidaten, waarvan 0 met openbare embedmetadata.
-- Gedeelde taalbron: [sr-RS](sr-RS.md).
+- Gedeeld Servisch: de 48 afzonderlijke kandidaatlinks in [Servië](sr-RS.md#kandidaten). De plaatselijke uitspraak en lokale opnamen blijven een aparte zoekvraag.
 
 ## Hervatten
 

@@ -70,6 +70,27 @@ const translations = {
     "one": "myndband",
     "other": "myndbönd"
   },
+  "ga": {
+    "pageTitle": "Do thuismitheoirí · Cúinne na Scéalta",
+    "back": "Ar ais go Cúinne na Scéalta",
+    "parents": "Do thuismitheoirí",
+    "heading": "Na físeáin léitheoireachta go léir",
+    "intro": "Cuardaigh de réir teidil nó scag de réir tíre nó cainéil. Osclaítear gach físeán i gcluaisín nua.",
+    "filters": "Cuardaigh agus sórtáil físeáin",
+    "search": "Cuardaigh de réir teidil",
+    "example": "M.sh. Molly",
+    "country": "Tír / teanga",
+    "allCountries": "Gach tír",
+    "channel": "Cainéal YouTube",
+    "allChannels": "Gach cainéal",
+    "sort": "Sórtáil",
+    "title": "Teideal",
+    "unknownChannel": "Cainéal anaithnid",
+    "unknownDuration": "Fad anaithnid",
+    "empty": "Níor aimsíodh aon fhíseán.",
+    "one": "fhíseán",
+    "other": "físeán"
+  },
   "sv": {
     "pageTitle": "För föräldrar · Sagohörnan",
     "back": "Tillbaka till Sagohörnan",

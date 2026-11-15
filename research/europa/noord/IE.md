@@ -9,34 +9,34 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 | Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
 | --- | --- | --- | --- | --- |
 | 📙 Seo scéal ‘Múinteoir Molly agus an Rang Ealaíne’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=zTBMx_5w6zs) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘An Gréasaí Bróg agus na Sióga’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=Rnl0D8irtDk) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Plandaí Ocracha’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=YkJnRU7fM_U) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘An Gréasaí Bróg agus na Sióga’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=Rnl0D8irtDk) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘Plandaí Ocracha’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=YkJnRU7fM_U) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘An Goraille’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=_vjGxiV2CrA) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Mamó ar an fheirm’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=1cFtPwqUfVA) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘Mamó ar an fheirm’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=1cFtPwqUfVA) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘Mistéir ar Bord’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=Ao1Or5DrPos) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Cois Trá le Múinteoir Molly’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=yRWf1kj8c6U) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘Cois Trá le Múinteoir Molly’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=yRWf1kj8c6U) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘Romeo agus Juliet’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=tB6scagU4wY) | Glór na nGael | Kandidaat |  |
 | 📙 Seo scéal ‘Píobaire Hamelin’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=XTweLgO1_Ks) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Gruaig’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=9Yxy_jLNT7k) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Ag an sú le Múinteoir Molly’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=lbAWYXyZVZI) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘Gruaig’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=9Yxy_jLNT7k) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘Ag an sú le Múinteoir Molly’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=lbAWYXyZVZI) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘Ár nAinmithe ’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=BkoRlk8zczY) | Glór na nGael | Kandidaat |  |
 | 📙 Seo scéal ‘Rún na Seacht gCloigne’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=pabLXXE__zM) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘An Mac Tíre a Thaistil an Domhan’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=2pZeugGjPz4) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘An Dochtúir Dan’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=4JiNkLf46kY) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘An Mac Tíre nach raibh sásta siúl’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=WI4ds3-vO9E) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘ Seo agat damháin alla’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=ugaHoqMYm-w) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘An Mac Tíre a Thaistil an Domhan’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=2pZeugGjPz4) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘An Dochtúir Dan’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=4JiNkLf46kY) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘An Mac Tíre nach raibh sásta siúl’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=WI4ds3-vO9E) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘ Seo agat damháin alla’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=ugaHoqMYm-w) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘Páidín Mháire Mhuigín’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=N0203QYLTBM) | Glór na nGael | Kandidaat |  |
 | 📙 Seo scéal ‘Oileán na bPéarlaí’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=k9oIJeNKdvw) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Cara ag Crúibín’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=gVZcVcE0_fA) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘Cara ag Crúibín’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=gVZcVcE0_fA) | Glór na nGael | Beeld voldoet |  |
 | 📚 Seo scéal ‘Muireann agus an Teach Solais ’ á léamh ag Dónall👦 | [YouTube](https://www.youtube.com/watch?v=ZOtwgio07O8) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Páidí Péintéir’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=8EkPe6FL2oE) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘Páidí Péintéir’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=8EkPe6FL2oE) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘Eachtra Mhór Lúidín’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=YoxCygrBJSE) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Cogarnach ar an bhFeirm’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=-69UhdIHhT4) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘An Phéist Mhór’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=12alPJoq54U) | Glór na nGael | Kandidaat |  |
+| 📙 Seo scéal ‘Cogarnach ar an bhFeirm’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=-69UhdIHhT4) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘An Phéist Mhór’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=12alPJoq54U) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘An Odaisé’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=XDv3T8IZqFQ) | Glór na nGael | Kandidaat |  |
-| 📚 Seo scéal ‘Na Péisteanna’ á léamh ag Dónall👦 | [YouTube](https://www.youtube.com/watch?v=dVO94Kty1xQ) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘Múinteoir Molly agus an Lá Spóirt ’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=YezHpoomvNM) | Glór na nGael | Kandidaat |  |
-| 📙 Seo scéal ‘An Mac Tíre a bhí ina Shárlaoch’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=8t2Tc9f4kdQ) | Glór na nGael | Kandidaat |  |
+| 📚 Seo scéal ‘Na Péisteanna’ á léamh ag Dónall👦 | [YouTube](https://www.youtube.com/watch?v=dVO94Kty1xQ) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘Múinteoir Molly agus an Lá Spóirt ’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=YezHpoomvNM) | Glór na nGael | Beeld voldoet |  |
+| 📙 Seo scéal ‘An Mac Tíre a bhí ina Shárlaoch’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=8t2Tc9f4kdQ) | Glór na nGael | Beeld voldoet |  |
 | 📙 Seo scéal ‘Foghlaí Mara Aisteach! ’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=qBNMdNUxJ58) | Glór na nGael | Kandidaat |  |
 | 📙 Seo scéal ‘An Mhaighdean Mhara’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=mxypQH7O6pQ) | Glór na nGael | Kandidaat |  |
 | 📙 Seo scéal ‘Am Codlata i Lár na Coille’ á léamh ag Donach🧔 | [YouTube](https://www.youtube.com/watch?v=PY6KxmAUVbg) | Glór na nGael | Kandidaat |  |
@@ -174,3 +174,27 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 - [Irish Sign Language storybook ISL children](https://www.youtube.com/results?search_query=Irish+Sign+Language+storybook+ISL+children) · Zoekresultaten bevatten vooral woorden en rijmpjes. Volgende bron om te onderzoeken is de Irish Deaf Society.
 - [Bron op www.irishdeafsociety.ie](https://www.irishdeafsociety.ie/advocacy-information/information-for-parents/isl-story-sign/) · Twaalf 2022-spelers in de oorspronkelijke pagina uitgelezen. Rechtstreeks openen van de spelers gaf HTTP 401. De originele bronpagina blijft de afspeelroute om te testen. In dezelfde bron staan vijf oudere video’s en twee animaties die nog op vorm moeten worden beoordeeld.
 - [Bron op www.tippisl.ie](https://www.tippisl.ie/library-storytime) · Vier YouTube-video’s bij bron gevonden en metadata opgehaald. Project bevestigt dat een moedertaalgebruiker boeken in ISL toegankelijk maakt.
+
+## Gepubliceerd in de app · Iers
+
+17 geïllustreerde Ierse kinderboeken uit de collectie van [Glór na nGael](https://www.glornangael.ie/teangati/acmhainni/fis-fuaim/). [Gaeloideachas](https://gaeloideachas.ie/leabharlann/?lang=ga) beschrijft de reeks als voorgelezen prentenboeken in het Iers. Per video waren op twee momenten tijdens afspelen verschillende geïllustreerde boekpagina’s goed zichtbaar. De ingebedde YouTube-speler werd gedempt getest onder de site-origin. De Engelse en Ierse Gebarentaalse dossiers staan nog open.
+
+| Titel | Video | Gecontroleerde speelmomenten |
+| --- | --- | --- |
+| 📙 Seo scéal ‘An Gréasaí Bróg agus na Sióga’ á léamh ag Donach🧔 | [Rnl0D8irtDk](https://www.youtube.com/watch?v=Rnl0D8irtDk) | 4:35, 8:51 |
+| 📙 Seo scéal ‘Plandaí Ocracha’ á léamh ag Donach🧔 | [YkJnRU7fM_U](https://www.youtube.com/watch?v=YkJnRU7fM_U) | 9:21, 18:05 |
+| 📙 Seo scéal ‘Mamó ar an fheirm’ á léamh ag Donach🧔 | [1cFtPwqUfVA](https://www.youtube.com/watch?v=1cFtPwqUfVA) | 2:36, 5:00 |
+| 📙 Seo scéal ‘Cois Trá le Múinteoir Molly’ á léamh ag Donach🧔 | [yRWf1kj8c6U](https://www.youtube.com/watch?v=yRWf1kj8c6U) | 3:10, 6:08 |
+| 📙 Seo scéal ‘Gruaig’ á léamh ag Donach🧔 | [9Yxy_jLNT7k](https://www.youtube.com/watch?v=9Yxy_jLNT7k) | 2:54, 5:36 |
+| 📙 Seo scéal ‘Ag an sú le Múinteoir Molly’ á léamh ag Donach🧔 | [lbAWYXyZVZI](https://www.youtube.com/watch?v=lbAWYXyZVZI) | 2:59, 5:46 |
+| 📙 Seo scéal ‘An Mac Tíre a Thaistil an Domhan’ á léamh ag Donach🧔 | [2pZeugGjPz4](https://www.youtube.com/watch?v=2pZeugGjPz4) | 5:45, 11:07 |
+| 📙 Seo scéal ‘An Dochtúir Dan’ á léamh ag Donach🧔 | [4JiNkLf46kY](https://www.youtube.com/watch?v=4JiNkLf46kY) | 1:29, 2:52 |
+| 📙 Seo scéal ‘An Mac Tíre nach raibh sásta siúl’ á léamh ag Donach🧔 | [WI4ds3-vO9E](https://www.youtube.com/watch?v=WI4ds3-vO9E) | 4:10, 8:03 |
+| 📙 Seo scéal ‘ Seo agat damháin alla’ á léamh ag Donach🧔 | [ugaHoqMYm-w](https://www.youtube.com/watch?v=ugaHoqMYm-w) | 7:20, 14:11 |
+| 📙 Seo scéal  ‘Cara ag Crúibín’ á léamh ag Donach🧔 | [gVZcVcE0_fA](https://www.youtube.com/watch?v=gVZcVcE0_fA) | 3:52, 7:27 |
+| 📙 Seo scéal ‘Páidí Péintéir’ á léamh ag Donach🧔 | [8EkPe6FL2oE](https://www.youtube.com/watch?v=8EkPe6FL2oE) | 2:11, 4:13 |
+| 📙 Seo scéal ‘Cogarnach ar an bhFeirm’ á léamh ag Donach🧔 | [-69UhdIHhT4](https://www.youtube.com/watch?v=-69UhdIHhT4) | 2:32, 4:54 |
+| 📙 Seo scéal ‘An Phéist Mhór’ á léamh ag Donach🧔 | [12alPJoq54U](https://www.youtube.com/watch?v=12alPJoq54U) | 2:07, 4:04 |
+| 📚 Seo scéal ‘Na Péisteanna’ á léamh ag Dónall👦 | [dVO94Kty1xQ](https://www.youtube.com/watch?v=dVO94Kty1xQ) | 0:53, 1:41 |
+| 📙 Seo scéal ‘Múinteoir Molly agus an Lá Spóirt ’ á léamh ag Donach🧔 | [YezHpoomvNM](https://www.youtube.com/watch?v=YezHpoomvNM) | 2:56, 5:39 |
+| 📙 Seo scéal ‘An Mac Tíre a bhí ina Shárlaoch’ á léamh ag Donach🧔 | [8t2Tc9f4kdQ](https://www.youtube.com/watch?v=8t2Tc9f4kdQ) | 5:06, 9:51 |

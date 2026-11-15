@@ -262,14 +262,14 @@ const translations = {
   }
 };
 
-const requestedCountry = new URLSearchParams(location.search).get('country');
+const requestedCountry = countryFromQuery(location.search);
 let savedCountry;
 try {
   savedCountry = localStorage.getItem('voorleeshoek-language');
 } catch {
   // The catalog works without browser storage.
 }
-const selectedCountry = countryById.get(requestedCountry) ?? countryById.get(savedCountry) ?? countryById.get('nl');
+const selectedCountry = requestedCountry ?? countryById.get(savedCountry) ?? countryById.get('nl');
 const interfaceLanguage = selectedCountry.language;
 const locale = interfaceLanguage === 'ary' ? 'ar-MA' : interfaceLanguage;
 const copy = translations[interfaceLanguage];
@@ -278,7 +278,7 @@ const plurals = new Intl.PluralRules(locale);
 document.documentElement.lang = interfaceLanguage;
 document.documentElement.dir = interfaceLanguage === 'ary' ? 'rtl' : 'ltr';
 document.title = copy.pageTitle;
-document.getElementById('catalog-back').href = './?country=' + selectedCountry.id;
+document.getElementById('catalog-back').href = './?' + setCountryQuery(new URLSearchParams(), selectedCountry);
 document.querySelectorAll('[data-text]').forEach((element) => {
   element.textContent = copy[element.dataset.text];
 });

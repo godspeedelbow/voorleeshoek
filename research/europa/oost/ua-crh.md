@@ -1,6 +1,6 @@
 # Oekraïne · Krim-Tataars
 
-Onderzoeksronde 2026-11-15. Doel 50. **14 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
+Onderzoeksronde 2026-11-15. Doel 50. **13 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
 
 ## Individuele video’s
 
@@ -9,7 +9,6 @@ Onderzoeksronde 2026-11-15. Doel 50. **14 kandidaten**, 0 inhoudelijk gecontrole
 | Ульвие Изетова читает детям сказки на крымскотатарском языке | [Video](https://www.youtube.com/watch?v=aa-K0MLzuig) | [Crimean Tatars](https://www.youtube.com/@CrimeanTatars) | Kandidaat | YouTube-metadata opgehaald. |
 | "Учь эвлят" (къырымтатар тилинде масал). Сказка на крымскотатарском языке | [Video](https://www.youtube.com/watch?v=70vUUCMwWxA) | [Melevse TV](https://www.youtube.com/@MelevseTV) | Kandidaat | YouTube-metadata opgehaald. |
 | Сказки на крымскотатарском языке "Къувет бирликте" (Quvet birlikte) | [Video](https://www.youtube.com/watch?v=VGdT23v_fM8) | [Ватан Седасы](https://www.youtube.com/@%D0%92%D0%B0%D1%82%D0%B0%D0%BD%D0%A1%D0%B5%D0%B4%D0%B0%D1%81%D1%8B) | Kandidaat | YouTube-metadata opgehaald. |
-| Сказки на крымскотатарском языке "Бахтсыз адам" | [Video](https://www.youtube.com/watch?v=Zxzz_FNCjIQ) | [Ватан Седасы\| Vatan Sedasi](https://www.youtube.com/@vatansedasi9721) | Kandidaat | YouTube-metadata opgehaald. |
 | Сказки на крымскотатарском языке "Падишанынъ тюшю"  (Padisanin Tusu) | [Video](https://www.youtube.com/watch?v=hBYhyqeCji0) | [Ватан Седасы](https://www.youtube.com/@%D0%92%D0%B0%D1%82%D0%B0%D0%BD%D0%A1%D0%B5%D0%B4%D0%B0%D1%81%D1%8B) | Kandidaat | YouTube-metadata opgehaald. |
 | Сказки на крымскотатарском языке "Дерт яшында къарт адам" (4 YASINDA QART ADAM) | [Video](https://www.youtube.com/watch?v=u5ZhjjXR1ow) | [Ватан Седасы](https://www.youtube.com/@%D0%92%D0%B0%D1%82%D0%B0%D0%BD%D0%A1%D0%B5%D0%B4%D0%B0%D1%81%D1%8B) | Kandidaat | YouTube-metadata opgehaald. |
 | "Эйиликке кемлик япма" (масал) | [Video](https://www.youtube.com/watch?v=23fg7HqKe-4) | [Melevse TV](https://www.youtube.com/@MelevseTV) | Kandidaat | YouTube-metadata opgehaald. |
@@ -31,3 +30,7 @@ Onderzoeksronde 2026-11-15. Doel 50. **14 kandidaten**, 0 inhoudelijk gecontrole
 ## Hervatpunt
 
 Controleer voorleesvorm en prenten bij Crimean Tatars, Melevse TV en Ватан Седасы. Onderzoek daarna het drietalige Masallar op afzonderlijke Krim-Tataarse video’s.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

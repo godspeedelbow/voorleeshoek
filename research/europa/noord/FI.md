@@ -4,7 +4,7 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 
 ## Fins
 
-0 bestaand in de app. 23 nieuwe kandidaatlinks.
+0 bestaand in de app. 21 nieuwe kandidaatlinks.
 
 | Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
 | --- | --- | --- | --- | --- |
@@ -13,12 +13,10 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 | Värejä meressä, kirjoittanut ja kuvittanut Jenni Erkintalo | [YouTube](https://www.youtube.com/watch?v=W1fvzmIgOzg) | Etana Editions | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Talo kulman takana, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [YouTube](https://www.youtube.com/watch?v=noDYeljoTZ4) | Etana Editions | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Lastenkirja luettuna: Satuhetki lapsille \|\| Read Aloud Kids Book 🇫🇮 | [YouTube](https://www.youtube.com/watch?v=JkAppRtPffQ) | Elli Maanpää Art | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Iltasatuja lapsille - Muumipeikko ja lintuperhe | [YouTube](https://www.youtube.com/watch?v=m5-GrngtFsA) | Anita Liitonen | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Rauhoittava äänisatu lapsille - Voi sinua, Pikku Nalle | [YouTube](https://www.youtube.com/watch?v=oWv08Q0wpDg) | Pikku Uneksija - Äänisatuja lapsille | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Leppäkerttu ilman pilkkuja -lasten musiikkisatukirja | [YouTube](https://www.youtube.com/watch?v=jCFbjvqSbFY) | Invalidiliitto ry | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Iltasatu Myyrä ja kala | [YouTube](https://www.youtube.com/watch?v=TnZMtOTb2QY) | Kids'sWorldStories | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Miina ja Manu päiväkodissa | [YouTube](https://www.youtube.com/watch?v=GsUIU05OdL0) | Satujen Maailma | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Iltasatuja lapsille - Karhunnälkä | [YouTube](https://www.youtube.com/watch?v=TxVdapmRUrQ) | Anita Liitonen | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Iltasatuja lapsille - Lumikki (Ystävät pulassa) | [YouTube](https://www.youtube.com/watch?v=fCU7bEIRURs) | Anita Liitonen | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Kirjaston satutuokio 3 | [YouTube](https://www.youtube.com/watch?v=n1CIeaoT9pM) | Kuhmon kaupunki | Kandidaat | Door de bibliotheek als satutuokio gelinkt. Leesvorm per video controleren. |
 | Kirjaston satutuokio 4 | [YouTube](https://www.youtube.com/watch?v=vfoGeb27G1U) | Kuhmon kaupunki | Kandidaat | Door de bibliotheek als satutuokio gelinkt. Leesvorm per video controleren. |
@@ -134,3 +132,7 @@ Begin bij de Finse Romani-taalraad en Finse bibliotheken.
 ### Bronnen en hervatpunt
 
 - [Bron op viittomakielinenkirjasto.fi](https://viittomakielinenkirjasto.fi/kategoria/sadut/) · Zelfde broninspectie als bij Finse Gebarentaal. Vervolg met taalfilter Suomenruotsalainen viittomakieli.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 2 links op beeld afgewezen.

@@ -4,14 +4,13 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 
 ## Litouws
 
-0 bestaand in de app. 31 nieuwe kandidaatlinks.
+0 bestaand in de app. 30 nieuwe kandidaatlinks.
 
 | Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
 | --- | --- | --- | --- | --- |
 | Vakaro pasaka. Asta Gricė. „Kaip Benas varles skaičiavo“ | [YouTube](https://www.youtube.com/watch?v=ScmP9S6n2EA) | Lietuvos nacionalinis radijas ir televizija | Kandidaat | Vorm per video controleren. Hoofdstukken van Pepe bij beoordeling als één boek behandelen. |
 | Musmirytė Skaito - Pepė atsikrausto į Vilą Vilaitę | [YouTube](https://www.youtube.com/watch?v=Jbgi9KKVQjM) | Žalia vaikų Kūdra | Kandidaat | Vorm per video controleren. Hoofdstukken van Pepe bij beoordeling als één boek behandelen. |
 | Musmirytė skaito - Pepė daikteliauja ir įsivelia į muštynes | [YouTube](https://www.youtube.com/watch?v=g1T9fG998-0) | Žalia vaikų Kūdra | Kandidaat | Vorm per video controleren. Hoofdstukken van Pepe bij beoordeling als één boek behandelen. |
-| Pasakos Lietuviškai - Arklio Dominyko Meilė | [YouTube](https://www.youtube.com/watch?v=wDp4ilpDkao) | Saldi Pasakaitė | Kandidaat | Vorm per video controleren. Hoofdstukken van Pepe bij beoordeling als één boek behandelen. |
 | Kalniškių kaimo filialo virtualūs garsiniai skaitymai, skirti akcijai „Lietuva skaito!“ | [YouTube](https://www.youtube.com/watch?v=wezNrSejNDU) | Akmenės rajono savivaldybės viešoji biblioteka | Kandidaat |  |
 | Orijus Gasanovas skaito Brolių Grimų pasaką „Keistuolis muzikantas“ | [YouTube](https://www.youtube.com/watch?v=lL_jolOttPo) | Gelbėkit vaikus | Kandidaat |  |
 | rugsėjo mėnesio lietuviškos pasakos | [YouTube](https://www.youtube.com/watch?v=8ApKHVkB_Js) | Akmenės krašto literatai | Kandidaat | Bibliotheekpagina Garsiniai skaitymai. Leeftijd, boekvorm en volledigheid controleren. |
@@ -96,3 +95,7 @@ Herbruik passende Russische voorlezingen uit het dossier Rusland. Zoek daarnaast
 - [kaunas pasakos gestų kalba](https://www.youtube.com/results?search_query=kaunas+pasakos+gest%C5%B3+kalba) · 17 unieke videoresultaten op de geopende pagina. 13 nieuw in het dossier.
 - [Kauno apskrities viešoji biblioteka Pasakos gestų kalba 2019](https://www.youtube.com/results?search_query=Kauno+apskrities+vie%C5%A1oji+biblioteka+Pasakos+gest%C5%B3+kalba+2019) · 17 unieke videoresultaten op de geopende pagina. 0 nieuw in het dossier.
 - [Bron op www.raseiniai.rvb.lt](https://www.raseiniai.rvb.lt/renginiai-vaikams/pasakos-gestu-kalba/) · Bibliotheek beschrijft tien opnames uit 2019 en verwijst naar bijbehorende serie. Ga vervolgens via kanaal Ąžuolyno biblioteka naar oudere jaargangen.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

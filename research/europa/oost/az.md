@@ -1,6 +1,6 @@
 # Azerbeidzjan · Azerbeidzjaans
 
-Onderzoeksronde 2026-11-15. Doel 50. **41 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
+Onderzoeksronde 2026-11-15. Doel 50. **40 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
 
 ## Individuele video’s
 
@@ -45,7 +45,6 @@ Onderzoeksronde 2026-11-15. Doel 50. **41 kandidaten**, 0 inhoudelijk gecontrole
 | Ad Günü Tacı \| Devid Kali və Keyt Sleyter \| Səsli Nağıl | [Video](https://www.youtube.com/watch?v=xzlXzAvGp7Q) | [İcma əsaslı məktəbəqədər təhsil](https://www.youtube.com/@icmalayihesi) | Kandidaat | YouTube-metadata opgehaald. |
 | Balaca Qırmızı Toyuq \| Kristiana Counz \| Səsli Nağıl | [Video](https://www.youtube.com/watch?v=3si6KPt6BCc) | [İcma əsaslı məktəbəqədər təhsil](https://www.youtube.com/@icmalayihesi) | Kandidaat | YouTube-metadata opgehaald. |
 | Qonşular \| Einat Tsarfati \| Səsli Nağıl | [Video](https://www.youtube.com/watch?v=is9YRQDqnPY) | [İcma əsaslı məktəbəqədər təhsil](https://www.youtube.com/@icmalayihesi) | Kandidaat | YouTube-metadata opgehaald. |
-| Umico və Libraff - "Köhnə küçə fənəri" H.X. Andersen | [Video](https://www.youtube.com/watch?v=3w5iXBY5GbA) | [Birmarket](https://www.youtube.com/@Birmarket) | Kandidaat | YouTube-metadata opgehaald. |
 | Bala Kirpi və Dostları \| Səsli nağıl \| Sevinc Nuruqızı | [Video](https://www.youtube.com/watch?v=_k22VxApzQc) | [İcma əsaslı məktəbəqədər təhsil](https://www.youtube.com/@icmalayihesi) | Kandidaat | YouTube-metadata opgehaald. |
 
 ## Gescande bronnen
@@ -61,3 +60,7 @@ Onderzoeksronde 2026-11-15. Doel 50. **41 kandidaten**, 0 inhoudelijk gecontrole
 ## Hervatpunt
 
 Bij Nağıl Boğçası verder kijken dan de eerste 30 uploads. De voorleesreeks van İcma bevat herkenbare boeken van Julia Donaldson, Guido van Genechten en David McKee. Controleer of Səsli Nağıl ook prenten toont. Kirpi/NUK is voornamelijk animatie.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

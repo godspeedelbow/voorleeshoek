@@ -2,7 +2,7 @@
 
 Onderzocht op 15 november 2026.
 
-- Doel: 50 per land en taal. 0 bestaande catalogusrijen en 50 extra videokandidaten, waarvan 50 met openbare embedmetadata.
+- Doel: 50 per land en taal. 0 bestaande catalogusrijen en 48 extra videokandidaten, waarvan 48 met openbare embedmetadata.
 
 ## Hervatten
 
@@ -65,7 +65,6 @@ Kandidaten zijn geselecteerd op titel, collectie of bronvermelding. Beluister v�
 | [Φεγγάρι στα βαθιά](https://www.youtube.com/watch?v=PiNL2z0xAjQ) | Πες μου ένα παραμύθι! - Tell me a fairy tale! | – | [elE](https://www.youtube.com/playlist?list=PLpdXexTt4p_EibR9Ac98J8eK8EgqFjS00) | oEmbed |
 | [Σσσσ! θα ξυπνήσεις το μωρό! (αφήγηση παραμυθιού)](https://www.youtube.com/watch?v=Q0gV1yIwSUw) | Πες μου ένα παραμύθι! - Tell me a fairy tale! | – | [elF](https://www.youtube.com/playlist?list=PLpdXexTt4p_FDAWeMGTo6WHhM_cUlE9a5) | oEmbed |
 | [Κάθε μήνας ΞΕΧΩΡΙΖΕΙ να 'χει κάτι να θυμίζει (αφήγηση παραμυθιού)](https://www.youtube.com/watch?v=wom32xf8NBg) | Πες μου ένα παραμύθι! - Tell me a fairy tale! | – | [elG](https://www.youtube.com/playlist?list=PLpdXexTt4p_FkL_6tcSv4PSwgNJ1e1FhZ) | oEmbed |
-| [Η Παραμυθού - Το μαγικό ξόρκι της Αποκριάς](https://www.youtube.com/watch?v=14DNI_Udw2o) | Η Παραμυθού | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Βιβλίο - Το παραμύθι με τα χρώματα](https://www.youtube.com/watch?v=1EgPBdyq5EM) | Virginia184 | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Οι δώδεκα Θεοί του Ολύμπου](https://www.youtube.com/watch?v=5LW7NWF0doQ) | Anna Vrettou | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Παραμύθι - Το παπάκι που δεν του αρέσανε τα ποδαράκια του, του Ευγένιου Τριβιζά](https://www.youtube.com/watch?v=5P0JcYvA_GU) | χρυσή σταμπούλη | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
@@ -76,8 +75,11 @@ Kandidaten zijn geselecteerd op titel, collectie of bronvermelding. Beluister v�
 | [Ο ΒΑΤΡΑΧΟΣ ΕΙΝΑΙ ΗΡΩΑΣ](https://www.youtube.com/watch?v=Hvkm7p-xCuw) | Eirini Gerontiti | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Ένα φίδι... τρομερό!](https://www.youtube.com/watch?v=LKAz6-PR934) | Παραμύθια με τη Λήδα Βαρβαρούση | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Η ΚΑΙΤΟΥΛΑ Η ΚΟΚΕΤΑ Η ΚΟΤΟΥΛΑ](https://www.youtube.com/watch?v=LkBrNzDYWmU) | Biskotia | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
-| [Δόνα Τερηδόνα Παραμύθι Eυγένιου Τριβιζά](https://www.youtube.com/watch?v=M61EPl-73dA) | tzinitzini Έρικα Τζαγκαράκη | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Αφήγηση παραμυθιού ''Μια θάλλασσα πλαστικά''](https://www.youtube.com/watch?v=QVGSpwWOcQ4) | ΜΑΓΙΚΟ ΜΟΝΟΠΑΤΙ TV | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 | [Η ΜΥΡΤΩ ΚΑΙ ΤΟ ΚΟΥΝΟΥΠΑΚΙ Τριβιζάς Ευγένιος](https://www.youtube.com/watch?v=Tu_Crit1RLY) | Biskotia | – | [Kleuterschool Volos – digitale bibliotheek](https://blogs.sch.gr/11nipvoloumag/psifiaki-daneistiki-vivliothiki/) | oEmbed |
 
 Bij deze gevonden bron-ID’s was via oEmbed geen verifieerbare titel beschikbaar. Controleer de links handmatig: `NYmBTWXnvyE`, `SirpzkJEaRw`.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 2 links op beeld afgewezen.

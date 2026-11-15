@@ -4,24 +4,24 @@ Stand op 2026-11-15. Inhoud en insluiting zijn nog niet gecontroleerd. Voor deze
 
 | Taalgebied | Kandidaten | Inhoudelijk gecontroleerd |
 | --- | ---: | ---: |
-| [Polen · Pools](pl.md) | 16 | 0 |
+| [Polen · Pools](pl.md) | 15 | 0 |
 | [Polen · Kasjoebisch](pl-csb.md) | 1 | 0 |
 | [Polen · Silezisch](pl-szl.md) | 1 | 0 |
 | [Polen · Lemko-Roetheens](pl-rue.md) | 2 | 0 |
 | [Tsjechië · Tsjechisch](cz.md) | 28 | 0 |
 | [Slowakije · Slowaaks](sk.md) | 71 | 0 |
-| [Hongarije · Hongaars](hu.md) | 64 | 0 |
+| [Hongarije · Hongaars](hu.md) | 63 | 0 |
 | [Roemenië · Roemeens](ro.md) | 58 | 0 |
-| [Bulgarije · Bulgaars](bg.md) | 64 | 0 |
+| [Bulgarije · Bulgaars](bg.md) | 63 | 0 |
 | [Moldavië · Roemeens](md.md) | 9 lokaal + 15 gedeeld | 0 |
 | [Moldavië · Gagaoezisch](md-gag.md) | 2 | 0 |
 | [Oekraïne · Oekraïens](ua.md) | 41 | 0 |
-| [Oekraïne · Krim-Tataars](ua-crh.md) | 14 | 0 |
+| [Oekraïne · Krim-Tataars](ua-crh.md) | 13 | 0 |
 | [Belarus · Belarussisch](by.md) | 22 | 0 |
 | [Rusland · Russisch](ru.md) | 51 | 0 |
 | [Georgië · Georgisch](ge.md) | 25 | 0 |
 | [Armenië · Armeens](am.md) | 22 lokaal + 3 gedeeld | 0 |
-| [Azerbeidzjan · Azerbeidzjaans](az.md) | 41 | 0 |
+| [Azerbeidzjan · Azerbeidzjaans](az.md) | 40 | 0 |
 | [Kazachstan · Kazachs](kz.md) | 11 lokaal | 0 |
 | [Kazachstan · Russisch](kz-ru.md) | 15 gedeeld | 0 |
 | [Georgië · Abchazisch](ge-ab.md) | 0 | 0 |
@@ -42,3 +42,5 @@ Stand op 2026-11-15. Inhoud en insluiting zijn nog niet gecontroleerd. Voor deze
 | Kazachstan | 2 / 0 | 11 / 15 |
 
 De twee Gagaoezische kandidaten tellen mee bij het lokale landtotaal voor Moldavië. Gedeelde rijen houden hun bronland en oorspronkelijke kanaal.
+
+De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../MINIMUM-20.md).

@@ -26,13 +26,13 @@ De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst geleze
 | Italiaans — Vaticaanstad | 0 | 0 (0 oEmbed) | [it-VA](it-VA.md) |
 | Maltees — Malta | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [mt-MT](mt-MT.md) |
 | Engels — Malta | 0 | 0 (0 oEmbed) | [en-MT](en-MT.md) |
-| Grieks — Griekenland | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [el-GR](el-GR.md) |
+| Grieks — Griekenland | 0 | 48 (48 oEmbed) | [el-GR](el-GR.md) |
 | Grieks — Cyprus | 0 | 40 (40 oEmbed) | [el-CY](el-CY.md) |
 | Turks — Cyprus | 0 | 0 (0 oEmbed) | [tr-CY](tr-CY.md) |
 | Turks — Turkije | 44 | 16 (16 oEmbed); ≥50 catalogus + kandidaten | [tr-TR](tr-TR.md) |
 | Koerdisch (Kurmancî) — Turkije | 0 | 2 (2 oEmbed) | [ku-TR](ku-TR.md) |
-| Zazaki — Turkije | 0 | 3 (3 oEmbed) | [zza-TR](zza-TR.md) |
-| Sloveens — Slovenië | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [sl-SI](sl-SI.md) |
+| Zazaki — Turkije | 0 | 2 (2 oEmbed) | [zza-TR](zza-TR.md) |
+| Sloveens — Slovenië | 0 | 0 (0 oEmbed) | [sl-SI](sl-SI.md) |
 | Kroatisch — Kroatië | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [hr-HR](hr-HR.md) |
 | Bosnisch — Bosnië en Herzegovina | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [bs-BA](bs-BA.md) |
 | Kroatisch — Bosnië en Herzegovina | 0 | 0 (0 oEmbed) | [hr-BA](hr-BA.md) |
@@ -45,7 +45,7 @@ De doelen tellen bestaande catalogusrijen per land en taal mee. De laatst geleze
 | Servisch — Kosovo | 0 | 0 (0 oEmbed) | [sr-XK](sr-XK.md) |
 | Macedonisch — Noord-Macedonië | 0 | 50 (50 oEmbed); ≥50 catalogus + kandidaten | [mk-MK](mk-MK.md) |
 | Albanees — Noord-Macedonië | 0 | 0 (0 oEmbed) | [sq-MK](sq-MK.md) |
-| Albanees — Albanië | 0 | 28 (28 oEmbed) | [sq-AL](sq-AL.md) |
+| Albanees — Albanië | 0 | 12 (12 oEmbed) | [sq-AL](sq-AL.md) |
 
 [Nog te openen taaldossiers](OPEN-TALEN.md) bevat de resterende streek- en minderheidstalen met bronverwijzingen en zoekingangen.
 
@@ -79,3 +79,5 @@ De ondergrens van twintig kandidaatvideo’s per land kan in deze ronde ook word
 | [Vaticaanstad](it-VA.md) | 0 | 0 | 15 [Italiaanse kandidaten](it-IT.md#kandidaten) plus 45 Italiaanse rijen in [de app](../../../dist/stories.js) | 60 |
 
 De regionale set groeide van 629 naar 649 nieuwe unieke kandidaatlinks. In Andorra viel één lied af en kwamen drie boekverhalen terug. In San Marino is een evenementverslag vervangen door een specifiekere afzonderlijke voorlezing.
+
+De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../MINIMUM-20.md).

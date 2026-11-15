@@ -26,9 +26,9 @@ de afspraken hierboven.
 # Nieuwe landen en talen
 
 Voeg een nieuwe land- of taalkeuze pas aan de app toe als die keuze minstens
-20 verschillende voorgelezen kinderboeken in de gekozen taal bevat. Elk boek
+11 verschillende voorgelezen kinderboeken in de gekozen taal bevat. Elk boek
 heeft een gecontroleerde, insluitbare YouTube-video die voldoet aan de
-beeldcontrole hieronder. Publiceer de keuze en de 20 of meer gecontroleerde
+beeldcontrole hieronder. Publiceer de keuze en de 11 of meer gecontroleerde
 video’s tegelijk. Houd onderzoek en voorselecties buiten de app totdat de
 volledige selectie klaar is.
 

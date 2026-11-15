@@ -1,6 +1,6 @@
 # Hongarije · Hongaars
 
-Onderzoeksronde 2026-11-15. Doel 50. **64 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
+Onderzoeksronde 2026-11-15. Doel 50. **63 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
 
 ## Individuele video’s
 
@@ -68,7 +68,6 @@ Onderzoeksronde 2026-11-15. Doel 50. **64 kandidaten**, 0 inhoudelijk gecontrole
 | Bartos Erika: Szellő (Bogyó és Babóca lapozó) | [Video](https://www.youtube.com/watch?v=nUUvz5bgYO0) | [Bartos Erika Official](https://www.youtube.com/@bartos_erika) | Kandidaat | YouTube-metadata opgehaald. |
 | Bartos Erika: Vendel (Bogyó és Babóca lapozó) | [Video](https://www.youtube.com/watch?v=minYaiKW3T4) | [Bartos Erika Official](https://www.youtube.com/@bartos_erika) | Kandidaat | YouTube-metadata opgehaald. |
 | Mesék a könyvtárból - Miért pettyes a katicabogár? | [Video](https://www.youtube.com/watch?v=G-KCKfnx590) | [Katona Lajos Városi Könyvtár](https://www.youtube.com/@katonalajosvarosikonyvtar) | Kandidaat | YouTube-metadata opgehaald. |
-| Mesék a könyvtárból - Bertaberta találkozik a Gonosz Tündérrel | [Video](https://www.youtube.com/watch?v=Lo4Tioo8unM) | [Katona Lajos Városi Könyvtár](https://www.youtube.com/@katonalajosvarosikonyvtar) | Kandidaat | YouTube-metadata opgehaald. |
 | Mesék a könyvtárból - Csipkerózsika nem álmos | [Video](https://www.youtube.com/watch?v=-TcTqyfuXIo) | [Katona Lajos Városi Könyvtár](https://www.youtube.com/@katonalajosvarosikonyvtar) | Kandidaat | YouTube-metadata opgehaald. |
 
 ## Gescande bronnen
@@ -86,3 +85,7 @@ Onderzoeksronde 2026-11-15. Doel 50. **64 kandidaten**, 0 inhoudelijk gecontrole
 ## Hervatpunt
 
 De drie bibliotheeklijsten zijn op titel gescand. A kék meg a sárga is als dubbel verhaal eenmaal geselecteerd. Beoordeel voorleestijd, prenten en leeftijd. Boeken van Bartos Erika hebben voorrang bij inhoudelijke controle.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

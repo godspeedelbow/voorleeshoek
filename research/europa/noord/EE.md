@@ -12,14 +12,14 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 | Erakordne Rakett. | [YouTube](https://www.youtube.com/watch?v=Rb7i_m-b0B0) | Laanelood | Kandidaat | Boekbron en passende leeftijd controleren. |
 | Muinasjutt "Punamütsike" | [YouTube](https://www.youtube.com/watch?v=eLfxKf2cTYQ) | Tähe tund | Kandidaat | Boekbron en passende leeftijd controleren. |
 | “Unejutt kogu perele!” Lasteraamatuid loeb Andrus Vaarik! (vol.1) | [YouTube](https://www.youtube.com/watch?v=Uve10KErUYw) | Anija Valla Kultuurikeskus | Kandidaat |  |
-| Loeme Koos Tädi Mairitiga Raamatut “Roosi Suvi”, Eesti Keel, Laste Lugu, Eesti Laps | [YouTube](https://www.youtube.com/watch?v=JA-cVwcy8so) | Tädi Mairit | Kandidaat | De maker leest het kinderboek en toont de prenten. |
-| KIISU RAAMAT 1, 2, 3 - HELI ILLIPE-SOOTAK ja KATRIN EHRLICH | [YouTube](https://www.youtube.com/watch?v=A51APTrnD4k) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
-| KONNA MUSI - ANDRUS KIVIRÄHK ja ANNE PIKKOV | [YouTube](https://www.youtube.com/watch?v=sf0DonIWXiw) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
+| Loeme Koos Tädi Mairitiga Raamatut “Roosi Suvi”, Eesti Keel, Laste Lugu, Eesti Laps | [YouTube](https://www.youtube.com/watch?v=JA-cVwcy8so) | Tädi Mairit | Beeld voldoet | De maker leest het kinderboek en toont de prenten. |
+| KIISU RAAMAT 1, 2, 3 - HELI ILLIPE-SOOTAK ja KATRIN EHRLICH | [YouTube](https://www.youtube.com/watch?v=A51APTrnD4k) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Beeld voldoet | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
+| KONNA MUSI - ANDRUS KIVIRÄHK ja ANNE PIKKOV | [YouTube](https://www.youtube.com/watch?v=sf0DonIWXiw) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Beeld voldoet | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
 | TERE, TERE LAMBATALL - ELLEN NIIT ja VALDEK ALBER | [YouTube](https://www.youtube.com/watch?v=DFunt3FRLbA) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
-| LIFT - KÄTLIN VAINOLA ja ULLA SAAR | [YouTube](https://www.youtube.com/watch?v=Qo0BLaYRaog) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
-| LEPATRIINU TÄPID - TIIU KITSIK | [YouTube](https://www.youtube.com/watch?v=8dZdAGZsoPM) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
+| LIFT - KÄTLIN VAINOLA ja ULLA SAAR | [YouTube](https://www.youtube.com/watch?v=Qo0BLaYRaog) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Beeld voldoet | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
+| LEPATRIINU TÄPID - TIIU KITSIK | [YouTube](https://www.youtube.com/watch?v=8dZdAGZsoPM) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Beeld voldoet | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
 | KEDA MA KUULEN JA NÄEN? - KERTRIIN PETROV | [YouTube](https://www.youtube.com/watch?v=u6A6jXXxOyU) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
-| POISTE AABITS - CONTRA ja NEMVALTS | [YouTube](https://www.youtube.com/watch?v=bIAwv66dRG8) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Kandidaat | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
+| POISTE AABITS - CONTRA ja NEMVALTS | [YouTube](https://www.youtube.com/watch?v=bIAwv66dRG8) | Tädi Kaidi Lood - Õhtujutte Hollywoodist | Beeld voldoet | Voorleesreeks met genoemde boektitel en auteurs. Steekproef toont voorlezer en kinderboek. |
 | Kuidas kulp lasteaias käis, Andrus Kivirähk | [YouTube](https://www.youtube.com/watch?v=cfkEuk7PirA) | Juturiiul | Kandidaat | Elisabet Reinsalu leest een zelfstandig verhaal van Andrus Kivirähk. |
 | Õiglane tolmuimeja, Andrus Kivirähk | [YouTube](https://www.youtube.com/watch?v=81wtB6DaAaY) | Juturiiul | Kandidaat | Elisabet Reinsalu leest een zelfstandig verhaal van Andrus Kivirähk. |
 | Salapärane võõras, Andrus Kivirähk | [YouTube](https://www.youtube.com/watch?v=jdYXw6PfbH0) | Juturiiul | Kandidaat | Elisabet Reinsalu leest een zelfstandig verhaal van Andrus Kivirähk. |
@@ -94,3 +94,7 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 ### Bronnen en hervatpunt
 
 - [eesti viipekeel muinasjutt lastele loeb](https://www.youtube.com/results?search_query=eesti+viipekeel+muinasjutt+lastele+loeb) · Geen kandidaat voor Estse gebarentaal in de eerste YouTube-resultaten. Herneem bij Eesti Kurtide Liit.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen.

@@ -4,7 +4,7 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 
 ## Zweeds
 
-87 bestaand in de app. 0 nieuwe kandidaatlinks.
+83 bestaand in de app na de [beeldcontrole](../BEELDCONTROLE.md). 0 nieuwe kandidaatlinks.
 
 ### Bronnen en hervatpunt
 

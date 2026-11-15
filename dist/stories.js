@@ -33,7 +33,7 @@ const stories = [
   ["solzgg7iqjA", "Kan man...?", "sv", "Pappa Läser", 202],
   ["VEU-bl0PwEs", "Vem bestämmer?", "sv", "Pappa Läser", 209],
   ["gnd0bk4bO5c", "Tjuren Ferdinand", "sv", "Pappa Läser", 381],
-  ["NMEEwEtxU2I", "SKROT-NISSE av Jan Lööf", "sv", "Pappa Läser", 596],
+  , // Verwijderd: NMEEwEtxU2I
   ["w3P4vOYsAmc", "När Felix blev stor av Jan Lööf", "sv", "Pappa Läser", 607],
   ["Ietr10U8mwg", "Pelle träffar en lokförare", "sv", "Pappa Läser", 426],
   ["TnKs-ngG5Vg", "Pappa läser #52 Pelle i djungeln", "sv", "Pappa Läser", 476],
@@ -327,8 +327,8 @@ const stories = [
   ["jHkLziz8xdA", "Alfons med styrkesäcken", "sv", "Pappa Läser", 784],
   ["ou3Pyq3Oy_w", "Alfons och hemlige Mållgan", "sv", "Pappa Läser", 372],
   ["JzJ_Dso-1TA", "Alfons och Milla", "sv", "Pappa Läser", 413],
-  ["cA6xrutvAqc", "Alfons Åberg och odjuret", "sv", "Pappa Läser", 631],
-  ["WY5tthoHxzs", "God natt, Alfons Åberg", "sv", "Pappa Läser", 336],
+  , // Verwijderd: cA6xrutvAqc
+  , // Verwijderd: WY5tthoHxzs
   ["ChZRyva5tP4", "Bara knyt, Alfons Åberg!", "sv", "Pappa Läser", 300],
   ["Eqy3pPR38ss", "Hurra för pappa Åberg!", "sv", "Pappa Läser", 389],
   ["zjFnB5_i4Bs", "Kalas, Alfons Åberg!", "sv", "Pappa Läser", 420],
@@ -339,7 +339,7 @@ const stories = [
   ["U35swNv7PYc", "Lycklige Alfons Åberg", "sv", "Pappa Läser", 330],
   ["082BO5Ngj-4", "Pirater, Alfons Åberg", "sv", "Pappa Läser", 118],
   ["j4LYOtyf0EY", "Mera monster, Alfons Åberg!", "sv", "Pappa Läser", 519],
-  ["LgivbMxJPdA", "Är du feg, Alfons Åberg?", "sv", "Pappa Läser", 416],
+  , // Verwijderd: LgivbMxJPdA
   ["i_OL7tPce6w", "Vem spökar Alfons Åberg?", "sv", "Pappa Läser", 365],
 
   // Högläsning

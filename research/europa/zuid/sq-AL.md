@@ -2,7 +2,7 @@
 
 Onderzocht op 15 november 2026.
 
-- Doel: 50 per land en taal. 0 bestaande catalogusrijen en 28 extra videokandidaten, waarvan 28 met openbare embedmetadata.
+- Doel: 50 per land en taal. 0 bestaande catalogusrijen en 12 extra videokandidaten, waarvan 12 met openbare embedmetadata.
 
 ## Hervatten
 
@@ -32,22 +32,6 @@ Kandidaten zijn geselecteerd op titel, collectie of bronvermelding. Beluister v�
 | [Lexo bukur, lexo shqip: Ujku dhe kali](https://www.youtube.com/watch?v=pAePZPUi2WY) | perralla ime | – | [sq1c](https://www.youtube.com/channel/UCfhxLif3csgs7s5TgLlXSFA/videos) | oEmbed |
 | [Lexo bukur, lexo shqip: Dhelpra dhe korbi](https://www.youtube.com/watch?v=JAXZpUt_0xg) | perralla ime | – | [sq1c](https://www.youtube.com/channel/UCfhxLif3csgs7s5TgLlXSFA/videos) | oEmbed |
 | [Lexo bukur, lexo shqip: Bretkosat kërkojnë mbret](https://www.youtube.com/watch?v=RalRbyH2yPE) | perralla ime | – | [sq1c](https://www.youtube.com/channel/UCfhxLif3csgs7s5TgLlXSFA/videos) | oEmbed |
-| [Dembeli Dhe Milingonat](https://www.youtube.com/watch?v=I5phBA8HSiM) | Librat e Violes - Perlat e Harruara | 2:19 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Dhia me Zile](https://www.youtube.com/watch?v=oyPC7tuCy2M) | Librat e Violes - Perlat e Harruara | 7:36 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Kush e hëngri akulloren](https://www.youtube.com/watch?v=zfuYUsp6rdo) | Librat e Violes - Perlat e Harruara | 4:04 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Shakaxhiu Monakiko](https://www.youtube.com/watch?v=8BpsFBpD3Ag) | Librat e Violes - Perlat e Harruara | 4:49 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Mama Dhia dhe shtatë Kecat](https://www.youtube.com/watch?v=UMGx6-Iw5zY) | Librat e Violes - Perlat e Harruara | 4:02 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Të pestë budallenjtë](https://www.youtube.com/watch?v=WwgukCfzoW8) | Librat e Violes - Perlat e Harruara | 5:21 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Luani del për gjah me një gomar](https://www.youtube.com/watch?v=RhQbjEQCfYA) | Librat e Violes - Perlat e Harruara | 1:52 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Derrkucët ngjyrë trëndafili](https://www.youtube.com/watch?v=9XsfcczNiKM) | Librat e Violes - Perlat e Harruara | 7:14 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Sorkadhja Trimëreshë dhe Ujku Trok](https://www.youtube.com/watch?v=2OfHv--DsCc) | Librat e Violes - Perlat e Harruara | 7:48 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [E bija e hënës dhe e diellit](https://www.youtube.com/watch?v=FlKq52nR-cU) | Librat e Violes - Perlat e Harruara | 7:27 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Arushi që nxitohej shumë](https://www.youtube.com/watch?v=EoE_eiyVcw8) | Librat e Violes - Perlat e Harruara | 7:42 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Vët Kopan!](https://www.youtube.com/watch?v=22kv3eVKG-0) | Librat e Violes - Perlat e Harruara | 11:25 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Shpëtimtari i Harlemit](https://www.youtube.com/watch?v=BREX2GaM5DY) | Librat e Violes - Perlat e Harruara | 6:32 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Plaka dhe dy shërbëtoret](https://www.youtube.com/watch?v=Kwv7iG0i9SY) | Librat e Violes - Perlat e Harruara | 1:57 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Gjeli i vogël, maçoku dhe kocomiu](https://www.youtube.com/watch?v=xp8-2PiDJnE) | Librat e Violes - Perlat e Harruara | 1:51 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
-| [Gomari dhe Qeni](https://www.youtube.com/watch?v=ANMQFt7YQCI) | Librat e Violes - Perlat e Harruara | 1:44 | [Librat e Violes – Perlat e Harruara](https://www.youtube.com/channel/UCj_5xaEQ55Mdc_n_FPV7wWg/videos) | oEmbed |
 | [Lexo shqip: Breshka dhe lepuri](https://www.youtube.com/watch?v=FpQnryd6rQA) | perralla ime | 3:28 | [Perralla Ime](https://www.youtube.com/channel/UCfhxLif3csgs7s5TgLlXSFA/videos) | oEmbed |
 
 ## Zoekronde 2 · 15 november 2026
@@ -64,3 +48,7 @@ Kandidaten zijn geselecteerd op titel, collectie of bronvermelding. Beluister v�
 - Animatiekanalen zonder duidelijke boekbasis, waaronder Albanian Fairy Tales en HeyKids, bleven buiten de selectie.
 
 Hervatten bij oudere uploads van Librat e Violes en per kandidaat controleren of het verhaal als boekvoorlezing wordt gebracht.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 16 links op beeld afgewezen.

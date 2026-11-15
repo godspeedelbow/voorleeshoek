@@ -11,7 +11,7 @@ Onderzoeksronde 15 november 2026. De [videolijst](VIDEOS.md) bevat directe links
 | [BE · Vlaams](VIDEOS.md#be--vlaams) | 101 | 4 | 0 |
 | [BE · Vlaamse Gebarentaal](VIDEOS.md#be--vlaamse-gebarentaal) | 0 | 11 | 39 |
 | [CH · Duits](VIDEOS.md#ch--duits) | 0 | 20 | 30 |
-| [CH · Zwitsers-Duits](VIDEOS.md#ch--zwitsers-duits) | 0 | 4 | 46 |
+| [CH · Zwitsers-Duits](VIDEOS.md#ch--zwitsers-duits) | 0 | 3 | 47 |
 | [DE · Duits](VIDEOS.md#de--duits) | 0 | 56 | 0 |
 | [DE · Duitse Gebarentaal](VIDEOS.md#de--duitse-gebarentaal) | 0 | 4 | 46 |
 | [DE · Nederduits](VIDEOS.md#de--nederduits) | 0 | 1 | 49 |
@@ -163,3 +163,5 @@ YouTube-oEmbed gaf voor 127 van 133 links openbare metadata terug. De publiceren
 | `CNL Lëtzebuerger Literaturarchiv Kanner geschicht virgelies` | 13 treffers | Dubbelen uit CNL, een hoofdstuk van Pippi, titels voor oudere kinderen en irrelevante treffers. Hervat bij de kanalen van de individuele voorlezers. |
 
 - Lokale vervolgtips. De [Monegaskische fabel L’Aurive](https://www.traditions-monaco.com/wp-content/uploads/2019/07/Chronique-I-Murin.pdf) is als tekst teruggevonden. De [mediatheek van Traditions Monaco](https://www.traditions-monaco.com/mediatheque) biedt een videoarchief als volgende zoekplaats. In Liechtenstein bevestigen de [gemeentelijke bibliotheekactiviteiten](https://www.eschen.li/leben-soziales/agenda/geschichten-aus-der-buecherschatzkiste-weihnachten-2-2-2-2-2/) voorlezen aan kinderen vanaf drie jaar en de [auteurspagina van Anita Grüneis](https://www.literatursalon.li/autoren/anita-gr%C3%BCneis) wijst naar de lokale boekenreeks Lisa und Max. De zoekronde op die reeks leverde boekinformatie en evenementen op. Zoek verder per boektitel bij makers en uitgever.
+
+De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../MINIMUM-20.md).

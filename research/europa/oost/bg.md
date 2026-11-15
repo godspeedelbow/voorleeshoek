@@ -1,6 +1,6 @@
 # Bulgarije · Bulgaars
 
-Onderzoeksronde 2026-11-15. Doel 50. **64 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
+Onderzoeksronde 2026-11-15. Doel 50. **63 kandidaten**, 0 inhoudelijk gecontroleerd. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
 
 ## Individuele video’s
 
@@ -27,7 +27,6 @@ Onderzoeksronde 2026-11-15. Doel 50. **64 kandidaten**, 0 inhoudelijk gecontrole
 | Костенурката и заекът - Езоп | [Video](https://www.youtube.com/watch?v=BlguzDdBi6w) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
 | Патиланци | [Video](https://www.youtube.com/watch?v=VpccNk4KGtQ) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
 | Рибар и рибка | [Video](https://www.youtube.com/watch?v=qGWV1TmQW_4) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
-| Гарван и лисица | [Video](https://www.youtube.com/watch?v=Sv-BPLApxCc) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
 | Лисицата и граздето | [Video](https://www.youtube.com/watch?v=SyBW7ankKNg) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
 | Мързеливата снаха | [Video](https://www.youtube.com/watch?v=Y-fktbxxaAQ) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
 | Иди питай магарето | [Video](https://www.youtube.com/watch?v=FT510or9dQA) | [Читалище Долни Вадин](https://www.youtube.com/@%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%89%D0%B5%D0%94%D0%BE%D0%BB%D0%BD%D0%B8%D0%92%D0%B0%D0%B4%D0%B8%D0%BD) | Kandidaat | YouTube-metadata opgehaald. |
@@ -85,3 +84,7 @@ Onderzoeksronde 2026-11-15. Doel 50. **64 kandidaten**, 0 inhoudelijk gecontrole
 ## Hervatpunt
 
 Het cultuurcentrum leest voor kinderen en volwassenen. De [reportage van BNR](https://bnrnews.bg/vidin/post/125772/chitalishteto-v-dolni-vadin-s-onlain-prikazki-za-deca-i-vazrastni) documenteert de vrijwilligers en koppelt de reeks. De 67 titels zijn gescand. Historische, generieke en voor volwassenen ogende titels bleven buiten de selectie. Begin bij korte fabels en kinderboeken en wissel af met TikiTak en Приказки по ноти.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

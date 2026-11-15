@@ -4,18 +4,16 @@ Laatste onderzoeksronde 15 november 2026. Doel minstens 20 per land en 50 per la
 
 ## Stand van het onderzoek
 
-Alle 51 landen hebben minstens 20 items in de voorselectie wanneer geschikte gedeelde taalcollecties en de bestaande appvideo’s meetellen. Negen landen hebben gedeelde collecties nodig om die drempel te halen. In het [overzicht per land](MINIMUM-20.md) staan de aantallen vóór en na ronde 2 en de verwijzingen naar het gedeelde materiaal.
+Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 517 video's individueel op frames beoordeeld. Bij 119 zijn verschillende geïllustreerde boekpagina's gezien. Daarvan staan 45 al in de app. Uit de voorselectie zijn 128 links afgewezen en uit de app vier. De uitkomsten en het hervatpunt staan in het [beeldlog](BEELDCONTROLE.md). Het [minimumoverzicht](MINIMUM-20.md) toont beelddekking per land.
 
-De dossiers bevatten samen 1.850 unieke kandidaatlinks. In ronde 2 zijn 167 links toegevoegd en vier eerdere links vervangen of geschrapt. Gedeelde links tellen maar één keer mee in dit Europese totaal. Bestaande appvideo’s tellen apart. De inhoudelijke beoordeling en afspeeltest per titel staan grotendeels nog open.
-
-| Regio | Landen | Unieke kandidaatlinks | Dossier |
+| Regio | Landen | Resterende kandidaatlinks | Dossier |
 | --- | ---: | ---: | --- |
-| Noord-Europa | 10 | 439 | [Voortgang en landdossiers](noord/README.md) |
-| West-Europa | 9 | 216 | [Zoeklog](west/README.md) · [videokandidaten](west/VIDEOS.md) |
-| Oost-Europa en Kaukasus | 14 | 546 | [Voortgang en taaldossiers](oost/README.md) |
-| Zuid-Europa | 18 | 649 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
+| Noord-Europa | 10 | 386 | [Voortgang en landdossiers](noord/README.md) |
+| West-Europa | 9 | 215 | [Zoeklog](west/README.md) · [videokandidaten](west/VIDEOS.md) |
+| Oost-Europa en Kaukasus | 14 | 541 | [Voortgang en taaldossiers](oost/README.md) |
+| Zuid-Europa | 18 | 580 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
 
-De drempel van 50 kandidaten is voor een aantal talen bereikt, waaronder Duits in Duitsland, Iers in Ierland, Slowaaks in Slowakije en Maltees in Malta. Voor veel andere land-taalparen zijn er minder of nul kandidaten. Het zoeklog geeft per ronde aan wat al is bekeken en waar verder te gaan. Een taal die alleen in het landenregister staat, vraagt nog een eigen zoekronde.
+Publiceer per land zodra minstens 11 verschillende kinderboeken in de gekozen taal zijn gecontroleerd. Het onderzoeksdoel blijft minimaal 20 per land en 50 per land-taalpaar.
 
 ## Startvoorraad in de app
 

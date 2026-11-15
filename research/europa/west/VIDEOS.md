@@ -145,7 +145,6 @@ Titel of zoekcontext wijst op een kinderboek of voorleesvideo in Zwitserse omgan
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
 | De Chli Rot Traktor - E Gheimhütte (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=lde9hogpUxI) | Dr Strangelove |
-| Felix reist i d'Schwiiz | [Video](https://www.youtube.com/watch?v=HFC4_c93CmY) | Kinder Schweizerdeutsch - Topic |
 | Gute Nacht, Locke! Gutenachtgeschichte für Kleinkinder in Schweizerdeutsch | [Video](https://www.youtube.com/watch?v=gCedVIMyGmA) | ELA |
 | 🤔💫 Wo man einen Stern findet \| Animiertes Kinderbuch \|  @gschichtliland | [Video](https://www.youtube.com/watch?v=bmujIAqwJdY) | Gschichtli Land |
 
@@ -357,3 +356,7 @@ Internationale bronnen voor mogelijk hergebruik in Europese landen waar Jiddisch
 | --- | --- | --- |
 | Khaplop! Children's Stories in Yiddish (and English) | [Video](https://www.youtube.com/watch?v=Dnw_kImmIsE) | YI Love Jewish – Yiddishkayt Initiative |
 | Jewish children don't fight! (Yiddish reader story #2) | [Video](https://www.youtube.com/watch?v=F9xzvdkMXMI) | Frieda Vizel |
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

@@ -1,6 +1,6 @@
 # Polen · Pools
 
-Onderzoeksronde 2026-11-15. Doel 50. **16 kandidaten**, 0 inhoudelijk gecontroleerd. Daarnaast staan er 29 Poolse video’s in de bestaande catalogus. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
+Onderzoeksronde 2026-11-15. Doel 50. **15 kandidaten**, 0 inhoudelijk gecontroleerd. Daarnaast staan er 29 Poolse video’s in de bestaande catalogus. Publieke metadata en bronvermeldingen zijn de basis. Controleer bij afspelen taal, voorleesvorm, volledigheid en leeftijd en test een eventuele insluiting.
 
 ## Individuele video’s
 
@@ -11,7 +11,6 @@ Onderzoeksronde 2026-11-15. Doel 50. **16 kandidaten**, 0 inhoudelijk gecontrole
 | Mała Wiedźma Bazylka - Cała Polska Czyta Dzieciom | [Video](https://www.youtube.com/watch?v=S-8WB6l37qE) | [Publicat SA Grupa Wydawnicza](https://www.youtube.com/@PublicatSAGrupa) | Kandidaat | YouTube-metadata opgehaald. |
 | Całe Jaworzno czyta dzieciom — o przytulaniu | [Video](https://www.youtube.com/watch?v=pZKmeFp6HCc) | [dlaCiebietv](https://www.youtube.com/@dlaCiebietv) | Kandidaat | YouTube-metadata opgehaald. |
 | Kicia Kocia - Piękne Czytanie Książki | [Video](https://www.youtube.com/watch?v=jcSAtGE0Syg) | [Piękne Czytanie - Polska](https://www.youtube.com/@Pi%C4%99kneCzytanie-Polska) | Kandidaat | YouTube-metadata opgehaald. |
-| Kicia Kocia u dentysty | [Video](https://www.youtube.com/watch?v=kn2ilDj4jX4) | [Release - Topic](https://www.youtube.com/channel/UCaE2aFc967Bz9K5eDD8hQow) | Kandidaat | YouTube-metadata opgehaald. |
 | Kicia Kocia i Nunuś Pora spać | [Video](https://www.youtube.com/watch?v=eEPN-YKsttk) | [Sigmamadre](https://www.youtube.com/@Sigmamadre) | Kandidaat | YouTube-metadata opgehaald. |
 | Zasmakuj w bibliotece – czytanie online „Na BezNudnej wyspie” | [Video](https://www.youtube.com/watch?v=95FPP0K1cdc) | [Biblioteka Pułtusk](https://www.youtube.com/@bibliotekaputusk5649) | Kandidaat | YouTube-metadata opgehaald. |
 | Lubię czytać - chętnie słucham: „Winter i magiczny świat książek” Maja Prus | [Video](https://www.youtube.com/watch?v=h2kWqfL3uXQ) | [Biblioteka w Polkowicach](https://www.youtube.com/@bibliotekawpolkowicach) | Kandidaat | YouTube-metadata opgehaald. |
@@ -43,3 +42,7 @@ Onderzoeksronde 2026-11-15. Doel 50. **16 kandidaten**, 0 inhoudelijk gecontrole
 ## Hervatpunt
 
 Polkowice heeft nog oudere uploads. Het rechtstreeks ingesloten Alles begint met dromen is deel twee en blijft buiten de selectie. Zoek daarna bij uitgevers op „czyta” en „czytanie na głos”. Vooks en Toadstools vielen af nadat hun ogenschijnlijk Poolse videotitels in de oorspronkelijke metadata Engels bleken. Bajkowe czytanki en Bajki do czytania bevatten veel rijmen, liedjes en audio.
+
+## Beeldcontrole
+
+Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 1 links op beeld afgewezen.

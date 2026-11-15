@@ -4,6 +4,8 @@ Een eenvoudige kijkronde met voorgelezen kinderboeken uit elf landen. Open `dist
 
 Open de startpagina met bijvoorbeeld `?lang=en-GB` om een land vooraf te kiezen.
 
+Bij een eerste bezoek kiest de site meteen een land op basis van de ingestelde browsertaal, met Nederland als laatste terugvaloptie. Een beschikbaar land op basis van het IP-adres krijgt voorrang zodra de opvraag klaar is. De browser probeert daarvoor GeoJS en bij een storing Country.is. Een keuze in de landenkiezer wordt onthouden. Een land in de link of een lopende kijkronde heeft voorrang op automatische detectie.
+
 ## Nieuwe voorleesboeken
 
 De selectie in `dist/stories.js` bevat losse video's uit afspeellijsten en bibliotheekcollecties. De GitHub-actie **Zoek nieuwe voorleesboeken** controleert die bronnen wekelijks en zet video's die nog buiten de catalogus staan in het overzicht van de run. Je kunt dezelfde controle lokaal draaien:

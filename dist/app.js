@@ -374,7 +374,13 @@ const countryTrigger = countryPicker.querySelector('summary');
 const countryOptions = get('country-options');
 const languageKey = 'voorleeshoek-language';
 const limitKey = 'voorleeshoek-limit';
-let preferredCountry = 'nl';
+const countryByRegion = new Map([
+  ['NL', 'nl'], ['SE', 'sv'], ['ES', 'es'], ['IT', 'it'], ['GB', 'en-GB'],
+  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'],
+]);
+let preferredCountry;
+let detectedCountry;
+let startedRound = false;
 
 try {
   const saved = localStorage.getItem(languageKey);
@@ -387,7 +393,7 @@ try {
     }
   }
 } catch {
-  // Keep Dutch as the default when the saved language is unavailable.
+  // The default can still be selected from the browser or its IP address.
 }
 
 let selectedCountry;
@@ -397,6 +403,66 @@ let copy;
 function countryFromURL() {
   const requested = new URLSearchParams(location.search).get('lang');
   return countryById.has(requested) ? requested : null;
+}
+
+function defaultCountry() {
+  return preferredCountry ?? detectedCountry ?? countryFromBrowser() ?? 'nl';
+}
+
+function browserLanguages() {
+  return (navigator.languages?.length ? navigator.languages : [navigator.language])
+    .map((tag) => tag.toLowerCase());
+}
+
+function countryFromBrowser() {
+  for (const tag of browserLanguages()) {
+    const exact = countries.find(({ id }) => id.toLowerCase() === tag);
+    if (exact) return exact.id;
+
+    const base = tag.split('-')[0];
+    const match = countries.find(({ language }) => language.split('-')[0] === base);
+    if (match) return match.id;
+  }
+  return null;
+}
+
+function canDetectCountry() {
+  return !preferredCountry && !round && !startedRound && !countryFromURL();
+}
+
+async function detectCountry() {
+  const providers = [
+    ['https://get.geojs.io/v1/ip/country', (response) => response.text()],
+    ['https://api.country.is/', async (response) => (await response.json())?.country],
+  ];
+
+  for (const [url, readCountry] of providers) {
+    if (!canDetectCountry()) return;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 1200);
+    try {
+      const response = await fetch(url, {
+        signal: controller.signal,
+        credentials: 'omit',
+        referrerPolicy: 'no-referrer',
+      });
+      if (!response.ok) continue;
+      const region = await readCountry(response);
+      if (typeof region !== 'string' || !/^[a-z]{2}$/i.test(region.trim())) continue;
+      const code = region.trim().toUpperCase();
+      if (code === 'BE') {
+        const belgianLanguage = browserLanguages()
+          .map((tag) => tag.split('-')[0])
+          .find((base) => base === 'fr' || base === 'nl');
+        return belgianLanguage === 'fr' ? 'fr-BE' : 'nl-BE';
+      }
+      return countryByRegion.get(code);
+    } catch {
+      // Try the next provider after a timeout, network error or invalid response.
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
 }
 
 function applyCountry(id) {
@@ -892,6 +958,7 @@ limit.oninput = saveLimit;
 get('settings').onsubmit = (event) => {
   event.preventDefault();
   saveLimit();
+  startedRound = true;
   round = {
     total: Number(limit.value),
     completed: 0,
@@ -921,7 +988,7 @@ for (const { id, language, flag, label } of countries) {
   button.append(icon, name);
   button.addEventListener('click', () => {
     countryPicker.open = false;
-    if (id !== selectedCountry.id) chooseCountry(id);
+    chooseCountry(id);
     countryTrigger.focus();
   });
   item.append(button);
@@ -1023,7 +1090,7 @@ window.addEventListener('popstate', (event) => {
   if (round) showSetup();
   historyEntry = entry ?? 0;
   round = roundForURL();
-  applyCountry(round ? storyCountry(stories[round.order[0]]) : countryFromURL() ?? preferredCountry);
+  applyCountry(round ? storyCountry(stories[round.order[0]]) : countryFromURL() ?? defaultCountry());
   if (round) {
     storeRound();
     mount(false);
@@ -1052,7 +1119,7 @@ if ((!linkedRound && countryFromURL()) || (linkedRound && (!round || !knownEntry
   round = linkedRound;
   storeRound();
 }
-applyCountry(round ? storyCountry(stories[round.order[round.cursor]]) : countryFromURL() ?? preferredCountry);
+applyCountry(round ? storyCountry(stories[round.order[round.cursor]]) : countryFromURL() ?? defaultCountry());
 landscapeTouchScreen.addEventListener('change', updateOrientation);
 updateOrientation();
 updateStepper();
@@ -1064,4 +1131,12 @@ if (round) {
   }
   else if (round.waitUntil) tick();
   else mount(round === linkedRound);
+}
+
+if (canDetectCountry()) {
+  detectCountry().then((id) => {
+    if (!id || !canDetectCountry()) return;
+    detectedCountry = id;
+    if (id !== selectedCountry.id) applyCountry(id);
+  });
 }

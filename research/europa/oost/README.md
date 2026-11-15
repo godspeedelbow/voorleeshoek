@@ -43,4 +43,4 @@ Stand op 2026-11-15. Inhoud en insluiting zijn nog niet gecontroleerd. Voor deze
 
 De twee Gagaoezische kandidaten tellen mee bij het lokale landtotaal voor Moldavië. Gedeelde rijen houden hun bronland en oorspronkelijke kanaal.
 
-De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../MINIMUM-20.md).
+De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../BEELDDEKKING.md).

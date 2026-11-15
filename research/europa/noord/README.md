@@ -17,4 +17,4 @@ Onderzoeksronde 15 november 2026. Het getal in de laatste kolom telt nieuwe kand
 
 De aanvullende zoekronde bracht Estland van 6 naar 32, IJsland van 10 naar 31 en Noorwegen van 19 naar 24 kandidaatlinks. De landenbestanden bevatten de broncontrole en de eerstvolgende zoekstap.
 
-De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../MINIMUM-20.md).
+De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../BEELDDEKKING.md).

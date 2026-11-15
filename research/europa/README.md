@@ -1,6 +1,6 @@
 # Voorleesvideo’s in Europa
 
-Per land zoeken we minimaal 20 verschillende voorleesvideo’s met een boek of prentenboek voor kinderen rond vijf jaar. Per land en taal mikken we op 50. Extra geschikte titels mogen in het dossier blijven staan. Het [landenregister en voortgangsoverzicht](VOORTGANG.md) is het startpunt voor elke volgende ronde.
+Voor elke nieuwe land- of taalkeuze zoeken we minstens vijf verschillende voorgelezen kinderboeken voor kinderen rond vijf jaar. Voor publicatie moeten alle vijf YouTube-video’s insluitbaar zijn en aan de beeldcontrole voldoen. Extra geschikte titels mogen in het dossier blijven staan. Het [landenregister en voortgangsoverzicht](VOORTGANG.md) is het startpunt voor elke volgende ronde.
 
 ## Afbakening
 
@@ -10,7 +10,7 @@ Een video mag voor meerdere landen meetellen als de gesproken of gebaarde taal e
 
 ## Plan en hervatten
 
-1. Zoek het land in [VOORTGANG.md](VOORTGANG.md). Voeg voor een nieuw land een rij met landcode, gedocumenteerde talen en link naar het regionale bestand toe. Gebruik een eigen sectie per taal en werk ook het [overzicht van het minimum per land](MINIMUM-20.md) bij.
+1. Zoek het land in [VOORTGANG.md](VOORTGANG.md). Voeg voor een nieuw land een rij met landcode, gedocumenteerde talen en link naar het regionale bestand toe. Gebruik een eigen sectie per taal en werk ook het [overzicht van het minimum per land](BEELDDEKKING.md) bij.
 2. Vergelijk de bestaande catalogus in `dist/stories.js` en het regionale dossier. Begin bij het laatste hervatpunt. Gebruik lokale zoekwoorden en primaire bronnen, zoals bibliotheken, uitgevers, omroepen en taalorganisaties. Onderzoek eerst hun voorleescollecties en daarna afzonderlijke kanalen en titels.
 3. Noteer per zoekronde datum, land en taal, zoektermen, bron-URL, daadwerkelijk bekeken onderdelen of posities, uitkomst en eerste open vervolgstap. Schrijf onbezochte bronnen op als tip. Een afspeellijst telt als bron. Alleen afzonderlijke video’s met positief gecontroleerd boekbeeld tellen mee voor de doelen.
 4. Sla bruikbare resultaten op met titel, directe URL, kanaal of uitgever, herkomst en bewijsniveau. Sluit Ouderraad-kanalen uit volgens [AGENTS.md](../../AGENTS.md), inclusief de afspeellijst Digitaal voorlezen van Ouderraad SBS De Regenboog & ’t Zavelken.

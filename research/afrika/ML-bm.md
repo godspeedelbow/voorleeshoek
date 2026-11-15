@@ -1,6 +1,6 @@
 # Mali / Bamanankan
 
-Stand 15 november 2026: één kandidaat, nul volledig gecontroleerde boeken. Voor opname zijn minstens twintig verschillende voorgelezen kinderboeken met insluitbare YouTube-video’s nodig.
+Stand 15 november 2026: één kandidaat, nul volledig gecontroleerde boeken. Voor opname zijn minstens vijf verschillende voorgelezen kinderboeken met insluitbare YouTube-video’s nodig.
 
 ## Kandidaat
 

@@ -67,7 +67,7 @@ Alle 649 opgenomen video-ID’s gaven openbare YouTube-oEmbed-metadata. Een aanv
 
 ## Zoekronde 2 · 15 november 2026
 
-De ondergrens van twintig kandidaatvideo’s per land kan in deze ronde ook worden ingevuld met een vastgelegde gedeelde taallijst of de bestaande appcatalogus. Bestaand materiaal en kandidaten zijn beide zichtbaar in de tabel. Gedeelde en bestaande video’s blijven buiten de telling van nieuwe unieke links voor deze regio.
+In deze historische onderzoeksronde kon het doel van twintig kandidaatvideo’s per land ook worden ingevuld met een vastgelegde gedeelde taallijst of de bestaande appcatalogus. Bestaand materiaal en kandidaten zijn beide zichtbaar in de tabel. Gedeelde en bestaande video’s blijven buiten de telling van nieuwe unieke links voor deze regio.
 
 | Land | Eerdere afzonderlijke kandidaten | Na deze ronde in eigen dossier | Gedeeld of bestaand | Beschikbaar voor land |
 |---|---:|---:|---|---:|
@@ -80,4 +80,4 @@ De ondergrens van twintig kandidaatvideo’s per land kan in deze ronde ook word
 
 De regionale set groeide van 629 naar 649 nieuwe unieke kandidaatlinks. In Andorra viel één lied af en kwamen drie boekverhalen terug. In San Marino is een evenementverslag vervangen door een specifiekere afzonderlijke voorlezing.
 
-De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../MINIMUM-20.md).
+De ronde-2-aantallen zijn een momentopname vóór de [beeldcontrole](../BEELDCONTROLE.md). Raadpleeg voor de huidige beelddekking het [minimumoverzicht](../BEELDDEKKING.md).

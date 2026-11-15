@@ -1,10 +1,10 @@
 # Voortgang Europese voorleesvideo’s
 
-Laatste onderzoeksronde 15 november 2026. Doel minstens 20 per land en 50 per land-taalpaar. De regionale dossiers bevatten de directe links, gevonden bronnen en hervatpunten. De talen in deze tabel vormen een eerste inventaris. Gebruik voor uitwerking ook de beschermde talen per land uit de [Raad van Europa](https://rm.coe.int/november-2022-revised-table-languages-covered-english-/1680a8fef4).
+Laatste onderzoeksronde 15 november 2026. De regionale dossiers bevatten de directe links, gevonden bronnen en hervatpunten. De talen in deze tabel vormen een eerste inventaris. Gebruik voor uitwerking ook de beschermde talen per land uit de [Raad van Europa](https://rm.coe.int/november-2022-revised-table-languages-covered-english-/1680a8fef4).
 
 ## Stand van het onderzoek
 
-Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 517 video's individueel op frames beoordeeld. Bij 119 zijn verschillende geïllustreerde boekpagina's gezien. Daarvan staan 45 al in de app. Uit de voorselectie zijn 128 links afgewezen en uit de app vier. De uitkomsten en het hervatpunt staan in het [beeldlog](BEELDCONTROLE.md). Het [minimumoverzicht](MINIMUM-20.md) toont beelddekking per land.
+Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 517 video's individueel op frames beoordeeld. Bij 119 zijn verschillende geïllustreerde boekpagina's gezien. Daarvan staan 45 al in de app. Uit de voorselectie zijn 128 links afgewezen en uit de app vier. De uitkomsten en het hervatpunt staan in het [beeldlog](BEELDCONTROLE.md). Het [minimumoverzicht](BEELDDEKKING.md) toont beelddekking per land.
 
 | Regio | Landen | Resterende kandidaatlinks | Dossier |
 | --- | ---: | ---: | --- |
@@ -13,7 +13,7 @@ Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 
 | Oost-Europa en Kaukasus | 14 | 541 | [Voortgang en taaldossiers](oost/README.md) |
 | Zuid-Europa | 18 | 580 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
 
-Publiceer per land zodra minstens 11 verschillende kinderboeken in de gekozen taal zijn gecontroleerd. Het onderzoeksdoel blijft minimaal 20 per land en 50 per land-taalpaar.
+Publiceer een nieuwe land- of taalkeuze zodra minstens vijf verschillende kinderboeken in de gekozen taal zijn gecontroleerd op boekbeeld en insluitbaarheid op YouTube.
 
 ## Startvoorraad in de app
 

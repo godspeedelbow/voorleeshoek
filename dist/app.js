@@ -556,7 +556,7 @@ const languageKey = 'voorleeshoek-language';
 const limitKey = 'voorleeshoek-limit';
 const countryByRegion = new Map([
   ['NL', 'nl'], ['SE', 'sv'], ['ES', 'es'], ['IT', 'it'], ['GB', 'en-GB'],
-  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'], ['MC', 'fr-MC'], ['DE', 'de'], ['AT', 'de-AT'], ['CH', 'de-CH'], ['IS', 'is'], ['IE', 'ga'], ['NO', 'nb'], ['FI', 'fi'],
+  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'], ['MC', 'fr-MC'], ['DE', 'de'], ['AT', 'de-AT'], ['CH', 'de-CH'], ['IS', 'is'], ['IE', 'ga'], ['NO', 'nb'], ['FI', 'fi'], ['ML', 'bm'],
 ]);
 let preferredCountry;
 let detectedCountry;
@@ -646,7 +646,7 @@ async function detectCountry() {
 
 function applyCountry(id) {
   selectedCountry = countryById.get(id);
-  language = selectedCountry.language;
+  language = selectedCountry.interfaceLanguage ?? selectedCountry.language;
   copy = translations[language];
   document.documentElement.lang = language;
   document.documentElement.dir = language === 'ary' ? 'rtl' : 'ltr';
@@ -654,7 +654,13 @@ function applyCountry(id) {
   get('country-flag').textContent = selectedCountry.flag;
   const countryName = get('country-name');
   countryName.textContent = selectedCountry.label;
-  countryName.lang = language;
+  countryName.lang = selectedCountry.language;
+  const storyCount = id === 'bm'
+    ? stories.filter((story) => storyCountry(story) === id).length
+    : maxRoundSize;
+  limit.max = Math.min(maxRoundSize, storyCount);
+  limit.value = Math.min(preferredLimit, Number(limit.max));
+  updateStepper();
   for (const button of countryOptions.querySelectorAll('button')) {
     button.setAttribute('aria-pressed', String(button.value === id));
   }
@@ -667,8 +673,9 @@ function applyCountry(id) {
   document.querySelectorAll('[data-label]').forEach((element) => {
     element.setAttribute('aria-label', copy[element.dataset.label]);
   });
-  document.querySelector('meta[name="description"]').content = copy.description;
-  document.querySelector('meta[property="og:description"]').content = copy.description;
+  const description = selectedCountry.description ?? copy.description;
+  document.querySelector('meta[name="description"]').content = description;
+  document.querySelector('meta[property="og:description"]').content = description;
   document.querySelector('meta[property="og:title"]').content = copy.siteName;
 
   const publishedAt = get('published-at');
@@ -680,6 +687,7 @@ function applyCountry(id) {
   }
 }
 
+const maxRoundSize = Number(limit.max);
 try {
   const savedLimit = Number(localStorage.getItem(limitKey));
   if (Number.isInteger(savedLimit) && savedLimit >= Number(limit.min) && savedLimit <= Number(limit.max)) {
@@ -689,6 +697,7 @@ try {
   // Keep the default number of stories when storage is unavailable.
 }
 
+let preferredLimit = Number(limit.value);
 let round;
 let player;
 let playerReady = false;
@@ -716,7 +725,7 @@ function storeRound() {
 function restoreRound() {
   try {
     const saved = JSON.parse(sessionStorage.getItem(storageKey));
-    if (saved && saved.total >= 1 && saved.total <= Number(limit.max) &&
+    if (saved && saved.total >= 1 && saved.total <= maxRoundSize &&
         Array.isArray(saved.order) &&
         saved.completed >= 0 && saved.completed <= saved.total &&
         saved.skips >= 0 && saved.skips <= 3) {
@@ -781,7 +790,8 @@ function updateStepper() {
 
 function saveLimit() {
   updateStepper();
-  if (!limit.validity.valid) return;
+  if (!limit.validity.valid || Number(limit.max) === 1) return;
+  preferredLimit = Number(limit.value);
   try {
     localStorage.setItem(limitKey, limit.value);
   } catch {
@@ -1141,7 +1151,7 @@ get('settings').onsubmit = (event) => {
   round = {
     total: Number(limit.value),
     completed: 0,
-    skips: 3,
+    skips: Number(limit.max) === 1 ? 0 : 3,
     order: shuffledStories(),
     cursor: 0,
     waitUntil: 0,

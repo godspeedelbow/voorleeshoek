@@ -1,6 +1,6 @@
 # Mali / Bamanankan
 
-Stand 15 november 2026: één gecontroleerd boek van de vijf die nodig zijn. Voor opname zijn minstens vijf verschillende voorgelezen kinderboeken met insluitbare YouTube-video’s nodig.
+Mali / Bamanankan gaat op 15 november 2026 live met één gecontroleerd boek, op verzoek van de gebruiker als uitzondering op het minimum van vijf.
 
 ## Gecontroleerd boek
 

@@ -12,13 +12,14 @@ Stand 15 november 2026: één gecontroleerd boek van de vijf die nodig zijn. Voo
 - [Mali Pense · Nsiirinw](https://www.mali-pense.net/-Nsiirinw-Contes-.html): onbewezen als aanvullende bron voor de catalogus. Ntalen en Warabilenkɔrɔ ka walijuya zijn ongepubliceerde mondelinge verhalen met een afbeelding van de verteller. Juman nɔrɔla is eveneens ongepubliceerd en heeft tekeningen op de webpagina.
 - [RobotsMali · GAIFE](https://robotsmali.org/en/vers-une-litterature-enfantine-moderne-en-bambara-la-collection-gaife/): geïllustreerde kinderboeken in de Bloom-bibliotheek. Geen passende YouTube-voorlezingen gevonden bij gerichte zoekopdrachten op de titel en de uitgever.
 
-## Afgewezen video
+## Afgewezen video’s
 
 - [Les trois pêcheurs bredouilles](https://www.youtube.com/watch?v=6x6ZnP1xMPU), uit *Petit Bodiel et autres contes de la savane*. Op 0:01, 3:01 en 6:02 toont de video dezelfde omslag.
+
+- [Conte bambara l’hygiène et lapan](https://www.youtube.com/watch?v=2tiRZIxBQDY) · 6:36. Afgewezen na beoordeling door de gebruiker. De video toont losse animaties zonder boekillustraties.
 
 ## Aanvullend onderzoek
 
 - De [GAIFE-opnameninventaris](https://huggingface.co/datasets/RobotsMali/an-be-kalan-bench/blob/main/README.md) koppelt gesproken Bamanankan aan titels van kinderboeken. Zoekopdrachten op YouTube naar onder meer *Bako Cɛnin Ŋaniya Ɲuman*, *Ayisa ye nkalontigɛ dabila*, *Fali Nalonma Ni Ba Kegunma*, *Ne ni Papa ka Gafe Kalan*, *Bakɔrɔnin Saba*, *Mali Kunkanko* en *Mama ka Sama* leverden geen passende video's op.
 - [Afrikalan](https://www.afrikalan.org/2021/05/02/les-activites-de-lectures-afrikalan-sont-disponibles-sur-le-play-store-dandroid/) biedt leesactiviteiten in het Bamanankan. Bij het [Centre Culturel Kôrè](https://koresegou.org/arts-education-mali-afrique/) vond ik geïllustreerde boekjes en animatieprojecten. Voor geen van beide bronnen is een passende YouTube-voorlezing van een kinderboek gevonden.
 - YouTube-voorbeeldframes bekeken voor [Les Deux Frères](https://www.youtube.com/watch?v=N3bjD_-MeuI), twee afleveringen van *Bakoroba ka Ziirin* ([1](https://www.youtube.com/watch?v=KiWWYXsBXBI), [7](https://www.youtube.com/watch?v=riBGWtLu5uA)) en [Le riche Boua Seydou met ses 3 fils à l'épreuve](https://www.youtube.com/watch?v=J2B1Hybbbr8). De voorbeelden tonen scènes uit videobewerkingen en geen herkenbare pagina's of illustraties uit een vastgesteld boek.
-- [Conte bambara l’hygiène et lapan](https://www.youtube.com/watch?v=2tiRZIxBQDY) · 6:36. De voorbeeldframes tonen tekeningen. **Beeld open**: de titel van het bronboek en de herkomst van de tekeningen zijn nog niet vastgesteld.

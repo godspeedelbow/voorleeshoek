@@ -17,6 +17,8 @@ Gepubliceerde landkeuzes in deze ronde: [Monaco met 15 Franse voorleesvideo’s]
 
 In deze Europese publicatieronde gaat elk land live zodra minstens 11 verschillende geïllustreerde kinderboeken in de gekozen taal zijn gecontroleerd en in de YouTube-speler starten.
 
+De [Estse publicatiecontrole](noord/EE.md#beeldcontrole-voor-publicatie) is gestart. De eerste 18 steekproefsgewijs bekeken kandidaten leveren nog geen publiceerbare selectie van 11 op.
+
 ## Startvoorraad in de app
 
 Aantallen unieke video-ID’s per landkeuze in [de bestaande catalogus](../../dist/stories.js) bij aanvang. Voor ‘zoek er meer’ vergelijken we nieuwe links met deze voorraad. De Europese scope telt de Marokkaanse cataloguskeuze buiten de onderstaande tabel.

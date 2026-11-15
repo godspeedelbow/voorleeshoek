@@ -98,3 +98,29 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 ## Beeldcontrole
 
 Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen.
+
+## Beeldcontrole voor publicatie
+
+De Estse selectie blijft open. De ingebedde speler is gedempt getest rond 32% en 62% van de speelduur.
+
+| Titel of opname | Video | Uitkomst |
+| --- | --- | --- |
+| Roosi Suvi | [JA-cVwcy8so](https://www.youtube.com/watch?v=JA-cVwcy8so) | Verschillende geïllustreerde boekpagina’s op 1:08 en 2:10. |
+| Kiisu raamat 1, 2, 3 | [A51APTrnD4k](https://www.youtube.com/watch?v=A51APTrnD4k) | Voorlezer zonder zichtbare bladzijde op 3:47 en 7:18. |
+| Konna musi | [sf0DonIWXiw](https://www.youtube.com/watch?v=sf0DonIWXiw) | Verschillende illustraties naast voorlezer op 3:48 en 7:20. Nog beoordelen hoe consequent ze worden getoond. |
+| Tere, tere lambatall | [DFunt3FRLbA](https://www.youtube.com/watch?v=DFunt3FRLbA) | Voorlezer zonder bladzijde op 8:12. Het eerste afspeelmoment liep vast. |
+| Lift | [Qo0BLaYRaog](https://www.youtube.com/watch?v=Qo0BLaYRaog) | Voorlezer centraal op 3:27 en 6:40. Boek alleen gedeeltelijk in beeld op het tweede moment. |
+| Lepatriinu täpid | [8dZdAGZsoPM](https://www.youtube.com/watch?v=8dZdAGZsoPM) | Voorlezer centraal op 5:28. Het tweede moment liep vast. |
+| Keda ma kuulen ja näen? | [u6A6jXXxOyU](https://www.youtube.com/watch?v=u6A6jXXxOyU) | Voorlezer zonder zichtbare bladzijde op 3:21 en 6:28. |
+| Poiste aabits | [bIAwv66dRG8](https://www.youtube.com/watch?v=bIAwv66dRG8) | Verschillende afbeeldingen op 7:08 en 13:48. Alfabetboek. |
+| Kuidas kulp lasteaias käis | [cfkEuk7PirA](https://www.youtube.com/watch?v=cfkEuk7PirA) | Op 1:41 en 3:14 alleen de buitenkant van het boek zichtbaar. |
+| Unejutt kogu perele! · Ott Sepp | [sPr8XSKGz8E](https://www.youtube.com/watch?v=sPr8XSKGz8E) | Voorlezer bij kaarsen op 28:55 en 56:01. |
+
+### Bronnen en hervatpunt voor publicatie
+
+- [Tädi Mairit](https://www.youtube.com/@t%C3%A4dimairit/videos) had één Ests prentenboek tussen de zichtbare uploads. [Tädi Kaidi Lood](https://www.youtube.com/@t%C3%A4dikaidilood/videos) toont het boek doorgaans slechts af en toe. De bovenstaande nieuwe steekproeven zijn specifieker dan de oorspronkelijke miniaturen.
+- [Võrumaa Keskraamatukogu](https://lib.werro.ee/kirjanikud-ettelugejad-kuuldemangud) bundelt digitale bronnen. Begin bij de openbare voorleessessies van Ketlin Priilinn en andere auteurs. De lijst bevat ook losse fragmenten, interviews en audio.
+- [Eesti Lastekirjanduse Keskus](https://elk.ee/opetajale/ettelugemise-paev/) koppelt naar zijn videokanaal. De [Eno Raud-editie](https://elk.ee/blog/2023/10/16/ettelugemise-paeval-loeme-ja-illustreerime-eno-raua-lugusid/) kondigt live illustreren aan. Controleer of opnames met zichtbare boekpagina’s bestaan.
+- [Sipsik käib katusel](https://www.youtube.com/watch?v=647R-V7JRbM) toonde een boekillustratie op het eerste meetmoment. Controleer een tweede moment en of het een volledige zelfstandige vertelling is. [Õunapuu Saladused](https://www.youtube.com/watch?v=pm_FZ3N0bhA) toont verschillende pagina’s. Het is ingeleid als uitleg over hoe je het boek gebruikt. Controleer of een verhaal wordt voorgelezen.
+- [Punamütsike](https://www.youtube.com/watch?v=eLfxKf2cTYQ) toont animatie zonder zichtbare boekpagina’s op beide meetmomenten. [Erakordne Rakett](https://www.youtube.com/watch?v=Rb7i_m-b0B0) leverde geen afspeelframe op. [Unejutt · Andrus Vaarik](https://www.youtube.com/watch?v=Uve10KErUYw) toont op beide momenten de voorlezer bij kaarsen.
+- [Kiisu raamat 4–6](https://www.youtube.com/watch?v=nVQ_4yCUJCk) en [7–9](https://www.youtube.com/watch?v=mt0HFt26Xgc) tonen eerst de voorlezer, daarna boekillustraties. [Marta varbad 1](https://www.youtube.com/watch?v=yYuXAaUW4u0) toont de voorlezer op het beschikbare meetmoment. Zoek verder bij andere reeksen.

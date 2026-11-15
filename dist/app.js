@@ -1152,7 +1152,10 @@ get('settings').onsubmit = (event) => {
   get('story').focus();
 };
 
-for (const { id, language, flag, label } of countries) {
+const countryNameCollator = new Intl.Collator('nl', { sensitivity: 'base' });
+const sortedCountries = [...countries].sort((first, second) =>
+  countryNameCollator.compare(first.label, second.label));
+for (const { id, language, flag, label } of sortedCountries) {
   const item = document.createElement('li');
   const button = document.createElement('button');
   button.type = 'button';

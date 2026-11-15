@@ -33,7 +33,7 @@ Stand na de beeldcontrole op 15 november 2026. ‘In dossier of app’ toont de 
 | [Luxemburg](west/README.md) | 28 | 0 | 5 |
 | [Malta](zuid/mt-MT.md) | 50 | 0 | 5 |
 | [Moldavië](oost/md.md) | 11 | 0 | 5 |
-| [Monaco](west/README.md) | 0 | 22 | 0 |
+| [Monaco](west/MC.md) | 15 | 22 | 0 |
 | [Montenegro](zuid/cnr-ME.md) | 0 | 9 | 0 |
 | [Nederland](west/README.md) | 82 | 0 | 5 |
 | [Noord-Macedonië](zuid/mk-MK.md) | 50 | 0 | 5 |

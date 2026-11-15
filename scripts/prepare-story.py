@@ -3,11 +3,12 @@ import argparse
 import json
 import re
 from urllib.parse import parse_qs, urlencode, urlsplit
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 
 from catalog_policy import excluded_channel
 
 YOUTUBE = 'https://www.youtube.com'
+SITE = 'https://godspeedelbow.github.io/voorleeshoek/'
 VIDEO_ID = re.compile(r'[A-Za-z0-9_-]{11}')
 DURATION = re.compile(r'<meta itemprop="duration" content="PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?"')
 
@@ -66,6 +67,22 @@ def duration_from_search(video, term):
     return None
 
 
+def embed_duration(video):
+    request = Request(f'https://www.youtube-nocookie.com/embed/{video}',
+                      headers={'Referer': SITE})
+    try:
+        page = fetch(request)
+        match = re.search(r'"embedded_player_response":("(?:[^"\\]|\\.)*")', page)
+        if match:
+            data = json.loads(json.loads(match[1]))
+            if data['previewPlayabilityStatus'].get('playableInEmbed'):
+                preview = data['embedPreview']['thumbnailPreviewRenderer']
+                return int(preview['videoDurationSeconds']) or None
+    except (OSError, KeyError, ValueError):
+        return None
+    return None
+
+
 def duration_seconds(video, watch_url, title):
     try:
         match = DURATION.search(fetch(watch_url))
@@ -74,7 +91,8 @@ def duration_seconds(video, watch_url, title):
     if match:
         hours, minutes, seconds = (int(part or 0) for part in match.groups())
         return hours * 3600 + minutes * 60 + seconds
-    return duration_from_search(video, video) or duration_from_search(video, title)
+    return (embed_duration(video) or duration_from_search(video, video)
+            or duration_from_search(video, title))
 
 
 def catalog_row(video, language):
@@ -90,14 +108,14 @@ def catalog_row(video, language):
     duration = duration_seconds(video, watch_url, title)
     if not duration:
         raise ValueError('Speelduur ontbreekt in de openbare videogegevens.')
-    if language in ('nl-BE', 'fr-BE'):
+    if language in ('nl-BE', 'fr-BE', 'fr-MC'):
         return [video, title, language[:2], channel, duration, language]
     return [video, title, language, channel, duration]
 
 
 def main():
     parser = argparse.ArgumentParser(description='Haal YouTube-gegevens op voor nieuwe voorleesfilmpjes.')
-    parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'da'))
+    parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'fr-MC', 'da'))
     parser.add_argument('video', nargs='+', type=video_id)
     parser.add_argument(
         '--beeld-gecontroleerd', action='append', default=[], type=video_id, metavar='VIDEO',

@@ -13,6 +13,8 @@ Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 
 | Oost-Europa en Kaukasus | 14 | 541 | [Voortgang en taaldossiers](oost/README.md) |
 | Zuid-Europa | 18 | 580 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
 
+Monaco is gepubliceerd met [15 Franse voorleesvideo’s](west/MC.md).
+
 Publiceer een nieuwe land- of taalkeuze zodra minstens vijf verschillende kinderboeken in de gekozen taal zijn gecontroleerd op boekbeeld en insluitbaarheid op YouTube.
 
 ## Startvoorraad in de app
@@ -44,7 +46,7 @@ Aantallen unieke video-ID’s per landkeuze in [de bestaande catalogus](../../di
 | FR | Frankrijk | Frans, Bretons, Occitaans, Corsicaans, Baskisch, Catalaans, Elzassisch, overige langues de France, LSF | [FR](west/README.md) |
 | LI | Liechtenstein | Duits (incl. lokale Alemannische variant) | [LI](west/README.md) |
 | LU | Luxemburg | Luxemburgs, Frans, Duits | [LU](west/README.md) |
-| MC | Monaco | Frans, Monegaskisch | [MC](west/README.md) |
+| MC | Monaco | Frans, Monegaskisch | [MC](west/MC.md) |
 | NL | Nederland | Nederlands, Fries, Nedersaksisch, Limburgs, Jiddisch, Romani, NGT | [NL](west/README.md) |
 | DK | Denemarken | Deens, Duits | [DK](noord/DK.md) |
 | EE | Estland | Ests, Võro, Seto | [EE](noord/EE.md) |

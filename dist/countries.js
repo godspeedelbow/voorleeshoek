@@ -12,6 +12,7 @@ const countries = [
   { id: 'tr', language: 'tr', flag: '🇹🇷', label: 'Türkiye' },
   { id: 'pl', language: 'pl', flag: '🇵🇱', label: 'Polska' },
   { id: 'fr', language: 'fr', flag: '🇫🇷', label: 'France' },
+  { id: 'fr-MC', language: 'fr', flag: '🇲🇨', label: 'Monaco' },
   { id: 'da', language: 'da', flag: '🇩🇰', label: 'Danmark' },
 ];
 

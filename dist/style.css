@@ -41,8 +41,8 @@ button:disabled{opacity:.55;cursor:default}
   background:var(--soft);box-shadow:0 12px 24px #38245c26;
 }
 .country-options button{
-  display:flex;align-items:center;gap:8px;width:100%;min-height:44px;padding:8px 10px;
-  border:1px solid transparent;border-radius:9px;background:none;text-align:start;white-space:nowrap;
+  display:flex;direction:ltr;justify-content:flex-end;align-items:center;gap:8px;width:100%;min-height:44px;padding:8px 10px;
+  border:1px solid transparent;border-radius:9px;background:none;white-space:nowrap;
 }
 .country-options button:hover{background:#f1e5fc}
 .country-options button[aria-pressed="true"]{background:var(--accent);border-color:#783ab0}

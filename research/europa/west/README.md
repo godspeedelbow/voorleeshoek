@@ -6,16 +6,17 @@ Onderzoeksronde 15 november 2026. De [videolijst](VIDEOS.md) bevat directe links
 
 | Land en taal | Bestaand | Nieuw · kandidaat | Tot 50 in de voorselectie |
 | --- | ---: | ---: | ---: |
-| [AT · Duits](VIDEOS.md#at--duits) | 0 | 5 | 45 |
+| [AT · Duits](VIDEOS.md#at--duits) | 0 | 20 | 30 |
 | [BE · Frans](VIDEOS.md#be--frans) | 1 | 1 | 48 |
 | [BE · Vlaams](VIDEOS.md#be--vlaams) | 101 | 4 | 0 |
 | [BE · Vlaamse Gebarentaal](VIDEOS.md#be--vlaamse-gebarentaal) | 0 | 11 | 39 |
-| [CH · Zwitsers-Duits](VIDEOS.md#ch--zwitsers-duits) | 0 | 5 | 45 |
+| [CH · Duits](VIDEOS.md#ch--duits) | 0 | 20 | 30 |
+| [CH · Zwitsers-Duits](VIDEOS.md#ch--zwitsers-duits) | 0 | 4 | 46 |
 | [DE · Duits](VIDEOS.md#de--duits) | 0 | 56 | 0 |
 | [DE · Duitse Gebarentaal](VIDEOS.md#de--duitse-gebarentaal) | 0 | 4 | 46 |
 | [DE · Nederduits](VIDEOS.md#de--nederduits) | 0 | 1 | 49 |
 | [FR · Bretons](VIDEOS.md#fr--bretons) | 0 | 3 | 47 |
-| [FR · Frans](VIDEOS.md#fr--frans) | 47 | 13 | 0 |
+| [FR · Frans](VIDEOS.md#fr--frans) | 47 | 36 | 0 |
 | [FR · Franse Gebarentaal](VIDEOS.md#fr--franse-gebarentaal) | 0 | 7 | 43 |
 | [FR · Occitaans](VIDEOS.md#fr--occitaans) | 0 | 1 | 49 |
 | [LU · Duits](VIDEOS.md#lu--duits) | 0 | 3 | 47 |
@@ -134,3 +135,29 @@ YouTube-oEmbed gaf voor 127 van 133 links openbare metadata terug. De publiceren
 
 - NGT. Drie lokale YouTube-zoekopdrachten leverden hoofdzakelijk gesproken of met gebaren ondersteunde versies. De algemene YouTube-link over Nijntje is als mogelijk dubbel buiten de selectie gehouden. Het [Nederlands Gebarencentrum](https://www.gebarencentrum.nl/) verwijst naar Gebarenschat voor meer voorleesverhalen. Vijf titelpagina’s met een NGT-vertaling zijn opgenomen. Werk eerst de oudere prentenboeken van het jaar af in Gebarenschat. Koninklijke Kentalis heeft ook twee Zintuigenverhalen in NGT. Die blijven een tip totdat de relatie tot een boek is vastgesteld.
 - Reto-Romaans. [RTR](https://www.rtr.ch/novitads/grischun/divertiment-la-primavaira-porta-plievgia-tips-or-da-l-archiv-da-rtr) geeft per taalvariant een video uit de boekenreeks Famiglia Babulin. [De maker](https://www.robinbushell.ch/portfolio/childrens-animated-series-famiglia-babulin/) beschrijft de 15 afleveringen als animatie. Bij afzonderlijke aflevering 1 in puter, vallader en sursilvan is de pagina gevonden. Behandel de serie als tip tot de vertelvorm tegen de voorleescriteria is gecontroleerd. Volgende stap is een afspeelcheck van één aflevering en zoeken naar opnamen bij de uitgever Chasa Editura Rumantscha.
+
+
+## Ronde 2 · minimum per land
+
+| Land | Eigen kandidaten ronde 1 → ronde 2 | Gedeelde selectie waar nodig |
+| --- | ---: | --- |
+| Oostenrijk | 5 → 20 | De [Oostenrijkse selectie](VIDEOS.md#at--duits) bevat 20 Duitstalige opnamen uit Graz en Wenen. |
+| Zwitserland | 5 → 24 | De [Zwitserse uitgever](VIDEOS.md#ch--duits) levert 20 Duitstalige opnamen. Vier oudere kandidaten blijven apart onder Zwitsers-Duits. |
+| Liechtenstein | 0 → 0 | [56 Duitstalige kandidaten uit Duitsland](VIDEOS.md#de--duits) kunnen worden gebruikt voor Standaardduits. Een lokale Alemannische selectie blijft open. |
+| Monaco | 0 → 0 | [36 Franstalige kandidaten](VIDEOS.md#fr--frans) zijn beschikbaar voor de Franse taalkeuze. Monegaskisch en lokale bronopnamen blijven open. |
+| Luxemburg | 28 → 28 | 23 Luxemburgse titels uit de eerste ronde, aangevuld met drie Duitse en twee Franse kandidaatlinks binnen het Luxemburgse dossier. |
+| Frankrijk | 24 → 47 | 23 nieuwe Franstalige titels; de bestaande appvoorraad staat los van deze telling. |
+
+58 nieuwe rijen doorstonden de oEmbed- en kanaalcontrole. Eén oudere Zwitsers-Duitse kandidaat is verwijderd. De YouTube-beschrijving bevestigde dat `7QiJeL9bcLk` een tekenfilmaflevering is. Bronnen blijven op kandidaatniveau tot taal, leeftijd, volledigheid en afspelen per titel zijn vastgesteld.
+
+| Bron of zoekactie | Gescreend | Uitkomst en hervatpunt |
+| --- | ---: | --- |
+| [Wien · Frei Haus Corona-Lesungen junior](https://www.youtube.com/playlist?list=PLx0hu7uevvyhWFU_WLPg8kJ-tLVtNfBR3) | 10 titels | Vijf duidelijke kinderboekmatches. Andere titels betreffen poëzie, experimenten of mogelijke leesfragmenten voor oudere lezers. |
+| [Wien · Märchenfilme](https://www.youtube.com/playlist?list=PLx0hu7uevvygyWbzwcKb1Np0Zhw3wkZCN), [Kirangolini](https://www.youtube.com/playlist?list=PLx0hu7uevvyg1vw18Be9UlGy4nxZjUhSq), [ÖGS](https://www.youtube.com/playlist?list=PLx0hu7uevvyjBzjJE-IJnxmP693o_UR7m), [algemene voorlezingen](https://www.youtube.com/playlist?list=PLx0hu7uevvyhdSfH8Qmhb11u3rA81mcW-) | 11 + 68 + 13 + 21 titels | Eén rechtstreeks Duitstalig kinderboek uit de meertalige Märchenfilme opgenomen. Kirangolini hoofdzakelijk liedjes en spel, ÖGS institutionele uitleg, algemene voorlezingen vooral voor volwassenen. De Noorse en Kroatische vertellingen in Märchenfilme zijn vervolgtips. |
+| [Graz · FernLesen](https://www.youtube.com/playlist?list=PLxWRCZAimv2pdDMNz0rnhaX62etzu7uPV) | 42 titels | Negen nieuwe kinderboekopnamen geselecteerd. Gemengde reeks met ook jeugdromans, volwassenenliteratuur, theater, poëzie en knutselsessies. Hervat bij individuele kijkproeven. |
+| [NordSüd · Vorlesezeit](https://www.youtube.com/playlist?list=PLCkZxKU5Tn1phA6IVIGZFXG7kqU4B6c7J), via [de uitgever](https://nord-sued.com/spielen-basteln/) | 29 titels | 20 afzonderlijke Duitse titels. Engelstalige opnamen, dubbele voorlezers, een alternatief einde en delen van hetzelfde boek uitgesloten. De [Hörfux-downloads](https://nord-sued.com/hoerfux/) bevatten alleen audio. |
+| `Médiathèque de Vence L heure des albums lecture album` en `Médiathèque L armoire aux histoires lecture album jeunesse` | 18 en 20 treffers | 23 nieuwe Franstalige titels. Bij Vence was één titel al opgenomen. Zoek verder bij de kanaalafspeellijsten op aanvullende specifieke prentenboeken. |
+| `Monaco médiathèque lecture conte enfants histoire album Monaco` en `Monaco Info contes monégasques lecture histoire jeunesse` | 15 en 9 treffers | Lokaal interviews en reportages. Atelierreportage `YPL1DZ5Lzlc` geeft La Valise à Histoires als vervolgbron. Zoek naar eigen opnamen van die vereniging en naar Monegaskische kinderboeken bij het stadsarchief. |
+| `Liechtenstein Vorlesetag Bilderbuch vorgelesen` | 5 treffers | Landsnaam in resultaten leidde ook naar een Duitse artiest met dezelfde achternaam. Hervat bij lokale schoolpublicaties en bij de organisatoren van het Liechtensteinse Vorlesetag. |
+| `Schweizerdeutsch Bilderbuch vorgelesen Buch Schweizer Kinderbuch Lesung`, `Schweizerdeutsch Mundart Geschichte Kinderbuch vorgelesen Pitschi Globi Papa Moll`, `Bibliothèque Lausanne Genève contes lire album vidéo conte jeunesse Suisse bibliothèque heure du conte` | 12, 5 en 15 treffers | Animaties, audio en niet-Zwitserse bibliotheekreportages uitgesloten. Lokaal Zwitsers-Frans en Zwitsers-Duits blijven geschikte vervolgsporen. |
+| `CNL Lëtzebuerger Literaturarchiv Kanner geschicht virgelies` | 13 treffers | Dubbelen uit CNL, een hoofdstuk van Pippi, titels voor oudere kinderen en irrelevante treffers. Hervat bij de kanalen van de individuele voorlezers. |

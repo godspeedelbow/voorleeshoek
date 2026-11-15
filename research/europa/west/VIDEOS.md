@@ -86,7 +86,7 @@ Controleer de gebarentaal bij publicaties zonder expliciete DGS-vermelding.
 
 ## AT · Duits
 
-Oostenrijkse bron via de Graz-reeks FERNLESEN. Voor aanvulling kan de Duitstalige selectie voor Duitsland worden hergebruikt. Controleer per video of landvariant en leeftijd passen.
+Oostenrijkse bronnen via de Graz-reeks FERNLESEN en de kinderlezingen van Büchereien Wien. Voor aanvulling kan de Duitstalige selectie voor Duitsland worden hergebruikt. Controleer per video of landvariant en leeftijd passen.
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
@@ -95,6 +95,48 @@ Oostenrijkse bron via de Graz-reeks FERNLESEN. Voor aanvulling kan de Duitstalig
 | FERNLESEN Vol. 38: Lena Raubaum - "Die Knotenlöserin" | [Video](https://www.youtube.com/watch?v=JZj_QFew7wI) | Stadtbibliothek Graz |
 | FERNLESEN Vol. 46: Tanja Wildbahner - "Der kleine Granat" | [Video](https://www.youtube.com/watch?v=jAWtLak8xeE) | Stadtbibliothek Graz |
 | FERNLESEN Vol. 20: Astrid Walenta - "Die Fische fliegen wieder: Ein Känguru für Graz" | [Video](https://www.youtube.com/watch?v=ObPmC8eQfD8) | Stadtbibliothek Graz |
+| Cornelia Travnicek liest aus "Zwei dabei" | [Video](https://www.youtube.com/watch?v=nFIOKb4O7aw) | Stadt Wien - Büchereien |
+| FERNLESEN (for Kids) Vol. 26: Patrick Addai - „Sprich endlich mit mir, Esel!“ | [Video](https://www.youtube.com/watch?v=YeNn-2kV0YY) | Stadtbibliothek Graz |
+| LABUKA-Kinderlesung - FERNLESEN Vol. 6 - Leonora Leitl | [Video](https://www.youtube.com/watch?v=U2NtzlpDFwI) | Stadtbibliothek Graz |
+| Paul Pauser liest aus "Lilli machst du Quatsch" von Nina Kuhn und Yvonne Kuschel | [Video](https://www.youtube.com/watch?v=wio7bJyn00o) | Stadt Wien - Büchereien |
+| Paul Pauser liest aus "Affenfalle" von Nele Brönner | [Video](https://www.youtube.com/watch?v=rqVKrVOBUqY) | Stadt Wien - Büchereien |
+| Paul Pauser liest aus "Das Glück ist ein Vogel" von Leonora Leitl | [Video](https://www.youtube.com/watch?v=Q2eXsTLcPo8) | Stadt Wien - Büchereien |
+| LABUKA-Kinderlesung - FERNLESEN Vol. 4 - Stefan Karch | [Video](https://www.youtube.com/watch?v=3EMdwv2kMFg) | Stadtbibliothek Graz |
+| LABUKA-Kinderlesung - FERNLESEN Vol. 8 - Heinz Janisch | [Video](https://www.youtube.com/watch?v=n88nFAv0s9M) | Stadtbibliothek Graz |
+| FERNLESEN Vol. 10: Ulrike Motschiunig - "Gut gemacht, kleiner Hase!" | [Video](https://www.youtube.com/watch?v=V-5u1nL3PsQ) | Stadtbibliothek Graz |
+| FERNLSESEN Vol. 16 - Helga Bansch: "Mini mit Tanten und anderen Verwandten" | [Video](https://www.youtube.com/watch?v=wEhsVTfbkS0) | Stadtbibliothek Graz |
+| FernLesen Vol. 44: Elisabeth Hamann - "Die zwei Elefantenbrüder" | [Video](https://www.youtube.com/watch?v=tCIld7ttQb4) | Stadtbibliothek Graz |
+| FERNLESEN Vol. 48: Michaela Holzinger - "Im Hexenhäuschen Nummer acht" | [Video](https://www.youtube.com/watch?v=axemSBEwM7Q) | Stadtbibliothek Graz |
+| LABUKA-Fernlese-Special: Sonja Bachhiesl: "Rabe Albert und die kranke Hilda" | [Video](https://www.youtube.com/watch?v=MYIk_cFXt8Y) | Stadtbibliothek Graz |
+| LABUKA-Spezial: Melanie Harb: Zehn kleine Topfenmäuse | [Video](https://www.youtube.com/watch?v=YeCMEMl6IBg) | Stadtbibliothek Graz |
+| Sarah Themel liest aus "Wer fürchtet sich vorm lila Lachs?" | [Video](https://www.youtube.com/watch?v=8LHG9p1hxdE) | Stadt Wien - Büchereien |
+
+## CH · Duits
+
+De Zwitserse uitgever [NordSüd](https://nord-sued.com/spielen-basteln/) bundelt deze voorleesopnamen onder Vorlesezeit. Controleer de taalvariant, de volledige verhaalvorm en leeftijd per video. Deze rijen staan los van de kandidaten onder Zwitsers-Duits.
+
+| Titel | Video | Kanaal of bron |
+| --- | --- | --- |
+| Marcus Pfister liest "Der Regenbogenfisch" | [Video](https://www.youtube.com/watch?v=LbYeQ8j01gM) | NordSüd Verlag |
+| Svenja Herrmann liest "Wolfskinder" | [Video](https://www.youtube.com/watch?v=bhxFo5c2R9s) | NordSüd Verlag |
+| Heinz Janisch liest "Hans Christian Andersen - Die Reise seines Lebens" | [Video](https://www.youtube.com/watch?v=54EjaPYoZ9w) | NordSüd Verlag |
+| Ruth Moser liest "Boris der Kater - Das Badewannenauto" | [Video](https://www.youtube.com/watch?v=DO_CP6SNxZ4) | NordSüd Verlag |
+| Barbara Bamberger liest "Wer hat die Haselnuss geklaut?" von Marcus Pfister | [Video](https://www.youtube.com/watch?v=IQgo_smAC0s) | NordSüd Verlag |
+| Barbara Bamberger liest "Leos Monster" von Marcus Pfister | [Video](https://www.youtube.com/watch?v=_1FJe1pULYI) | NordSüd Verlag |
+| Barbara Bamberger liest "Eulenglück" von Celestino Piatti | [Video](https://www.youtube.com/watch?v=JQPVwTgqL4g) | NordSüd Verlag |
+| Gisela Cölle liest "Der Sternenbaum" | [Video](https://www.youtube.com/watch?v=lN-aYp0tdyo) | NordSüd Verlag |
+| Christa Kempter liest "Doktor Maus" | [Video](https://www.youtube.com/watch?v=GV8LcLInZ7g) | NordSüd Verlag |
+| Barbara Bamberger liest "Timo und Matto wollen nicht das Gleiche" | [Video](https://www.youtube.com/watch?v=D4-Gw5mCmro) | NordSüd Verlag |
+| Wolfram Berger liest "Die Fabel von Fausto" von Oliver Jeffers | [Video](https://www.youtube.com/watch?v=sFDNn3UarCU) | NordSüd Verlag |
+| Marion Hofer liest "Ein Blatt im Wind" von José Sanabria und María Laura Díaz Domínguez | [Video](https://www.youtube.com/watch?v=Pco2TMHcYUk) | NordSüd Verlag |
+| Peter Nickl liest "Münchhausen" | [Video](https://www.youtube.com/watch?v=PUIGWgVmRhA) | NordSüd Verlag |
+| Binette Schroeder liest "Krokodil Krokodil" | [Video](https://www.youtube.com/watch?v=CFH6Oexvbyo) | NordSüd Verlag |
+| Barbara Bamberger liest "Mats und die Wundersteine" mit glücklichem Ende | [Video](https://www.youtube.com/watch?v=FMXLkR1UMN4) | NordSüd Verlag |
+| Brigitte Weninger liest "Frohe Ostern Pauli" | [Video](https://www.youtube.com/watch?v=0wQFYeogYEs) | NordSüd Verlag |
+| Andreas Krämer liest "Heule Eule" | [Video](https://www.youtube.com/watch?v=AlhyLSv8ezs) | NordSüd Verlag |
+| Jolanda Steiner liest "Das Osterküken" | [Video](https://www.youtube.com/watch?v=v4SOsGOJeEY) | NordSüd Verlag |
+| Jolanda Steiner liest "Der karierte Tiger" | [Video](https://www.youtube.com/watch?v=h1eivXRc-nE) | NordSüd Verlag |
+| Katja Alves liest "Der Erdmannli-Stein" (Aargauer Sage) | [Video](https://www.youtube.com/watch?v=p6RvjnRV0Ho) | NordSüd Verlag |
 
 ## CH · Zwitsers-Duits
 
@@ -103,14 +145,13 @@ Titel of zoekcontext wijst op een kinderboek of voorleesvideo in Zwitserse omgan
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
 | De Chli Rot Traktor - E Gheimhütte (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=lde9hogpUxI) | Dr Strangelove |
-| Chliine Iisbär - Das Buch (Schweizerdeutsch) | [Video](https://www.youtube.com/watch?v=7QiJeL9bcLk) | Dr Strangelove |
 | Felix reist i d'Schwiiz | [Video](https://www.youtube.com/watch?v=HFC4_c93CmY) | Kinder Schweizerdeutsch - Topic |
 | Gute Nacht, Locke! Gutenachtgeschichte für Kleinkinder in Schweizerdeutsch | [Video](https://www.youtube.com/watch?v=gCedVIMyGmA) | ELA |
 | 🤔💫 Wo man einen Stern findet \| Animiertes Kinderbuch \|  @gschichtliland | [Video](https://www.youtube.com/watch?v=bmujIAqwJdY) | Gschichtli Land |
 
 ## FR · Frans
 
-Bronnen: [albums van uitgever](https://media.ecoledesloisirs.fr/lecture-voixhaute/nv/albums.php) en de Médiathèque d’Hendaye. Verwijzingen in zoekresultaten naar thematische afleveringen en aanbevelingen zijn alleen meegenomen als er een concrete titel zichtbaar was. Controleer de speelduur en volledigheid.
+Bronnen: [albums van uitgever](https://media.ecoledesloisirs.fr/lecture-voixhaute/nv/albums.php) en de Médiathèques d’Hendaye en de Vence en [L’armoire aux histoires](https://www.youtube.com/@larmoireauxhistoires5109). Verwijzingen in zoekresultaten naar thematische afleveringen en aanbevelingen zijn alleen meegenomen als er een concrete titel zichtbaar was. Controleer de speelduur en volledigheid.
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
@@ -127,6 +168,29 @@ Bronnen: [albums van uitgever](https://media.ecoledesloisirs.fr/lecture-voixhaut
 | La folle bataille : lézards contre rectangles | [Video](https://www.youtube.com/watch?v=kErVab0NAyo) | La chaîne des petits lus de la médiathèque d'Hendaye |
 | La souris et le voleur | [Video](https://www.youtube.com/watch?v=N_PE_7GbYx8) | La chaîne des petits lus de la médiathèque d'Hendaye |
 | Grand-mère Sucre et grand-père Chocolat | [Video](https://www.youtube.com/watch?v=3aKkp-Y18Js) | La chaîne des petits lus de la médiathèque d'Hendaye |
+| L'heure des albums : Lecture de l'album "Patate"d'Antonin Louchard | [Video](https://www.youtube.com/watch?v=jy9X3Tw0BIk) | Médiathèque de Vence |
+| L'heure des albums : "C'est l'histoire d'un hippopotame" d'Agnès de Lestrade | [Video](https://www.youtube.com/watch?v=YgfKOja1Bxg) | Médiathèque de Vence |
+| L'heure des albums : "Neige" Kaori Tajima | [Video](https://www.youtube.com/watch?v=rp-HZzfhgDk) | Médiathèque de Vence |
+| LECTURE - "Les deux maisons", de D. Kowarsky et S. Ribeyron (Didier Jeunesse) | [Video](https://www.youtube.com/watch?v=2yXKceDibyQ) | L'armoire aux histoires |
+| LECTURE - "Boucle d'Ours", de S. Servant et L. Le Saux (Didier Jeunesse) | [Video](https://www.youtube.com/watch?v=iZLzVQlGeiI) | L'armoire aux histoires |
+| LECTURE - "Les petits pains au nuage", de Baek Hee-na (Didier J) | [Video](https://www.youtube.com/watch?v=MS3qd3uCTUE) | L'armoire aux histoires |
+| LECTURE 🎅 - "Les bredele de Max", de R. Frier et P. Duhamel (éd. Feuilles de menthe) | [Video](https://www.youtube.com/watch?v=H77ltRxugWk) | L'armoire aux histoires |
+| LECTURE - "Le monstre poilu", d'H. Bichonnier et Pef (Gallimard jeunesse) | [Video](https://www.youtube.com/watch?v=Dc3k6nUxnTE) | L'armoire aux histoires |
+| LECTURE - "La piscine magique", C. Norac et C. Delacroix (Didier Jeunesse) | [Video](https://www.youtube.com/watch?v=XTcapxiYlUA) | L'armoire aux histoires |
+| LECTURE - "Adèle & la dentelle magique", de R. Frier et E. Angebault (Feuilles de menthe) | [Video](https://www.youtube.com/watch?v=tCKg0_4b5S0) | L'armoire aux histoires |
+| Abracadabra", I. et D. Schubert, trad. E. Janssen (Grasset Jeunesse) | [Video](https://www.youtube.com/watch?v=bbTca9UT55U) | L'armoire aux histoires |
+| LECTURE - "Emile est invisible", VIncent Cuvellier et Ronan Badel (Gallimard J) | [Video](https://www.youtube.com/watch?v=mhAvlVKI7s8) | L'armoire aux histoires |
+| LECTURE - "Zékéyé et le djoudjoukalaba", N. Dieterlé (Hachette J) | [Video](https://www.youtube.com/watch?v=mgPwpYcq9Ts) | L'armoire aux histoires |
+| LECTURE - "Plus que trois jours, Fenouil!", B. Weninger et E. Tharlet, trad. G.Elschner (NordSud) | [Video](https://www.youtube.com/watch?v=JSzdrVNAZTM) | L'armoire aux histoires |
+| LECTURE - "Petit Gruffalo", de J. Donaldson et A. Scheffler (Gallimard J) | [Video](https://www.youtube.com/watch?v=vzDKwMXnq1A) | L'armoire aux histoires |
+| LECTURE - "L'Heure Vide", Anne Herbauts (Casterman) | [Video](https://www.youtube.com/watch?v=0D84VypOfQ8) | L'armoire aux histoires |
+| LECTURE  - "Mannele", de L. Larchevêque et C. Perrin (éditions Feuilles de menthe) | [Video](https://www.youtube.com/watch?v=GkkeyOG4Sx8) | L'armoire aux histoires |
+| LECTURE - "La bonne humeur de loup gris", de G. Bizouerne et R. Badel (Didier J) | [Video](https://www.youtube.com/watch?v=OSpfIrLBocg) | L'armoire aux histoires |
+| LECTURE - "Ze vais te manzer", de J.M. Derouen et L. Du Faÿ (éditions Frimousse) | [Video](https://www.youtube.com/watch?v=Y8_XMZ1Hj6M) | L'armoire aux histoires |
+| LECTURE - "Et vogue la petite souris!", de C. Promeyrat, M. Bourre et Elga (Didier J) | [Video](https://www.youtube.com/watch?v=rYaHSfx5YQM) | L'armoire aux histoires |
+| LECTURE - "Le monde de Léon", de V. W-Giuliani, B. Carboneill, M. Caprini (Le Pas de l'Échelle) | [Video](https://www.youtube.com/watch?v=w_L3THxxuEA) | L'armoire aux histoires |
+| LECTURE - "La soupe au caillou", de T. Ross (Mijade) | [Video](https://www.youtube.com/watch?v=kA36E252SMI) | L'armoire aux histoires |
+| LECTURE - "Pierre et le loup", Ayesha L. Rubio (L'Imprévu) | [Video](https://www.youtube.com/watch?v=hqTB09tGdz4) | L'armoire aux histoires |
 
 ## FR · Franse Gebarentaal
 

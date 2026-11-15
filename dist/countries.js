@@ -14,6 +14,7 @@ const countries = [
   { id: 'fr', code: 'FR', language: 'fr', flag: '🇫🇷', label: 'France' },
   { id: 'fr-MC', code: 'MC', language: 'fr', flag: '🇲🇨', label: 'Monaco' },
   { id: 'de', code: 'DE', language: 'de', flag: '🇩🇪', label: 'Deutschland' },
+  { id: 'de-AT', code: 'AT', language: 'de', flag: '🇦🇹', label: 'Österreich' },
   { id: 'de-CH', code: 'CH', language: 'de', flag: '🇨🇭', label: 'Schweiz' },
   { id: 'is', code: 'IS', language: 'is', flag: '🇮🇸', label: 'Ísland' },
   { id: 'da', code: 'DK', language: 'da', flag: '🇩🇰', label: 'Danmark' },

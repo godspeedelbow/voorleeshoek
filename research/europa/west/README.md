@@ -24,7 +24,7 @@ Onderzoeksronde 15 november 2026. De [videolijst](VIDEOS.md) bevat directe links
 | [NL · Fries](VIDEOS.md#nl--fries) | 0 | 10 | 40 |
 | [NL · Jiddisch](VIDEOS.md#nl--jiddisch) | 0 | 2 | 48 |
 | NL · Nederlands | 62 | 0 | 0 |
-| [NL · Nederlandse Gebarentaal](VIDEOS.md#nl--nederlandse-gebarentaal) | 0 | 1 | 49 |
+| [NL · Nederlandse Gebarentaal](VIDEOS.md#nl--nederlandse-gebarentaal) | 0 | 7 | 43 |
 | [NL · Nedersaksisch](VIDEOS.md#nl--nedersaksisch) | 0 | 2 | 48 |
 
 Combinaties zonder eigen kandidaten staan in het zoeklog. Daar staan ook mogelijkheden om materiaal uit een ander land te hergebruiken.
@@ -128,3 +128,9 @@ YouTube-oEmbed gaf voor 127 van 133 links openbare metadata terug. De publiceren
 | `Nedersaksisch streektaal kinderboek voorgelezen verhaal voor kleuters` | 15 |
 | `Jiddisch kinderbuch vorlesen yiddish kids story read aloud` | 17 |
 | `Österreich Gebärdensprache Kinderbuch vorlesen ÖGS Märchen Österreich Liste` | 16 |
+
+
+### Tweede ronde NGT en Reto-Romaans
+
+- NGT. Drie lokale YouTube-zoekopdrachten leverden hoofdzakelijk gesproken of met gebaren ondersteunde versies. De oEmbed-metadata van de geselecteerde Nijntje-video vermeldt Gebarencentrum als kanaal. Het [Nederlands Gebarencentrum](https://www.gebarencentrum.nl/) verwijst naar Gebarenschat voor meer voorleesverhalen. Vijf titelpagina’s met een NGT-vertaling zijn opgenomen. Werk eerst de oudere prentenboeken van het jaar af in Gebarenschat. Koninklijke Kentalis heeft ook twee Zintuigenverhalen in NGT. Die blijven een tip totdat de relatie tot een boek is vastgesteld.
+- Reto-Romaans. [RTR](https://www.rtr.ch/novitads/grischun/divertiment-la-primavaira-porta-plievgia-tips-or-da-l-archiv-da-rtr) geeft per taalvariant een video uit de boekenreeks Famiglia Babulin. [De maker](https://www.robinbushell.ch/portfolio/childrens-animated-series-famiglia-babulin/) beschrijft de 15 afleveringen als animatie. Bij afzonderlijke aflevering 1 in puter, vallader en sursilvan is de pagina gevonden. Behandel de serie als tip tot de vertelvorm tegen de voorleescriteria is gecontroleerd. Volgende stap is een afspeelcheck van één aflevering en zoeken naar opnamen bij de uitgever Chasa Editura Rumantscha.

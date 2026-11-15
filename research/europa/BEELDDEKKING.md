@@ -16,7 +16,7 @@ Stand na de beeldcontrole op 15 november 2026. ‘In dossier of app’ toont de 
 | [Denemarken](noord/DK.md) | 61 | 0 | 5 |
 | [Duitsland](west/DE.md) | 61 | 15 | 0 |
 | [Estland](noord/EE.md) | 32 | 6 | 0 |
-| [Finland](noord/FI.md) | 40 | 0 | 5 |
+| [Finland](noord/FI.md) | 56 | 22 | 0 |
 | [Frankrijk](west/README.md) | 94 | 22 | 0 |
 | [Georgië](oost/ge.md) | 25 | 0 | 5 |
 | [Griekenland](zuid/el-GR.md) | 48 | 2 | 3 |

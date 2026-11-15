@@ -115,7 +115,7 @@ def catalog_row(video, language):
 
 def main():
     parser = argparse.ArgumentParser(description='Haal YouTube-gegevens op voor nieuwe voorleesfilmpjes.')
-    parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'fr-MC', 'de-CH', 'da', 'is', 'de', 'de-AT', 'ga', 'nb'))
+    parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'fr-MC', 'de-CH', 'da', 'is', 'de', 'de-AT', 'ga', 'nb', 'fi'))
     parser.add_argument('video', nargs='+', type=video_id)
     parser.add_argument(
         '--beeld-gecontroleerd', action='append', default=[], type=video_id, metavar='VIDEO',

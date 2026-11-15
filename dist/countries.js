@@ -17,6 +17,7 @@ const countries = [
   { id: 'de-AT', code: 'AT', language: 'de', flag: '🇦🇹', label: 'Österreich' },
   { id: 'de-CH', code: 'CH', language: 'de', flag: '🇨🇭', label: 'Schweiz' },
   { id: 'nb', code: 'NO', language: 'nb', flag: '🇳🇴', label: 'Norge' },
+  { id: 'fi', code: 'FI', language: 'fi', flag: '🇫🇮', label: 'Suomi' },
   { id: 'ga', code: 'IE', language: 'ga', flag: '🇮🇪', label: 'Éire' },
   { id: 'is', code: 'IS', language: 'is', flag: '🇮🇸', label: 'Ísland' },
   { id: 'da', code: 'DK', language: 'da', flag: '🇩🇰', label: 'Danmark' },

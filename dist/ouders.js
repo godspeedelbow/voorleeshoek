@@ -91,6 +91,27 @@ const translations = {
     "one": "video",
     "other": "videoer"
   },
+  "fi": {
+    "pageTitle": "Vanhemmille · Satunurkka",
+    "back": "Takaisin Satunurkkaan",
+    "parents": "Vanhemmille",
+    "heading": "Kaikki lukuhetkivideot",
+    "intro": "Hae nimellä tai suodata maan tai kanavan mukaan. Jokainen video avautuu uudessa välilehdessä.",
+    "filters": "Hae ja lajittele videoita",
+    "search": "Hae nimellä",
+    "example": "Esim. Miina",
+    "country": "Maa / kieli",
+    "allCountries": "Kaikki maat",
+    "channel": "YouTube-kanava",
+    "allChannels": "Kaikki kanavat",
+    "sort": "Lajittele",
+    "title": "Nimi",
+    "unknownChannel": "Tuntematon kanava",
+    "unknownDuration": "Tuntematon kesto",
+    "empty": "Videoita ei löytynyt.",
+    "one": "video",
+    "other": "videota"
+  },
   "ga": {
     "pageTitle": "Do thuismitheoirí · Cúinne na Scéalta",
     "back": "Ar ais go Cúinne na Scéalta",

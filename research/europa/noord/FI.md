@@ -9,14 +9,14 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 | Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
 | --- | --- | --- | --- | --- |
 | Mutta te ette ole äiti | [YouTube](https://www.youtube.com/watch?v=5dSw9SejeIo) | Etana Editions | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Pop pian kotona, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [YouTube](https://www.youtube.com/watch?v=AWECNkaL-RY) | Etana Editions | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Värejä meressä, kirjoittanut ja kuvittanut Jenni Erkintalo | [YouTube](https://www.youtube.com/watch?v=W1fvzmIgOzg) | Etana Editions | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Talo kulman takana, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [YouTube](https://www.youtube.com/watch?v=noDYeljoTZ4) | Etana Editions | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
+| Pop pian kotona, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [YouTube](https://www.youtube.com/watch?v=AWECNkaL-RY) | Etana Editions | Beeld voldoet | Beeld, leeftijd en volledigheid controleren. |
+| Värejä meressä, kirjoittanut ja kuvittanut Jenni Erkintalo | [YouTube](https://www.youtube.com/watch?v=W1fvzmIgOzg) | Etana Editions | Beeld voldoet | Beeld, leeftijd en volledigheid controleren. |
+| Talo kulman takana, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [YouTube](https://www.youtube.com/watch?v=noDYeljoTZ4) | Etana Editions | Beeld voldoet | Beeld, leeftijd en volledigheid controleren. |
 | Lastenkirja luettuna: Satuhetki lapsille \|\| Read Aloud Kids Book 🇫🇮 | [YouTube](https://www.youtube.com/watch?v=JkAppRtPffQ) | Elli Maanpää Art | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Rauhoittava äänisatu lapsille - Voi sinua, Pikku Nalle | [YouTube](https://www.youtube.com/watch?v=oWv08Q0wpDg) | Pikku Uneksija - Äänisatuja lapsille | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Leppäkerttu ilman pilkkuja -lasten musiikkisatukirja | [YouTube](https://www.youtube.com/watch?v=jCFbjvqSbFY) | Invalidiliitto ry | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Iltasatu Myyrä ja kala | [YouTube](https://www.youtube.com/watch?v=TnZMtOTb2QY) | Kids'sWorldStories | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
-| Miina ja Manu päiväkodissa | [YouTube](https://www.youtube.com/watch?v=GsUIU05OdL0) | Satujen Maailma | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
+| Leppäkerttu ilman pilkkuja -lasten musiikkisatukirja | [YouTube](https://www.youtube.com/watch?v=jCFbjvqSbFY) | Invalidiliitto ry | Beeld voldoet | Beeld, leeftijd en volledigheid controleren. |
+| Iltasatu Myyrä ja kala | [YouTube](https://www.youtube.com/watch?v=TnZMtOTb2QY) | Kids'sWorldStories | Beeld voldoet | Beeld, leeftijd en volledigheid controleren. |
+| Miina ja Manu päiväkodissa | [YouTube](https://www.youtube.com/watch?v=GsUIU05OdL0) | Satujen Maailma | Beeld voldoet | Beeld, leeftijd en volledigheid controleren. |
 | Iltasatuja lapsille - Lumikki (Ystävät pulassa) | [YouTube](https://www.youtube.com/watch?v=fCU7bEIRURs) | Anita Liitonen | Kandidaat | Beeld, leeftijd en volledigheid controleren. |
 | Kirjaston satutuokio 3 | [YouTube](https://www.youtube.com/watch?v=n1CIeaoT9pM) | Kuhmon kaupunki | Kandidaat | Door de bibliotheek als satutuokio gelinkt. Leesvorm per video controleren. |
 | Kirjaston satutuokio 4 | [YouTube](https://www.youtube.com/watch?v=vfoGeb27G1U) | Kuhmon kaupunki | Kandidaat | Door de bibliotheek als satutuokio gelinkt. Leesvorm per video controleren. |
@@ -136,3 +136,40 @@ Begin bij de Finse Romani-taalraad en Finse bibliotheken.
 ## Beeldcontrole
 
 Zie [het beeldlog](../BEELDCONTROLE.md) voor beoordeelde video’s en tijdstippen. In dit dossier zijn 2 links op beeld afgewezen.
+
+## Gepubliceerd in de app · Fins
+
+22 verschillende Finse voorleesvideo’s. In elke video waren op twee steekproefmomenten verschillende geïllustreerde boekpagina’s zichtbaar. De ingebedde speler is gedempt getest. Deze selectie bevat ook vertaalde prentenboeken die in het Fins worden voorgelezen. De overige Finse taalcollecties staan open.
+
+| Titel | Video | Kanaal | Gecontroleerde speelmomenten |
+| --- | --- | --- | --- |
+| Pop pian kotona, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [AWECNkaL-RY](https://www.youtube.com/watch?v=AWECNkaL-RY) | Etana Editions | 1:23, 2:40 |
+| Värejä meressä, kirjoittanut ja kuvittanut Jenni Erkintalo | [W1fvzmIgOzg](https://www.youtube.com/watch?v=W1fvzmIgOzg) | Etana Editions | 1:06, 2:07 |
+| Talo kulman takana, kirjoittaneet ja kuvittaneet Jenni Erkintalo ja Réka Király | [noDYeljoTZ4](https://www.youtube.com/watch?v=noDYeljoTZ4) | Etana Editions | 4:09, 8:01 |
+| Miina ja Manu päiväkodissa | [GsUIU05OdL0](https://www.youtube.com/watch?v=GsUIU05OdL0) | Satujen Maailma | 2:29, 4:47 |
+| Leppäkerttu ilman pilkkuja -lasten musiikkisatukirja | [jCFbjvqSbFY](https://www.youtube.com/watch?v=jCFbjvqSbFY) | Invalidiliitto ry | 5:00, 9:40 |
+| Iltasatu Myyrä ja kala | [TnZMtOTb2QY](https://www.youtube.com/watch?v=TnZMtOTb2QY) | Kids'sWorldStories | 4:14, 8:11 |
+| Miinan ja Manun jouluaatto | [3aUOaGXVRoc](https://www.youtube.com/watch?v=3aUOaGXVRoc) | Satujen Maailma | 3:13, 6:13 |
+| Miina ja Manu eksyksissä | [P9fs6Gza-DU](https://www.youtube.com/watch?v=P9fs6Gza-DU) | Saltsan sadut \| Salza's stories 📖 | 3:12, 6:11 |
+| Miina ja Manu lääkärissä | [w09zAJMJtOA](https://www.youtube.com/watch?v=w09zAJMJtOA) | Saltsan sadut \| Salza's stories 📖 | 2:17, 4:24 |
+| Miina ja Manu Kiukuttelukirja | [bGlYCcRjxwM](https://www.youtube.com/watch?v=bGlYCcRjxwM) | Saltsan sadut \| Salza's stories 📖 | 2:19, 4:28 |
+| Miina ja Manu maatilalla | [gLMU7OHSXdM](https://www.youtube.com/watch?v=gLMU7OHSXdM) | Saltsan sadut \| Salza's stories 📖 | 2:37, 5:04 |
+| Miinan ja Manun Käytöskirja | [5fDpU4frux4](https://www.youtube.com/watch?v=5fDpU4frux4) | Saltsan sadut \| Salza's stories 📖 | 2:00, 3:51 |
+| Miina ja Manu lohikäärmeen luolassa | [0coRUtrzUMQ](https://www.youtube.com/watch?v=0coRUtrzUMQ) | Annan iltasadut | 2:46, 5:21 |
+| Luetaan "Pikku Pelle Puputti" mukuloille | [Vn4cd_RXnzw](https://www.youtube.com/watch?v=Vn4cd_RXnzw) | Luetaan mukuloille | 1:58, 3:48 |
+| Luetaan Seppo paloasemalla (liuskakirja)  mukuloille | [t5s8vPpwnVI](https://www.youtube.com/watch?v=t5s8vPpwnVI) | Luetaan mukuloille | 1:15, 2:24 |
+| Luetaan Putte Possulan apulainen mukuloille | [97Xje8RhXo8](https://www.youtube.com/watch?v=97Xje8RhXo8) | Luetaan mukuloille | 1:18, 2:30 |
+| Luetaan Pipsa lohikäärmeseikkailu mukuloille | [lMXBiCpn6ys](https://www.youtube.com/watch?v=lMXBiCpn6ys) | Luetaan mukuloille | 3:40, 7:05 |
+| Luetaan Pete ja Pulmu puistossa | [eQRXum86hcM](https://www.youtube.com/watch?v=eQRXum86hcM) | Luetaan mukuloille | 0:47, 1:30 |
+| Miina ja Manu Sadun maailmoissa | [U9hsTWe_-_c](https://www.youtube.com/watch?v=U9hsTWe_-_c) | Saltsan sadut \| Salza's stories 📖 | 2:00, 3:50 |
+| Miinan ja Manun ilmapallomatka | [bxzUw7aMMFE](https://www.youtube.com/watch?v=bxzUw7aMMFE) | Saltsan sadut \| Salza's stories 📖 | 2:29, 4:48 |
+| Halloweensatu! Franklin kummitusjuhlissa | [Y0VLz0B7_b0](https://www.youtube.com/watch?v=Y0VLz0B7_b0) | Saltsan sadut \| Salza's stories 📖 | 2:38, 5:04 |
+| YLLÄTYSSATU! Franklin ja syysjuhlat | [RGwYMVRGyVw](https://www.youtube.com/watch?v=RGwYMVRGyVw) | Saltsan sadut \| Salza's stories 📖 | 2:36, 5:02 |
+
+### Bronnen en hervatpunt
+
+- [Etana Editions](https://www.youtube.com/watch?v=AWECNkaL-RY). Drie titels opgenomen. Bij Mutta te ette ole äiti was hetzelfde beeld te zien op beide meetmomenten en de video duurt 34 seconden. Bij Pieni suuri tarina huomisesta kon één meetmoment worden gecontroleerd.
+- [Kuhmon kaupunki](https://www.youtube.com/watch?v=bHRkFy1f8cs). Afleveringen 1–9 onderzocht. De reeks gebruikt vooral poppenspelen en rekwisieten. Afleveringen 2 en 4 houden een enkele geïllustreerde pagina in beeld.
+- [Luetaan mukuloille](https://www.youtube.com/@Luetaanmukuloille/videos), [Saltsan sadut](https://www.youtube.com/@SaltsanSadut/videos), [Annan iltasadut](https://www.youtube.com/@Annaniltasadut/videos) en [Satujen Maailma](https://www.youtube.com/@satujenmaailma/videos) zijn bruikbare bronnen voor uitbreiding. Vergelijk op boektitel zodat een andere opname van hetzelfde boek niet dubbel meetelt.
+- Saltsan sadut: begin met Miina ja Manu Salapoliiseina, Ratsastuskoulussa en Hammaslääkärissä. Bij elk was één meetmoment met illustraties zichtbaar. Bij Annan iltasadut slaan de vermeldingen met etukansi op titel- of omslagfragmenten.
+- [Oodi](https://oodihelsinki.fi/mita-oodin-lastenalueelle-kuuluu/) noemt opnames van bibliotheekvoorlezingen op Helsinki-kanavalla. Publieke bereikbaarheid en compatibiliteit met de speler staan open. De tweetalige Sámi-Finse reeks van [Oulu](https://www.ouka.fi/kirjastoreitti-lukumetka/ajankohtaista/tervetuloa-saamelaisten-kansallispaivan-satutuokioon) had een beperkte kijkperiode en vereiste aanmelding.

@@ -2,12 +2,18 @@
 
 Laatste onderzoeksronde 15 november 2026. Doel 50 per land-taalpaar. De regionale dossiers bevatten de directe links, gevonden bronnen en hervatpunten. De talen in deze tabel vormen een eerste inventaris. Gebruik voor uitwerking ook de beschermde talen per land uit de [Raad van Europa](https://rm.coe.int/november-2022-revised-table-languages-covered-english-/1680a8fef4).
 
-## Startpunten per regio
+## Stand van het onderzoek
 
-- [Noord-Europa](noord/README.md)
-- [West-Europa](west/README.md) en de [videokandidaten](west/VIDEOS.md)
-- [Oost-Europa en Kaukasus](oost/README.md)
-- [Zuid-Europa](zuid/README.md)
+51 landen in het register. De regionale dossiers bevatten samen 1.687 unieke links naar videokandidaten. De telling omvat nieuwe links naar afzonderlijke titels. Een bronvermelding, verwijzing naar een andere landlijst of bestaande appvideo levert hier geen extra kandidaat op. Metadata is op grote delen van de selectie gecontroleerd. De inhoudelijke beoordeling en afspeeltest per titel staan nog open.
+
+| Regio | Landen | Unieke kandidaatlinks | Dossier |
+| --- | ---: | ---: | --- |
+| Noord-Europa | 10 | 387 | [Voortgang en landdossiers](noord/README.md) |
+| West-Europa | 9 | 159 | [Zoeklog](west/README.md) · [videokandidaten](west/VIDEOS.md) |
+| Oost-Europa en Kaukasus | 14 | 512 | [Voortgang en taaldossiers](oost/README.md) |
+| Zuid-Europa | 18 | 629 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
+
+De drempel van 50 kandidaten is voor een aantal talen bereikt, waaronder Duits in Duitsland, Iers in Ierland, Slowaaks in Slowakije en Maltees in Malta. Voor veel andere land-taalparen zijn er minder of nul kandidaten. Het zoeklog geeft per ronde aan wat al is bekeken en waar verder te gaan. Een taal die alleen in het landenregister staat, vraagt nog een eigen zoekronde.
 
 ## Startvoorraad in de app
 

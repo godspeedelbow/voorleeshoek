@@ -207,12 +207,11 @@ Tweetalige voorleesvideo’s in Genemuidens en Staphorsts. Controleer de vertelp
 
 ## NL · Nederlandse Gebarentaal
 
-Selecteer op de pagina’s van het Nederlands Gebarencentrum de NGT-versie. Vergelijk de YouTube-video over Nijntje met de titel op de uitgeverspagina om een mogelijk dubbel uit te sluiten.
+Selecteer op de pagina’s van het Nederlands Gebarencentrum de NGT-versie.
 
 | Titel | Video | Kanaal of bron |
 | --- | --- | --- |
 | Gebarentaal kinderboek over corona - NGT - Het Supersaaie Spannende Samen Alleen zijn Avontuur | [Video](https://www.youtube.com/watch?v=Xr4U48mFAlE) | Petra van Dreumel |
-| Nijntje in het gebarentaal | [Video](https://www.youtube.com/watch?v=38X4VAWC3zw) | Nederlands Gebarencentrum |
 | Nijntje gaat logeren | [Video](https://www.gebarencentrum.nl/Nijntjegaatlogeren) | Nederlands Gebarencentrum |
 | Maximiliaan Modderman geeft een feestje | [Video](https://www.gebarencentrum.nl/MaximiliaanModdermangeefteenfeestje) | Nederlands Gebarencentrum |
 | Maar eerst ving ik een monster | [Video](https://www.gebarencentrum.nl/Maareerstvingikeenmonster) | Nederlands Gebarencentrum |

@@ -109,3 +109,31 @@ Begin bij de Noorse Nationale Bibliotheek en de taalorganisaties per variëteit.
 - [Pannekaka](https://tegn.tv/video/pannekaka/) en [Keiserens nye klær](https://tegn.tv/video/keiserens-nye-klaer/) · Beide verhalen hebben een versie op tekst en een vrije navertelling. Eén registratie per verhaal. Beide spelers voor Pannekaka reageren op oEmbed, maar hebben dezelfde videometadata. Gebruik daarom de pagina met context.
 - [Bente og Bobla](https://tegn.tv/video/bente-og-bobla/) · De aanbieder noemt de oorspronkelijke kinderboektitel en de gebarentaalverteller. YouTube oEmbed bevestigt de individuele video.
 - [Tegn.TV](https://tegn.tv/) · Hoofdpagina op afzonderlijke tekstvoorlezingen gescand. Open bij vervolg Prinsessen på erten en de andere klassieke sprookjes. De videoboeken uit Detektivbyrå nr. 2 zijn reserve voor de beoordeling op leeftijd.
+
+## Gepubliceerd in de app · Bokmål
+
+12 voorleesvideo’s met verschillende geïllustreerde boekpagina’s tijdens minstens twee steekproeven in de ingebedde YouTube-speler. Het merendeel komt uit de fysieke voorleesboeken van [miriAMazing](https://www.youtube.com/@miriAMazing/videos). De speler is gedempt getest. Nynorsk en de overige talen staan nog open.
+
+| Titel | Video | Kanaal | Gecontroleerde speelmomenten |
+| --- | --- | --- | --- |
+| Thomas går til doktoren (Lesestund) | [OMpOIWbvUgw](https://www.youtube.com/watch?v=OMpOIWbvUgw) | miriAMazing | 1:06, 2:07, 2:55 |
+| Thomas går ut - (Leser boken) | [KnGtxwYiqqo](https://www.youtube.com/watch?v=KnGtxwYiqqo) | miriAMazing | 0:48, 1:32, 2:08 |
+| Barnebok Thomas er liten | [vhgK-kijlPA](https://www.youtube.com/watch?v=vhgK-kijlPA) | miriAMazing | 1:28, 2:49 |
+| Barnebok 🐻 Sov Godt Ole Brumm 😴  Lesestund for barna 👩‍👧‍👦📚 | [bJc9k7xuN0M](https://www.youtube.com/watch?v=bJc9k7xuN0M) | miriAMazing | 0:44, 1:24, 1:56 |
+| Noddy og gnome 📖 Lesestund for barn 👩‍👧‍👦 | [_bq-uPNTw2I](https://www.youtube.com/watch?v=_bq-uPNTw2I) | miriAMazing | 4:32, 8:47, 12:10 |
+| Den veldig travle edderkoppen 🕷🕸 Lesetid for barn 🌞🐎🐄🐑🐐🐖🐕🐈‍⬛🦆🐓🦉 | [CnFi6ekVwA8](https://www.youtube.com/watch?v=CnFi6ekVwA8) | miriAMazing | 1:22, 2:37, 3:37 |
+| Snehvit 🍎 Disney eventyr | [LBPD1-7HZDc](https://www.youtube.com/watch?v=LBPD1-7HZDc) | miriAMazing | 3:55, 7:35, 10:31 |
+| Mulan 📖 Disney eventyr | [WgI1pb6PkEI](https://www.youtube.com/watch?v=WgI1pb6PkEI) | miriAMazing | 4:12, 8:07, 11:14 |
+| Robin Hood ❤ Disney eventyr | [jDWT84aCHag](https://www.youtube.com/watch?v=jDWT84aCHag) | miriAMazing | 3:52, 7:28, 10:21 |
+| Lyd bok MJAU 🐱 Lesing for barn 📖👩‍👧‍👦 | [PKFFrH4b_XA](https://www.youtube.com/watch?v=PKFFrH4b_XA) | miriAMazing | 0:41, 1:18 |
+| Karsten og Petra er bestevenner | [JgAiHd3bWwM](https://www.youtube.com/watch?v=JgAiHd3bWwM) | Kjersti Hafsahl | 1:36, 3:06, 4:18 |
+| Cecilie leser Bukkene Bruse på Badeland | [vuLhitkgpvI](https://www.youtube.com/watch?v=vuLhitkgpvI) | Raymond Tiochta | 3:49, 7:22, 10:13 |
+
+### Bronnen en hervatpunt
+
+- [Cappelen Damm · Levende Bok](https://www.youtube.com/watch?v=87YZg9OiSlw). De twee bekeken Karsten og Petra-video’s uit deze reeks zijn fragmenten.
+- [Boktips · 5-minutters eventyr](https://www.youtube.com/playlist?list=PLiGkeD1hYOs7wJegtRZ1-Ypzrt1_ymw8n). De vier links in de eerste tabel zijn bij ongeveer 32% en 62% bekeken. Ze tonen op één of beide controlemomenten vooral de voorlezer.
+- [Ødegården Barnehage](https://www.youtube.com/@%C3%98degardenBarnehage/videos). Drie sessies gecontroleerd. Bij twee waren pagina’s zichtbaar, maar de titels en grenzen van de afzonderlijke verhalen moeten nog worden vastgelegd.
+- [Hurdal bibliotek](https://www.youtube.com/watch?v=WebiS5_do-s). Bukkene Bruse toont op beide controlemomenten vooral de voorlezer. [Cappelen Damm](https://www.youtube.com/watch?v=MjEtvZVyZRk) heeft een korte video bij Bukkene Bruse begynner på skolen. Controleer de volledige lezing bij andere uploaders.
+- [Senja Bibliotek](https://senjabibliotek.no/digitale-tjenester). De [playlist](https://www.youtube.com/playlist?list=PLfRiNTOf_vqjLToaKrhuBql6gIu3eIZ6I) bevat onder meer lokale verhalen en losse delen.
+- Begin een volgende ronde bij de overige miriAMazing-uploads, onder meer Rita og krokodille på fisketur, Ole Brumm en Den lille larven Aldrimett. Het tweede afspeelmoment liep bij de eerste steekproef vast. [Norsk Forfattersentrum](https://www.forfattersentrum.no/litteraere-produksjoner/den-lille-helten-og-kattekidnapperen-digital-produksjon) heeft twee opgenomen voorlezingen van Nina Grøntvedt. De beschikbaarheid van een publieke videospeler staat open.

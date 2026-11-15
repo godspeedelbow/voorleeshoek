@@ -578,3 +578,15 @@ Voor de resterende titels en de andere videoplatformen staat de individuele beoo
 | [IE](noord/IE.md) | [dVO94Kty1xQ](https://www.youtube.com/watch?v=dVO94Kty1xQ) | Beeld voldoet | 0:53, 1:41 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
 | [IE](noord/IE.md) | [YezHpoomvNM](https://www.youtube.com/watch?v=YezHpoomvNM) | Beeld voldoet | 2:56, 5:39 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
 | [IE](noord/IE.md) | [8t2Tc9f4kdQ](https://www.youtube.com/watch?v=8t2Tc9f4kdQ) | Beeld voldoet | 5:06, 9:51 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [OMpOIWbvUgw](https://www.youtube.com/watch?v=OMpOIWbvUgw) | Beeld voldoet | 1:06, 2:07, 2:55 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [KnGtxwYiqqo](https://www.youtube.com/watch?v=KnGtxwYiqqo) | Beeld voldoet | 0:48, 1:32, 2:08 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [vhgK-kijlPA](https://www.youtube.com/watch?v=vhgK-kijlPA) | Beeld voldoet | 1:28, 2:49 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [bJc9k7xuN0M](https://www.youtube.com/watch?v=bJc9k7xuN0M) | Beeld voldoet | 0:44, 1:24, 1:56 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [_bq-uPNTw2I](https://www.youtube.com/watch?v=_bq-uPNTw2I) | Beeld voldoet | 4:32, 8:47, 12:10 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [CnFi6ekVwA8](https://www.youtube.com/watch?v=CnFi6ekVwA8) | Beeld voldoet | 1:22, 2:37, 3:37 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [LBPD1-7HZDc](https://www.youtube.com/watch?v=LBPD1-7HZDc) | Beeld voldoet | 3:55, 7:35, 10:31 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [WgI1pb6PkEI](https://www.youtube.com/watch?v=WgI1pb6PkEI) | Beeld voldoet | 4:12, 8:07, 11:14 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [jDWT84aCHag](https://www.youtube.com/watch?v=jDWT84aCHag) | Beeld voldoet | 3:52, 7:28, 10:21 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [PKFFrH4b_XA](https://www.youtube.com/watch?v=PKFFrH4b_XA) | Beeld voldoet | 0:41, 1:18 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [JgAiHd3bWwM](https://www.youtube.com/watch?v=JgAiHd3bWwM) | Beeld voldoet | 1:36, 3:06, 4:18 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |
+| [NO](noord/NO.md) | [vuLhitkgpvI](https://www.youtube.com/watch?v=vuLhitkgpvI) | Beeld voldoet | 3:49, 7:22, 10:13 | Verschillende geïllustreerde bladzijdes tijdens ingebed afspelen. |

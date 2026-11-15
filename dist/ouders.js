@@ -70,6 +70,27 @@ const translations = {
     "one": "myndband",
     "other": "myndbönd"
   },
+  "nb": {
+    "pageTitle": "For foreldre · Lesekroken",
+    "back": "Tilbake til Lesekroken",
+    "parents": "For foreldre",
+    "heading": "Alle høytlesingsvideoer",
+    "intro": "Søk etter tittel eller filtrer etter land eller kanal. Hver video åpnes i en ny fane.",
+    "filters": "Søk og sorter videoer",
+    "search": "Søk etter tittel",
+    "example": "F.eks. Mulan",
+    "country": "Land / språk",
+    "allCountries": "Alle land",
+    "channel": "YouTube-kanal",
+    "allChannels": "Alle kanaler",
+    "sort": "Sorter",
+    "title": "Tittel",
+    "unknownChannel": "Ukjent kanal",
+    "unknownDuration": "Ukjent varighet",
+    "empty": "Fant ingen videoer.",
+    "one": "video",
+    "other": "videoer"
+  },
   "ga": {
     "pageTitle": "Do thuismitheoirí · Cúinne na Scéalta",
     "back": "Ar ais go Cúinne na Scéalta",

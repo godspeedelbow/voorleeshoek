@@ -37,7 +37,7 @@ Stand na de beeldcontrole op 15 november 2026. ‘In dossier of app’ toont de 
 | [Montenegro](zuid/cnr-ME.md) | 0 | 9 | 0 |
 | [Nederland](west/README.md) | 82 | 0 | 5 |
 | [Noord-Macedonië](zuid/mk-MK.md) | 50 | 0 | 5 |
-| [Noorwegen](noord/NO.md) | 24 | 0 | 5 |
+| [Noorwegen](noord/NO.md) | 36 | 12 | 0 |
 | [Oekraïne](oost/ua.md) | 54 | 0 | 5 |
 | [Oostenrijk](west/AT.md) | 24 | 11 | 0 |
 | [Polen](oost/pl.md) | 48 | 0 | 5 |

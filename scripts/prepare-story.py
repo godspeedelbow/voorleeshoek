@@ -99,10 +99,20 @@ def main():
     parser = argparse.ArgumentParser(description='Haal YouTube-gegevens op voor nieuwe voorleesfilmpjes.')
     parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'da'))
     parser.add_argument('video', nargs='+', type=video_id)
+    parser.add_argument(
+        '--beeld-gecontroleerd', action='append', default=[], type=video_id, metavar='VIDEO',
+        help='Bevestig per video dat de geïllustreerde boekpagina’s tijdens het verhaal zichtbaar zijn.',
+    )
     args = parser.parse_args()
 
+    videos = list(dict.fromkeys(args.video))
+    reviewed = set(args.beeld_gecontroleerd)
+    if reviewed != set(videos):
+        parser.error('Geef voor elke aangevraagde video de bijbehorende '
+                     '--beeld-gecontroleerd VIDEO op na de beeldcontrole.')
+
     rows = []
-    for video in dict.fromkeys(args.video):
+    for video in videos:
         try:
             rows.append(catalog_row(video, args.taal))
         except (OSError, KeyError, ValueError) as error:

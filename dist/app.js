@@ -505,6 +505,42 @@ const translations = {
     version: "Version",
     updated: "Mis à jour le",
   },
+  bm: {
+    siteName: "Nsiirinw",
+    description: "I bɛ se ka denmisɛnw ka gafe kalan filɛ bamanankan na.",
+    chooseCountry: "Jamana sugandi",
+    rotate: "I ka ekaran jɔ ka tilen",
+    welcome: "Nsiirin waati sera!",
+    subtitle: "Sigi ka nsiirin filɛ ani ka a lamɛn.",
+    storyCount: "Nsiirin joli?",
+    less: "Nsiirin kelen bɔ",
+    more: "Nsiirin kelen fara a kan",
+    start: "Ka filɛli daminɛ",
+    play: "A daminɛ",
+    pause: "A lajɔ dɔɔnin",
+    resume: "Taa a fɛ",
+    skip: "Nsiirin wɛrɛ filɛ",
+    skips: (count) => `Yɛlɛma hakɛ min tora: ${count}`,
+    progress: (current, total) => `Nsiirin ${current} / ${total}`,
+    timeline: "Nsiirin waati",
+    skipUntil: (time) => `I bɛ se ka nsiirin yɛlɛma fo ${time}`,
+    skipClosed: "I tɛ se ka nsiirin yɛlɛma sisan.",
+    loading: "Nsiirin bɛ labɛn…",
+    paused: "Nsiirin lajɔra dɔɔnin.",
+    waiting: "Makɔnɔ dɔɔnin…",
+    next: "Nsiirin wɛrɛ bɛna daminɛ sɔɔni.",
+    autoplayHint: "Digi « A daminɛ » kan walasa ka nsiirin daminɛ.",
+    playbackError: "Nsiirin in tɛ se ka filɛ sisan.",
+    retry: "A lajɛ kokura",
+    done: "Nsiirin waati banna",
+    doneTitle: "Nsiirinw bɛɛ banna!",
+    farewell: "I ni ce! Fo ka kɛnɛ. ✦",
+    parentCatalog: "Bangebagaw ye",
+    restart: "A daminɛ kokura",
+    confirmRestart: "I b’a fɛ ka filɛli in dabila wa?",
+    version: "Bɔli",
+    updated: "Yɛlɛma laban",
+  },
   "da": {
     siteName: "Historiehjørnet",
     description: "Her kan du se historier blive læst højt på dansk.",
@@ -646,7 +682,7 @@ async function detectCountry() {
 
 function applyCountry(id) {
   selectedCountry = countryById.get(id);
-  language = selectedCountry.interfaceLanguage ?? selectedCountry.language;
+  language = selectedCountry.language;
   copy = translations[language];
   document.documentElement.lang = language;
   document.documentElement.dir = language === 'ary' ? 'rtl' : 'ltr';
@@ -673,15 +709,15 @@ function applyCountry(id) {
   document.querySelectorAll('[data-label]').forEach((element) => {
     element.setAttribute('aria-label', copy[element.dataset.label]);
   });
-  const description = selectedCountry.description ?? copy.description;
-  document.querySelector('meta[name="description"]').content = description;
-  document.querySelector('meta[property="og:description"]').content = description;
+  document.querySelector('meta[name="description"]').content = copy.description;
+  document.querySelector('meta[property="og:description"]').content = copy.description;
   document.querySelector('meta[property="og:title"]').content = copy.siteName;
 
   const publishedAt = get('published-at');
   if (publishedAt) {
-    publishedAt.textContent = new Intl.DateTimeFormat(language, {
-      dateStyle: 'long',
+    const dateLocale = language === 'bm' ? 'sv-SE' : language;
+    publishedAt.textContent = new Intl.DateTimeFormat(dateLocale, {
+      dateStyle: language === 'bm' ? 'short' : 'long',
       timeStyle: 'short',
     }).format(new Date(publishedAt.dateTime));
   }

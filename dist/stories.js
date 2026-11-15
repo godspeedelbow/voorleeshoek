@@ -764,5 +764,5 @@ const stories = [
   ["bxzUw7aMMFE", "Miinan ja Manun ilmapallomatka", "fi", "Saltsan sadut | Salza's stories 📖", 463],
   ["Y0VLz0B7_b0", "Halloweensatu! Franklin kummitusjuhlissa", "fi", "Saltsan sadut | Salza's stories 📖", 488],
   ["RGwYMVRGyVw", "YLLÄTYSSATU! Franklin ja syysjuhlat", "fi", "Saltsan sadut | Salza's stories 📖", 484],
-  ["CGj2ol0DVT4", "Lecture conte Dununba kumata (avec dessins)", "bm", "Donniyakadi", 826],
+  ["CGj2ol0DVT4", "Dununba kumata", "bm", "Donniyakadi", 826],
 ];

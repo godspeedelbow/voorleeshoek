@@ -302,6 +302,27 @@ const translations = {
     "one": "vidéo",
     "other": "vidéos"
   },
+  bm: {
+    "pageTitle": "Bangebagaw ye · Nsiirinw",
+    "back": "Segi nsiirinw ma",
+    "parents": "Bangebagaw ye",
+    "heading": "Nsiirin wideyow bɛɛ",
+    "intro": "Wideyo ɲini a tɔgɔ, a jamana walima a YouTube kanali fɛ. Wideyo kelen-kelen bɛ yɛlɛ tab kura la.",
+    "filters": "Wideyow ɲini ani k’u sigi ɲɔgɔn kɔ",
+    "search": "Ɲini tɔgɔ fɛ",
+    "example": "Misali: Dununba",
+    "country": "Jamana / kan",
+    "allCountries": "Jamanaw bɛɛ",
+    "channel": "YouTube kanali",
+    "allChannels": "Kanaliw bɛɛ",
+    "sort": "Sigi ɲɔgɔn kɔ",
+    "title": "Tɔgɔ",
+    "unknownChannel": "Kanali tɔgɔ dɔnnen tɛ",
+    "unknownDuration": "Wideyo waati dɔnnen tɛ",
+    "empty": "Wideyo si ma sɔrɔ.",
+    "one": "wideyo",
+    "other": "wideyo"
+  },
   "da": {
     "pageTitle": "Til forældre · Historiehjørnet",
     "back": "Tilbage til Historiehjørnet",
@@ -333,7 +354,7 @@ try {
   // The catalog works without browser storage.
 }
 const selectedCountry = requestedCountry ?? countryById.get(savedCountry) ?? countryById.get('nl');
-const interfaceLanguage = selectedCountry.interfaceLanguage ?? selectedCountry.language;
+const interfaceLanguage = selectedCountry.language;
 const locale = interfaceLanguage === 'ary' ? 'ar-MA' : interfaceLanguage;
 const copy = translations[interfaceLanguage];
 const numberFormat = new Intl.NumberFormat(locale);

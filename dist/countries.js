@@ -8,7 +8,7 @@ const countries = [
   { id: 'es', code: 'ES', language: 'es', flag: '🇪🇸', label: 'España' },
   { id: 'it', code: 'IT', language: 'it', flag: '🇮🇹', label: 'Italia' },
   { id: 'en-GB', code: 'GB', language: 'en-GB', flag: '🇬🇧', label: 'United Kingdom' },
-  { id: 'bm', code: 'ML', language: 'bm', interfaceLanguage: 'fr', flag: '🇲🇱', label: 'Mali / Bamanankan', description: 'Un livre illustré lu à voix haute en bamanankan.' },
+  { id: 'bm', code: 'ML', language: 'bm', flag: '🇲🇱', label: 'Mali / Bamanankan' },
   { id: 'ary', code: 'MA', language: 'ary', flag: '🇲🇦', label: 'المغرب' },
   { id: 'tr', code: 'TR', language: 'tr', flag: '🇹🇷', label: 'Türkiye' },
   { id: 'pl', code: 'PL', language: 'pl', flag: '🇵🇱', label: 'Polska' },

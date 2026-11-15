@@ -448,7 +448,7 @@ const languageKey = 'voorleeshoek-language';
 const limitKey = 'voorleeshoek-limit';
 const countryByRegion = new Map([
   ['NL', 'nl'], ['SE', 'sv'], ['ES', 'es'], ['IT', 'it'], ['GB', 'en-GB'],
-  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'], ['MC', 'fr-MC'], ['CH', 'de-CH'], ['IS', 'is'],
+  ['MA', 'ary'], ['TR', 'tr'], ['PL', 'pl'], ['FR', 'fr'], ['DK', 'da'], ['MC', 'fr-MC'], ['DE', 'de'], ['CH', 'de-CH'], ['IS', 'is'],
 ]);
 let preferredCountry;
 let detectedCountry;

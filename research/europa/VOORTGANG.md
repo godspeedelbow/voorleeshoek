@@ -13,7 +13,7 @@ Na de beeldcontrole blijven 1.722 unieke videokandidaten over. In de audit zijn 
 | Oost-Europa en Kaukasus | 14 | 541 | [Voortgang en taaldossiers](oost/README.md) |
 | Zuid-Europa | 18 | 580 | [Voortgang en taaldossiers](zuid/README.md) · [open taalvragen](zuid/OPEN-TALEN.md) |
 
-Gepubliceerde landkeuzes in deze ronde: [Monaco met 15 Franse voorleesvideo’s](west/MC.md), [Zwitserland met 13 Duitse voorleesvideo’s](west/CH.md) en [IJsland met 14 IJslandse voorleesvideo’s](noord/IS.md#gepubliceerd-in-de-app).
+Gepubliceerde landkeuzes in deze ronde: [Monaco met 15 Franse voorleesvideo’s](west/MC.md), [Zwitserland met 13 Duitse voorleesvideo’s](west/CH.md), [IJsland met 14 IJslandse voorleesvideo’s](noord/IS.md#gepubliceerd-in-de-app) en [Duitsland met 15 Duitse voorleesvideo’s](west/DE.md).
 
 In deze Europese publicatieronde gaat elk land live zodra minstens 11 verschillende geïllustreerde kinderboeken in de gekozen taal zijn gecontroleerd en in de YouTube-speler starten.
 
@@ -42,7 +42,7 @@ Aantallen unieke video-ID’s per landkeuze in [de bestaande catalogus](../../di
 | AT | Oostenrijk | Duits, Burgenland-Kroatisch, Hongaars, Sloveens, Tsjechisch, Slowaaks, Romani, ÖGS | [AT](west/README.md) |
 | BE | België | Nederlands (Vlaams), Frans, Duits, VGT, LSFB, Waals | [BE](west/README.md) |
 | CH | Zwitserland | Duits (incl. Zwitsers-Duitse variant), Frans, Italiaans, Reto-Romaans, Zwitserse gebarentalen, Frankoprovençaals, Jenisch | [CH](west/CH.md) |
-| DE | Duitsland | Duits, Nederduits, Deens, Sorbisch, Noord-Fries, Saterfries, Romani, DGS | [DE](west/README.md) |
+| DE | Duitsland | Duits, Nederduits, Deens, Sorbisch, Noord-Fries, Saterfries, Romani, DGS | [DE](west/DE.md) |
 | FR | Frankrijk | Frans, Bretons, Occitaans, Corsicaans, Baskisch, Catalaans, Elzassisch, overige langues de France, LSF | [FR](west/README.md) |
 | LI | Liechtenstein | Duits (incl. lokale Alemannische variant) | [LI](west/README.md) |
 | LU | Luxemburg | Luxemburgs, Frans, Duits | [LU](west/README.md) |

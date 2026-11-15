@@ -14,7 +14,7 @@ Stand na de beeldcontrole op 15 november 2026. ‘In dossier of app’ toont de 
 | [Bulgarije](oost/bg.md) | 63 | 0 | 5 |
 | [Cyprus](zuid/el-CY.md) | 40 | 0 | 5 |
 | [Denemarken](noord/DK.md) | 61 | 0 | 5 |
-| [Duitsland](west/README.md) | 61 | 0 | 5 |
+| [Duitsland](west/DE.md) | 61 | 15 | 0 |
 | [Estland](noord/EE.md) | 32 | 6 | 0 |
 | [Finland](noord/FI.md) | 40 | 0 | 5 |
 | [Frankrijk](west/README.md) | 94 | 22 | 0 |

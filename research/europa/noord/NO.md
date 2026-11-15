@@ -4,7 +4,7 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 
 ## Noors Bokmål
 
-0 bestaand in de app. 19 nieuwe kandidaatlinks.
+0 bestaand in de app. 20 nieuwe kandidaatlinks.
 
 | Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
 | --- | --- | --- | --- | --- |
@@ -25,8 +25,9 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 | Skinnvotten | [YouTube](https://www.youtube.com/watch?v=RHiZ_wEqrXs) | Litteraturhuset | Kandidaat | Litteraturhuset met illustraties. Voorgelezen tekst versus vertelde bewerking controleren. |
 | Bukkene Bruse | [YouTube](https://www.youtube.com/watch?v=CAjAr2O27ZQ) | Litteraturhuset | Kandidaat | Litteraturhuset met illustraties. Voorgelezen tekst versus vertelde bewerking controleren. |
 | Askeladden og de gode hjelperne | [YouTube](https://www.youtube.com/watch?v=gC2XhtolGJg) | Litteraturhuset | Kandidaat | Litteraturhuset met illustraties. Voorgelezen tekst versus vertelde bewerking controleren. |
-| Askeladden som kappåt med trollet | [YouTube](https://www.youtube.com/watch?v=7Jp6PRLHlRM) | Litteraturhuset | Kandidaat | Litteraturhuset met illustraties. Voorgelezen tekst versus vertelde bewerking controleren. |
+| Askeladden, som kappåt med trollet | [YouTube](https://www.youtube.com/watch?v=j7JvdLZUjzk) | Stadt Wien – Büchereien | Kandidaat | Lisa Fristad leest het Noorse volkssprookje in het Noors. |
 | Pepperkakemannen | [YouTube](https://www.youtube.com/watch?v=lsOT8Q-tjxs) | Litteraturhuset | Kandidaat | Litteraturhuset met illustraties. Voorgelezen tekst versus vertelde bewerking controleren. |
+| Opplesning av «Ryddetid» på seks språk! | [YouTube](https://www.youtube.com/watch?v=8X1vb6K1of0) | Tidligere Leser søker bok | Kandidaat | Prentenboek van Camilla Kuhn. Video bevat zes gesproken talen, waaronder Noors. Tijdcode verifiëren. |
 
 ### Bronnen en hervatpunt
 
@@ -36,6 +37,13 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 - [Bron op bibliotekutvikling.no](https://bibliotekutvikling.no/kompetansebank/lessons/ei-aktiv-lesestund/) · Bevat een gefilmde praktische leessessie van Deichman voor bibliotheekmedewerkers. Controleer hoelang wordt voorgelezen.
 - [Bron op www.boktips.no](https://www.boktips.no/barneboker/barn-2-til-4-ar/hoytlesning-av-eventyr-for-barn-rodhette-og-ulven/) · Uitgever bevestigt dat de Boktips-voorleesserie illustraties uit het boek 5-minutters eventyr gebruikt.
 - [Bron op www.litteraturhuset.no](https://www.litteraturhuset.no/nb/eventyrstund) · 14 videolinks opgehaald. Activiteitenvideo Uit op vossenjacht buiten de selectie. De bron biedt illustraties maar gebruikt ook navertellingen.
+
+### Aanvullende zoekronde
+
+- [Büchereien Wien](https://www.youtube.com/watch?v=j7JvdLZUjzk) · De video noemt Lisa Fristad als Noorse voorlezer. Deze expliciete voorlezing vervangt de [geïllustreerde versie van Litteraturhuset](https://www.youtube.com/watch?v=7Jp6PRLHlRM) in de telling. De oudere versie blijft beschikbaar als reserve om te beoordelen.
+- [Stiftelsen Lese](https://stiftelsenlese.no/leselystprosjekt/ryddetid/) · Ryddetid is een voorlezing in zes talen. Er zijn gedrukte versies in Noord-, Lule- en Zuid-Sámi, maar deze opname bevat die talen niet. YouTube oEmbed bevestigde titel en kanaal.
+- [Norsk Forfattersentrum](https://www.forfattersentrum.no/litteraere-produksjoner/skyggen) · Skyggen is een interactieve lezing van Veronica Salinas. De video is gemaakt voor een groep jongeren en blijft een reservebron tot is bevestigd dat die de hele voorlezing toont.
+- [Bergen Offentlige Bibliotek](https://bergenbibliotek.no/e-bibliotek/tv/bobtv-junior/helt-sant) · Helt sant bevat vooral boekintroducties. Vervolg binnen BOBTV Junior op de titels uit Barnas bokpris en filter fragmenten.
 
 ## Noors Nynorsk
 
@@ -57,12 +65,20 @@ Onderzoeksronde 15 november 2026. Doel per taal 50. De status Kandidaat berust o
 
 ## Kveens
 
-0 bestaand in de app. 0 nieuwe kandidaatlinks.
+0 bestaand in de app. 1 nieuwe kandidaatlinks.
+
+| Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
+| --- | --- | --- | --- | --- |
+| Boklansering av Linus ja Karhu Riepu seilathaan: Høytlesning av boka | [YouTube](https://www.youtube.com/watch?v=ko3mCFSWkxI) | Kvenforbundet | Kandidaat | Kvenforbundet publiceert de voorlezing uit de Kveense boekpresentatie. |
 
 ### Bronnen en hervatpunt
 
 - [Kven kvensk lesestund barnebok](https://www.youtube.com/results?search_query=Kven+kvensk+lesestund+barnebok) · Eerste YouTube-resultaten zijn irrelevant. Open Kainun institutti en de Kväänin institutti-bibliotheek per titel.
 - [Bron op www.nb.no](https://www.nb.no/hva-skjer/kvensk-institutt-inviterer-til-kvensk-lesestund/) · Nationale bibliotheek noemt Kveense lezing van Linus kaottaa Karhu Rievun. De opname per boektitel zoeken.
+
+### Aanvullende zoekronde
+
+- [Kvenforbundet](https://www.youtube.com/@kvenforbundet2332/videos) · Vier openbare video’s aangetroffen, waaronder drie delen van dezelfde boekpresentatie. Alleen het voorleesdeel geselecteerd. De eerdere titel Linus kaottaa Karhu Rievun heeft nog geen bevestigde video. Vervolg via Ruija Forlag en de overige Linus-titels.
 
 ## Romani en Romanes
 
@@ -76,8 +92,20 @@ Begin bij de Noorse Nationale Bibliotheek en de taalorganisaties per variëteit.
 
 ## Noorse Gebarentaal
 
-0 bestaand in de app. 0 nieuwe kandidaatlinks.
+0 bestaand in de app. 3 nieuwe kandidaatlinks.
+
+| Titel | Video | Kanaal of bron | Bewijsniveau | Opmerking |
+| --- | --- | --- | --- | --- |
+| Keiserens nye klær (opplest) | [YouTube](https://www.youtube.com/watch?v=2s9PgFxWub4) | tegntv | Kandidaat | De aanbieder vermeldt een gebaarde voorlezing of prentenboekbewerking in Noorse Gebarentaal. |
+| Bente og Bobla | [YouTube](https://www.youtube.com/watch?v=PyItvRPNBhY) | tegntv | Kandidaat | De aanbieder vermeldt een gebaarde voorlezing of prentenboekbewerking in Noorse Gebarentaal. |
+| Pannekaka | [Bronsite](https://tegn.tv/video/pannekaka/) | Tegn.TV | Kandidaat | Pagina toont twee versies. Kies de versie die de geschreven tekst volgt. |
 
 ### Bronnen en hervatpunt
 
 - [Norsk tegnspråk eventyr barn lesestund Statped](https://www.youtube.com/results?search_query=Norsk+tegnspr%C3%A5k+eventyr+barn+lesestund+Statped) · De eerste zoekpagina bevat lesmateriaal en losse vertellingen. Vervolg via Statped en kinderboeken op Tegn.tv.
+
+### Aanvullende zoekronde
+
+- [Pannekaka](https://tegn.tv/video/pannekaka/) en [Keiserens nye klær](https://tegn.tv/video/keiserens-nye-klaer/) · Beide verhalen hebben een versie op tekst en een vrije navertelling. Eén registratie per verhaal. Beide spelers voor Pannekaka reageren op oEmbed, maar hebben dezelfde videometadata. Gebruik daarom de pagina met context.
+- [Bente og Bobla](https://tegn.tv/video/bente-og-bobla/) · De aanbieder noemt de oorspronkelijke kinderboektitel en de gebarentaalverteller. YouTube oEmbed bevestigt de individuele video.
+- [Tegn.TV](https://tegn.tv/) · Hoofdpagina op afzonderlijke tekstvoorlezingen gescand. Open bij vervolg Prinsessen på erten en de andere klassieke sprookjes. De videoboeken uit Detektivbyrå nr. 2 zijn reserve voor de beoordeling op leeftijd.

@@ -13,16 +13,17 @@ Stand op 2026-11-15. Inhoud en insluiting zijn nog niet gecontroleerd. Voor deze
 | [Hongarije · Hongaars](hu.md) | 64 | 0 |
 | [Roemenië · Roemeens](ro.md) | 58 | 0 |
 | [Bulgarije · Bulgaars](bg.md) | 64 | 0 |
-| [Moldavië · Roemeens](md.md) | 3 | 0 |
+| [Moldavië · Roemeens](md.md) | 9 lokaal + 15 gedeeld | 0 |
 | [Moldavië · Gagaoezisch](md-gag.md) | 2 | 0 |
 | [Oekraïne · Oekraïens](ua.md) | 41 | 0 |
 | [Oekraïne · Krim-Tataars](ua-crh.md) | 14 | 0 |
 | [Belarus · Belarussisch](by.md) | 22 | 0 |
 | [Rusland · Russisch](ru.md) | 51 | 0 |
 | [Georgië · Georgisch](ge.md) | 25 | 0 |
-| [Armenië · Armeens](am.md) | 6 | 0 |
+| [Armenië · Armeens](am.md) | 22 lokaal + 3 gedeeld | 0 |
 | [Azerbeidzjan · Azerbeidzjaans](az.md) | 41 | 0 |
-| [Kazachstan · Kazachs](kz.md) | 2 | 0 |
+| [Kazachstan · Kazachs](kz.md) | 11 lokaal | 0 |
+| [Kazachstan · Russisch](kz-ru.md) | 15 gedeeld | 0 |
 | [Georgië · Abchazisch](ge-ab.md) | 0 | 0 |
 
 ## Gedeelde taalbronnen en open zoekrondes
@@ -31,3 +32,13 @@ Stand op 2026-11-15. Inhoud en insluiting zijn nog niet gecontroleerd. Voor deze
 - In Gagaoezië zijn Roemeens en Russisch naast Gagaoezisch in gebruik. Begin bij de [Moldavische voorleesreeks](md.md) en de [Russische bronlijst](ru.md). Het regionale kader staat in de [wet over de bijzondere status van Gagaoezië](https://www.mskgagauzia.md/wp-content/uploads/2020/02/Zakon-344-angl.pdf).
 - Voor Hongaars in Slowakije en Roemenië kan het [Hongaarse dossier](hu.md) worden hergebruikt. Zoek aansluitend bij de lokale nationale en regionale bibliotheken naar voorleescollecties.
 - Erkende minderheidstalen en gebarentalen vragen aanvullende rondes. Gebruik de [landverklaringen bij het Europese taalhandvest](https://www.coe.int/en-GB/web/conventions/full-list?codeNature=0&module=declarations-by-treaty&numSte=148). Begin bij talen waarvoor de taalorganisaties al leesprogramma’s hebben, met per taal een eigen dossier. Voor Armenië bevat het [zesde landrapport](https://rm.coe.int/armeniaecrml6-en/4880287d2c) de Assyrische, Griekse, Koerdische, Russische en Jezidische sporen. Voor Oekraïne noemt de [presidentiële vertegenwoordiging voor de Krim](https://ppu.gov.ua/en/press-center/1-lypnia-2021-roku-pryyniattia-zakonu-pro-korinni-narody-ukrainy/) naast Krim-Tataren ook Karaïeten en Krimtsjaken.
+
+## Ronde 2 · uitbreiding per land
+
+| Land | Voor deze ronde lokaal / gedeeld | Na deze ronde lokaal / gedeeld |
+| --- | --- | --- |
+| Armenië | 6 / 0 | 22 / 3 |
+| Moldavië | 5 / 0 | 11 / 15 |
+| Kazachstan | 2 / 0 | 11 / 15 |
+
+De twee Gagaoezische kandidaten tellen mee bij het lokale landtotaal voor Moldavië. Gedeelde rijen houden hun bronland en oorspronkelijke kanaal.

@@ -35,8 +35,8 @@ button:disabled{opacity:.55;cursor:default}
 #country-picker[open] .country-chevron{transform:translateY(2px) rotate(225deg)}
 .country-options{
   position:absolute;z-index:2;inset-inline-start:0;
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%, 14rem),1fr));gap:4px;
-  width:min(32rem,100%);max-height:min(65vh,420px);overflow:auto;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%, 13rem),1fr));gap:4px;
+  width:min(28.25rem,100%);overflow:auto;
   margin:6px 0 0;padding:6px;list-style:none;border:1px solid var(--line);border-radius:14px;
   background:var(--soft);box-shadow:0 12px 24px #38245c26;
 }

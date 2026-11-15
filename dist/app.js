@@ -1223,6 +1223,16 @@ for (const { id, language, flag, label } of sortedCountries) {
   countryOptions.append(item);
 }
 
+function sizeCountryOptions() {
+  if (!countryPicker.open || countryPicker.hidden) return;
+  const top = countryOptions.getBoundingClientRect().top;
+  countryOptions.style.maxHeight = Math.max(0, window.innerHeight - top - 8) + 'px';
+}
+
+countryPicker.addEventListener('toggle', sizeCountryOptions);
+window.addEventListener('resize', sizeCountryOptions);
+window.addEventListener('scroll', sizeCountryOptions, { passive: true });
+
 document.addEventListener('click', (event) => {
   if (!countryPicker.contains(event.target)) countryPicker.open = false;
 });

@@ -2,7 +2,7 @@
 
 Een eenvoudige kijkronde met voorgelezen kinderboeken uit verschillende landen. Open `dist/index.html` via een lokale webserver om de app te bekijken. GitHub Pages publiceert de inhoud van `dist/` bij een wijziging op `main`.
 
-Open de startpagina met bijvoorbeeld `?country=GB&lang=en` om een land vooraf te kiezen.
+Open de startpagina met bijvoorbeeld `?country=gb&language=en` om een land vooraf te kiezen.
 
 Bij een eerste bezoek kiest de site meteen een land op basis van de ingestelde browsertaal, met Nederland als laatste terugvaloptie. Een beschikbaar land op basis van het IP-adres krijgt voorrang zodra de opvraag klaar is. De browser probeert daarvoor GeoJS en bij een storing Country.is. Een keuze in de landenkiezer wordt onthouden. Een land in de link of een lopende kijkronde heeft voorrang op automatische detectie.
 

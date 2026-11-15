@@ -33,9 +33,10 @@ function queryLanguage(country) {
 function countryFromQuery(search) {
   const params = new URLSearchParams(search);
   const code = params.get('country');
-  const lang = params.get('lang')?.toLowerCase();
+  const requestedLanguage = params.get('language') ?? params.get('lang');
+  const lang = requestedLanguage?.toLowerCase();
   if (!code) {
-    return countryById.get(params.get('lang')) ??
+    return countryById.get(requestedLanguage) ??
       countries.find((country) => queryLanguage(country) === lang);
   }
 
@@ -45,8 +46,9 @@ function countryFromQuery(search) {
 }
 
 function setCountryQuery(params, country) {
-  params.set('country', country.code);
-  params.set('lang', queryLanguage(country));
+  params.set('country', country.code.toLowerCase());
+  params.set('language', queryLanguage(country).toLowerCase());
+  params.delete('lang');
   return params;
 }
 

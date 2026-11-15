@@ -108,14 +108,14 @@ def catalog_row(video, language):
     duration = duration_seconds(video, watch_url, title)
     if not duration:
         raise ValueError('Speelduur ontbreekt in de openbare videogegevens.')
-    if language in ('nl-BE', 'fr-BE', 'fr-MC'):
+    if language in ('nl-BE', 'fr-BE', 'fr-MC', 'de-CH'):
         return [video, title, language[:2], channel, duration, language]
     return [video, title, language, channel, duration]
 
 
 def main():
     parser = argparse.ArgumentParser(description='Haal YouTube-gegevens op voor nieuwe voorleesfilmpjes.')
-    parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'fr-MC', 'da'))
+    parser.add_argument('taal', choices=('nl', 'nl-BE', 'sv', 'es', 'it', 'en-GB', 'ary', 'tr', 'pl', 'fr', 'fr-BE', 'fr-MC', 'de-CH', 'da'))
     parser.add_argument('video', nargs='+', type=video_id)
     parser.add_argument(
         '--beeld-gecontroleerd', action='append', default=[], type=video_id, metavar='VIDEO',

@@ -54,4 +54,4 @@ Stand na de beeldcontrole op 15 november 2026. ‘In dossier of app’ toont de 
 | [Vaticaanstad](zuid/it-VA.md) | 0 | 7 | 0 |
 | [Verenigd Koninkrijk](noord/GB.md) | 116 | 0 | 5 |
 | [Zweden](noord/SE.md) | 83 | 34 | 0 |
-| [Zwitserland](west/README.md) | 23 | 14 | 0 |
+| [Zwitserland](west/CH.md) | 23 | 14 | 0 |

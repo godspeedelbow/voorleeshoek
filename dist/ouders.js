@@ -28,6 +28,27 @@ const translations = {
     "one": "filmpje",
     "other": "filmpjes"
   },
+  "de": {
+    "pageTitle": "Für Eltern · Vorleseecke",
+    "back": "Zurück zur Vorleseecke",
+    "parents": "Für Eltern",
+    "heading": "Alle Vorlesevideos",
+    "intro": "Suche nach Titel oder filtere nach Land oder Kanal. Jedes Video öffnet sich in einem neuen Tab.",
+    "filters": "Videos suchen und sortieren",
+    "search": "Nach Titel suchen",
+    "example": "Z. B. Regenbogenfisch",
+    "country": "Land / Sprache",
+    "allCountries": "Alle Länder",
+    "channel": "YouTube-Kanal",
+    "allChannels": "Alle Kanäle",
+    "sort": "Sortieren",
+    "title": "Titel",
+    "unknownChannel": "Kanal unbekannt",
+    "unknownDuration": "Dauer unbekannt",
+    "empty": "Keine Videos gefunden.",
+    "one": "Video",
+    "other": "Videos"
+  },
   "sv": {
     "pageTitle": "För föräldrar · Sagohörnan",
     "back": "Tillbaka till Sagohörnan",

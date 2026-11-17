@@ -765,4 +765,10 @@ const stories = [
   ["Y0VLz0B7_b0", "Halloweensatu! Franklin kummitusjuhlissa", "fi", "Saltsan sadut | Salza's stories 📖", 488],
   ["RGwYMVRGyVw", "YLLÄTYSSATU! Franklin ja syysjuhlat", "fi", "Saltsan sadut | Salza's stories 📖", 484],
   ["CGj2ol0DVT4", "Dununba kumata", "bm", "Donniyakadi", 826],
+
+  // Skymningssagor
+  ["3bekDVeGa_8", "Skymningssagor - Kackel i grönsakslandet Del 11 SWEDiSH", "sv", "Nos X", 1723],
+  ["pLu1U4QIW8U", "Skymningssagor - Nasses taxi  Del 13 SWEDiSH", "sv", "Nos X", 786],
+  ["gni_Rp05CFY", "Skymningssagor - Nattresan Del 14 SWEDiSH", "sv", "Nos X", 475],
+  ["W85HhRJDPS4", "Skymningssagor - Nussekudden  Del 15 SWEDiSH", "sv", "Nos X", 1011],
 ];

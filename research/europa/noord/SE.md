@@ -83,5 +83,46 @@ herkenbare boekillustraties die het verhaal volgen.
 | [Nussekudden](https://www.youtube.com/watch?v=W85HhRJDPS4) | 3:20, 6:40, 10:00, 13:20 | Beeld voldoet. Verschillende geïllustreerde verhaalpagina’s. |
 
 Pettson får julbesök (`VT3j4tg7AyQ`) valt af omdat YouTube meldt dat SVT de
-video heeft geblokkeerd. Hattjakten (`-zUFR1HK21Q`) blijft buiten de selectie
-omdat het latere beeldfragment een ander verhaal lijkt te tonen.
+video heeft geblokkeerd. Hattjakten bleef op 17 november open vanwege een
+afwijkend laat beeldfragment. Zie de aanvullende controle hieronder.
+
+
+## Skymningssagor · 18 november 2026
+
+De eerdere selectie was onvolledig. Het openbare Nos X-kanaal en de eigen
+[Skymningssagor-afspeellijst](https://www.youtube.com/playlist?list=PLM8VNBW3FgxGuKc0FYuSOhp45AXCXPEma)
+bevatten 21 beschikbare afleveringen. Aanvullend zijn gerichte zoekopdrachten
+op afleveringsnummers en 14 andere afspeellijsten nagekeken. Daarin stonden
+ook dubbele uploads en andere programma’s. Uit die controle komt Röda Hund
+als extra afzonderlijke Skymningssagor-titel. Er zijn 18 afleveringen toegevoegd,
+waardoor de catalogus nu 22 Skymningssagor-afleveringen bevat.
+
+Alle toegevoegde video's melden `playabilityStatus.status = OK` en
+`playableInEmbed = true`. Titel, kanaalnaam en speelduur zijn met
+`scripts/prepare-story.py` gecontroleerd, met `--beeld-gecontroleerd` per ID.
+De onderstaande tijdgebonden storyboardframes zijn visueel bekeken. Ze tonen
+meerdere herkenbare oorspronkelijke boekillustraties per titel. Bij Hattjakten
+is de beeldcontrole gebaseerd op drie momenten binnen het hoofdverhaal.
+De afgekorte uploadtitel ‘Pojken med’ is aangevuld met ‘stålmansdräkten’,
+zoals vermeld in de beschrijving van de video.
+
+| Video | Beeldmomenten | Oordeel |
+| --- | --- | --- |
+| [Skymningssagor - Hattjakten Del 6 SWEDiSH](https://www.youtube.com/watch?v=-zUFR1HK21Q) | 4:20, 8:50, 13:10 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - En flodhästsaga  Del 3 SWEDiSH](https://www.youtube.com/watch?v=IiVyKIEww1A) | 1:25, 2:50, 4:15, 5:45 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Tocken är lös Del 30 SWEDiSH](https://www.youtube.com/watch?v=R9LTCesDDik) | 4:20, 8:50, 13:20, 17:50 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Jaguaren Del 9 SWEDiSH](https://www.youtube.com/watch?v=84Xs9plepmY) | 3:10, 6:30, 9:50, 13:00 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Häxan Tipp och hennes elaka häxkatt Del 8 SWEDiSH](https://www.youtube.com/watch?v=r25R01AOMZ8) | 4:20, 8:40, 13:00, 17:20 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Stackars Allan Del 28 SWEDiSH](https://www.youtube.com/watch?v=-DkQC1wsVP0) | 2:10, 4:20, 6:35, 8:45 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Grävlingen som ville bli bilmekaniker  Del 4 SWEDiSH](https://www.youtube.com/watch?v=VK6AjyWOfvg) | 4:10, 8:20, 12:30, 16:40 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Else-Marie och småpapporna  Del 2 SWEDiSH](https://www.youtube.com/watch?v=Y3rSzEG5US0) | 4:30, 9:00, 13:40, 18:10 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Otto och Joppa Del 16 SWEDiSH](https://www.youtube.com/watch?v=m0l_zNOtUzg) | 2:25, 4:55, 7:20, 9:50 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Sagan om Egon Del 26 SWEDiSH](https://www.youtube.com/watch?v=sbRO99364-w) | 1:45, 3:35, 5:25, 7:15 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Harald hittar hem  Del 5 SWEDiSH](https://www.youtube.com/watch?v=A03aZhaKPqk) | 1:45, 3:30, 5:20, 7:05 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Hoppfulle Albert  Del 7 SWEDiSH](https://www.youtube.com/watch?v=FTV8QEV96LA) | 2:30, 5:05, 7:40, 10:15 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Otto och svartsjukan Del 18 SWEDiSH](https://www.youtube.com/watch?v=nt8_7rKoO-c) | 2:20, 4:40, 7:00, 9:20 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Pojken med stålmansdräkten](https://www.youtube.com/watch?v=WbL6XAoFiyI) | 2:15, 4:35, 6:50, 9:10 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Rita i Kudang Del 23 SWEDiSH](https://www.youtube.com/watch?v=ysuwfqNtD2Q) | 2:40, 5:25, 8:05, 10:50 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Jonathan på Måsberget Del 10 SWEDiSH](https://www.youtube.com/watch?v=ibXqJCP52rc) | 4:20, 8:40, 13:00, 17:30 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Rita Del 24 SWEDiSH](https://www.youtube.com/watch?v=EcbOWUisRwQ) | 2:25, 4:50, 7:15, 9:40 | Beeld voldoet. Meerdere boekillustraties. |
+| [Skymningssagor - Röda Hund](https://www.youtube.com/watch?v=Ud2M6NRk1Eo) | 3:30, 7:00, 10:30, 14:00 | Beeld voldoet. Meerdere boekillustraties. |
